@@ -1,0 +1,1468 @@
+PERSON_ID	DX_DATE	DIAGNOSIS	SOURCE_CONDITION_CODE	LOCATION
+613876	2007-10-01	Hypothyroidism	244.9^^2	Outpatient
+613876	2007-10-07	Hypothyroidism	244.9^^2	Outpatient
+613876	2007-10-07	Malaise and fatigue	780.79^^2	Outpatient
+613876	2007-10-13	Arthralgia of the lower leg	719.46^^2	Outpatient
+613876	2007-10-13	Disorder of bone and articular cartilage	733.90^^2	Outpatient
+613876	2007-10-13	Hypothyroidism	244.9^^2	Outpatient
+613876	2007-10-13	Malaise and fatigue	780.79^^2	Outpatient
+613876	2007-10-14	Malaise and fatigue	780.79^^2	Outpatient
+613876	2007-10-21	Arthralgia of the lower leg	719.46^^2	Outpatient
+613876	2007-10-21	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system	793.7^^2	Outpatient
+613876	2007-10-21	Personal history of injury, presenting hazards to health	V15.5^^2	Outpatient
+613876	2007-10-22	Arthralgia of the lower leg	719.46^^2	Outpatient
+613876	2007-10-22	Overexertion and strenuous movements	E927^^2	Outpatient
+613876	2007-10-22	Unspecified disorder of lower leg joint	719.96^^2	Outpatient
+613876	2007-10-27	Streptococcal sore throat	034.0^^2	Outpatient
+613876	2007-10-28	Arthralgia of the lower leg	719.46^^2	Outpatient
+613876	2007-10-28	Localized, primary osteoarthritis of the lower leg	715.16^^2	Outpatient
+613876	2008-07-26	Immunization against bacterial disease	V03.89^^2	Outpatient
+613876	2008-10-05	Hypothyroidism	244.9^^2	Outpatient
+613876	2008-10-18	Adult health examination	V70.0^^2	Outpatient
+613876	2008-10-18	Long-term drug therapy	V58.69^^2	Outpatient
+613876	2008-10-18	Subsequent stage of staged operation	V58.83^^2	Outpatient
+613876	2009-01-17	General examination of patient	V70.9^^2	Outpatient
+621799	2003-12-14	Acute myocardial infarction	410.91^^2	Inpatient
+621799	2003-12-14	Acute myocardial infarction of inferior wall	410.41^^2	Inpatient
+621799	2003-12-14	Coronary arteriosclerosis	414.01^^2	Inpatient
+621799	2003-12-14	Disorder of lipid metabolism	272.9^^2	Inpatient
+621799	2003-12-14	Paroxysmal ventricular tachycardia	427.1^^2	Inpatient
+621799	2003-12-14	Percutaneous transluminal coronary angioplasty, postsurgical status	V45.82^^2	Inpatient
+621799	2003-12-14	Tobacco dependence syndrome	305.1^^2	Inpatient
+621799	2008-08-16	Angina	413.9^^2	Outpatient
+621799	2008-08-16	Congestive heart failure	428.0^^2	Outpatient
+621799	2008-08-16	Coronary arteriosclerosis	414.01^^2	Outpatient
+621799	2008-08-30	Cardiomyopathy	425.4^^2	Inpatient
+621799	2008-08-30	Cardiomyopathy	425.4^^2	Outpatient
+621799	2008-08-30	Chronic ischemic heart disease	414.8^^2	Inpatient
+621799	2008-08-30	Chronic ischemic heart disease	414.8^^2	Outpatient
+621799	2008-08-30	Coronary arteriosclerosis	414.01^^2	Inpatient
+621799	2008-08-30	Coronary arteriosclerosis	414.01^^2	Outpatient
+621799	2008-08-30	Dizziness and giddiness	780.4^^2	Inpatient
+621799	2008-08-30	Dyspnea	786.05^^2	Inpatient
+621799	2008-08-30	FH: Cardiac disorder	V17.3^^2	Inpatient
+621799	2008-08-30	Hyperlipidemia	272.4^^2	Inpatient
+621799	2008-08-30	Maintenance procedure for cardiac pacemaker system	V53.31^^2	Outpatient
+621799	2008-08-30	Old myocardial infarction	412^^2	Inpatient
+621799	2008-08-30	Old myocardial infarction	412^^2	Outpatient
+621799	2008-08-30	Percutaneous transluminal coronary angioplasty, postsurgical status	V45.82^^2	Inpatient
+621799	2008-08-30	Tobacco dependence syndrome	305.1^^2	Inpatient
+621799	2008-08-31	Chronic ischemic heart disease	414.8^^2	Outpatient
+621799	2008-08-31	Old myocardial infarction	412^^2	Outpatient
+621799	2008-09-06	Chronic ischemic heart disease	414.8^^2	Outpatient
+621799	2008-09-06	Coronary arteriosclerosis	414.01^^2	Outpatient
+621799	2008-09-06	Old myocardial infarction	412^^2	Outpatient
+621799	2008-10-25	Cardiomyopathy	425.4^^2	Outpatient
+621799	2008-11-21	Cardiomyopathy	425.4^^2	Outpatient
+621799	2008-11-21	Coronary arteriosclerosis	414.01^^2	Outpatient
+621799	2008-11-21	Pure hypercholesterolemia	272.0^^2	Outpatient
+621799	2009-04-19	Automatic implantable cardiac defibrillator in situ	V45.02^^2	Outpatient
+621799	2009-04-19	Cardiomyopathy	425.4^^2	Outpatient
+621799	2009-04-19	Chronic ischemic heart disease	414.8^^2	Outpatient
+629528	2006-11-08	Cervical neoplasia screening	V76.2^^2	Outpatient
+629528	2006-11-08	Family planning surveillance	V25.40^^2	Outpatient
+629528	2006-11-08	Routine gynecological examination	V72.31^^2	Outpatient
+629528	2006-11-08	Screening for disorder	V82.9^^2	Outpatient
+629528	2007-02-06	Depressive disorder	311^^2	Outpatient
+629528	2007-02-13	Depressive disorder	311^^2	Outpatient
+629528	2007-02-20	Depressive disorder	311^^2	Outpatient
+629528	2007-03-02	Depressive disorder	311^^2	Outpatient
+629528	2007-03-09	Depressive disorder	311^^2	Outpatient
+629528	2007-03-30	Depressive disorder	311^^2	Outpatient
+629528	2007-04-20	Depressive disorder	311^^2	Outpatient
+629528	2007-05-18	Depressive disorder	311^^2	Outpatient
+629528	2007-06-08	Depressive disorder	311^^2	Outpatient
+629528	2007-07-31	Depressive disorder	311^^2	Outpatient
+629528	2007-11-08	Cervical neoplasia screening	V76.2^^2	Outpatient
+629528	2007-11-08	Contact of sexually transmissible disorder	V01.6^^2	Outpatient
+629528	2007-11-08	Depressive disorder	311^^2	Outpatient
+629528	2007-11-08	Need for prophylactic vaccination and inoculation against other viral diseases	V04.89^^2	Outpatient
+629528	2007-11-08	Routine gynecological examination	V72.31^^2	Outpatient
+629528	2007-11-20	Cervical high risk human papillomavirus (HPV) DNA test positive	795.05^^2	Outpatient
+629528	2007-11-20	Cervical intraepithelial neoplasia grade 1	622.11^^2	Outpatient
+629528	2007-11-20	Cervicitis and endocervicitis	616.0^^2	Outpatient
+629528	2007-11-20	Human papilloma virus infection	079.4^^2	Outpatient
+629528	2007-11-20	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)	795.01^^2	Outpatient
+629528	2007-11-30	Depressive disorder	311^^2	Outpatient
+640264	2006-11-20	Hemorrhoids	455.6^^2	Outpatient
+640264	2007-03-15	Cervical neoplasia screening	V76.2^^2	Outpatient
+640264	2007-03-15	Hemorrhage of rectum and anus	569.3^^2	Outpatient
+640264	2007-03-15	Irregular periods	626.4^^2	Outpatient
+640264	2007-03-15	Routine gynecological examination	V72.31^^2	Outpatient
+640264	2007-03-15	Screening examination for other specified chlamydial diseases	V73.88^^2	Outpatient
+640264	2007-03-15	Venereal disease screening	V74.5^^2	Outpatient
+640264	2007-03-17	Irregular periods	626.4^^2	Outpatient
+640264	2007-03-29	Unspecified disorders of menstruation and other abnormal bleeding from female genital tract	626.9^^2	Outpatient
+640264	2007-03-31	Allergic rhinitis	477.9^^2	Outpatient
+640264	2007-04-02	Acute sinusitis	461.9^^2	Outpatient
+640264	2007-04-02	Cellulitis and abscess of unspecified sites	682.9^^2	Outpatient
+640264	2007-08-06	Benign essential hypertension	401.1^^2	Outpatient
+640264	2007-08-06	Malaise and fatigue	780.79^^2	Outpatient
+644201	2007-07-01	Breast neoplasm screening	V76.10^^2	Outpatient
+644201	2007-07-01	Disorder of bone and articular cartilage	733.90^^2	Outpatient
+644201	2007-07-01	Routine gynecological examination	V72.31^^2	Outpatient
+644201	2007-07-22	Screening mammography	V76.12^^2	Outpatient
+644201	2007-07-23	Screening mammography	V76.12^^2	Outpatient
+644201	2007-07-25	Essential hypertension	401.9^^2	Outpatient
+644201	2007-07-25	Hyperlipidemia	272.4^^2	Outpatient
+644201	2007-10-09	Essential hypertension	401.9^^2	Outpatient
+644201	2007-10-09	Hyperlipidemia	272.4^^2	Outpatient
+644201	2007-12-11	Essential hypertension	401.9^^2	Outpatient
+644201	2007-12-11	Hyperlipidemia	272.4^^2	Outpatient
+644201	2007-12-13	Urine finding	791.9^^2	Outpatient
+644201	2007-12-20	Essential hypertension	401.9^^2	Outpatient
+644201	2007-12-20	Hyperlipidemia	272.4^^2	Outpatient
+644201	2008-04-10	Essential hypertension	401.9^^2	Outpatient
+644201	2008-04-10	Hyperlipidemia	272.4^^2	Outpatient
+644201	2008-04-21	Hyperlipidemia	272.4^^2	Outpatient
+644201	2008-04-21	Pain in limb	729.5^^2	Outpatient
+644201	2008-07-06	Breast neoplasm screening	V76.10^^2	Outpatient
+644201	2008-07-06	Cervical neoplasia screening	V76.2^^2	Outpatient
+644201	2008-07-06	Disorder of bone and articular cartilage	733.90^^2	Outpatient
+644201	2008-07-06	Genitourinary disease screening	V81.6^^2	Outpatient
+644201	2008-07-06	Rectal neoplasm screening	V76.41^^2	Outpatient
+644201	2008-07-06	Routine gynecological examination	V72.31^^2	Outpatient
+644201	2008-07-23	Disorder of bone and articular cartilage	733.90^^2	Outpatient
+644201	2008-07-23	Screening for osteoporosis	V82.81^^2	Outpatient
+644201	2008-07-23	Screening mammography	V76.12^^2	Outpatient
+644201	2008-10-20	Benign essential hypertension	401.1^^2	Outpatient
+644201	2008-10-20	Hyperlipidemia	272.4^^2	Outpatient
+644201	2008-10-20	Osteoporosis	733.00^^2	Outpatient
+644201	2008-11-06	Essential hypertension	401.9^^2	Outpatient
+644201	2008-11-06	Hyperlipidemia	272.4^^2	Outpatient
+665677	2004-04-15	Benign essential hypertension	401.1^^2	Outpatient
+665677	2004-04-21	Special investigations and examinations - Gynecological examination	V72.3^^2	Outpatient
+665677	2004-08-19	Malaise and fatigue	780.79^^2	Outpatient
+665677	2006-01-06	Backache	724.5^^2	Outpatient
+665677	2006-01-06	Hematuria syndrome	599.7^^2	Outpatient
+665677	2006-01-14	Acquired renal cystic disease	593.2^^2	Outpatient
+665677	2006-01-14	Chronic nonalcoholic liver disease	571.8^^2	Outpatient
+665677	2006-01-14	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2006-02-17	Chronic nonalcoholic liver disease	571.8^^2	Outpatient
+665677	2006-02-17	Disorder of lung	518.89^^2	Outpatient
+665677	2006-02-17	History of malignant neoplasm of kidney	V10.52^^2	Outpatient
+665677	2006-02-17	Primary malignant neoplasm of kidney	189.0^^2	Outpatient
+665677	2006-03-02	Pre-surgery evaluation	V72.83^^2	Outpatient
+665677	2006-03-02	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2006-03-15	Diabetes mellitus type 2	250.00^^2	Inpatient
+665677	2006-03-15	Essential hypertension	401.9^^2	Inpatient
+665677	2006-03-15	Heart disease	429.9^^2	Inpatient
+665677	2006-03-15	History of malignant neoplasm of cervix	V10.41^^2	Inpatient
+665677	2006-03-15	Primary malignant neoplasm of kidney	189.0^^2	Inpatient
+665677	2006-03-15	Unspecified disorder of kidney and ureter	593.9^^2	Inpatient
+665677	2007-04-03	Benign essential hypertension	401.1^^2	Emergency
+665677	2007-04-03	Benign essential hypertension	401.1^^2	Outpatient
+665677	2007-04-03	Malaise and fatigue	780.79^^2	Outpatient
+665677	2007-07-03	Benign essential hypertension	401.1^^2	Outpatient
+665677	2007-10-04	Benign essential hypertension	401.1^^2	Outpatient
+665677	2007-11-22	Benign essential hypertension	401.1^^2	Outpatient
+665677	2007-11-22	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2008-10-02	Essential hypertension	401.9^^2	Outpatient
+665677	2008-10-02	Insomnia	780.52^^2	Outpatient
+665677	2008-10-02	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2008-11-13	Dysthymia	300.4^^2	Outpatient
+665677	2008-11-13	Insomnia	780.52^^2	Outpatient
+665677	2008-11-13	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2008-12-11	Essential hypertension	401.9^^2	Outpatient
+665677	2008-12-11	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+665677	2008-12-25	Dysthymia	300.4^^2	Outpatient
+665677	2008-12-25	Essential hypertension	401.9^^2	Outpatient
+665677	2009-02-05	Dysthymia	300.4^^2	Outpatient
+665677	2009-02-05	Essential hypertension	401.9^^2	Outpatient
+665677	2009-02-05	Unspecified disorder of kidney and ureter	593.9^^2	Outpatient
+724111	2003-11-11	Acute frontal sinusitis	461.1^^2	Outpatient
+724111	2003-11-11	Acute suppurative otitis media without spontaneous rupture of ear drum	382.00^^2	Outpatient
+724111	2003-11-25	Acute suppurative otitis media without spontaneous rupture of ear drum	382.00^^2	Outpatient
+724111	2004-04-15	Depressive disorder	311^^2	Outpatient
+724111	2004-04-15	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-05-06	Depressive disorder	311^^2	Outpatient
+724111	2004-05-06	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-05-25	Depressive disorder	311^^2	Outpatient
+724111	2004-05-25	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-06-02	Depressive disorder	311^^2	Outpatient
+724111	2004-06-09	Depressive disorder	311^^2	Outpatient
+724111	2004-06-09	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-06-16	Chronic sinusitis	473.9^^2	Outpatient
+724111	2004-06-22	Depressive disorder	311^^2	Outpatient
+724111	2004-06-22	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-07-13	Depressive disorder	311^^2	Outpatient
+724111	2004-07-13	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-07-29	Depressive disorder	311^^2	Outpatient
+724111	2004-07-29	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-08-10	Depressive disorder	311^^2	Outpatient
+724111	2004-08-10	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2004-08-12	Depressive disorder	311^^2	Outpatient
+724111	2004-08-12	Long-term drug therapy	V58.69^^2	Outpatient
+724111	2004-08-12	Subsequent stage of staged operation	V58.83^^2	Outpatient
+724111	2004-10-06	Depressive disorder	311^^2	Outpatient
+724111	2006-08-10	Depressive disorder	311^^2	Outpatient
+724111	2006-09-19	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2006-10-19	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-10-19	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-10-24	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-10-24	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-11-17	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-11-17	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-11-22	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-11-22	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-12-13	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-12-13	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-12-16	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-12-16	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2006-12-27	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2006-12-27	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-01-24	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-01-24	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-02-07	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-02-07	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-02-21	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-02-21	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-03-01	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-03-01	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-03-13	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-03-13	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-03-28	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-03-28	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-04-17	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-04-17	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-05-02	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-05-02	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-05-03	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-05-03	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-05-16	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-05-16	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-05-18	Adult health examination	V70.0^^2	Outpatient
+724111	2007-05-18	Hyperlipidemia	272.4^^2	Outpatient
+724111	2007-05-18	Immunization against bacterial disease	V03.89^^2	Outpatient
+724111	2007-05-18	Poliomyelitis vaccination	V04.0^^2	Outpatient
+724111	2007-06-07	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-06-07	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-06-12	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-06-12	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-06-26	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-06-26	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-07-06	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-07-06	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-07-31	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-07-31	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-08-28	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-08-28	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-09-12	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-09-12	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-10-27	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2007-10-27	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-11-07	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-11-15	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-12-13	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2007-12-19	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2008-01-16	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2008-02-02	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2008-02-12	Single major depressive episode, mild	296.21^^2	Outpatient
+724111	2008-03-18	Disruptive behavior disorder	312.9^^2	Outpatient
+724111	2008-04-01	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-04-01	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-04-01	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-04-16	Disruptive behavior disorder	312.9^^2	Outpatient
+724111	2008-07-01	Child attention deficit disorder	314.00^^2	Outpatient
+724111	2008-07-01	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-07-01	Recurrent major depressive episodes, moderate	296.32^^2	Outpatient
+724111	2008-07-19	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-07-19	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-07-19	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-08-20	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-08-20	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-08-20	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-09-10	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-09-10	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-09-10	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-10-15	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-10-15	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-10-15	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-10-28	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-10-28	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-10-28	Recurrent major depressive episodes, moderate	296.32^^2	Outpatient
+724111	2008-10-29	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-10-29	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-10-29	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-11-26	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-11-26	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-11-26	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-12-10	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-12-10	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-12-10	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2008-12-24	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2008-12-24	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2008-12-24	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-01-27	Child attention deficit disorder	314.00^^2	Outpatient
+724111	2009-01-27	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-01-27	Recurrent major depressive episodes, moderate	296.32^^2	Outpatient
+724111	2009-01-28	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-01-28	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-01-28	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-02-18	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-02-18	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-02-18	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-03-11	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-03-11	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-03-11	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-04-14	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-04-14	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-04-14	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-04-29	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-04-29	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-04-29	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-05-13	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-05-13	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-05-13	Single major depressive episode, moderate	296.22^^2	Outpatient
+724111	2009-06-02	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+724111	2009-06-02	Oppositional defiant disorder	313.81^^2	Outpatient
+724111	2009-06-02	Single major depressive episode, moderate	296.22^^2	Outpatient
+731673	2004-10-28	Acute sinusitis	461.9^^2	Outpatient
+731673	2004-10-28	Allergic rhinitis	477.9^^2	Outpatient
+731673	2004-10-28	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2004-10-29	Other diseases of nasal cavity and sinuses	478.1^^2	Outpatient
+731673	2004-11-07	Allergic rhinitis	477.9^^2	Outpatient
+731673	2004-11-07	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2004-11-07	Dysfunction of eustachian tube	381.81^^2	Outpatient
+731673	2005-02-16	Arthropathy	716.90^^2	Outpatient
+731673	2005-02-16	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2005-02-16	Myalgia and myositis, unspecified	729.1^^2	Outpatient
+731673	2005-03-27	Anxiety	300.00^^2	Outpatient
+731673	2005-03-27	Benign essential hypertension	401.1^^2	Outpatient
+731673	2005-03-27	Myalgia and myositis, unspecified	729.1^^2	Outpatient
+731673	2005-05-12	Benign essential hypertension	401.1^^2	Outpatient
+731673	2005-05-12	Depressive disorder	311^^2	Outpatient
+731673	2005-05-12	Urinary tract infectious disease	599.0^^2	Outpatient
+731673	2005-06-18	Benign essential hypertension	401.1^^2	Outpatient
+731673	2005-06-18	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2005-06-18	Headache	784.0^^2	Outpatient
+731673	2005-06-19	Arthropathy	716.90^^2	Outpatient
+731673	2005-06-19	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2005-06-19	Essential hypertension	401.9^^2	Outpatient
+731673	2005-06-19	Headache	784.0^^2	Outpatient
+731673	2005-06-19	Hyperlipidemia	272.4^^2	Outpatient
+731673	2005-06-25	Benign essential hypertension	401.1^^2	Outpatient
+731673	2005-06-25	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2005-06-25	Hyperlipidemia	272.4^^2	Outpatient
+731673	2005-07-07	Dizziness and giddiness	780.4^^2	Outpatient
+731673	2005-07-07	Peripheral vertigo	386.10^^2	Outpatient
+731673	2005-07-07	Sensorineural hearing loss	389.10^^2	Outpatient
+736230	2004-05-24	Adult health examination	V70.0^^2	Outpatient
+736230	2004-05-24	Hypothyroidism	244.9^^2	Outpatient
+736230	2004-05-24	Rectal neoplasm screening	V76.41^^2	Outpatient
+736230	2004-05-24	Special investigations and examinations - Gynecological examination	V72.3^^2	Outpatient
+736230	2004-06-13	Disorder of breast	611.8^^2	Emergency
+736230	2004-06-13	Radiographic imaging procedure	V72.5^^2	Emergency
+736230	2004-06-13	Screening mammography	V76.12^^2	Emergency
+736230	2004-06-13	Screening mammography	V76.12^^2	Outpatient
+736230	2004-08-04	Hypothyroidism	244.9^^2	Outpatient
+736230	2005-03-19	Hypothyroidism	244.9^^2	Outpatient
+736230	2006-04-17	Adult health examination	V70.0^^2	Outpatient
+736230	2006-04-17	Edema	782.3^^2	Outpatient
+736230	2006-05-09	Menopausal syndrome	627.2^^2	Outpatient
+736230	2006-05-20	Screening mammography	V76.12^^2	Emergency
+736230	2006-05-20	Screening mammography	V76.12^^2	Outpatient
+736230	2006-05-31	Hypothyroidism	244.9^^2	Outpatient
+736230	2006-06-04	Hypothyroidism	244.9^^2	Outpatient
+736230	2007-05-05	Adult health examination	V70.0^^2	Outpatient
+736230	2007-05-05	Hypothyroidism	244.9^^2	Outpatient
+736230	2007-05-05	Routine gynecological examination	V72.31^^2	Outpatient
+736230	2007-08-25	Screening mammography	V76.12^^2	Emergency
+736230	2007-08-25	Screening mammography	V76.12^^2	Outpatient
+736230	2008-07-05	Adult health examination	V70.0^^2	Outpatient
+736230	2008-07-05	Asymptomatic postmenopausal status (age-related) (natural)	V49.81^^2	Outpatient
+736230	2008-07-05	Routine gynecological examination	V72.31^^2	Outpatient
+736230	2008-07-09	Adult health examination	V70.0^^2	Outpatient
+736230	2008-07-09	Hypothyroidism	244.9^^2	Outpatient
+736230	2008-07-09	Screening for cardiovascular system disease	V81.2^^2	Outpatient
+736230	2009-06-20	Adult health examination	V70.0^^2	Outpatient
+736230	2009-06-20	Rectal neoplasm screening	V76.41^^2	Outpatient
+736230	2009-06-20	Routine gynecological examination	V72.31^^2	Outpatient
+736230	2009-07-08	Adult health examination	V70.0^^2	Outpatient
+736230	2009-07-08	Hypothyroidism	244.9^^2	Outpatient
+765583	2004-03-06	Multiple joint pain	719.49^^2	Outpatient
+765583	2004-04-25	Multiple joint pain	719.49^^2	Outpatient
+765583	2005-04-24	High risk drug monitoring status	V58.64^^2	Outpatient
+765583	2005-04-24	Localized, primary osteoarthritis	715.18^^2	Outpatient
+765583	2006-02-20	Localized, primary osteoarthritis	715.18^^2	Outpatient
+765583	2006-09-09	Localized, primary osteoarthritis	715.18^^2	Outpatient
+765583	2006-12-23	Diabetes mellitus screening	V77.1^^2	Outpatient
+765583	2006-12-23	Dizziness and giddiness	780.4^^2	Outpatient
+765583	2006-12-23	Thyroid disorder screening	V77.0^^2	Outpatient
+765583	2006-12-24	Diabetes mellitus screening	V77.1^^2	Outpatient
+765583	2006-12-24	Dizziness and giddiness	780.4^^2	Outpatient
+765583	2007-03-10	Localized, primary osteoarthritis	715.18^^2	Outpatient
+765583	2007-03-10	Myalgia and myositis, unspecified	729.1^^2	Outpatient
+765583	2008-01-28	Acute sinusitis	461.9^^2	Outpatient
+765583	2008-01-28	Conjunctivitis	372.30^^2	Outpatient
+765583	2008-04-10	Localized, primary osteoarthritis	715.18^^2	Outpatient
+765583	2008-04-10	Myalgia and myositis, unspecified	729.1^^2	Outpatient
+765583	2008-07-18	Overlapping malignant neoplasm of female breast	174.8^^2	Outpatient
+765583	2008-07-25	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2008-07-26	Backache	724.5^^2	Outpatient
+765583	2008-07-26	Breast lump	611.72^^2	Outpatient
+765583	2008-07-26	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2008-08-15	Acute upper respiratory infection	465.9^^2	Outpatient
+765583	2008-08-16	Hemorrhage AND/OR hematoma complicating procedure	998.12^^2	Outpatient
+765583	2008-08-16	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2008-08-16	Seroma complicating a procedure	998.13^^2	Outpatient
+765583	2008-08-17	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2008-08-24	Hemorrhage AND/OR hematoma complicating procedure	998.12^^2	Outpatient
+765583	2008-08-24	Seroma complicating a procedure	998.13^^2	Outpatient
+765583	2008-09-07	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2008-09-12	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+765583	2009-07-04	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+767980	2004-08-12	Chest pain	786.50^^2	Outpatient
+767980	2004-08-12	Essential hypertension	401.9^^2	Outpatient
+767980	2004-08-12	H/O: peptic ulcer	V12.71^^2	Outpatient
+767980	2004-08-12	Painful respiration	786.52^^2	Outpatient
+767980	2004-08-12	Pure hypercholesterolemia	272.0^^2	Outpatient
+767980	2004-08-12	Tobacco dependence syndrome	305.1^^2	Outpatient
+767980	2004-10-18	Bronchitis	490^^2	Outpatient
+767980	2004-10-18	Pure hypercholesterolemia	272.0^^2	Outpatient
+767980	2004-10-22	Blood chemistry abnormal	790.6^^2	Outpatient
+767980	2004-12-10	Acute upper respiratory infection	465.9^^2	Outpatient
+767980	2004-12-10	Diabetes mellitus type 2	250.00^^2	Outpatient
+767980	2005-09-08	Needs influenza immunization	V04.81^^2	Outpatient
+767980	2005-11-11	Bronchitis	490^^2	Outpatient
+767980	2005-11-11	Diabetes mellitus type 2	250.00^^2	Outpatient
+767980	2005-12-16	Adult health examination	V70.0^^2	Outpatient
+767980	2005-12-16	Incomplete emptying of bladder	788.21^^2	Outpatient
+767980	2005-12-16	Pure hypercholesterolemia	272.0^^2	Outpatient
+880378	2003-11-07	Abdominal pain	789.00^^2	Outpatient
+880378	2003-11-07	Constipation	564.00^^2	Outpatient
+880378	2004-11-01	Croup	464.4^^2	Emergency
+880378	2004-11-01	Croup	464.4^^2	Outpatient
+880378	2004-11-01	Otalgia	388.70^^2	Outpatient
+880378	2004-11-01	Other dyspnea and respiratory abnormality	786.09^^2	Outpatient
+880378	2004-11-03	Common cold	460^^2	Outpatient
+880378	2004-11-03	Croup	464.4^^2	Outpatient
+880378	2004-12-13	Acute upper respiratory infection	465.9^^2	Outpatient
+880378	2004-12-13	Otitis media	382.9^^2	Outpatient
+880378	2005-08-10	Acute sinusitis	461.9^^2	Outpatient
+880378	2005-08-10	Croup	464.4^^2	Outpatient
+880378	2005-08-10	Needs influenza immunization	V04.81^^2	Outpatient
+880378	2005-12-08	Acute sinusitis	461.9^^2	Outpatient
+880378	2006-02-02	Routine infant or child health check	V20.2^^2	Outpatient
+880378	2007-06-21	Routine infant or child health check	V20.2^^2	Outpatient
+880378	2007-07-26	Hypertrophy of tonsils	474.11^^2	Outpatient
+880378	2007-07-26	Needs influenza immunization	V04.81^^2	Outpatient
+880378	2008-08-21	Needs influenza immunization	V04.81^^2	Outpatient
+880378	2008-08-21	Routine infant or child health check	V20.2^^2	Outpatient
+880378	2008-08-21	Varicella vaccination	V05.4^^2	Outpatient
+880378	2009-05-14	Otalgia	388.70^^2	Outpatient
+880378	2009-07-23	Cough	786.2^^2	Outpatient
+880378	2009-07-23	Needs influenza immunization	V04.81^^2	Outpatient
+897185	2004-09-20	Clinical finding	796.4^^2	Outpatient
+897185	2004-09-20	Dietary management surveillance	V65.3^^2	Outpatient
+897185	2004-09-20	Hyperlipidemia	272.4^^2	Outpatient
+897185	2007-01-22	Abrasion or friction burn of other, multiple, and unspecified sites, without mention of infection	919.0^^2	Outpatient
+897185	2007-01-22	Injury of head	959.01^^2	Outpatient
+897185	2007-01-22	Open wound of ear without complication	872.8^^2	Outpatient
+897185	2007-01-22	Open wound of external ear without complication	872.00^^2	Outpatient
+897185	2007-01-22	Open wound of multiple sites of face without complication	873.49^^2	Outpatient
+897185	2007-01-28	Aftercare for healing traumatic fracture of other bone	V54.19^^2	Outpatient
+897185	2007-01-28	Closed fracture of malar AND/OR maxillary bones	802.4^^2	Outpatient
+897185	2007-06-02	Chronic non-suppurative otitis media	381.3^^2	Outpatient
+897185	2007-06-02	Dysfunction of eustachian tube	381.81^^2	Outpatient
+897185	2007-09-26	Acute bronchitis	466.0^^2	Outpatient
+935270	2006-03-14	Acute myocardial infarction of inferior wall	410.41^^2	Outpatient
+935270	2006-09-13	Abnormal ECG	794.31^^2	Outpatient
+935270	2006-09-13	Asthenia	799.3^^2	Outpatient
+935270	2006-09-13	Percutaneous transluminal coronary angioplasty, postsurgical status	V45.82^^2	Outpatient
+935270	2006-12-06	Chest pain	786.50^^2	Outpatient
+935270	2006-12-06	Cough	786.2^^2	Outpatient
+935270	2006-12-06	Essential hypertension	401.9^^2	Outpatient
+935270	2007-02-07	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+935270	2007-11-20	Chest pain	786.50^^2	Outpatient
+935270	2007-11-20	Coronary arteriosclerosis	414.01^^2	Outpatient
+935270	2007-11-20	Percutaneous transluminal coronary angioplasty, postsurgical status	V45.82^^2	Outpatient
+935270	2008-02-06	Chronic ischemic heart disease	414.9^^2	Outpatient
+935270	2008-02-06	General examination of patient	V70.9^^2	Outpatient
+935270	2008-02-06	Hyperlipidemia	272.4^^2	Outpatient
+935270	2008-02-06	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+935270	2008-09-13	Cellulitis and abscess of upper arm and forearm	682.3^^2	Outpatient
+935270	2008-09-13	Contusion of forearm	923.10^^2	Outpatient
+935270	2008-09-13	Disorder of cardiovascular system	459.89^^2	Outpatient
+935270	2008-09-13	Other and unspecified injury to elbow, forearm, and wrist	959.3^^2	Outpatient
+935270	2008-09-13	Pain in limb	729.5^^2	Outpatient
+935270	2009-01-31	Chronic ischemic heart disease	414.9^^2	Outpatient
+935270	2009-01-31	Essential hypertension	401.9^^2	Outpatient
+935270	2009-01-31	Hyperlipidemia	272.4^^2	Outpatient
+935270	2009-01-31	Screening for disorder	V82.9^^2	Outpatient
+967332	2007-11-14	Asthma	493.90^^2	Outpatient
+967332	2007-11-14	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2007-11-14	Hyperlipidemia	272.4^^2	Outpatient
+967332	2007-11-23	Obstructive sleep apnea (adult) (pediatric)	327.23^^2	Outpatient
+967332	2007-11-23	Unspecified sleep apnea	780.57^^2	Outpatient
+967332	2007-12-15	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2007-12-15	Hyperlipidemia	272.4^^2	Outpatient
+967332	2007-12-15	Long-term drug therapy	V58.69^^2	Outpatient
+967332	2007-12-26	Asthma	493.90^^2	Outpatient
+967332	2007-12-26	Hyperlipidemia	272.4^^2	Outpatient
+967332	2007-12-26	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+967332	2008-01-04	Benign essential hypertension	401.1^^2	Outpatient
+967332	2008-01-04	Chest pain	786.50^^2	Outpatient
+967332	2008-01-04	Coronary arteriosclerosis	414.01^^2	Outpatient
+967332	2008-01-04	Diabetes mellitus with other specified manifestations, type II or unspecified type, uncontrolled	250.82^^2	Outpatient
+967332	2008-01-04	Essential hypertension	401.9^^2	Outpatient
+967332	2008-01-04	Hypokalemia	276.8^^2	Outpatient
+967332	2008-01-04	Preinfarction syndrome	411.1^^2	Outpatient
+967332	2008-01-18	Coronary arteriosclerosis	414.00^^2	Outpatient
+967332	2008-03-16	Abnormal glucose level	790.21^^2	Outpatient
+967332	2008-03-16	Hyperlipidemia	272.4^^2	Outpatient
+967332	2008-03-28	Benign essential hypertension	401.1^^2	Outpatient
+967332	2008-03-28	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2008-03-28	Pure hypercholesterolemia	272.0^^2	Outpatient
+967332	2008-04-23	Asthma	493.90^^2	Outpatient
+967332	2008-04-23	Coronary arteriosclerosis	414.00^^2	Outpatient
+967332	2008-04-23	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+967332	2008-07-29	Acute bronchitis	466.0^^2	Outpatient
+967332	2008-07-29	Needs influenza immunization	V04.81^^2	Outpatient
+967332	2008-10-22	Asthma	493.90^^2	Outpatient
+967332	2008-10-22	Hyperlipidemia	272.4^^2	Outpatient
+967332	2008-10-22	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+967332	2008-10-24	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2008-10-24	Hyperlipidemia	272.4^^2	Outpatient
+967332	2008-10-24	Long-term drug therapy	V58.69^^2	Outpatient
+967332	2009-02-14	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2009-04-25	Benign essential hypertension	401.1^^2	Outpatient
+967332	2009-04-25	Coronary arteriosclerosis	414.01^^2	Outpatient
+967332	2009-04-25	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2009-04-25	Hyperlipidemia	272.4^^2	Outpatient
+967332	2009-04-25	Mixed hyperlipidemia	272.2^^2	Outpatient
+967332	2009-05-06	Asthma	493.90^^2	Outpatient
+967332	2009-05-06	Diabetes mellitus type 2	250.00^^2	Outpatient
+967332	2009-05-06	Hyperlipidemia	272.4^^2	Outpatient
+967332	2009-07-25	Hyperlipidemia	272.4^^2	Outpatient
+981968	2005-05-17	Low back pain	724.2^^2	Outpatient
+981968	2005-05-23	Adult health examination	V70.0^^2	Outpatient
+981968	2005-05-23	Tetanus diphtheria vaccination	V06.5^^2	Outpatient
+981968	2005-06-25	Lumbar sprain	847.2^^2	Outpatient
+981968	2005-06-26	Low back pain	724.2^^2	Outpatient
+981968	2005-10-11	Asthma	493.90^^2	Outpatient
+981968	2005-10-11	Pure hypercholesterolemia	272.0^^2	Outpatient
+981968	2005-10-17	Calcaneal spur	726.73^^2	Outpatient
+981968	2005-10-17	Lateral epicondylitis	726.32^^2	Outpatient
+981968	2005-10-17	Mixed hyperlipidemia	272.2^^2	Outpatient
+981968	2005-10-17	Pain in limb	729.5^^2	Outpatient
+981968	2008-06-21	Adult health examination	V70.0^^2	Outpatient
+981968	2008-06-21	Asthma	493.90^^2	Outpatient
+981968	2008-06-21	Gout	274.9^^2	Outpatient
+981968	2008-06-21	Hair and hair follicle diseases	704.8^^2	Outpatient
+981968	2008-06-21	Malaise and fatigue	780.79^^2	Outpatient
+981968	2008-06-21	Pure hypercholesterolemia	272.0^^2	Outpatient
+981968	2008-06-21	Rectal neoplasm screening	V76.41^^2	Outpatient
+981968	2008-06-21	Transplant follow-up	V58.44^^2	Outpatient
+981968	2008-07-10	Dizziness and giddiness	780.4^^2	Outpatient
+981968	2008-07-21	Duodenal ulcer without hemorrhage, without perforation AND without obstruction	532.90^^2	Outpatient
+981968	2008-07-21	Gastroesophageal reflux disease	530.81^^2	Outpatient
+1032702	2007-12-14	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1032702	2007-12-19	Abnormal weight loss	783.21^^2	Outpatient
+1032702	2007-12-19	Follow-up encounter	V67.9^^2	Outpatient
+1032702	2008-01-02	Crying infant	780.91^^2	Outpatient
+1032702	2008-01-20	Routine infant or child health check	V20.2^^2	Outpatient
+1032702	2008-02-29	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+1032702	2008-02-29	Haemophilus influenzae type b vaccination	V03.81^^2	Outpatient
+1032702	2008-02-29	Pneumococcal vaccination	V03.82^^2	Outpatient
+1032702	2008-02-29	Routine infant or child health check	V20.2^^2	Outpatient
+1032702	2008-04-03	Crying infant	780.91^^2	Outpatient
+1032702	2008-04-03	Gastroesophageal reflux disease	530.81^^2	Outpatient
+1032702	2008-04-03	Other disease of nasal cavity and sinuses	478.19^^2	Outpatient
+1032702	2008-04-13	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+1032702	2008-04-13	Congenital anomaly of lower limb	755.60^^2	Outpatient
+1032702	2008-04-13	Haemophilus influenzae type b vaccination	V03.81^^2	Outpatient
+1032702	2008-04-13	Pneumococcal vaccination	V03.82^^2	Outpatient
+1032702	2008-04-13	Routine infant or child health check	V20.2^^2	Outpatient
+1032702	2008-06-29	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+1032702	2008-06-29	Haemophilus influenzae type b vaccination	V03.81^^2	Outpatient
+1032702	2008-06-29	Needs influenza immunization	V04.81^^2	Outpatient
+1032702	2008-06-29	Pneumococcal vaccination	V03.82^^2	Outpatient
+1032702	2008-06-29	Routine infant or child health check	V20.2^^2	Outpatient
+1032702	2008-08-04	Needs influenza immunization	V04.81^^2	Outpatient
+1032702	2008-09-25	Routine infant or child health check	V20.2^^2	Outpatient
+1081332	2004-04-12	Infective hepatitis immunization	V05.3^^2	Inpatient
+1081332	2004-04-12	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1081332	2004-04-13	Ritual circumcision	V50.2^^2	Inpatient
+1081332	2004-04-13	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1081332	2004-06-15	Acute upper respiratory infection	465.9^^2	Outpatient
+1081332	2004-07-13	Otitis media	382.9^^2	Outpatient
+1081332	2004-10-29	Other diseases of nasal cavity and sinuses	478.1^^2	Outpatient
+1081332	2004-12-05	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Outpatient
+1081332	2004-12-07	Diarrhea	787.91^^2	Outpatient
+1081332	2004-12-07	Fever and other physiologic disturbances of temperature regulation	780.6^^2	Outpatient
+1081332	2004-12-07	Hypovolemia	276.5^^2	Outpatient
+1081332	2004-12-07	Otitis media	382.9^^2	Outpatient
+1081332	2004-12-07	Pneumonia	486^^2	Outpatient
+1081332	2004-12-08	Hypovolemia	276.5^^2	Inpatient
+1081332	2004-12-08	Hypovolemia	276.5^^2	Outpatient
+1081332	2004-12-08	Pneumonia	486^^2	Inpatient
+1081332	2004-12-08	Pneumonia	486^^2	Outpatient
+1081332	2004-12-08	Vomiting	787.03^^2	Inpatient
+1081332	2004-12-08	Vomiting	787.03^^2	Outpatient
+1081332	2005-01-04	Otitis media	382.9^^2	Outpatient
+1081332	2005-01-18	Otitis media	382.9^^2	Outpatient
+1081332	2005-02-07	Otitis media	382.9^^2	Outpatient
+1081332	2005-02-14	Dysfunction of eustachian tube	381.81^^2	Outpatient
+1081332	2005-02-22	Chronic serous otitis media	381.10^^2	Outpatient
+1081332	2005-02-22	Otitis media	382.9^^2	Outpatient
+1081332	2005-03-04	Acute otitis externa	380.22^^2	Outpatient
+1081332	2005-09-26	Otitis media	382.9^^2	Outpatient
+1081332	2007-06-06	Routine infant or child health check	V20.2^^2	Outpatient
+1081332	2007-06-20	Acute secretory otitis media	381.00^^2	Outpatient
+1081332	2007-08-14	Acute secretory otitis media	381.00^^2	Outpatient
+1081332	2007-08-28	Acute secretory otitis media	381.00^^2	Outpatient
+1081332	2007-09-14	Acute secretory otitis media	381.00^^2	Outpatient
+1081332	2007-10-18	Acute secretory otitis media	381.00^^2	Outpatient
+1098667	2004-12-01	Acute maxillary sinusitis	461.0^^2	Outpatient
+1098667	2005-02-24	Acute sinusitis	461.9^^2	Outpatient
+1098667	2005-02-24	Headache	784.0^^2	Outpatient
+1098667	2005-03-17	Migraine without aura	346.10^^2	Outpatient
+1098667	2005-04-09	Hyperlipidemia	272.4^^2	Outpatient
+1098667	2005-04-09	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1098667	2005-04-22	Blood chemistry abnormal	790.6^^2	Outpatient
+1098667	2005-04-22	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1098667	2005-04-28	Adult health examination	V70.0^^2	Outpatient
+1098667	2005-04-28	Hemangioma	228.00^^2	Outpatient
+1098667	2005-04-28	Pure hypercholesterolemia	272.0^^2	Outpatient
+1098667	2005-08-26	Family history of malignant neoplasm of gastrointestinal tract	V16.0^^2	Outpatient
+1098667	2005-08-26	History of polyp of colon	V12.72^^2	Outpatient
+1098667	2005-10-15	Benign neoplasm of skin of face	216.3^^2	Outpatient
+1098667	2005-10-15	Benign neoplasm of skin of trunk	216.5^^2	Outpatient
+1098667	2005-10-15	Senile hyperkeratosis	702.19^^2	Outpatient
+1134281	2005-07-04	33-34 completed weeks of gestation	765.27^^2	Inpatient
+1134281	2005-07-04	Infective hepatitis immunization	V05.3^^2	Inpatient
+1134281	2005-07-04	Neonatal jaundice associated with preterm delivery	774.2^^2	Inpatient
+1134281	2005-07-04	Observation for suspected infectious condition	V29.0^^2	Inpatient
+1134281	2005-07-04	Other preterm infants, 2,500+ grams	765.19^^2	Inpatient
+1134281	2005-07-04	Perinatal cutaneous hemorrhage	772.6^^2	Inpatient
+1134281	2005-07-04	Perinatal cyanotic attacks	770.83^^2	Inpatient
+1134281	2005-07-04	Perinatal respiratory failure	770.89^^2	Inpatient
+1134281	2005-07-04	Respiratory distress syndrome in the newborn	769^^2	Inpatient
+1134281	2005-07-04	Scalp injury	767.19^^2	Inpatient
+1134281	2005-07-04	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Emergency
+1134281	2005-07-04	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1134281	2005-07-05	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1134281	2005-07-06	Perinatal respiratory failure	770.89^^2	Inpatient
+1134281	2005-07-07	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1134281	2005-07-08	Neonatal jaundice	774.6^^2	Outpatient
+1134281	2005-07-08	Perinatal respiratory failure	770.89^^2	Inpatient
+1134281	2005-07-08	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+1134281	2005-07-10	Jaundice	782.4^^2	Outpatient
+1134281	2005-07-10	Neonatal jaundice	774.6^^2	Emergency
+1134281	2005-07-10	Neonatal jaundice	774.6^^2	Outpatient
+1134281	2005-07-17	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2005-08-28	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2005-10-30	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2005-11-28	Acute upper respiratory infection	465.9^^2	Outpatient
+1134281	2006-01-08	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2006-02-09	Gastroesophageal reflux disease	530.81^^2	Outpatient
+1134281	2006-04-11	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2006-07-12	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2006-08-31	Otitis media	382.9^^2	Outpatient
+1134281	2006-10-22	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2006-11-05	Otitis media	382.9^^2	Outpatient
+1134281	2006-12-14	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Outpatient
+1134281	2007-02-04	Routine infant or child health check	V20.2^^2	Outpatient
+1134281	2009-04-05	Acute upper respiratory infection	465.9^^2	Outpatient
+1134281	2009-06-17	Acute sinusitis	461.9^^2	Outpatient
+1134281	2009-06-17	Acute upper respiratory infection	465.9^^2	Outpatient
+1137192	2004-06-11	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2004-06-11	Dyspnea	786.05^^2	Outpatient
+1137192	2004-06-11	Screening for disorder	V82.89^^2	Outpatient
+1137192	2005-06-03	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2005-06-03	Coronary arteriosclerosis	414.00^^2	Outpatient
+1137192	2006-05-26	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2006-05-26	Coronary arteriosclerosis	414.00^^2	Outpatient
+1137192	2006-11-05	Benign prostatic hyperplasia	600.00^^2	Outpatient
+1137192	2007-06-01	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2007-06-01	Coronary arteriosclerosis	414.00^^2	Outpatient
+1137192	2007-09-22	Anxiety	300.00^^2	Outpatient
+1137192	2007-10-26	Single major depressive episode, mild	296.21^^2	Outpatient
+1137192	2007-11-08	Single major depressive episode, mild	296.21^^2	Outpatient
+1137192	2008-05-30	Abnormal ECG	794.31^^2	Outpatient
+1137192	2008-05-30	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2008-05-30	Coronary arteriosclerosis	414.00^^2	Outpatient
+1137192	2009-05-29	Chronic ischemic heart disease	414.9^^2	Outpatient
+1137192	2009-05-29	Coronary arteriosclerosis	414.00^^2	Outpatient
+1137192	2009-07-04	Abdominal pain	789.00^^2	Outpatient
+1137192	2009-07-04	Migraine with aura	346.00^^2	Outpatient
+1137192	2009-07-04	Visual disturbance	368.9^^2	Outpatient
+1137192	2009-07-13	Mononeuritis of lower limb	355.8^^2	Outpatient
+1157764	2003-12-16	Primary malignant neoplasm of female breast	174.9^^2	Emergency
+1157764	2003-12-16	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2003-12-22	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2004-07-19	Routine gynecological examination	V72.31^^2	Emergency
+1157764	2004-07-19	Routine gynecological examination	V72.31^^2	Outpatient
+1157764	2004-07-22	History of malignant neoplasm of breast	V10.3^^2	Emergency
+1157764	2004-07-22	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2004-07-22	Primary malignant neoplasm of female breast	174.9^^2	Inpatient
+1157764	2004-07-23	History of malignant neoplasm of breast	V10.3^^2	Emergency
+1157764	2004-07-23	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2004-07-23	Screening for osteoporosis	V82.81^^2	Outpatient
+1157764	2004-10-19	Primary malignant neoplasm of female breast	174.9^^2	Emergency
+1157764	2004-10-19	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2004-10-25	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2005-08-03	History of malignant neoplasm of breast	V10.3^^2	Emergency
+1157764	2005-08-03	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2005-09-07	Routine gynecological examination	V72.31^^2	Emergency
+1157764	2005-09-07	Routine gynecological examination	V72.31^^2	Outpatient
+1157764	2005-09-14	Adjustment disorder	309.9^^2	Outpatient
+1157764	2005-10-19	Primary malignant neoplasm of female breast	174.9^^2	Emergency
+1157764	2005-10-19	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2005-10-25	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2005-10-28	Adjustment disorder	309.9^^2	Outpatient
+1157764	2005-11-09	Adjustment disorder	309.9^^2	Outpatient
+1157764	2005-11-14	Crohn's disease of large bowel	555.1^^2	Emergency
+1157764	2005-11-14	Crohn's disease of large bowel	555.1^^2	Outpatient
+1157764	2005-11-15	Recurrent major depressive episodes, moderate	296.32^^2	Outpatient
+1157764	2005-12-02	Adjustment disorder	309.9^^2	Outpatient
+1157764	2005-12-07	Adjustment disorder	309.9^^2	Outpatient
+1157764	2005-12-28	Recurrent major depressive episodes, moderate	296.32^^2	Outpatient
+1157764	2006-01-23	Adjustment disorder	309.9^^2	Outpatient
+1157764	2006-02-08	Adjustment disorder	309.9^^2	Outpatient
+1157764	2006-09-07	Acquired absence of breast and nipple	V45.71^^2	Outpatient
+1157764	2006-09-07	History of malignant neoplasm of breast	V10.3^^2	Emergency
+1157764	2006-09-07	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2006-09-26	Acute sinusitis	461.9^^2	Outpatient
+1157764	2006-10-18	Primary malignant neoplasm of female breast	174.9^^2	Emergency
+1157764	2006-10-18	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2006-10-24	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2006-10-25	Routine gynecological examination	V72.31^^2	Emergency
+1157764	2006-10-25	Routine gynecological examination	V72.31^^2	Outpatient
+1157764	2006-10-30	Hematuria syndrome	599.7^^2	Emergency
+1157764	2006-10-30	Hematuria syndrome	599.7^^2	Outpatient
+1157764	2007-10-19	Acquired absence of breast and nipple	V45.71^^2	Outpatient
+1157764	2007-10-19	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2007-10-23	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1157764	2008-01-09	Routine gynecological examination	V72.31^^2	Outpatient
+1157764	2008-10-21	Primary malignant neoplasm of central portion of female breast	174.1^^2	Outpatient
+1157764	2008-11-13	Acquired absence of breast and nipple	V45.71^^2	Outpatient
+1157764	2008-11-13	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1157764	2009-03-10	Routine gynecological examination	V72.31^^2	Outpatient
+1157764	2009-05-20	Primary open angle glaucoma	365.11^^2	Outpatient
+1157764	2009-07-01	Low tension glaucoma	365.12^^2	Outpatient
+1186747	2004-12-31	Accidental burning caused by caustic and corrosive substance	E924.1^^2	Emergency
+1186747	2004-12-31	Accidental burning caused by caustic and corrosive substance	E924.1^^2	Outpatient
+1186747	2004-12-31	Acute atopic conjunctivitis	372.05^^2	Emergency
+1186747	2004-12-31	Acute atopic conjunctivitis	372.05^^2	Outpatient
+1186747	2005-03-14	Problem behavior	V40.3^^2	Outpatient
+1186747	2005-12-08	Problem behavior	V40.3^^2	Outpatient
+1186747	2006-01-18	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2006-09-25	Acute upper respiratory infection	465.9^^2	Outpatient
+1186747	2006-09-25	Otalgia	388.70^^2	Outpatient
+1186747	2006-10-16	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2006-10-16	Constipation	564.00^^2	Outpatient
+1186747	2006-11-23	Acute upper respiratory infection	465.9^^2	Outpatient
+1186747	2006-11-23	Asthma	493.90^^2	Outpatient
+1186747	2006-11-23	Cough	786.2^^2	Outpatient
+1186747	2006-11-23	Hemoptysis	786.3^^2	Outpatient
+1186747	2007-01-29	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2007-05-27	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2007-05-27	Immunization against bacterial disease	V03.89^^2	Outpatient
+1186747	2007-05-27	Vaccination for diphtheria, pertussis, and tetanus	V06.1^^2	Outpatient
+1186747	2007-07-05	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2007-08-16	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2007-12-19	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1186747	2007-12-19	Tic disorder	307.20^^2	Outpatient
+1186747	2008-02-10	Abnormal involuntary movement	781.0^^2	Outpatient
+1186747	2008-02-10	Attention deficit hyperactivity disorder	314.01^^2	Outpatient
+1213208	2009-02-17	Neck pain	723.1^^2	Outpatient
+1213208	2009-02-17	Spasm	728.85^^2	Outpatient
+1213208	2009-05-11	Unspecified local infection of skin and subcutaneous tissue	686.9^^2	Outpatient
+1213208	2009-05-13	Benign essential hypertension	401.1^^2	Outpatient
+1213208	2009-05-13	Cellulitis and abscess of leg	682.6^^2	Outpatient
+1213208	2009-05-13	Gastro-esophageal reflux disease with esophagitis	530.11^^2	Outpatient
+1213208	2009-05-15	Abdominal pain	789.09^^2	Inpatient
+1213208	2009-05-15	Carbuncle and furuncle of leg, except foot	680.6^^2	Outpatient
+1213208	2009-05-15	Cellulitis and abscess of leg	682.6^^2	Outpatient
+1213208	2009-05-15	Joint effusion of the lower leg	719.06^^2	Inpatient
+1213208	2009-05-15	Lymphadenitis	289.3^^2	Outpatient
+1213208	2009-05-15	Methicillin susceptible Staphylococcus aureus infection in conditions classified elsewhere and of unspecified site	041.11^^2	Outpatient
+1213208	2009-05-16	Abdominal pain	789.09^^2	Inpatient
+1213208	2009-05-16	Cellulitis and abscess of leg	682.6^^2	Inpatient
+1213208	2009-05-16	Joint effusion of the lower leg	719.06^^2	Inpatient
+1213208	2009-05-20	Abscess of salivary gland	527.3^^2	Outpatient
+1213208	2009-06-25	Cellulitis and abscess of face	682.0^^2	Outpatient
+1213208	2009-06-26	Cellulitis and abscess of face	682.0^^2	Outpatient
+1213208	2009-06-26	Cellulitis and abscess of leg	682.6^^2	Outpatient
+1272431	2003-08-23	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2003-10-21	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2004-03-09	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2004-05-29	Viral disease	079.99^^2	Outpatient
+1272431	2004-09-07	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2005-04-19	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2005-10-25	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2005-12-17	Acute upper respiratory infection	465.9^^2	Outpatient
+1272431	2005-12-17	Hyperlipidemia	272.4^^2	Outpatient
+1272431	2006-05-09	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2006-05-27	Hemorrhage of rectum and anus	569.3^^2	Outpatient
+1272431	2006-05-27	Sensorineural hearing loss	389.10^^2	Outpatient
+1272431	2006-07-09	Benign neoplasm of colon	211.3^^2	Outpatient
+1272431	2006-07-09	Colon neoplasm screening	V76.51^^2	Outpatient
+1272431	2006-07-09	Diverticular disease of colon	562.10^^2	Outpatient
+1272431	2006-07-09	Internal hemorrhoids without mention of complication	455.0^^2	Outpatient
+1272431	2006-10-01	Screening for malignant neoplasms of the skin	V76.43^^2	Outpatient
+1272431	2006-10-24	Sensorineural hearing loss	389.10^^2	Outpatient
+1272431	2006-11-07	Primary malignant neoplasm of kidney	189.0^^2	Outpatient
+1272431	2007-07-22	Hyperlipidemia	272.4^^2	Outpatient
+1272431	2007-11-27	Primary malignant neoplasm of prostate	185^^2	Outpatient
+1272431	2008-09-07	Low back pain	724.2^^2	Outpatient
+1272431	2008-09-07	Shoulder joint pain	719.41^^2	Outpatient
+1272431	2008-09-07	Viral disease	079.99^^2	Outpatient
+1272431	2008-10-07	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1272431	2008-12-06	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1272431	2009-08-09	Malaise and fatigue	780.79^^2	Outpatient
+1288992	2005-05-22	Amnesia	780.93^^2	Inpatient
+1288992	2007-07-11	Benign essential hypertension	401.1^^2	Outpatient
+1288992	2007-07-11	Need for prophylactic vaccination and inoculation against Streptococcus pneumoniae [pneumococcus] and influenza	V06.6^^2	Outpatient
+1288992	2007-07-11	Osteoarthritis	715.90^^2	Outpatient
+1288992	2007-09-15	Other persistent mental disorders due to conditions classified elsewhere	294.8^^2	Outpatient
+1288992	2007-11-17	Adult health examination	V70.0^^2	Outpatient
+1288992	2007-11-17	Benign essential hypertension	401.1^^2	Outpatient
+1288992	2007-11-17	Vascular dementia, uncomplicated	290.40^^2	Outpatient
+1288992	2007-12-16	Benign essential hypertension	401.1^^2	Outpatient
+1288992	2008-04-20	Essential hypertension	401.9^^2	Outpatient
+1288992	2008-07-10	Amnesia	780.93^^2	Outpatient
+1288992	2008-07-10	Benign essential hypertension	401.1^^2	Outpatient
+1288992	2008-07-10	Cerebral ischemia	437.1^^2	Outpatient
+1288992	2008-07-10	Disorder of lung	518.89^^2	Outpatient
+1288992	2008-07-10	Long-term drug therapy	V58.69^^2	Outpatient
+1288992	2008-08-08	Alzheimer's disease	331.0^^2	Outpatient
+1288992	2008-08-08	Dementia associated with another disease	294.10^^2	Outpatient
+1288992	2008-08-08	Needs influenza immunization	V04.81^^2	Outpatient
+1288992	2008-10-19	Essential hypertension	401.9^^2	Outpatient
+1288992	2008-12-18	Alzheimer's disease	331.0^^2	Outpatient
+1288992	2008-12-18	Dementia associated with another disease	294.11^^2	Outpatient
+1291938	2007-05-23	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-06-05	Breast lump	611.72^^2	Outpatient
+1291938	2007-06-05	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-06-19	Carcinoma in situ of breast	233.0^^2	Outpatient
+1291938	2007-06-19	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-06-22	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-07-02	Breast lump	611.72^^2	Outpatient
+1291938	2007-07-02	Estrogen receptor positive tumor	V86.0^^2	Outpatient
+1291938	2007-07-02	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-07-16	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-07-17	Needs influenza immunization	V04.81^^2	Outpatient
+1291938	2007-07-17	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-07-27	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-01	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-02	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-03	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-06	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-07	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-08	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-09	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-10	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-13	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-14	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-15	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-16	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-17	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-20	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-21	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-22	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-23	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-24	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-08-27	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-11-12	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1291938	2007-11-12	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-11-27	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-12-11	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2007-12-20	Asymptomatic postmenopausal status (age-related) (natural)	V49.81^^2	Outpatient
+1291938	2007-12-20	Ovarian failure	256.39^^2	Outpatient
+1291938	2008-02-05	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-02-07	Senile nuclear sclerosis	366.16^^2	Outpatient
+1291938	2008-02-20	Senile nuclear sclerosis	366.16^^2	Outpatient
+1291938	2008-02-25	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-02-28	Neoplasm of breast	239.3^^2	Outpatient
+1291938	2008-02-28	Postprocedural state finding	V45.89^^2	Outpatient
+1291938	2008-03-05	Senile nuclear sclerosis	366.16^^2	Outpatient
+1291938	2008-04-18	H/O: artificial eye lens	V43.1^^2	Outpatient
+1291938	2008-05-20	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-05-27	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1291938	2008-05-27	Microcalcifications of the breast	793.81^^2	Outpatient
+1291938	2008-06-05	Fat necrosis of breast	611.3^^2	Outpatient
+1291938	2008-06-05	Fibrosclerosis of breast	610.3^^2	Outpatient
+1291938	2008-06-06	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1291938	2008-06-06	Microcalcifications of the breast	793.81^^2	Outpatient
+1291938	2008-06-13	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-09-10	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-11-07	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-11-19	Abnormal weight loss	783.21^^2	Outpatient
+1291938	2008-11-19	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2008-12-18	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-01-07	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-02-17	Abnormal weight loss	783.21^^2	Outpatient
+1291938	2009-02-17	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-05-13	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-06-02	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-06-17	Essential hypertension	401.9^^2	Outpatient
+1291938	2009-06-17	Hyperlipidemia	272.4^^2	Outpatient
+1291938	2009-06-17	Needs influenza immunization	V04.81^^2	Outpatient
+1291938	2009-06-18	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1291938	2009-06-18	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1291938	2009-06-18	Screening mammogram for high-risk patient	V76.11^^2	Outpatient
+1482713	2003-12-11	Eruption	782.1^^2	Outpatient
+1482713	2004-01-31	Acute upper respiratory infection	465.9^^2	Outpatient
+1482713	2004-01-31	Otitis media	2202^^1	Outpatient
+1482713	2004-01-31	Otitis media	382.9^^2	Outpatient
+1482713	2004-01-31	Upper respiratory infection	2231^^1	Outpatient
+1482713	2004-11-15	Otitis media	2202^^1	Outpatient
+1482713	2004-11-15	Otitis media	382.9^^2	Outpatient
+1482713	2004-11-15	Upper respiratory infection	2231^^1	Outpatient
+1482713	2004-11-15	Well child	5105^^1	Outpatient
+1482713	2005-04-17	Routine infant or child health check	V20.2^^2	Outpatient
+1482713	2005-06-25	Insect bite, nonvenomous, of other, multiple, and unspecified sites, without mention of infection	919.4^^2	Outpatient
+1482713	2005-06-25	Nasal discharge	4693^^1	Outpatient
+1482713	2005-06-25	Other diseases of nasal cavity and sinuses	478.1^^2	Outpatient
+1482713	2005-06-25	Otitis media	2202^^1	Outpatient
+1482713	2005-06-25	Upper respiratory infection	2231^^1	Outpatient
+1482713	2005-06-25	Well child	5105^^1	Outpatient
+1482713	2005-09-25	Contact dermatitis and other eczema, unspecified cause	692.9^^2	Outpatient
+1482713	2005-09-25	Insect bite, nonvenomous, of other, multiple, and unspecified sites, without mention of infection	919.4^^2	Outpatient
+1482713	2005-09-25	Nasal discharge	4693^^1	Outpatient
+1482713	2005-09-25	Otitis media	2202^^1	Outpatient
+1482713	2005-09-25	Upper respiratory infection	2231^^1	Outpatient
+1482713	2005-09-25	Well child	5105^^1	Outpatient
+1482713	2006-06-15	Acute upper respiratory infection	465.9^^2	Outpatient
+1482713	2006-09-03	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+1482713	2006-09-03	Poliomyelitis vaccination	V04.0^^2	Outpatient
+1482713	2006-09-03	Routine infant or child health check	V20.2^^2	Outpatient
+1482713	2006-09-03	Vaccination for diphtheria, pertussis, and tetanus	V06.1^^2	Outpatient
+1482713	2008-05-04	Contact dermatitis and other eczema, unspecified cause	692.9^^2	Outpatient
+1482713	2008-05-04	Eruption	782.1^^2	Outpatient
+1482713	2008-05-04	Routine infant or child health check	V20.2^^2	Outpatient
+1482713	2008-05-25	Contact dermatitis and other eczema, unspecified cause	692.9^^2	Outpatient
+1482713	2008-12-31	Disruptive behavior disorder	312.9^^2	Outpatient
+1482713	2009-02-04	Other specified pervasive developmental disorders, current or active state	299.80^^2	Outpatient
+1482713	2009-03-23	Other specified pervasive developmental disorders, current or active state	299.80^^2	Outpatient
+1482713	2009-04-01	Disturbance in speech	784.5^^2	Outpatient
+1482713	2009-04-29	Routine infant or child health check	V20.2^^2	Outpatient
+1520204	2007-07-08	Arthralgia of the pelvic region and thigh	719.45^^2	Inpatient
+1520204	2007-07-08	Chronic obstructive lung disease	496^^2	Inpatient
+1520204	2007-07-08	Essential hypertension	401.9^^2	Inpatient
+1520204	2007-07-08	Osteoarthrosis, unspecified whether generalized or localized, involving pelvic region and thigh	715.95^^2	Inpatient
+1520204	2007-07-08	Tobacco dependence syndrome	305.1^^2	Inpatient
+1520204	2007-07-19	Localized, primary osteoarthritis	715.10^^2	Inpatient
+1520204	2008-01-14	Chronic obstructive lung disease	496^^2	Inpatient
+1520204	2008-01-14	Essential hypertension	401.9^^2	Inpatient
+1520204	2008-01-14	Hyperlipidemia	272.4^^2	Inpatient
+1520204	2008-01-14	Osteoarthritis	715.90^^2	Inpatient
+1520204	2008-04-24	Acute conjunctivitis	372.00^^2	Inpatient
+1520204	2008-04-24	Allergy	995.3^^2	Inpatient
+1520204	2008-09-02	Backache	724.5^^2	Inpatient
+1520204	2008-09-02	Bronchitis	490^^2	Inpatient
+1520204	2008-09-02	Chest pain	786.50^^2	Inpatient
+1520204	2008-09-02	Chronic obstructive lung disease	496^^2	Inpatient
+1520204	2008-09-02	Cough	786.2^^2	Inpatient
+1520204	2008-09-02	Tobacco dependence syndrome	305.1^^2	Inpatient
+1520204	2009-01-26	Arthralgia of the lower leg	719.46^^2	Inpatient
+1520204	2009-01-26	Benign essential hypertension	401.1^^2	Inpatient
+1520204	2009-01-26	Chronic obstructive lung disease	496^^2	Inpatient
+1520204	2009-01-26	Pure hypercholesterolemia	272.0^^2	Inpatient
+1520204	2009-01-26	Tobacco dependence syndrome	305.1^^2	Inpatient
+1520204	2009-04-22	Acute exacerbation of chronic obstructive airways disease	491.21^^2	Outpatient
+1520204	2009-04-22	Arthropathy	716.90^^2	Outpatient
+1520204	2009-04-22	Chronic obstructive lung disease	496^^2	Outpatient
+1520204	2009-04-22	Hyperlipidemia	272.4^^2	Outpatient
+1520204	2009-05-25	Hyperlipidemia	272.4^^2	Outpatient
+1520204	2009-05-29	Acute exacerbation of chronic obstructive airways disease	491.21^^2	Outpatient
+1520204	2009-05-29	Benign essential hypertension	401.1^^2	Outpatient
+1520204	2009-05-29	Chronic obstructive lung disease	496^^2	Outpatient
+1520204	2009-05-29	Hyperlipidemia	272.4^^2	Outpatient
+1540505	2005-03-09	Dyspepsia and other specified disorders of function of stomach	536.8^^2	Outpatient
+1540505	2005-03-09	Peptic ulcer without hemorrhage, without perforation AND without obstruction	533.90^^2	Outpatient
+1540505	2005-03-12	Abdominal pain	789.00^^2	Outpatient
+1540505	2005-03-12	Diabetes mellitus type 2	250.00^^2	Outpatient
+1540505	2005-03-25	Right upper quadrant pain	789.01^^2	Outpatient
+1540505	2005-11-20	Chest pain	786.50^^2	Outpatient
+1540505	2005-11-20	Diabetes mellitus type 2	250.00^^2	Outpatient
+1540505	2005-12-30	Absence of menstruation	626.0^^2	Inpatient
+1540505	2005-12-30	Acidosis	276.2^^2	Inpatient
+1540505	2005-12-30	Constipation	564.00^^2	Inpatient
+1540505	2005-12-30	Dehydration	276.51^^2	Inpatient
+1540505	2005-12-30	Diabetes mellitus type 2	250.00^^2	Inpatient
+1540505	2005-12-30	Encounter for long-term (current) use of insulin	V58.67^^2	Inpatient
+1540505	2005-12-30	Gastroesophageal reflux disease	530.81^^2	Inpatient
+1540505	2005-12-30	Hypokalemia	276.8^^2	Inpatient
+1540505	2005-12-30	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Inpatient
+1540505	2005-12-30	Other drugs and medicinal substances causing adverse effects in therapeutic use	E947.8^^2	Inpatient
+1540505	2005-12-30	Pure hypercholesterolemia	272.0^^2	Inpatient
+1540505	2006-04-10	Diabetes mellitus type 2	250.00^^2	Outpatient
+1540505	2006-04-10	Essential hypertension	401.9^^2	Outpatient
+1540505	2006-04-10	Headache	784.0^^2	Outpatient
+1551992	2004-08-19	Chest pain	786.50^^2	Outpatient
+1551992	2004-08-26	Screening mammography	V76.12^^2	Outpatient
+1551992	2008-02-22	Benign essential hypertension	401.1^^2	Outpatient
+1551992	2008-02-22	Hypertensive disorder	374^^1	Outpatient
+1551992	2008-05-14	Benign essential hypertension	401.1^^2	Outpatient
+1551992	2008-05-14	Chronic obstructive lung disease	364^^1	Outpatient
+1551992	2008-05-14	Essential hypertension	3850^^1	Outpatient
+1551992	2008-05-14	Gout	2313^^1	Outpatient
+1551992	2008-05-14	Gout	274.9^^2	Outpatient
+1551992	2008-05-14	Hypercholesterolemia	8324^^1	Outpatient
+1551992	2008-05-14	Hypertensive disorder	374^^1	Outpatient
+1551992	2008-06-04	Cervical neoplasia screening	V76.2^^2	Outpatient
+1551992	2008-06-04	Chronic obstructive lung disease	364^^1	Outpatient
+1551992	2008-06-04	Essential hypertension	3850^^1	Outpatient
+1551992	2008-06-04	Gout	2313^^1	Outpatient
+1551992	2008-06-04	Hypercholesterolemia	8324^^1	Outpatient
+1551992	2008-06-04	Hypertensive disorder	374^^1	Outpatient
+1551992	2008-06-04	Routine gynecological examination	V72.31^^2	Outpatient
+1551992	2008-06-04	Special investigations and examinations - Gynecological examination	9838^^1	Outpatient
+1551992	2008-06-05	Follow-up encounter	V67.9^^2	Outpatient
+1551992	2008-06-20	Onychomycosis due to dermatophyte	110.1^^2	Outpatient
+1551992	2008-11-06	Osteoarthrosis, unspecified whether generalized or localized, involving lower leg	715.96^^2	Outpatient
+1551992	2009-04-15	Chronic obstructive lung disease	364^^1	Outpatient
+1551992	2009-04-15	Essential hypertension	3850^^1	Outpatient
+1551992	2009-04-15	Gout	2313^^1	Outpatient
+1551992	2009-04-15	Hypercholesterolemia	8324^^1	Outpatient
+1551992	2009-04-15	Hypertensive disorder	374^^1	Outpatient
+1551992	2009-04-15	Special investigations and examinations - Gynecological examination	9838^^1	Outpatient
+1557780	2005-06-01	Mature cataract	366.17^^2	Inpatient
+1557780	2005-06-01	Pulmonary emphysema	492.8^^2	Inpatient
+1557780	2005-06-01	Tobacco dependence syndrome	305.1^^2	Inpatient
+1557780	2005-06-15	Chronic obstructive lung disease	496^^2	Inpatient
+1557780	2005-06-15	Mature cataract	366.17^^2	Inpatient
+1557780	2005-06-15	Tobacco dependence syndrome	305.1^^2	Inpatient
+1557780	2009-03-16	Chronic obstructive lung disease	496^^2	Outpatient
+1557780	2009-03-16	Other dyspnea and respiratory abnormality	786.09^^2	Outpatient
+1557780	2009-06-01	Emphysematous bronchitis	491.20^^2	Outpatient
+1557780	2009-09-04	Acute bronchitis	466.0^^2	Emergency
+1557780	2009-09-04	Chronic asthmatic bronchitis	493.20^^2	Emergency
+1557780	2009-09-04	Dyspnea	786.05^^2	Emergency
+1557780	2009-09-04	Essential hypertension	401.9^^2	Emergency
+1557780	2009-09-04	Gastroesophageal reflux disease	530.81^^2	Emergency
+1557780	2009-09-04	Tobacco dependence syndrome	305.1^^2	Emergency
+1577780	2005-08-02	Disorder of breast	611.79^^2	Outpatient
+1577780	2005-08-22	Essential hypertension	401.9^^2	Outpatient
+1577780	2005-08-22	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+1577780	2005-08-22	Microcalcifications of the breast	793.81^^2	Outpatient
+1577780	2005-08-22	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-08-30	Observation for suspected malignant neoplasm	V71.1^^2	Outpatient
+1577780	2005-08-30	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-09-11	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+1577780	2005-09-11	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-09-11	Secondary and unspecified malignant neoplasm of lymph nodes of axilla and upper limb	196.3^^2	Outpatient
+1577780	2005-09-22	Asthma	493.90^^2	Outpatient
+1577780	2005-09-22	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+1577780	2005-09-22	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-10-25	Follow-up risk drug assessment	V67.51^^2	Outpatient
+1577780	2005-10-25	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-10-27	Essential hypertension	401.9^^2	Outpatient
+1577780	2005-10-27	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+1577780	2005-10-27	Hypothyroidism	244.9^^2	Outpatient
+1577780	2005-10-27	Primary malignant neoplasm of female breast	174.9^^2	Outpatient
+1577780	2005-10-27	Ulcerative colitis	556.9^^2	Outpatient
+1577780	2006-02-20	FH: leukemia	V16.6^^2	Outpatient
+1577780	2006-02-20	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+1577780	2006-02-20	History of tobacco use	V15.82^^2	Outpatient
+1577780	2006-02-20	Hypothyroidism	244.9^^2	Outpatient
+1577780	2006-02-20	Primary malignant neoplasm of lower outer quadrant of female breast	174.5^^2	Outpatient
+1577780	2006-02-20	Secondary and unspecified malignant neoplasm of lymph nodes of axilla and upper limb	196.3^^2	Outpatient
+1577780	2006-02-20	Ulcerative colitis	556.9^^2	Outpatient
+1577780	2007-01-07	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2007-01-07	Hypothyroidism	244.9^^2	Outpatient
+1577780	2007-02-21	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2007-02-21	Toxic diffuse goiter	242.00^^2	Outpatient
+1577780	2008-04-08	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2008-04-08	Essential hypertension	401.9^^2	Outpatient
+1577780	2008-04-08	Hyperlipidemia	272.4^^2	Outpatient
+1577780	2008-04-08	Hypothyroidism	244.9^^2	Outpatient
+1577780	2008-10-06	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2008-10-06	Hyperlipidemia	272.4^^2	Outpatient
+1577780	2008-10-06	Hypothyroidism	244.9^^2	Outpatient
+1577780	2008-11-19	Hypothyroidism	244.9^^2	Outpatient
+1577780	2008-12-29	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2008-12-29	Hyperlipidemia	272.4^^2	Outpatient
+1577780	2008-12-29	Hypothyroidism	244.9^^2	Outpatient
+1577780	2009-05-11	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2009-05-11	Hypothyroidism	244.9^^2	Outpatient
+1577780	2009-06-29	Diabetes mellitus type 2	250.00^^2	Outpatient
+1577780	2009-09-01	Diabetes mellitus type 2	250.00^^2	Outpatient
+1614502	2007-10-28	Cervicitis and endocervicitis	616.0^^2	Emergency
+1614502	2007-10-28	Diaper rash	691.0^^2	Emergency
+1614502	2007-10-28	Diaper rash	691.0^^2	Outpatient
+1614502	2007-10-28	Otitis media	382.9^^2	Emergency
+1614502	2007-10-28	Otitis media	382.9^^2	Outpatient
+1614502	2007-12-01	Finding of head and neck region	784.99^^2	Emergency
+1614502	2007-12-01	Foreign body in larynx	933.1^^2	Emergency
+1614502	2007-12-01	Foreign body in larynx	933.1^^2	Outpatient
+1614502	2007-12-01	Otitis media	382.9^^2	Emergency
+1614502	2007-12-01	Otitis media	382.9^^2	Outpatient
+1614502	2007-12-01	Vomiting	787.03^^2	Emergency
+1614502	2007-12-01	Vomiting	787.03^^2	Outpatient
+1614502	2008-02-14	Acute upper respiratory infection	465.9^^2	Outpatient
+1614502	2008-02-14	General well-being finding	V65.5^^2	Outpatient
+1614502	2008-04-03	Otitis media	382.9^^2	Outpatient
+1614502	2008-07-10	Otitis media	382.9^^2	Nursing
+1614502	2008-07-10	Otitis media	382.9^^2	Outpatient
+1614502	2008-07-10	Pneumococcal vaccination	V03.82^^2	Outpatient
+1614502	2008-07-10	Routine infant or child health check	V20.2^^2	Nursing
+1614502	2008-07-10	Routine infant or child health check	V20.2^^2	Outpatient
+1614502	2008-07-10	Varicella vaccination	V05.4^^2	Outpatient
+1614502	2008-09-12	Acute upper respiratory infection	465.9^^2	Outpatient
+1614502	2008-11-12	Acute upper respiratory infection	465.9^^2	Outpatient
+1614502	2008-11-12	Otitis media	382.9^^2	Outpatient
+1614502	2008-12-12	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Emergency
+1614502	2008-12-12	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Outpatient
+1627321	2007-08-31	Diabetes mellitus type 2	250.00^^2	Inpatient
+1627321	2008-07-17	Diabetes mellitus type 2	250.00^^2	Inpatient
+1627321	2008-09-08	Articular gout	274.0^^2	Inpatient
+1627321	2008-09-08	Body mass index 40+ - severely obese	V85.4^^2	Inpatient
+1627321	2008-09-08	Diabetes mellitus type 2	250.00^^2	Inpatient
+1627321	2008-09-08	Displacement of lumbar intervertebral disc without myelopathy	722.10^^2	Inpatient
+1627321	2008-09-08	Encounter for long-term (current) use of aspirin	V58.66^^2	Inpatient
+1627321	2008-09-08	Essential hypertension	401.9^^2	Inpatient
+1627321	2008-09-08	FH: Arthritis	V17.7^^2	Inpatient
+1627321	2008-09-08	FH: Cardiovascular disease	V17.49^^2	Inpatient
+1627321	2008-09-08	FH: Diabetes mellitus	V18.0^^2	Inpatient
+1627321	2008-09-08	Low back pain	724.2^^2	Inpatient
+1627321	2008-09-08	Morbid obesity	278.01^^2	Inpatient
+1627321	2008-09-08	Nausea and vomiting	787.01^^2	Inpatient
+1627321	2008-09-08	Obstructive sleep apnea (adult) (pediatric)	327.23^^2	Inpatient
+1627321	2008-10-05	Low back pain	724.2^^2	Inpatient
+1627321	2008-10-05	Physical rehabilitation therapy procedure	V57.1^^2	Inpatient
+1627321	2008-10-05	Postsurgical intestinal bypass or anastomosis status	V45.3^^2	Inpatient
+1627321	2008-11-18	Pain in limb	729.5^^2	Inpatient
+1627321	2008-11-18	Postsurgical arthrodesis status	V45.4^^2	Inpatient
+1642068	2003-11-03	Screening mammography	V76.12^^2	Outpatient
+1642068	2004-12-10	Screening mammography	V76.12^^2	Outpatient
+1642068	2004-12-19	Benign neoplasm of stomach	211.1^^2	Outpatient
+1642068	2004-12-19	Essential hypertension	401.9^^2	Outpatient
+1642068	2004-12-19	Gastritis	535.40^^2	Outpatient
+1642068	2004-12-19	Hypothyroidism	244.9^^2	Outpatient
+1642068	2004-12-19	Other specified disorders of stomach and duodenum	537.89^^2	Outpatient
+1642068	2004-12-19	Pernicious anemia	281.0^^2	Outpatient
+1642068	2004-12-20	Microcalcifications of the breast	793.81^^2	Outpatient
+1642068	2004-12-30	Microcalcifications of the breast	793.81^^2	Outpatient
+1642068	2005-02-20	Abnormal mammogram, unspecified	793.80^^2	Outpatient
+1642068	2005-02-20	Essential hypertension	401.9^^2	Outpatient
+1642068	2005-02-20	History of malignant neoplasm of breast	V10.3^^2	Outpatient
+1642068	2005-02-20	Hypothyroidism	244.9^^2	Outpatient
+1642068	2005-02-20	Microcalcifications of the breast	793.81^^2	Outpatient
+1642068	2005-02-20	Osteoarthritis	715.90^^2	Outpatient
+1642068	2005-02-20	Pernicious anemia	281.0^^2	Outpatient
+1642068	2005-07-09	Microcalcifications of the breast	793.81^^2	Outpatient
+1642068	2005-12-02	Screening mammogram for high-risk patient	V76.11^^2	Outpatient
+1642068	2005-12-20	Pain in limb	729.5^^2	Outpatient
+1642068	2006-01-01	Pain in limb	729.5^^2	Outpatient
+1642068	2006-01-01	Pre-surgery evaluation	V72.83^^2	Outpatient
+1642068	2006-01-07	Essential hypertension	401.9^^2	Outpatient
+1642068	2006-01-07	Exostosis of unspecified site	726.91^^2	Outpatient
+1642068	2006-01-07	H/O: penicillin allergy	V14.0^^2	Outpatient
+1642068	2006-01-07	Hypothyroidism	244.9^^2	Outpatient
+1685497	2003-11-10	Chest pain	786.50^^2	Outpatient
+1685497	2003-11-10	Chest pain	786.59^^2	Emergency
+1685497	2003-11-10	Epigastric pain	789.06^^2	Outpatient
+1685497	2003-11-10	FH: Cardiac disorder	V17.3^^2	Emergency
+1685497	2003-11-10	Fever and other physiologic disturbances of temperature regulation	780.6^^2	Emergency
+1685497	2003-11-10	Gastro-esophageal reflux disease with esophagitis	530.11^^2	Outpatient
+1685497	2003-11-10	Nausea	787.02^^2	Outpatient
+1685497	2003-11-10	White blood cell disorder	288.8^^2	Emergency
+1685497	2003-11-11	Chest pain	786.50^^2	Outpatient
+1685497	2003-11-18	Essential hypertension	401.9^^2	Outpatient
+1685497	2003-11-18	FH: Cardiac disorder	V17.3^^2	Outpatient
+1685497	2003-11-18	Lipidosis	272.7^^2	Outpatient
+1685497	2003-11-18	Metabolic syndrome X	277.7^^2	Outpatient
+1685497	2003-11-18	Morbid obesity	278.01^^2	Outpatient
+1685497	2003-12-20	Benign essential hypertension	401.1^^2	Outpatient
+1685497	2003-12-20	Pure hypercholesterolemia	272.0^^2	Outpatient
+1685497	2005-01-18	Adult health examination	V70.0^^2	Outpatient
+1685497	2005-01-18	Diabetes mellitus type 2	250.00^^2	Outpatient
+1685497	2005-01-18	Hyperlipidemia	272.4^^2	Outpatient
+1685497	2005-08-20	Hyperlipidemia	272.4^^2	Outpatient
+1685497	2005-08-20	Low back pain	724.2^^2	Outpatient
+1685497	2006-09-30	Hyperlipidemia	272.4^^2	Outpatient
+1685497	2007-03-29	Benign essential hypertension	401.1^^2	Outpatient
+1768562	2003-11-30	Atrial fibrillation	427.31^^2	Inpatient
+1768562	2003-11-30	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2003-11-30	Chest pain	786.50^^2	Outpatient
+1768562	2003-11-30	Chronic pulmonary heart disease	416.8^^2	Outpatient
+1768562	2003-11-30	Congestive rheumatic heart failure	398.91^^2	Inpatient
+1768562	2003-11-30	Congestive rheumatic heart failure	398.91^^2	Outpatient
+1768562	2003-11-30	Coronary arteriosclerosis	414.01^^2	Outpatient
+1768562	2003-11-30	Dilated cardiomyopathy secondary to alcohol	425.5^^2	Inpatient
+1768562	2003-11-30	Dilated cardiomyopathy secondary to alcohol	425.5^^2	Outpatient
+1768562	2003-11-30	FH: Cardiac disorder	V17.3^^2	Outpatient
+1768562	2003-11-30	Hypertensive heart disease, unspecified, without heart failure	402.90^^2	Outpatient
+1768562	2003-11-30	Mitral insufficiency and aortic stenosis	396.2^^2	Inpatient
+1768562	2003-11-30	Mitral insufficiency and aortic stenosis	396.2^^2	Outpatient
+1768562	2003-11-30	Sinus node dysfunction	427.81^^2	Outpatient
+1768562	2003-11-30	Tobacco dependence syndrome	305.1^^2	Outpatient
+1768562	2003-12-01	Atrial fibrillation	427.31^^2	Inpatient
+1768562	2003-12-01	Chest pain	786.50^^2	Inpatient
+1768562	2004-01-03	Atrial fibrillation	427.31^^2	Inpatient
+1768562	2004-01-03	Cardiomyopathy	425.4^^2	Inpatient
+1768562	2004-01-03	Chronic pulmonary heart disease	416.8^^2	Inpatient
+1768562	2004-01-03	Depressive disorder	311^^2	Inpatient
+1768562	2004-01-03	Encounter for long-term (current) use of anticoagulants	V58.61^^2	Inpatient
+1768562	2004-01-03	FH: Cardiac disorder	V17.3^^2	Inpatient
+1768562	2004-01-03	History of tobacco use	V15.82^^2	Inpatient
+1768562	2004-01-03	Hyperlipidemia	272.4^^2	Inpatient
+1768562	2004-02-10	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2004-02-10	Cardiomyopathy	425.4^^2	Outpatient
+1768562	2004-03-01	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2004-03-31	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2004-03-31	Encounter for long-term (current) use of anticoagulants	V58.61^^2	Outpatient
+1768562	2004-05-01	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2004-09-15	Chronic obstructive lung disease	496^^2	Outpatient
+1768562	2004-09-26	Atrial fibrillation	427.31^^2	Outpatient
+1768562	2004-09-26	Encounter for long-term (current) use of anticoagulants	V58.61^^2	Outpatient
+1796238	2006-07-17	Acute respiratory failure	518.81^^2	Inpatient
+1796238	2006-07-17	Altered mental status	780.97^^2	Inpatient
+1796238	2006-07-17	Chronic asthmatic bronchitis	493.20^^2	Inpatient
+1796238	2006-07-17	Dehydration	276.51^^2	Inpatient
+1796238	2006-07-17	Diabetes mellitus type 2	250.00^^2	Inpatient
+1796238	2006-07-17	Disease due to Enterovirus	048^^2	Inpatient
+1796238	2006-07-17	Disorder of brain	348.39^^2	Inpatient
+1796238	2006-07-17	Essential hypertension	401.9^^2	Inpatient
+1796238	2006-07-17	Paralytic ileus	560.1^^2	Inpatient
+1796238	2006-07-17	Venous embolism and thrombosis of deep vessels of proximal lower extremity	453.41^^2	Inpatient
+1796238	2006-07-17	Viral hepatitis without hepatic coma	070.9^^2	Inpatient
+1869612	2004-01-08	Acute maxillary sinusitis	461.0^^2	Outpatient
+1869612	2004-04-28	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2004-04-28	Otitis media	382.9^^2	Outpatient
+1869612	2004-04-28	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+1869612	2004-08-23	Benign essential hypertension	401.1^^2	Emergency
+1869612	2004-08-23	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2004-08-23	Impotence of organic origin	607.84^^2	Emergency
+1869612	2004-08-23	Impotence of organic origin	607.84^^2	Outpatient
+1869612	2004-08-23	Mixed hyperlipidemia	272.2^^2	Outpatient
+1869612	2004-08-23	Screening for cancer	V76.49^^2	Emergency
+1869612	2004-08-23	Screening for cancer	V76.49^^2	Outpatient
+1869612	2004-08-23	Type II diabetes mellitus - poor control	250.02^^2	Emergency
+1869612	2004-08-23	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+1869612	2004-12-27	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+1869612	2005-07-31	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2005-07-31	Other general medical examination for administrative purposes	V70.3^^2	Outpatient
+1869612	2005-07-31	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1869612	2005-07-31	Type II diabetes mellitus - poor control	250.02^^2	Emergency
+1869612	2005-07-31	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+1869612	2005-08-03	Superficial injury of cornea	918.1^^2	Outpatient
+1869612	2005-08-21	Acquired stenosis of nasolacrimal duct	375.56^^2	Outpatient
+1869612	2006-11-13	Accident	E928.9^^2	Emergency
+1869612	2006-11-13	Contusion of toe	924.3^^2	Emergency
+1869612	2006-11-13	Diabetes mellitus type 2	250.00^^2	Emergency
+1869612	2007-08-01	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2007-08-01	Infection screening	V75.9^^2	Outpatient
+1869612	2007-12-11	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2007-12-11	Chronic hepatitis C	070.54^^2	Outpatient
+1869612	2007-12-11	Diabetes mellitus type 2	10180^^1	Outpatient
+1869612	2007-12-11	Essential hypertension	3850^^1	Outpatient
+1869612	2007-12-11	Viral hepatitis C	14673^^1	Outpatient
+1869612	2009-08-30	Benign essential hypertension	401.1^^2	Outpatient
+1869612	2009-08-30	Screening for malignant neoplasms of prostate	V76.44^^2	Outpatient
+1869612	2009-08-30	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+1951076	2004-12-20	Migraine	346.90^^2	Emergency
+1951076	2004-12-27	Gastroenteritis	4458^^1	Emergency
+1951076	2004-12-27	Other and unspecified noninfectious gastroenteritis and colitis	558.9^^2	Emergency
+1951076	2005-02-01	Nausea and vomiting	787.01^^2	Emergency
+1951076	2007-01-24	Gunshot wound	4131^^1	Emergency
+1951076	2007-01-24	Injury of unknown intent by firearms and explosives	E985.4^^2	Emergency
+1951076	2007-01-24	Open wound of knee, leg [except thigh], and ankle, without mention of complication	891.0^^2	Emergency
+1951076	2008-03-25	Nausea and vomiting	787.01^^2	Emergency
+1951076	2008-03-25	Orthostatic hypotension	4353^^1	Emergency
+1951076	2008-03-25	Orthostatic hypotension	458.0^^2	Emergency
+1951076	2008-10-27	Suicidal ideation							V62.84^^2	Inpatient
+1951076	2008-10-27	Suicidal thoughts	30030^^1	Inpatient
+1951076	2008-11-15	Anorexia	783.0^^2	Emergency
+1951076	2008-11-15	Clinical finding	307.9^^2	Emergency
+1951076	2008-11-15	Depressive disorder	311^^2	Emergency
+1951076	2008-11-15	Seizure	780.39^^2	Emergency
+1951076	2008-11-17	Suicidal ideation							V62.84^^2	Emergency
+1951076	2008-11-17	Suicidal ideation							V62.84^^2	Outpatient
+1951076	2008-11-17	Suicidal thoughts	30030^^1	Emergency
+1951076	2008-11-17	Suicidal thoughts	30030^^1	Outpatient
+1951076	2008-11-24	Cannabis dependence	304.30^^2	Inpatient
+1951076	2008-11-24	Cannabis dependence	304.30^^2	Outpatient
+2004454	2008-07-09	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+2004454	2008-07-10	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Inpatient
+2004454	2008-07-10	Single liveborn, born in hospital, delivered without mention of cesarean section	V30.00^^2	Outpatient
+2004454	2008-07-12	Ritual circumcision	V50.2^^2	Inpatient
+2004454	2008-07-12	Ritual circumcision	V50.2^^2	Outpatient
+2004454	2008-07-14	Abnormal weight loss	783.21^^2	Outpatient
+2004454	2008-07-14	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2008-08-01	Diaper rash	691.0^^2	Inpatient
+2004454	2008-08-01	Diaper rash	691.0^^2	Nursing
+2004454	2008-08-01	Diaper rash	691.0^^2	Outpatient
+2004454	2008-08-01	Galactorrhea							676.6^^2	Outpatient
+2004454	2008-08-01	Galactorrhea associated with childbirth	676.60^^2	Outpatient
+2004454	2008-09-07	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2008-11-14	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+2004454	2008-11-14	Pneumococcal vaccination	V03.82^^2	Outpatient
+2004454	2008-11-14	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2009-01-10	Combined immunization against bacterial and viral disease	V06.8^^2	Outpatient
+2004454	2009-01-10	Infective hepatitis immunization	V05.3^^2	Outpatient
+2004454	2009-01-10	Pneumococcal vaccination	V03.82^^2	Outpatient
+2004454	2009-01-10	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2009-03-02	Acute upper respiratory infection	465.9^^2	Outpatient
+2004454	2009-03-02	Otitis media	382.9^^2	Outpatient
+2004454	2009-04-12	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2009-05-04	Physiological development failure	783.40^^2	Others
+2004454	2009-05-30	Physiological development failure	783.40^^2	Others
+2004454	2009-06-06	Physiological development failure	783.40^^2	Others
+2004454	2009-06-13	Physiological development failure	783.40^^2	Others
+2004454	2009-06-20	Physiological development failure	783.40^^2	Others
+2004454	2009-07-20	Routine infant or child health check	V20.2^^2	Outpatient
+2004454	2009-08-07	Nausea and vomiting	787.01^^2	Emergency
+2004454	2009-08-07	Viral disease	079.99^^2	Emergency
+2042917	2006-04-11	Asthma	366^^1	Emergency
+2042917	2006-04-11	Sprain of ankle	845.00^^2	Emergency
+2042917	2006-04-11	Sprain of ankle	9921^^1	Emergency
+2042917	2006-04-11	Vomiting	787.03^^2	Emergency
+2042917	2006-04-11	Wheezing	786.07^^2	Emergency
+2042917	2006-07-05	Abnormal weight loss	783.21^^2	Inpatient
+2042917	2006-07-05	Asthma	366^^1	Inpatient
+2042917	2006-07-05	Asthma	493.90^^2	Emergency
+2042917	2006-07-05	Asthma	493.90^^2	Inpatient
+2042917	2006-07-05	Blood in stool	578.1^^2	Inpatient
+2042917	2006-07-05	Cocaine abuse	305.60^^2	Inpatient
+2042917	2006-07-05	Conduction disorder of the heart	427.9^^2	Inpatient
+2042917	2006-07-05	Dyspnea	2235^^1	Emergency
+2042917	2006-07-05	Dyspnea	2235^^1	Inpatient
+2042917	2006-07-05	Essential hypertension	401.9^^2	Inpatient
+2042917	2006-07-05	Exacerbation of asthma	493.92^^2	Emergency
+2042917	2006-07-05	Exacerbation of asthma	493.92^^2	Inpatient
+2042917	2006-07-05	Moderate persistent asthma	30573^^1	Emergency
+2042917	2006-07-05	Moderate persistent asthma	30573^^1	Inpatient
+2042917	2006-07-05	Tobacco dependence syndrome	305.1^^2	Inpatient
+2080416	2004-03-18	Umbilical hemorrhage after birth	772.3^^2	Outpatient
+2080416	2004-03-23	Vomiting	787.03^^2	Emergency
+2080416	2004-03-23	Vomiting	787.03^^2	Outpatient
+2080416	2004-03-26	Feeding difficulties and mismanagement	783.3^^2	Outpatient
+2080416	2004-04-01	Feeding problems in newborn	779.3^^2	Emergency
+2080416	2004-04-01	Feeding problems in newborn	779.3^^2	Outpatient
+2080416	2004-05-10	Cough	786.2^^2	Emergency
+2080416	2004-05-10	Cough	786.2^^2	Outpatient
+2080416	2004-05-10	Finding of head and neck region	784.9^^2	Emergency
+2080416	2004-09-02	Apnea	786.03^^2	Outpatient
+2080416	2004-11-06	Acute secretory otitis media	381.00^^2	Outpatient
+2080416	2004-12-11	Routine infant or child health check	V20.2^^2	Outpatient
+2080416	2005-03-06	Fever and other physiologic disturbances of temperature regulation	780.6^^2	Emergency
+2080416	2005-03-06	Otitis media	382.9^^2	Emergency
+2080416	2005-03-06	Otitis media	382.9^^2	Outpatient
+2081539	2006-01-16	Atrial fibrillation	427.31^^2	Inpatient
+2081539	2006-01-16	Benign neoplasm of colon	211.3^^2	Inpatient
+2081539	2006-01-16	Diverticular disease of colon	562.10^^2	Inpatient
+2081539	2006-01-16	Encounter for long-term (current) use of anticoagulants	V58.61^^2	Inpatient
+2081539	2006-01-16	Essential hypertension	401.9^^2	Inpatient
+2081539	2006-01-16	Hip joint replaced by other means	V43.64^^2	Inpatient
+2081539	2006-01-16	History of polyp of colon	V12.72^^2	Inpatient
+2081539	2006-01-16	Knee joint replaced by other means	V43.65^^2	Inpatient
+2081539	2006-01-16	Osteoarthritis	715.90^^2	Inpatient
+2081539	2009-01-07	Anal and rectal polyp	569.0^^2	Inpatient
+2081539	2009-01-07	Atrial fibrillation	427.31^^2	Inpatient
+2081539	2009-01-07	Benign neoplasm of colon	211.3^^2	Inpatient
+2081539	2009-01-07	Diabetes mellitus type 2	250.00^^2	Inpatient
+2081539	2009-01-07	Diverticular disease of colon	562.10^^2	Inpatient
+2081539	2009-01-07	Essential hypertension	401.9^^2	Inpatient
+2081539	2009-01-07	External hemorrhoids without complication	455.3^^2	Inpatient
+2081539	2009-01-07	History of polyp of colon	V12.72^^2	Inpatient
+2081539	2009-01-07	History of tobacco use	V15.82^^2	Inpatient
+2081539	2009-01-07	Osteoarthritis	715.90^^2	Inpatient
+2081539	2009-02-08	Radiographic imaging procedure	V72.5^^2	Inpatient
+2081539	2009-02-08	Screening mammography	V76.12^^2	Inpatient
+2113340	2006-02-13	Routine gynecological examination	V72.31^^2	Outpatient
+2113340	2006-02-14	Malaise and fatigue	780.79^^2	Outpatient
+2113340	2006-02-18	Screening mammography	V76.12^^2	Outpatient
+2113340	2006-08-15	Enthesopathy	726.90^^2	Outpatient
+2113340	2006-09-05	Abnormal glucose level	790.21^^2	Outpatient
+2113340	2007-05-13	Diabetes mellitus type 2	250.00^^2	Outpatient
+2113340	2007-05-26	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+2113340	2007-08-25	Hyperlipidemia	272.4^^2	Outpatient
+2113340	2007-08-28	Type II diabetes mellitus - poor control	250.02^^2	Outpatient
+2113340	2009-03-08	Acute myocardial infarction	410.90^^2	Emergency
+2113340	2009-03-08	Acute myocardial infarction	410.90^^2	Inpatient
+2113340	2009-03-08	Acute myocardial infarction of anterior wall	410.11^^2	Inpatient
+2113340	2009-03-08	Hyperlipidemia	272.4^^2	Inpatient
+2113340	2009-03-08	Precordial pain	786.51^^2	Emergency
+2113340	2009-03-08	Precordial pain	786.51^^2	Inpatient
+2169591	2003-11-24	Acne	706.1^^2	Outpatient
+2169591	2004-05-17	Hypothyroidism	244.9^^2	Emergency
+2169591	2004-05-17	Hypothyroidism	244.9^^2	Outpatient
+2169591	2004-05-17	Thyrotoxicosis without goiter OR other cause	242.90^^2	Outpatient
+2169591	2004-05-23	Thyrotoxicosis without goiter OR other cause	242.90^^2	Emergency
+2169591	2004-05-23	Thyrotoxicosis without goiter OR other cause	242.90^^2	Outpatient
+2169591	2004-06-06	Abnormal results of thyroid function studies	794.5^^2	Outpatient
+2169591	2004-06-06	Thyrotoxicosis without goiter OR other cause	242.90^^2	Emergency
+2169591	2004-06-06	Thyrotoxicosis without goiter OR other cause	242.90^^2	Outpatient
+2169591	2004-06-28	Cervical neoplasia screening	V76.2^^2	Emergency
+2169591	2004-06-28	Cervical neoplasia screening	V76.2^^2	Outpatient
+2169591	2004-06-28	Genitourinary disease screening	V81.6^^2	Outpatient
+2169591	2004-06-28	Leukorrhea	623.5^^2	Outpatient
+2169591	2004-06-28	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)	795.01^^2	Outpatient
+2169591	2004-06-28	Special investigations and examinations - Gynecological examination	V72.3^^2	Emergency
+2169591	2004-06-28	Special investigations and examinations - Gynecological examination	V72.3^^2	Outpatient
+2169591	2004-07-12	Hypothyroidism	244.9^^2	Outpatient
+2169591	2004-07-12	Thyrotoxicosis without goiter OR other cause	242.90^^2	Emergency
+2169591	2004-07-12	Thyrotoxicosis without goiter OR other cause	242.90^^2	Outpatient
+2169591	2004-11-25	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)	795.01^^2	Outpatient
+2169591	2004-12-04	Herpes simplex without complication	054.9^^2	Outpatient
+2169591	2005-07-17	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)	795.01^^2	Outpatient
+2169591	2006-05-19	Cancelled operative procedure	V64.1^^2	Emergency
+2169591	2008-08-18	Hyperlipidemia	272.4^^2	Outpatient
+2169591	2008-08-18	Hypothyroidism	244.9^^2	Outpatient
+2169591	2008-08-30	Routine gynecological examination	V72.31^^2	Outpatient
+2169591	2009-09-23	Allergy	995.3^^2	Emergency
+2169591	2009-09-23	Swelling, mass, or lump in head and neck	784.2^^2	Emergency
+2347217	2003-10-15	Benign essential hypertension	401.1^^2	Outpatient
+2347217	2003-10-15	Hyperlipidemia	272.4^^2	Outpatient
+2347217	2003-12-14	Abnormal ECG	18557^^1	Emergency
+2347217	2003-12-14	Benign hypertension	11185^^1	Emergency
+2347217	2003-12-14	Chest pain	2208^^1	Emergency
+2347217	2003-12-14	Chest pain	786.50^^2	Emergency
+2347217	2003-12-14	Chest pain	786.59^^2	Emergency
+2347217	2003-12-14	Conduction disorder, unspecified	2727^^1	Emergency
+2347217	2003-12-14	Essential hypertension	401.9^^2	Emergency
+2347217	2003-12-14	Hyperlipidemia	272.4^^2	Emergency
+2347217	2003-12-14	Nonspecific abnormal electrocardiogram [ECG] [EKG]	4730^^1	Emergency
+2347217	2003-12-14	Normal sinus rhythm	9327^^1	Emergency
+2347217	2003-12-14	Sinus bradycardia	11345^^1	Emergency
+2347217	2003-12-15	Benign hypertension	11185^^1	Inpatient
+2347217	2003-12-15	Chest pain	2208^^1	Inpatient
+2347217	2003-12-15	Chest pain	786.50^^2	Inpatient
+2347217	2003-12-15	Chest pain	786.59^^2	Inpatient
+2347217	2003-12-15	Essential hypertension	401.9^^2	Inpatient
+2347217	2003-12-15	Hyperlipidemia	272.4^^2	Inpatient
+2347217	2004-06-06	Benign essential hypertension	401.1^^2	Outpatient
+2347217	2004-06-06	Finding of frequency of urination	788.41^^2	Outpatient
+2347217	2004-06-20	Benign essential hypertension	401.1^^2	Outpatient
+2347217	2004-06-20	Diverticular disease of colon	562.10^^2	Outpatient
+2347217	2004-06-20	Hyperlipidemia	272.4^^2	Outpatient
+2354220	2007-07-23	Anemia	285.9^^2	Inpatient
+2354220	2007-07-23	Dysmenorrhea	625.3^^2	Inpatient
+2354220	2007-07-23	Endometriosis of uterus	617.0^^2	Inpatient
+2354220	2007-07-23	Excessive and frequent menstruation	626.2^^2	Inpatient
+2354220	2007-07-23	Intramural leiomyoma of uterus	218.1^^2	Inpatient
+2354220	2007-07-23	Subserous leiomyoma of uterus	218.2^^2	Inpatient
+2354220	2007-07-23	Tobacco dependence syndrome	305.1^^2	Inpatient
+2354220	2007-07-23	Urinary symptoms	788.69^^2	Inpatient
+2354220	2008-11-23	Chest pain	786.50^^2	Inpatient
+2354220	2008-11-23	Chronic obstructive lung disease	496^^2	Inpatient
+2354220	2008-11-23	Hyperlipidemia	272.4^^2	Inpatient
+2502813	2003-12-05	Acute upper respiratory infection	465.9^^2	Outpatient
+2502813	2003-12-05	Chronic obstructive lung disease	496^^2	Outpatient
+2502813	2003-12-05	Dyspnea	786.05^^2	Outpatient
+2502813	2003-12-05	Essential hypertension	401.9^^2	Outpatient
+2502813	2003-12-05	Tobacco dependence syndrome	305.1^^2	Outpatient
+2502813	2004-06-01	Arthralgia of the ankle and/or foot	719.47^^2	Outpatient
+2502813	2004-06-01	Joint effusion of ankle AND/OR foot	719.07^^2	Outpatient
+2502813	2004-06-06	Chronic obstructive lung disease	496^^2	Outpatient
+2502813	2004-06-06	Colon neoplasm screening	V76.51^^2	Outpatient
+2502813	2004-06-06	Essential hypertension	401.9^^2	Outpatient
+2502813	2004-06-06	Family history of malignant neoplasm of gastrointestinal tract	V16.0^^2	Outpatient
+2502813	2004-06-06	History of polyp of colon	V12.72^^2	Outpatient
+2502813	2004-06-17	Screening mammography	V76.12^^2	Inpatient
+2502813	2005-06-20	Screening mammography	V76.12^^2	Inpatient
+2502813	2006-02-02	Essential hypertension	401.9^^2	Outpatient
+2502813	2006-02-02	Female stress incontinence	625.6^^2	Outpatient
+2502813	2006-02-02	Pelvic muscle wasting	618.83^^2	Outpatient
+2502813	2006-02-02	Pre-surgery evaluation	V72.83^^2	Outpatient
+2502813	2006-02-05	Chronic obstructive lung disease	496^^2	Outpatient
+2502813	2006-02-05	Essential hypertension	401.9^^2	Outpatient
+2502813	2006-02-05	Female stress incontinence	625.6^^2	Outpatient
+2502813	2006-02-05	H/O: sulfonamide allergy	V14.2^^2	Outpatient
+2502813	2006-06-13	Open wound of forearm without complication	881.00^^2	Emergency

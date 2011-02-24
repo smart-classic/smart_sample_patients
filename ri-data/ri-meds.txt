@@ -1,0 +1,1404 @@
+PERSON_ID	START_DATE	DIAGNOSIS	SOURCE_DRUG_CODE	DRUG_QUANTITY	DAYS_SUPPLY	REFILLS	DRUG_EXPOSURE_TYPE_DESC
+629528	2006-12-03	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2006-12-14	Escitalopram 10 MG Oral Tablet [Lexapro]	00456201001^^357	0	90	0	Prescription Dispensed
+629528	2007-01-31	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2007-03-25	Escitalopram 10 MG Oral Tablet [Lexapro]	00456201001^^357	0	90	0	Prescription Dispensed
+629528	2007-04-17	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2007-06-14	Escitalopram 10 MG Oral Tablet [Lexapro]	00456201001^^357	0	90	0	Prescription Dispensed
+629528	2007-06-17	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2007-09-03	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2007-09-25	Escitalopram 10 MG Oral Tablet [Lexapro]	00456201001^^357	0	90	0	Prescription Dispensed
+629528	2007-11-05	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	63	0	Prescription Dispensed
+629528	2007-11-08	HUMAN PAPILLOMA VIRUS VACCINE QUADRIV 3 DOSE IM	90649^^3	0	0	0	Prescription Dispensed
+644201	2006-10-24	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2006-12-06	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-01-17	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-02-28	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-05-30	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-07-15	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-09-04	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-10-23	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2007-12-13	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+644201	2007-12-26	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-01-13	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-01-26	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-02-10	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-02-24	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-03-10	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-04-30	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-04-30	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-05-27	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-05-27	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-06-24	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-06-24	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-07-29	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-07-29	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-08-31	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-08-31	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-09-30	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-09-30	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-11-05	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-11-05	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-12-02	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-12-02	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2008-12-31	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2008-12-31	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+644201	2009-02-03	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	30	0	Prescription Dispensed
+644201	2009-02-03	Simvastatin 40 MG Oral Tablet	00093715598^^357	0	30	0	Prescription Dispensed
+665677	2006-12-05	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-01-04	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-02-05	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-03-06	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-04-03	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-04-03	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-05-06	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-05-18	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-06-06	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-06-21	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-07-06	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-07-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-08-05	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-08-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-09-04	Atenolol 100 MG Oral Tablet	00378075710^^357	0	0	0	Prescription Dispensed
+665677	2007-10-04	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	0	0	Prescription Dispensed
+665677	2007-10-04	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	0	0	Prescription Dispensed
+665677	2007-11-05	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2007-11-15	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2007-12-07	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2007-12-25	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-01-07	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-01-31	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-02-08	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-03-05	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-03-05	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-04-07	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-04-07	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-05-08	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-05-08	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-06-10	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-06-10	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-07-14	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-07-14	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-08-14	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-08-19	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-09-17	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-09-17	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	30	0	Prescription Dispensed
+665677	2008-10-04	Guanfacine 2 MG Oral Tablet	00378119001^^357	0	30	0	Prescription Dispensed
+665677	2008-10-15	24 HR Bupropion 150 MG Extended Release Tablet [Budeprion]	00093535056^^357	0	30	0	Prescription Dispensed
+665677	2008-10-15	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-10-15	Guanfacine 2 MG Oral Tablet	00378119001^^357	0	30	0	Prescription Dispensed
+665677	2008-11-09	24 HR Bupropion 150 MG Extended Release Tablet [Budeprion]	00093535056^^357	0	30	0	Prescription Dispensed
+665677	2008-11-09	24 HR Bupropion 150 MG Extended Release Tablet [Budeprion]	00093535056^^357	30	30	0	Prescription Dispensed
+665677	2008-11-09	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	30	0	Prescription Dispensed
+665677	2008-11-09	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	30	30	0	Prescription Dispensed
+665677	2008-12-05	24 HR Bupropion 150 MG Extended Release Tablet	10370010150^^357	0	90	0	Prescription Dispensed
+665677	2008-12-05	24 HR Bupropion 150 MG Extended Release Tablet	10370010150^^357	90	90	0	Prescription Dispensed
+665677	2008-12-05	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	90	0	Prescription Dispensed
+665677	2008-12-05	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	90	90	0	Prescription Dispensed
+665677	2008-12-05	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	90	0	Prescription Dispensed
+665677	2008-12-05	Guanfacine 1 MG Oral Tablet	00378116001^^357	90	90	0	Prescription Dispensed
+665677	2009-03-28	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	90	0	Prescription Dispensed
+665677	2009-03-28	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	90	90	0	Prescription Dispensed
+665677	2009-03-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	90	0	Prescription Dispensed
+665677	2009-03-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	90	90	0	Prescription Dispensed
+665677	2009-06-28	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	0	90	0	Prescription Dispensed
+665677	2009-06-28	Atenolol 100 MG / Chlorthalidone 25 MG Oral Tablet	00591578301^^357	90	90	0	Prescription Dispensed
+665677	2009-06-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	0	90	0	Prescription Dispensed
+665677	2009-06-28	Guanfacine 1 MG Oral Tablet	00378116001^^357	90	90	0	Prescription Dispensed
+724111	2007-05-18	MENINGOCOCCAL CONJ VACCINE TETRAVALENT IM	90734^^3	0	0	0	Prescription Dispensed
+724111	2007-05-18	Poliovirus Vaccine, Inactivated	90713^^3	0	0	0	Prescription Dispensed
+731673	2004-10-28	Cetirizine 10 MG Oral Tablet [Zyrtec]	00069551066^^357	0	30	0	Prescription Dispensed
+731673	2004-10-28	Levofloxacin 500 MG Oral Tablet [Levaquin]	00045152550^^357	0	10	0	Prescription Dispensed
+731673	2004-10-28	Promethazine 25 MG Oral Tablet	53265040610^^357	0	5	0	Prescription Dispensed
+731673	2004-11-03	Trazodone 50 MG Oral Tablet	00228243950^^357	0	30	0	Prescription Dispensed
+731673	2004-11-08	montelukast 10 MG Oral Tablet [Singulair]	00006011731^^357	0	30	0	Prescription Dispensed
+731673	2004-11-08	valdecoxib 20 MG Oral Tablet [Bextra]	00025198031^^357	0	30	0	Prescription Dispensed
+731673	2004-11-18	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00378135205^^357	0	30	0	Prescription Dispensed
+731673	2004-11-18	Lisinopril 20 MG Oral Tablet	00093111410^^357	0	30	0	Prescription Dispensed
+731673	2004-12-01	Trazodone 50 MG Oral Tablet	00228243950^^357	0	30	0	Prescription Dispensed
+731673	2005-01-04	Trazodone 50 MG Oral Tablet	00228243950^^357	0	30	0	Prescription Dispensed
+731673	2005-01-06	valdecoxib 20 MG Oral Tablet [Bextra]	00025198031^^357	0	30	0	Prescription Dispensed
+731673	2005-02-04	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00378135205^^357	0	30	0	Prescription Dispensed
+731673	2005-02-04	Lisinopril 20 MG Oral Tablet	00093111410^^357	0	30	0	Prescription Dispensed
+731673	2005-02-04	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-02-17	Acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet	00603546728^^357	0	10	0	Prescription Dispensed
+731673	2005-02-17	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	00002323730^^357	0	30	0	Prescription Dispensed
+731673	2005-03-14	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-04-16	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00378135205^^357	0	30	0	Prescription Dispensed
+731673	2005-04-16	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2005-04-16	Meclizine 25 MG Oral Tablet	49884003510^^357	0	7	0	Prescription Dispensed
+731673	2005-04-16	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-04-22	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	00002323730^^357	0	30	0	Prescription Dispensed
+731673	2005-04-24	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	00002323730^^357	0	30	0	Prescription Dispensed
+731673	2005-05-12	Nitrofurantoin 100 MG Oral Capsule	00591325001^^357	0	10	0	Prescription Dispensed
+731673	2005-05-17	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-06-24	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00378135205^^357	0	30	0	Prescription Dispensed
+731673	2005-06-24	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2005-06-24	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-07-17	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	00002323730^^357	0	30	0	Prescription Dispensed
+731673	2005-07-24	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-07-25	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-08-26	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-09-09	120 ACTUAT Triamcinolone 0.055 MG/ACTUAT Nasal Inhaler [Nasacort]	00075150616^^357	0	53	0	Prescription Dispensed
+731673	2005-09-23	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	50111053402^^357	0	30	0	Prescription Dispensed
+731673	2005-09-23	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2005-09-27	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-10-28	Meclizine 25 MG Oral Tablet	49884003510^^357	0	7	0	Prescription Dispensed
+731673	2005-10-28	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-11-28	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	50111053402^^357	0	30	0	Prescription Dispensed
+731673	2005-11-28	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2005-11-28	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2005-12-28	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2006-01-29	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2006-02-16	120 ACTUAT Triamcinolone 0.055 MG/ACTUAT Nasal Inhaler [Nasacort]	00075150616^^357	0	32	0	Prescription Dispensed
+731673	2006-02-16	duloxetine 60 MG Enteric Coated Capsule [Cymbalta]	00002323730^^357	0	30	0	Prescription Dispensed
+731673	2006-02-28	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2006-03-03	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	50111053402^^357	0	30	0	Prescription Dispensed
+731673	2006-03-03	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2006-04-01	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2006-04-28	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+731673	2006-06-01	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	50111053402^^357	0	30	0	Prescription Dispensed
+731673	2006-06-01	Lisinopril 20 MG Oral Tablet	00172376080^^357	0	30	0	Prescription Dispensed
+731673	2006-06-01	Trazodone 50 MG Oral Tablet	50111043302^^357	0	30	0	Prescription Dispensed
+736230	2003-10-23	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2003-11-24	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2003-12-22	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2004-01-23	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2004-02-21	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2004-03-24	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2004-04-17	Thyroxine 0.112 MG Oral Tablet [Synthroid]	00074929613^^357	0	0	0	Prescription Dispensed
+736230	2004-06-06	Thyroxine 0.1 MG Oral Tablet [Synthroid]	00074662413^^357	0	0	0	Prescription Dispensed
+736230	2004-07-05	Thyroxine 0.1 MG Oral Tablet [Synthroid]	00074662413^^357	0	0	0	Prescription Dispensed
+736230	2004-08-09	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2004-08-15	Cephalexin 500 MG Oral Capsule	00093314701^^357	0	0	0	Prescription Dispensed
+736230	2004-09-07	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	0	0	0	Prescription Dispensed
+736230	2004-10-01	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2004-11-03	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2004-12-01	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-01-02	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-01-26	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-03-05	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-03-28	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-05-05	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-06-03	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-07-02	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-07-18	Amoxicillin 875 MG Oral Tablet	00093226401^^357	0	0	0	Prescription Dispensed
+736230	2005-07-31	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-09-05	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-10-06	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-11-02	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2005-12-01	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2006-01-03	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2006-01-30	Thyroxine 0.088 MG Oral Tablet [Synthroid]	00074659413^^357	0	0	0	Prescription Dispensed
+736230	2006-03-04	Thyroxine 0.088 MG Oral Tablet	00781518301^^357	0	0	0	Prescription Dispensed
+736230	2006-04-03	Thyroxine 0.088 MG Oral Tablet	00781518301^^357	0	0	0	Prescription Dispensed
+736230	2006-04-17	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-05-02	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2006-05-06	Thyroxine 0.088 MG Oral Tablet	00781518301^^357	0	0	0	Prescription Dispensed
+736230	2006-05-15	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-05-31	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2006-06-04	Thyroxine 0.088 MG Oral Tablet	00781518301^^357	0	0	0	Prescription Dispensed
+736230	2006-06-07	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-07-03	Thyroxine 0.088 MG Oral Tablet	00781518301^^357	0	0	0	Prescription Dispensed
+736230	2006-07-22	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-08-03	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2006-08-07	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2006-08-23	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-08-30	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2006-09-18	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-10-02	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2006-10-09	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2006-10-10	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	0	0	0	Prescription Dispensed
+736230	2006-10-10	Penicillin V Potassium 500 MG Oral Tablet	00093117410^^357	0	0	0	Prescription Dispensed
+736230	2006-10-19	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-11-01	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2006-11-16	Hydrochlorothiazide 12.5 MG Oral Capsule	00378081001^^357	0	0	0	Prescription Dispensed
+736230	2006-11-28	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2006-12-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2006-12-28	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-01-29	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-01-29	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-02-28	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-03-28	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-04-05	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-04-27	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-05-17	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-05-27	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-05-28	zolpidem 10 MG Oral Tablet	00093007401^^357	0	0	0	Prescription Dispensed
+736230	2007-06-13	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-06-25	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-07-11	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-07-24	zolpidem 10 MG Oral Tablet	00093007401^^357	0	0	0	Prescription Dispensed
+736230	2007-07-26	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-08-08	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-08-23	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-09-10	zolpidem 10 MG Oral Tablet	00093007401^^357	0	0	0	Prescription Dispensed
+736230	2007-09-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	0	0	Prescription Dispensed
+736230	2007-09-26	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	0	0	Prescription Dispensed
+736230	2007-10-10	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2007-10-22	Thyroxine 0.088 MG Oral Tablet	00378180701^^357	0	30	0	Prescription Dispensed
+736230	2007-11-05	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2007-11-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2007-11-22	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2007-12-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2007-12-14	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	0	4	0	Prescription Dispensed
+736230	2007-12-25	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-01-07	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-01-24	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-02-06	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-02-10	chlorhexidine gluconate 1.2 MG/ML Mouthwash	00116200116^^357	0	20	0	Prescription Dispensed
+736230	2008-02-20	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-03-13	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-03-26	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-04-23	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-05-16	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-05-30	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-06-11	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-06-27	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	30	0	Prescription Dispensed
+736230	2008-07-02	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2008-07-05	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	90	0	Prescription Dispensed
+736230	2008-07-13	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-08-13	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-08-13	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2008-09-09	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2008-09-10	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-09-10	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2008-10-07	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2008-10-07	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2008-10-08	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-10-08	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2008-10-27	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	90	0	Prescription Dispensed
+736230	2008-10-27	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	90	90	0	Prescription Dispensed
+736230	2008-11-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-11-12	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2008-11-17	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2008-11-17	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2008-12-10	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2008-12-10	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2008-12-23	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2008-12-23	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2009-01-07	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	0	30	0	Prescription Dispensed
+736230	2009-01-07	Triiodothyronine 0.005 MG Oral Tablet [Cytomel]	60793011501^^357	60	30	0	Prescription Dispensed
+736230	2009-01-24	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	90	90	0	Prescription Dispensed
+736230	2009-01-27	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2009-02-08	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	0	30	0	Prescription Dispensed
+736230	2009-02-08	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	60	30	0	Prescription Dispensed
+736230	2009-02-27	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2009-02-27	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2009-03-11	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	0	30	0	Prescription Dispensed
+736230	2009-03-11	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	60	30	0	Prescription Dispensed
+736230	2009-03-28	zolpidem 10 MG Oral Tablet	00378531001^^357	0	30	0	Prescription Dispensed
+736230	2009-03-28	zolpidem 10 MG Oral Tablet	00378531001^^357	30	30	0	Prescription Dispensed
+736230	2009-04-08	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	0	30	0	Prescription Dispensed
+736230	2009-04-08	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	60	30	0	Prescription Dispensed
+736230	2009-04-22	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	0	90	0	Prescription Dispensed
+736230	2009-04-22	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	90	90	0	Prescription Dispensed
+736230	2009-04-23	zolpidem 10 MG Oral Tablet	00378531001^^357	0	30	0	Prescription Dispensed
+736230	2009-04-23	zolpidem 10 MG Oral Tablet	00378531001^^357	30	30	0	Prescription Dispensed
+736230	2009-05-11	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	0	30	0	Prescription Dispensed
+736230	2009-05-11	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	60	30	0	Prescription Dispensed
+736230	2009-05-22	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2009-06-10	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	0	30	0	Prescription Dispensed
+736230	2009-06-10	Triiodothyronine 0.005 MG Oral Tablet	00574022001^^357	60	30	0	Prescription Dispensed
+736230	2009-06-20	zolpidem 10 MG Oral Tablet	00093007401^^357	0	30	0	Prescription Dispensed
+736230	2009-06-20	zolpidem 10 MG Oral Tablet	00093007401^^357	30	30	0	Prescription Dispensed
+736230	2009-07-21	Simvastatin 20 MG Oral Tablet	55111019990^^357	0	90	0	Prescription Dispensed
+736230	2009-07-21	Simvastatin 20 MG Oral Tablet	55111019990^^357	90	90	0	Prescription Dispensed
+736230	2009-07-21	Thyroxine 0.088 MG Oral Tablet	00527134401^^357	90	90	0	Prescription Dispensed
+765583	2006-10-06	Clonazepam 1 MG Oral Tablet	00093083301^^357	0	30	0	Prescription Dispensed
+765583	2008-07-18	Acetaminophen 300 MG / Codeine 30 MG Oral Tablet	00093015010^^357	10	2	0	Prescription Dispensed
+765583	2008-08-17	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	40	5	0	Prescription Dispensed
+765583	2008-09-10	Dexamethasone 4 MG Oral Tablet	00054418425^^357	12	3	0	Prescription Dispensed
+765583	2008-09-12	Lorazepam 1 MG Oral Tablet	00378245710^^357	30	30	0	Prescription Dispensed
+765583	2008-09-12	Prochlorperazine 10 MG Oral Tablet	00378511001^^357	30	5	0	Prescription Dispensed
+765583	2008-09-18	Nystatin 100000 UNT/ML Oral Suspension	51672411709^^357	498	10	0	Prescription Dispensed
+765583	2008-10-02	Dexamethasone 4 MG Oral Tablet	00054418425^^357	12	3	0	Prescription Dispensed
+765583	2008-10-12	Dexamethasone 4 MG Oral Tablet	00054418425^^357	12	6	0	Prescription Dispensed
+765583	2008-10-16	Phenazopyridine 200 MG Oral Tablet	65162052010^^357	15	5	0	Prescription Dispensed
+765583	2008-11-10	Lorazepam 1 MG Oral Tablet	00378245710^^357	30	30	0	Prescription Dispensed
+765583	2008-11-13	famciclovir 500 MG Oral Tablet	00093811956^^357	21	7	0	Prescription Dispensed
+765583	2008-11-25	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	20	4	0	Prescription Dispensed
+765583	2008-12-16	Lorazepam 1 MG Oral Tablet	00378245710^^357	30	30	0	Prescription Dispensed
+765583	2008-12-18	Methylprednisolone 4 MG Oral Tablet	59746000103^^357	21	7	0	Prescription Dispensed
+765583	2008-12-29	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	20	4	0	Prescription Dispensed
+765583	2009-01-18	Lorazepam 1 MG Oral Tablet	00378245710^^357	30	30	0	Prescription Dispensed
+765583	2009-01-24	Desoximetasone 2.5 MG/ML Topical Cream	51672127003^^357	60	20	0	Prescription Dispensed
+765583	2009-02-18	Lorazepam 1 MG Oral Tablet	00378245710^^357	30	30	0	Prescription Dispensed
+765583	2009-04-02	Trazodone 50 MG Oral Tablet	60505265305^^357	30	30	0	Prescription Dispensed
+765583	2009-05-11	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	20	4	0	Prescription Dispensed
+765583	2009-05-11	Trazodone 50 MG Oral Tablet	60505265305^^357	30	30	0	Prescription Dispensed
+765583	2009-07-13	Trazodone 50 MG Oral Tablet	60505265305^^357	30	30	0	Prescription Dispensed
+765583	2009-08-24	Trazodone 50 MG Oral Tablet	60505265305^^357	30	30	0	Prescription Dispensed
+767980	2004-10-18	Cephalexin 500 MG Oral Capsule	00093314701^^357	0	10	0	Prescription Dispensed
+767980	2004-10-29	Metoprolol 50 MG Oral Tablet	00378003201^^357	0	30	0	Prescription Dispensed
+767980	2004-12-10	Cephalexin 500 MG Oral Capsule	00093314701^^357	0	10	0	Prescription Dispensed
+767980	2004-12-10	Guaifenesin 600 MG / Phenylephrine 30 MG Extended Release Tablet [Crantex LA]	51991023601^^357	0	10	0	Prescription Dispensed
+767980	2004-12-10	Metformin 500 MG Oral Tablet	00378023405^^357	0	30	0	Prescription Dispensed
+767980	2004-12-24	Codeine 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution	60432008816^^357	0	6	0	Prescription Dispensed
+767980	2005-01-01	Metformin 500 MG Oral Tablet	00378023405^^357	0	30	0	Prescription Dispensed
+767980	2005-01-05	Metformin 500 MG Oral Tablet	00378023405^^357	0	30	0	Prescription Dispensed
+767980	2005-09-08	Influenza virus vaccine	90658^^3	0	0	0	Prescription Dispensed
+767980	2005-11-11	Cephalexin 500 MG Oral Capsule	63304065705^^357	0	10	0	Prescription Dispensed
+767980	2005-12-17	24 HR Glipizide 2.5 MG Extended Release Tablet	62037087130^^357	0	30	0	Prescription Dispensed
+767980	2005-12-17	ezetimibe 10 MG / Simvastatin 40 MG Oral Tablet [Vytorin]	66582031331^^357	0	30	0	Prescription Dispensed
+767980	2006-01-06	ezetimibe 10 MG Oral Tablet [Zetia]	66582041431^^357	0	30	0	Prescription Dispensed
+767980	2006-01-06	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	30	0	Prescription Dispensed
+767980	2006-01-09	ezetimibe 10 MG Oral Tablet [Zetia]	66582041431^^357	0	30	0	Prescription Dispensed
+767980	2009-08-14	Acetaminophen 650 MG / propoxyphene napsylate 100 MG Oral Tablet	00603546728^^357	20	4	0	Prescription Dispensed
+880378	2005-08-10	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	00093867575^^357	0	10	0	Prescription Dispensed
+880378	2005-12-08	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	0	10	0	Prescription Dispensed
+880378	2009-07-24	Amoxicillin 80 MG/ML Oral Suspension	00093416173^^357	0	10	0	Prescription Dispensed
+880378	2009-07-24	Amoxicillin 80 MG/ML Oral Suspension	00093416173^^357	300	10	0	Prescription Dispensed
+880378	2009-07-31	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	00093867574^^357	0	10	0	Prescription Dispensed
+880378	2009-07-31	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	00093867574^^357	200	10	0	Prescription Dispensed
+935270	2006-09-13	INJECTION, ADENOSINE FOR DIAGNOSTIC USE, 30 MG (NOT TO BE USED TO REPORT ANY ADENOSINE PHOSPHATE COMPOUNDS; INSTEAD USE A9270)	J0152^^3	0	0	0	Prescription Dispensed
+935270	2007-09-20	lansoprazole 30 MG Enteric Coated Capsule [Prevacid]	00300304613^^357	0	30	0	Prescription Dispensed
+935270	2007-10-17	Lisinopril 2.5 MG Oral Tablet	68180051201^^357	0	30	0	Prescription Dispensed
+935270	2007-10-17	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2007-10-17	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2007-10-17	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	Lisinopril 2.5 MG Oral Tablet	00378207201^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	Metoprolol 25 MG Extended Release Tablet	00185028101^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	lansoprazole 30 MG Enteric Coated Capsule [Prevacid]	00300304613^^357	0	30	0	Prescription Dispensed
+935270	2007-10-19	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2007-11-17	Lisinopril 2.5 MG Oral Tablet	00378207201^^357	0	30	0	Prescription Dispensed
+935270	2007-11-17	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2007-11-17	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2007-11-17	lansoprazole 30 MG Enteric Coated Capsule [Prevacid]	00300304613^^357	0	30	0	Prescription Dispensed
+935270	2007-11-17	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2007-12-17	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2007-12-17	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2007-12-18	Lisinopril 2.5 MG Oral Tablet	00378207201^^357	0	30	0	Prescription Dispensed
+935270	2007-12-18	Metoprolol 25 MG Extended Release Tablet	00185028101^^357	0	30	0	Prescription Dispensed
+935270	2007-12-18	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2007-12-18	lansoprazole 30 MG Enteric Coated Capsule [Prevacid]	00300304613^^357	0	30	0	Prescription Dispensed
+935270	2008-01-12	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-01-20	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-01-22	Lisinopril 2.5 MG Oral Tablet	00378207201^^357	0	30	0	Prescription Dispensed
+935270	2008-01-22	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-02-08	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-02-17	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-02-18	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-02-20	Metoprolol 25 MG Extended Release Tablet	00185028101^^357	0	30	0	Prescription Dispensed
+935270	2008-02-21	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-03-21	Metoprolol 25 MG Extended Release Tablet	00185028101^^357	0	30	0	Prescription Dispensed
+935270	2008-03-21	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-03-21	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-03-22	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-04-17	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-04-17	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-04-17	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-05-14	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-05-14	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-05-21	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	0	30	0	Prescription Dispensed
+935270	2008-05-21	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-05-21	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-05-21	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-06-17	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-06-17	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-06-17	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-07-13	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	0	30	0	Prescription Dispensed
+935270	2008-07-15	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-07-15	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-07-15	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-07-19	Lisinopril 2.5 MG Oral Tablet	54458099909^^357	0	30	0	Prescription Dispensed
+935270	2008-07-19	Lisinopril 2.5 MG Oral Tablet	54458099909^^357	30	30	0	Prescription Dispensed
+935270	2008-08-11	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-08-11	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2008-08-11	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-08-11	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2008-08-11	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-08-11	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2008-08-13	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	0	30	0	Prescription Dispensed
+935270	2008-08-13	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	15	30	0	Prescription Dispensed
+935270	2008-08-14	Lisinopril 2.5 MG Oral Tablet	68180051201^^357	0	30	0	Prescription Dispensed
+935270	2008-08-14	Lisinopril 2.5 MG Oral Tablet	68180051201^^357	30	30	0	Prescription Dispensed
+935270	2008-09-09	Metoprolol 25 MG Extended Release Tablet	58177029309^^357	0	30	0	Prescription Dispensed
+935270	2008-09-09	Metoprolol 25 MG Extended Release Tablet	58177029309^^357	15	30	0	Prescription Dispensed
+935270	2008-09-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-09-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2008-09-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-09-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2008-09-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-09-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2008-09-13	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	00781185220^^357	0	10	0	Prescription Dispensed
+935270	2008-09-13	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	00781185220^^357	30	10	0	Prescription Dispensed
+935270	2008-10-07	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	0	30	0	Prescription Dispensed
+935270	2008-10-07	Metoprolol 25 MG Extended Release Tablet	58177029304^^357	15	30	0	Prescription Dispensed
+935270	2008-10-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-10-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2008-10-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-10-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2008-10-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-10-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2008-11-05	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2008-11-05	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2008-11-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-11-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2008-11-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-11-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2008-11-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-11-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2008-12-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2008-12-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2008-12-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2008-12-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2008-12-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2008-12-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2008-12-06	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2008-12-06	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-01-04	24 HR Metoprolol 25 MG Extended Release Tablet [Toprol-XL]	00186108805^^357	0	30	0	Prescription Dispensed
+935270	2009-01-04	24 HR Metoprolol 25 MG Extended Release Tablet [Toprol-XL]	00186108805^^357	15	30	0	Prescription Dispensed
+935270	2009-01-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-01-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-01-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-01-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-01-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-01-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-02-11	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2009-02-11	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-02-11	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-02-11	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-02-11	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-02-11	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-02-11	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-02-11	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-03-09	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2009-03-09	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-03-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-03-09	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-03-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-03-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-03-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-03-09	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-04-07	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2009-04-07	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-04-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-04-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-04-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-04-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-04-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-04-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-05-07	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2009-05-07	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-05-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-05-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-05-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-05-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-05-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-05-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-06-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-06-05	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-06-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-06-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-06-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-06-05	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-06-06	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	0	30	0	Prescription Dispensed
+935270	2009-06-06	Metoprolol 25 MG Extended Release Tablet	49884040401^^357	15	30	0	Prescription Dispensed
+935270	2009-07-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	0	30	0	Prescription Dispensed
+935270	2009-07-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-07-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	0	30	0	Prescription Dispensed
+935270	2009-07-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-07-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	0	30	0	Prescription Dispensed
+935270	2009-07-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+935270	2009-08-07	atorvastatin 20 MG Oral Tablet [Lipitor]	00071015623^^357	30	30	0	Prescription Dispensed
+935270	2009-08-07	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+935270	2009-08-07	valsartan 80 MG Oral Tablet [Diovan]	00078035834^^357	30	30	0	Prescription Dispensed
+967332	2007-10-03	60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 250/50]	00173069600^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	Niacin 500 MG Extended Release Tablet [Niaspan]	60598014001^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	Ramipril 10 MG Oral Capsule [Altace]	61570012001^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	glimepiride 2 MG Oral Tablet	63304042601^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	montelukast 10 MG Oral Tablet [Singulair]	00006011731^^357	0	30	0	Prescription Dispensed
+967332	2007-10-03	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 250/50]	00173069600^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	Niacin 500 MG Extended Release Tablet [Niaspan]	60598014001^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	Ramipril 10 MG Oral Capsule [Altace]	61570012001^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	glimepiride 2 MG Oral Tablet	63304042601^^357	0	30	0	Prescription Dispensed
+967332	2007-11-07	montelukast 10 MG Oral Tablet [Singulair]	00006011731^^357	0	30	0	Prescription Dispensed
+967332	2007-11-16	Doxycycline 100 MG Oral Capsule	00143314205^^357	0	7	0	Prescription Dispensed
+967332	2007-12-07	Niacin 500 MG Extended Release Tablet [Niaspan]	60598014001^^357	0	90	0	Prescription Dispensed
+967332	2007-12-07	Ramipril 10 MG Oral Capsule	16252057301^^357	0	90	0	Prescription Dispensed
+967332	2007-12-07	Simvastatin 40 MG Oral Tablet	68180048002^^357	0	90	0	Prescription Dispensed
+967332	2007-12-07	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2007-12-07	glimepiride 2 MG Oral Tablet	45802082278^^357	0	90	0	Prescription Dispensed
+967332	2007-12-07	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2007-12-08	60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 250/50]	00173069600^^357	0	30	0	Prescription Dispensed
+967332	2007-12-26	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-01-04	INFUSION, NORMAL SALINE SOLUTION , 1000 CC	J7030^^3	0	0	0	Prescription Dispensed
+967332	2008-01-04	INJECTION, ACETYLCYSTEINE, 100 MG	J0132^^3	0	0	0	Prescription Dispensed
+967332	2008-01-04	bivalirudin 50 MG/ML Injectable Solution [Angiomax]	J0583^^3	0	0	0	Prescription Dispensed
+967332	2008-01-05	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-01-05	INFUSION, NORMAL SALINE SOLUTION , 1000 CC	J7030^^3	0	0	0	Prescription Dispensed
+967332	2008-01-05	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-01-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-01-24	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-02-04	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-02-04	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-02-26	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-03-03	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-03-03	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-03-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-03-07	Niacin 500 MG Extended Release Tablet [Niaspan]	00074307490^^357	0	90	0	Prescription Dispensed
+967332	2008-03-07	Ramipril 10 MG Oral Capsule	16252057301^^357	0	90	0	Prescription Dispensed
+967332	2008-03-07	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2008-03-07	glimepiride 2 MG Oral Tablet	45802082278^^357	0	90	0	Prescription Dispensed
+967332	2008-03-07	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2008-03-24	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-03-28	{11 (varenicline 0.5 MG Oral Tablet [Chantix]) / 42 (varenicline 1 MG Oral Tablet [Chantix]) } Pack [Chantix First Month of Therapy]	00069047197^^357	0	28	0	Prescription Dispensed
+967332	2008-04-04	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-04-04	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-04-07	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-04-21	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-05-04	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-05-04	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-05-04	{56 (varenicline 1 MG Oral Tablet [Chantix]) } Pack [Chantix Continuing Months Of Therapy]	00069046997^^357	0	28	0	Prescription Dispensed
+967332	2008-05-10	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-05-27	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-06-10	Niacin 500 MG Extended Release Tablet [Niaspan]	00074307490^^357	0	90	0	Prescription Dispensed
+967332	2008-06-10	Ramipril 10 MG Oral Capsule	68180059102^^357	0	90	0	Prescription Dispensed
+967332	2008-06-10	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2008-06-10	glimepiride 2 MG Oral Tablet	45802082278^^357	0	90	0	Prescription Dispensed
+967332	2008-06-10	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2008-06-13	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-06-30	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-06-30	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-06-30	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-07-14	Simvastatin 80 MG Oral Tablet	63304079390^^357	0	30	0	Prescription Dispensed
+967332	2008-07-14	Simvastatin 80 MG Oral Tablet	63304079390^^357	30	30	0	Prescription Dispensed
+967332	2008-07-29	Clarithromycin 500 MG Extended Release Tablet	00093724406^^357	0	20	0	Prescription Dispensed
+967332	2008-07-29	Clarithromycin 500 MG Extended Release Tablet	00093724406^^357	20	20	0	Prescription Dispensed
+967332	2008-07-29	Influenza virus vaccine	90658^^3	0	0	0	Prescription Dispensed
+967332	2008-08-03	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-08-03	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-08-03	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-08-03	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	30	30	0	Prescription Dispensed
+967332	2008-08-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-08-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2008-08-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	30	0	Prescription Dispensed
+967332	2008-08-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	30	30	0	Prescription Dispensed
+967332	2008-08-22	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2008-08-22	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2008-08-22	Simvastatin 80 MG Oral Tablet	68180048102^^357	0	30	0	Prescription Dispensed
+967332	2008-08-22	Simvastatin 80 MG Oral Tablet	68180048102^^357	30	30	0	Prescription Dispensed
+967332	2008-08-31	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-08-31	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-08-31	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-08-31	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2008-08-31	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	34	0	Prescription Dispensed
+967332	2008-08-31	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	34	34	0	Prescription Dispensed
+967332	2008-09-08	Niacin 500 MG Extended Release Tablet [Niaspan]	00074307490^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	Niacin 500 MG Extended Release Tablet [Niaspan]	00074307490^^357	90	90	0	Prescription Dispensed
+967332	2008-09-08	Ramipril 10 MG Oral Capsule	68180059102^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	Ramipril 10 MG Oral Capsule	68180059102^^357	90	90	0	Prescription Dispensed
+967332	2008-09-08	Simvastatin 40 MG Oral Tablet	68180048002^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	Simvastatin 40 MG Oral Tablet	68180048002^^357	90	90	0	Prescription Dispensed
+967332	2008-09-08	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	90	90	0	Prescription Dispensed
+967332	2008-09-08	glimepiride 2 MG Oral Tablet	45802082278^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	glimepiride 2 MG Oral Tablet	45802082278^^357	90	90	0	Prescription Dispensed
+967332	2008-09-08	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2008-09-08	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	90	90	0	Prescription Dispensed
+967332	2008-09-10	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	30	30	0	Prescription Dispensed
+967332	2008-10-03	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-10-03	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-10-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-10-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2008-10-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	30	0	Prescription Dispensed
+967332	2008-10-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	30	30	0	Prescription Dispensed
+967332	2008-10-23	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2008-10-23	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-10-23	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	30	30	0	Prescription Dispensed
+967332	2008-10-31	Metformin 750 MG Extended Release Tablet	62756014301^^357	0	30	0	Prescription Dispensed
+967332	2008-10-31	Metformin 750 MG Extended Release Tablet	62756014301^^357	30	30	0	Prescription Dispensed
+967332	2008-11-03	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-11-03	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-11-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-11-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2008-11-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	30	0	Prescription Dispensed
+967332	2008-11-03	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	30	30	0	Prescription Dispensed
+967332	2008-11-20	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2008-11-20	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2008-11-20	Simvastatin 80 MG Oral Tablet	68180048102^^357	0	30	0	Prescription Dispensed
+967332	2008-11-20	Simvastatin 80 MG Oral Tablet	68180048102^^357	30	30	0	Prescription Dispensed
+967332	2008-11-20	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2008-11-20	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2008-12-01	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-12-01	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-12-01	Metformin 750 MG Extended Release Tablet	62756014301^^357	0	30	0	Prescription Dispensed
+967332	2008-12-01	Metformin 750 MG Extended Release Tablet	62756014301^^357	30	30	0	Prescription Dispensed
+967332	2008-12-01	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	30	0	Prescription Dispensed
+967332	2008-12-01	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	30	30	0	Prescription Dispensed
+967332	2008-12-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-12-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2008-12-01	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	30	0	Prescription Dispensed
+967332	2008-12-01	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	30	30	0	Prescription Dispensed
+967332	2008-12-13	Metformin 750 MG Extended Release Tablet	62037057701^^357	0	90	0	Prescription Dispensed
+967332	2008-12-13	Metformin 750 MG Extended Release Tablet	62037057701^^357	90	90	0	Prescription Dispensed
+967332	2008-12-13	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	90	0	Prescription Dispensed
+967332	2008-12-13	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	90	90	0	Prescription Dispensed
+967332	2008-12-13	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	90	0	Prescription Dispensed
+967332	2008-12-13	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	90	90	0	Prescription Dispensed
+967332	2008-12-21	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2008-12-21	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2008-12-23	Ramipril 10 MG Oral Capsule	68180059102^^357	0	90	0	Prescription Dispensed
+967332	2008-12-23	Ramipril 10 MG Oral Capsule	68180059102^^357	90	90	0	Prescription Dispensed
+967332	2008-12-23	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2008-12-23	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	90	90	0	Prescription Dispensed
+967332	2008-12-23	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2008-12-23	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	90	90	0	Prescription Dispensed
+967332	2008-12-29	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2008-12-29	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2008-12-29	Simvastatin 80 MG Oral Tablet	68180048102^^357	0	30	0	Prescription Dispensed
+967332	2008-12-29	Simvastatin 80 MG Oral Tablet	68180048102^^357	30	30	0	Prescription Dispensed
+967332	2008-12-29	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2008-12-29	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-01-01	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2009-01-01	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2009-01-20	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2009-01-20	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2009-02-01	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-02-01	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-02-01	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2009-02-01	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2009-02-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-02-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-02-17	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2009-02-17	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2009-03-03	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-03-03	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-03-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-03-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-03-10	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2009-03-10	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2009-03-16	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2009-03-16	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2009-03-24	Ramipril 10 MG Oral Capsule	68180059102^^357	0	90	0	Prescription Dispensed
+967332	2009-03-24	Ramipril 10 MG Oral Capsule	68180059102^^357	90	90	0	Prescription Dispensed
+967332	2009-03-24	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2009-03-24	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	90	90	0	Prescription Dispensed
+967332	2009-03-30	Metformin 750 MG Extended Release Tablet	62037057701^^357	0	90	0	Prescription Dispensed
+967332	2009-03-30	Metformin 750 MG Extended Release Tablet	62037057701^^357	90	90	0	Prescription Dispensed
+967332	2009-03-30	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	90	0	Prescription Dispensed
+967332	2009-03-30	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	90	90	0	Prescription Dispensed
+967332	2009-04-02	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-04-02	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-04-02	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-04-02	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-04-06	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	90	0	Prescription Dispensed
+967332	2009-04-06	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	90	90	0	Prescription Dispensed
+967332	2009-04-06	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2009-04-06	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	90	90	0	Prescription Dispensed
+967332	2009-04-13	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	30	0	Prescription Dispensed
+967332	2009-04-13	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	30	30	0	Prescription Dispensed
+967332	2009-04-20	glimepiride 4 MG Oral Tablet	55111032201^^357	0	30	0	Prescription Dispensed
+967332	2009-04-20	glimepiride 4 MG Oral Tablet	55111032201^^357	30	30	0	Prescription Dispensed
+967332	2009-04-25	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-04-25	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-04-25	Nitroglycerin 0.4 MG Sublingual Tablet	68462014645^^357	0	7	0	Prescription Dispensed
+967332	2009-04-25	Nitroglycerin 0.4 MG Sublingual Tablet	68462014645^^357	25	7	0	Prescription Dispensed
+967332	2009-04-25	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-04-25	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-04-30	Simvastatin 80 MG Oral Tablet	68180048103^^357	0	90	0	Prescription Dispensed
+967332	2009-04-30	Simvastatin 80 MG Oral Tablet	68180048103^^357	90	90	0	Prescription Dispensed
+967332	2009-05-08	Metformin 750 MG Extended Release Tablet	62037057701^^357	0	90	0	Prescription Dispensed
+967332	2009-05-08	Metformin 750 MG Extended Release Tablet	62037057701^^357	180	90	0	Prescription Dispensed
+967332	2009-05-08	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	0	90	0	Prescription Dispensed
+967332	2009-05-08	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	90	90	0	Prescription Dispensed
+967332	2009-05-08	glimepiride 4 MG Oral Tablet	45802094778^^357	0	90	0	Prescription Dispensed
+967332	2009-05-08	glimepiride 4 MG Oral Tablet	45802094778^^357	90	90	0	Prescription Dispensed
+967332	2009-05-25	Ramipril 10 MG Oral Capsule	68180059102^^357	0	90	0	Prescription Dispensed
+967332	2009-05-25	Ramipril 10 MG Oral Capsule	68180059102^^357	90	90	0	Prescription Dispensed
+967332	2009-05-25	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	0	90	0	Prescription Dispensed
+967332	2009-05-25	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	90	90	0	Prescription Dispensed
+967332	2009-06-01	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-06-01	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-06-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-06-01	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-07-02	Atenolol 50 MG Oral Tablet	00378023110^^357	0	30	0	Prescription Dispensed
+967332	2009-07-02	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-07-02	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	0	30	0	Prescription Dispensed
+967332	2009-07-02	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-07-02	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	0	90	0	Prescription Dispensed
+967332	2009-07-02	pantoprazole 40 MG Enteric Coated Tablet	00008060701^^357	90	90	0	Prescription Dispensed
+967332	2009-07-13	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	0	90	0	Prescription Dispensed
+967332	2009-07-13	montelukast 10 MG Oral Tablet [Singulair]	00006011754^^357	90	90	0	Prescription Dispensed
+967332	2009-07-20	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	0	90	0	Prescription Dispensed
+967332	2009-07-20	Pramipexole 0.5 MG Oral Tablet [Mirapex]	00597018590^^357	90	90	0	Prescription Dispensed
+967332	2009-08-08	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-08-08	Metformin 750 MG Extended Release Tablet	00093721201^^357	180	90	0	Prescription Dispensed
+967332	2009-08-08	Ramipril 10 MG Oral Capsule	16252057301^^357	90	90	0	Prescription Dispensed
+967332	2009-08-08	Simvastatin 80 MG Oral Tablet	68180048102^^357	90	90	0	Prescription Dispensed
+967332	2009-08-08	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-08-08	glimepiride 4 MG Oral Tablet	45802094778^^357	90	90	0	Prescription Dispensed
+967332	2009-08-21	Niacin 1000 MG Extended Release Tablet [Niaspan]	00074308090^^357	90	90	0	Prescription Dispensed
+967332	2009-09-03	Atenolol 50 MG Oral Tablet	00378023110^^357	30	30	0	Prescription Dispensed
+967332	2009-09-03	clopidogrel 75 MG Oral Tablet [Plavix]	63653117101^^357	30	30	0	Prescription Dispensed
+967332	2009-09-21	celecoxib 200 MG Oral Capsule [Celebrex]	00025152551^^357	90	90	0	Prescription Dispensed
+967332	2009-09-21	pantoprazole 40 MG Enteric Coated Tablet	00093001298^^357	90	90	0	Prescription Dispensed
+967332	2009-09-23	Clarithromycin 500 MG Extended Release Tablet	00093724406^^357	20	10	0	Prescription Dispensed
+981968	2004-10-27	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	17270072101^^357	0	28	0	Prescription Dispensed
+981968	2004-11-07	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2004-12-29	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2005-03-01	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2005-04-25	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2005-05-17	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	0	3	0	Prescription Dispensed
+981968	2005-05-17	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00378075110^^357	0	10	0	Prescription Dispensed
+981968	2005-05-23	TETANUS & DIPHTHERIA TOXOIDS ADSORBED 7 YR + IM	90718^^3	0	0	0	Prescription Dispensed
+981968	2005-06-06	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	21	0	Prescription Dispensed
+981968	2005-08-23	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	90	0	Prescription Dispensed
+981968	2005-10-17	Etodolac 400 MG Extended Release Tablet	00093112201^^357	0	30	0	Prescription Dispensed
+981968	2005-10-26	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	21	0	Prescription Dispensed
+981968	2005-10-26	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2005-12-19	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	60	0	Prescription Dispensed
+981968	2006-09-01	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	0	27	0	Prescription Dispensed
+981968	2006-09-01	carbinoxamine 0.4 MG/ML / Hydrocodone 1 MG/ML / Pseudoephedrine 6 MG/ML Oral Solution [Histex HC]	67336091016^^357	0	16	0	Prescription Dispensed
+981968	2008-02-01	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2008-04-05	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2008-06-02	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+981968	2008-06-22	mometasone furoate 1 MG/ML Topical Cream	45802025735^^357	0	7	0	Prescription Dispensed
+981968	2008-07-10	Cephalexin 500 MG Oral Capsule	00093314701^^357	0	10	0	Prescription Dispensed
+981968	2008-07-10	INJECTION, PROMETHAZINE HCL, UP TO 50 MG	J2550^^3	0	0	0	Prescription Dispensed
+981968	2008-08-05	60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 100/50]	00173069500^^357	0	30	0	Prescription Dispensed
+1032702	2008-02-29	DTAP-HEPB-IPV VACCINE INTRAMUSCULAR	90723^^3	0	0	0	Prescription Dispensed
+1032702	2008-02-29	Haemophilus influenzae b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine	90648^^3	0	0	0	Prescription Dispensed
+1032702	2008-02-29	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1032702	2008-02-29	ROTAVIRUS VACCINE PENTAVALENT 3 DOSE LIVE ORAL	90680^^3	0	0	0	Prescription Dispensed
+1032702	2008-04-05	Nizatidine 15 MG/ML Oral Solution [Axid]	52268014762^^357	0	30	0	Prescription Dispensed
+1032702	2008-04-13	DTAP-HEPB-IPV VACCINE INTRAMUSCULAR	90723^^3	0	0	0	Prescription Dispensed
+1032702	2008-04-13	Haemophilus influenzae b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine	90648^^3	0	0	0	Prescription Dispensed
+1032702	2008-04-13	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1032702	2008-04-13	ROTAVIRUS VACCINE PENTAVALENT 3 DOSE LIVE ORAL	90680^^3	0	0	0	Prescription Dispensed
+1032702	2008-05-09	Nizatidine 15 MG/ML Oral Solution [Axid]	52268014762^^357	0	30	0	Prescription Dispensed
+1032702	2008-06-29	DTAP-HEPB-IPV VACCINE INTRAMUSCULAR	90723^^3	0	0	0	Prescription Dispensed
+1032702	2008-06-29	Haemophilus influenzae b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine	90648^^3	0	0	0	Prescription Dispensed
+1032702	2008-06-29	Influenza virus vaccine	90657^^3	0	0	0	Prescription Dispensed
+1032702	2008-06-29	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1032702	2008-06-29	ROTAVIRUS VACCINE PENTAVALENT 3 DOSE LIVE ORAL	90680^^3	0	0	0	Prescription Dispensed
+1032702	2008-08-04	Influenza virus vaccine	90657^^3	0	0	0	Prescription Dispensed
+1081332	2004-07-13	Amoxicillin 80 MG/ML Oral Suspension	63304097001^^357	75	7	0	Prescription Dispensed
+1081332	2004-10-29	DTAP VACCINE < 7 YR IM	90700^^3	0	0	0	Prescription Dispensed
+1081332	2004-10-29	HEMOPHILUS INFLUENZA B VACC HBOC CONJ 4 DOSE IM	90645^^3	0	0	0	Prescription Dispensed
+1081332	2005-01-04	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	00093867578^^357	75	10	0	Prescription Dispensed
+1081332	2005-01-18	Azithromycin 20 MG/ML Oral Suspension [Zithromax]	00069311019^^357	15	5	0	Prescription Dispensed
+1081332	2005-01-28	cefdinir 25 MG/ML Oral Suspension [Omnicef]	00074377160^^357	60	10	0	Prescription Dispensed
+1081332	2005-02-07	Amoxicillin 120 MG/ML / clavulanate potassium 8.58 MG/ML Oral Suspension	00093867575^^357	125	10	0	Prescription Dispensed
+1081332	2005-02-07	Hepatitis B Vaccine	90744^^3	0	0	0	Prescription Dispensed
+1081332	2005-03-11	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]	00065853302^^357	7	7	0	Prescription Dispensed
+1081332	2005-03-11	cefdinir 25 MG/ML Oral Suspension [Omnicef]	00074377160^^357	60	7	0	Prescription Dispensed
+1081332	2007-06-06	Amoxicillin 50 MG/ML Oral Suspension	00093415580^^357	0	10	0	Prescription Dispensed
+1081332	2007-08-14	Amoxicillin 50 MG/ML Oral Suspension	00093415580^^357	0	10	0	Prescription Dispensed
+1081332	2007-08-28	Sulfamethoxazole 40 MG/ML / Trimethoprim 8 MG/ML Oral Suspension [Sulfatrim]	00472128516^^357	0	10	0	Prescription Dispensed
+1081332	2007-10-18	Sulfamethoxazole 40 MG/ML / Trimethoprim 8 MG/ML Oral Suspension [Sulfatrim]	00472128516^^357	0	10	0	Prescription Dispensed
+1098667	2005-01-13	Estrogens, Conjugated (USP) 0.625 MG Oral Tablet [Premarin]	00046086781^^357	0	30	0	Prescription Dispensed
+1098667	2005-07-30	Acetaminophen 300 MG / Codeine 30 MG Oral Tablet	00093015010^^357	0	6	0	Prescription Dispensed
+1098667	2008-09-10	fexofenadine 180 MG Oral Tablet	66993010902^^357	90	90	0	Prescription Dispensed
+1098667	2008-09-12	Hydrocortisone 25 MG/ML Rectal Cream [Proctozone HC]	64980030130^^357	30	10	0	Prescription Dispensed
+1098667	2009-01-07	fexofenadine 180 MG Oral Tablet	66993010902^^357	90	90	0	Prescription Dispensed
+1098667	2009-04-23	Hydrocortisone 25 MG/ML / pramoxine 10 MG/ML Topical Cream	42192010701^^357	28	28	0	Prescription Dispensed
+1098667	2009-05-02	fexofenadine 180 MG Oral Tablet	66993010902^^357	90	90	0	Prescription Dispensed
+1098667	2009-08-04	fexofenadine 180 MG Oral Tablet	66993010902^^357	90	90	0	Prescription Dispensed
+1134281	2005-08-28	DTAP-HEPB-IPV VACCINE INTRAMUSCULAR	90723^^3	0	0	0	Prescription Dispensed
+1134281	2005-08-28	Haemophilus influenzae b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine	90648^^3	0	0	0	Prescription Dispensed
+1134281	2005-08-28	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1134281	2005-11-28	Amoxicillin 50 MG/ML Oral Suspension	00093415580^^357	0	0	0	Prescription Dispensed
+1134281	2005-11-28	carbinoxamine 1 MG/ML / Dextromethorphan 4 MG/ML / Pseudoephedrine 15 MG/ML Oral Solution [Carbofed DM Drops]	50383057630^^357	0	0	0	Prescription Dispensed
+1134281	2006-01-08	DTAP-HEPB-IPV VACCINE INTRAMUSCULAR	90723^^3	0	0	0	Prescription Dispensed
+1134281	2006-01-08	Metoclopramide 1 MG/ML Oral Solution	60432062216^^357	0	0	0	Prescription Dispensed
+1134281	2006-01-08	Ranitidine 15 MG/ML Oral Solution [Zantac]	00173038354^^357	0	0	0	Prescription Dispensed
+1134281	2006-01-31	Metoclopramide 1 MG/ML Oral Solution	60432062216^^357	0	0	0	Prescription Dispensed
+1134281	2006-02-14	Ranitidine 15 MG/ML Oral Solution [Zantac]	00173038354^^357	0	0	0	Prescription Dispensed
+1134281	2006-02-23	Metoclopramide 1 MG/ML Oral Solution	60432062216^^357	0	0	0	Prescription Dispensed
+1134281	2006-03-23	Metoclopramide 1 MG/ML Oral Solution	60432062216^^357	0	0	0	Prescription Dispensed
+1134281	2006-04-11	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1134281	2006-07-12	DTAP VACCINE < 7 YR IM	90700^^3	0	0	0	Prescription Dispensed
+1134281	2006-07-12	Haemophilus influenzae b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine	90648^^3	0	0	0	Prescription Dispensed
+1134281	2006-07-12	Hepatitis A Vaccine, Inactivated	90633^^3	0	0	0	Prescription Dispensed
+1134281	2006-07-12	MEASLES MUMPS RUBELLA VARICELLA VACC LIVE SUBQ	90710^^3	0	0	0	Prescription Dispensed
+1134281	2006-08-31	Amoxicillin 80 MG/ML Oral Suspension	00093416173^^357	0	0	0	Prescription Dispensed
+1134281	2006-10-22	Amoxicillin 80 MG/ML Oral Suspension	00093416173^^357	0	0	0	Prescription Dispensed
+1134281	2006-10-22	Influenza virus vaccine	90658^^3	0	0	0	Prescription Dispensed
+1134281	2006-10-22	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+1134281	2007-02-04	Hepatitis A Vaccine, Inactivated	90633^^3	0	0	0	Prescription Dispensed
+1134281	2009-04-06	Mupirocin 0.02 MG/MG Topical Ointment	00093101042^^357	0	10	0	Prescription Dispensed
+1134281	2009-04-06	Mupirocin 0.02 MG/MG Topical Ointment	00093101042^^357	22	10	0	Prescription Dispensed
+1134281	2009-06-17	Amoxicillin 40 MG/ML / Clavulanate 5.7 MG/ML Oral Suspension	00093227773^^357	0	10	0	Prescription Dispensed
+1134281	2009-06-17	Amoxicillin 40 MG/ML / Clavulanate 5.7 MG/ML Oral Suspension	00093227773^^357	100	10	0	Prescription Dispensed
+1137192	2008-08-20	Isosorbide Dinitrate 10 MG Oral Tablet	00143177101^^357	270	90	0	Prescription Dispensed
+1137192	2008-08-20	Metoprolol 100 MG Oral Tablet	57664016708^^357	180	90	0	Prescription Dispensed
+1137192	2008-08-20	Simvastatin 20 MG Oral Tablet	00093715410^^357	90	90	0	Prescription Dispensed
+1137192	2008-08-20	benazepril 10 MG Oral Tablet	00093512501^^357	90	90	0	Prescription Dispensed
+1137192	2008-10-26	Isosorbide Dinitrate 10 MG Oral Tablet	00143177101^^357	270	90	0	Prescription Dispensed
+1137192	2008-10-26	Metoprolol 100 MG Oral Tablet	57664016708^^357	180	90	0	Prescription Dispensed
+1137192	2008-11-12	Simvastatin 20 MG Oral Tablet	00093715410^^357	90	90	0	Prescription Dispensed
+1137192	2008-11-12	benazepril 10 MG Oral Tablet	00093512501^^357	90	90	0	Prescription Dispensed
+1137192	2009-02-05	Isosorbide Dinitrate 10 MG Oral Tablet	00143177101^^357	270	90	0	Prescription Dispensed
+1137192	2009-02-05	Metoprolol 50 MG Oral Tablet	57664047708^^357	180	90	0	Prescription Dispensed
+1137192	2009-02-05	Simvastatin 20 MG Oral Tablet	00093715410^^357	90	90	0	Prescription Dispensed
+1137192	2009-02-05	benazepril 10 MG Oral Tablet	00093512501^^357	90	90	0	Prescription Dispensed
+1137192	2009-05-04	Metoprolol 50 MG Oral Tablet	57664047708^^357	180	90	0	Prescription Dispensed
+1137192	2009-05-04	Simvastatin 20 MG Oral Tablet	00093715410^^357	90	90	0	Prescription Dispensed
+1137192	2009-05-04	benazepril 10 MG Oral Tablet	00093512501^^357	90	90	0	Prescription Dispensed
+1137192	2009-06-24	Isosorbide Dinitrate 10 MG Oral Tablet	00143177101^^357	270	90	0	Prescription Dispensed
+1137192	2009-07-13	Diazepam 10 MG Oral Tablet	00378047705^^357	6	6	0	Prescription Dispensed
+1137192	2009-07-13	Methylprednisolone 4 MG Oral Tablet	59746000103^^357	21	3	0	Prescription Dispensed
+1137192	2009-09-04	Isosorbide Dinitrate 10 MG Oral Tablet	00143177101^^357	270	90	0	Prescription Dispensed
+1137192	2009-09-04	Metoprolol 50 MG Oral Tablet	59762130101^^357	180	90	0	Prescription Dispensed
+1137192	2009-09-04	Simvastatin 20 MG Oral Tablet	00093715410^^357	90	90	0	Prescription Dispensed
+1137192	2009-09-04	benazepril 10 MG Oral Tablet	00093512501^^357	90	90	0	Prescription Dispensed
+1157764	2003-10-23	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2003-11-02	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2003-11-21	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2003-11-30	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2003-12-21	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2003-12-28	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-01-20	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-01-20	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-02-18	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-02-18	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-03-20	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-03-20	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-04-19	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-04-19	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-05-10	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-06-09	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-06-29	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-07-06	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-07-28	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-08-04	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-08-28	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-09-04	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-09-26	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-09-28	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-10-27	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-10-27	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-11-25	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2004-11-25	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2004-12-26	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-01-23	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-02-06	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-02-20	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-03-09	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-03-19	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-04-07	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-04-16	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-05-06	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-05-15	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-06-05	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-06-08	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-07-04	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-07-04	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-08-03	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-08-03	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-09-02	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-09-02	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-10-03	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-10-30	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-11-02	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-11-27	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2005-12-02	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2005-12-25	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2006-01-01	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2006-01-20	{4 (Risedronate 35 MG Oral Tablet [Actonel]) } Pack [Actonel 35]	00149047201^^357	0	0	0	Prescription Dispensed
+1157764	2006-01-31	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2006-03-02	anastrozole 1 MG Oral Tablet [Arimidex]	00310020130^^357	0	0	0	Prescription Dispensed
+1157764	2006-09-26	{6 (Azithromycin 250 MG Oral Tablet) } Pack	59762306001^^357	0	0	0	Prescription Dispensed
+1157764	2006-10-31	Nitrofurantoin 100 MG Oral Capsule	00378342201^^357	0	0	0	Prescription Dispensed
+1157764	2009-08-22	bimatoprost 0.3 MG/ML Ophthalmic Solution [Lumigan]	00023918703^^357	2	20	0	Prescription Dispensed
+1186747	2004-11-14	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	31	0	Prescription Dispensed
+1186747	2005-05-23	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	34	0	Prescription Dispensed
+1186747	2005-07-20	moxifloxacin 5 MG/ML Ophthalmic Solution [Vigamox]	00065401303^^357	0	8	0	Prescription Dispensed
+1186747	2006-01-07	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-02-08	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-05-01	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	34	0	Prescription Dispensed
+1186747	2006-05-01	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-07-13	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-08-14	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-09-10	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-09-25	Ciprofloxacin 3 MG/ML / Dexamethasone 1 MG/ML Otic Suspension [Ciprodex]	00065853302^^357	0	7	0	Prescription Dispensed
+1186747	2006-10-17	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2006-11-08	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2007-01-07	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2007-02-19	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2007-05-27	MENINGOCOCCAL CONJ VACCINE TETRAVALENT IM	90734^^3	0	0	0	Prescription Dispensed
+1186747	2007-05-27	TDAP VACCINE 7 YR + IM	90715^^3	0	0	0	Prescription Dispensed
+1186747	2007-06-02	24 HR Methylphenidate 18 MG Extended Release Tablet [Concerta]	17314585002^^357	0	30	0	Prescription Dispensed
+1186747	2007-06-06	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler	59930156001^^357	0	30	0	Prescription Dispensed
+1186747	2007-07-17	atomoxetine 18 MG Oral Capsule [Strattera]	00002323830^^357	0	30	0	Prescription Dispensed
+1186747	2007-09-16	atomoxetine 18 MG Oral Capsule [Strattera]	00002323830^^357	0	30	0	Prescription Dispensed
+1186747	2007-10-19	atomoxetine 18 MG Oral Capsule [Strattera]	00002323830^^357	0	30	0	Prescription Dispensed
+1186747	2007-11-21	atomoxetine 18 MG Oral Capsule [Strattera]	00002323830^^357	0	30	0	Prescription Dispensed
+1186747	2008-01-13	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1186747	2008-02-17	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1186747	2008-04-25	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1186747	2008-05-21	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	0	16	0	Prescription Dispensed
+1186747	2008-05-21	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1186747	2008-06-23	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1186747	2008-07-20	atomoxetine 25 MG Oral Capsule [Strattera]	00002322830^^357	0	30	0	Prescription Dispensed
+1213208	2009-06-26	INJECTION, ONDANSETRON HYDROCHLORIDE, PER 1 MG	J2405^^3	0	0	0	Prescription Dispensed
+1288992	2008-08-08	Influenza virus vaccine	90658^^3	0	0	0	Prescription Dispensed
+1288992	2008-08-13	Lisinopril 20 MG Oral Tablet	00185010201^^357	90	90	0	Prescription Dispensed
+1288992	2008-08-13	Memantine 10 MG Oral Tablet [Namenda]	00456321060^^357	180	90	0	Prescription Dispensed
+1288992	2008-08-14	Hydrochlorothiazide 50 MG Oral Tablet	00172208960^^357	90	90	0	Prescription Dispensed
+1288992	2008-08-14	donepezil 10 MG Oral Tablet [Aricept]	62856024690^^357	90	90	0	Prescription Dispensed
+1288992	2008-08-22	Amlodipine 10 MG Oral Tablet	59762154001^^357	90	90	0	Prescription Dispensed
+1288992	2008-09-30	potassium citrate 10 MEQ Extended Release Tablet	64980013801^^357	200	90	0	Prescription Dispensed
+1288992	2008-10-19	Lisinopril 20 MG Oral Tablet	00185010201^^357	90	90	0	Prescription Dispensed
+1288992	2008-10-20	donepezil 10 MG Oral Tablet [Aricept]	62856024690^^357	90	90	0	Prescription Dispensed
+1288992	2008-10-28	Amlodipine 10 MG Oral Tablet	59762154001^^357	90	90	0	Prescription Dispensed
+1288992	2008-11-01	Memantine 10 MG Oral Tablet [Namenda]	00456321060^^357	180	90	0	Prescription Dispensed
+1288992	2008-11-09	Hydrochlorothiazide 50 MG Oral Tablet	00172208960^^357	90	90	0	Prescription Dispensed
+1288992	2009-01-03	potassium citrate 10 MEQ Extended Release Tablet	64980013801^^357	200	90	0	Prescription Dispensed
+1288992	2009-01-17	Lisinopril 20 MG Oral Tablet	00185010201^^357	90	90	0	Prescription Dispensed
+1288992	2009-01-18	Hydrochlorothiazide 50 MG Oral Tablet	00172208960^^357	90	90	0	Prescription Dispensed
+1288992	2009-01-18	donepezil 10 MG Oral Tablet [Aricept]	62856024690^^357	90	90	0	Prescription Dispensed
+1288992	2009-04-28	Amlodipine 10 MG Oral Tablet	59762154001^^357	90	90	0	Prescription Dispensed
+1288992	2009-04-28	Hydrochlorothiazide 50 MG Oral Tablet	00172208960^^357	90	90	0	Prescription Dispensed
+1288992	2009-04-28	Lisinopril 20 MG Oral Tablet	00185010201^^357	90	90	0	Prescription Dispensed
+1288992	2009-04-28	Memantine 10 MG Oral Tablet [Namenda]	00456321060^^357	180	90	0	Prescription Dispensed
+1288992	2009-04-28	donepezil 10 MG Oral Tablet [Aricept]	62856024690^^357	90	90	0	Prescription Dispensed
+1288992	2009-04-28	potassium citrate 10 MEQ Extended Release Tablet	64980013801^^357	200	90	0	Prescription Dispensed
+1288992	2009-07-06	Amlodipine 10 MG Oral Tablet	59762154001^^357	90	90	0	Prescription Dispensed
+1288992	2009-07-06	Lisinopril 20 MG Oral Tablet	00185010201^^357	90	90	0	Prescription Dispensed
+1288992	2009-07-06	Memantine 10 MG Oral Tablet [Namenda]	00456321060^^357	180	90	0	Prescription Dispensed
+1288992	2009-07-06	potassium citrate 10 MEQ Extended Release Tablet	64980013801^^357	200	90	0	Prescription Dispensed
+1288992	2009-07-07	Hydrochlorothiazide 50 MG Oral Tablet	00172208960^^357	90	90	0	Prescription Dispensed
+1288992	2009-07-07	donepezil 10 MG Oral Tablet [Aricept]	62856024690^^357	90	90	0	Prescription Dispensed
+1291938	2007-07-02	INJECTION, ONDANSETRON HYDROCHLORIDE, PER 1 MG	J2405^^3	0	0	0	Prescription Dispensed
+1482713	2005-09-25	Triamcinolone 1 MG/ML Topical Cream	51672128202^^357	90	30	0	Prescription Dispensed
+1482713	2005-10-13	Chlorphen-PE-Methscopolamine Syrup 2-10-0.625 MG/5ML	00121024716^^357	180	9	0	Prescription Dispensed
+1482713	2005-12-01	Triamcinolone 1 MG/ML Topical Cream	51672128202^^357	90	30	0	Prescription Dispensed
+1482713	2005-12-11	Chlorphen-PE-Methscopolamine Syrup 2-10-0.625 MG/5ML	00121024716^^357	180	9	0	Prescription Dispensed
+1482713	2006-04-21	Triamcinolone 1 MG/ML Topical Cream	51672128202^^357	30	30	0	Prescription Dispensed
+1482713	2006-06-15	Diphenhydramine 2.5 MG/ML Oral Solution [Diphen]	60432003316^^357	60	3	0	Prescription Dispensed
+1482713	2006-06-15	Ibuprofen 20 MG/ML Oral Suspension	00472127016^^357	120	3	0	Prescription Dispensed
+1482713	2006-09-03	DTAP VACCINE < 7 YR IM	90700^^3	0	0	0	Prescription Dispensed
+1482713	2006-09-03	MEASLES MUMPS RUBELLA VARICELLA VACC LIVE SUBQ	90710^^3	0	0	0	Prescription Dispensed
+1482713	2006-09-03	Poliovirus Vaccine, Inactivated	90713^^3	0	0	0	Prescription Dispensed
+1482713	2008-05-04	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	0	15	0	Prescription Dispensed
+1482713	2008-05-04	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	30	15	0	Prescription Dispensed
+1482713	2008-05-04	Triamcinolone 0.25 MG/ML Topical Cream	00168000380^^357	0	15	0	Prescription Dispensed
+1482713	2008-10-11	Triamcinolone 0.25 MG/ML Topical Cream	00168000380^^357	0	15	0	Prescription Dispensed
+1482713	2008-10-11	Triamcinolone 0.25 MG/ML Topical Cream	00168000380^^357	80	15	0	Prescription Dispensed
+1557780	2008-10-06	Chlorpheniramine 1.6 MG/ML / Hydrocodone 2 MG/ML Extended Release Suspension [Tussionex PennKinetic]	53014054867^^357	120	12	0	Prescription Dispensed
+1557780	2008-10-06	Methylprednisolone 4 MG Oral Tablet	00603459315^^357	21	6	0	Prescription Dispensed
+1557780	2008-10-06	{6 (Azithromycin 250 MG Oral Tablet) } Pack	00781149668^^357	6	5	0	Prescription Dispensed
+1557780	2008-10-19	{11 (varenicline 0.5 MG Oral Tablet [Chantix]) / 42 (varenicline 1 MG Oral Tablet [Chantix]) } Pack [Chantix First Month of Therapy]	00069047197^^357	53	28	0	Prescription Dispensed
+1557780	2009-01-26	Methylprednisolone 4 MG Oral Tablet	59746000103^^357	21	6	0	Prescription Dispensed
+1557780	2009-01-26	moxifloxacin 400 MG Oral Tablet [Avelox]	00085173301^^357	10	10	0	Prescription Dispensed
+1557780	2009-02-25	Prednisone 20 MG Oral Tablet	00591544301^^357	19	10	0	Prescription Dispensed
+1557780	2009-03-17	Prednisone 20 MG Oral Tablet	00591544301^^357	19	10	0	Prescription Dispensed
+1557780	2009-04-09	Hydroxyzine 25 MG Oral Capsule	00185061301^^357	30	7	0	Prescription Dispensed
+1557780	2009-05-17	Cefuroxime 500 MG Oral Tablet	68180030320^^357	20	10	0	Prescription Dispensed
+1557780	2009-05-17	Prednisone 10 MG Oral Tablet	00591544201^^357	30	10	0	Prescription Dispensed
+1557780	2009-05-31	Ciprofloxacin 500 MG Oral Tablet	55111012701^^357	20	10	0	Prescription Dispensed
+1557780	2009-05-31	Methylprednisolone 4 MG Oral Tablet	00603459321^^357	120	30	0	Prescription Dispensed
+1557780	2009-06-18	Ciprofloxacin 500 MG Oral Tablet	55111012701^^357	20	10	0	Prescription Dispensed
+1557780	2009-06-30	Omeprazole 40 MG Enteric Coated Capsule	00781223431^^357	30	30	0	Prescription Dispensed
+1557780	2009-08-02	60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 250/50]	00173069600^^357	60	30	0	Prescription Dispensed
+1557780	2009-08-02	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	00597007541^^357	30	30	0	Prescription Dispensed
+1557780	2009-08-05	Ciprofloxacin 500 MG Oral Tablet	55111012701^^357	20	10	0	Prescription Dispensed
+1557780	2009-08-05	Prednisone 10 MG Oral Tablet	00591544201^^357	30	30	0	Prescription Dispensed
+1557780	2009-08-17	Omeprazole 40 MG Enteric Coated Capsule	00781223431^^357	30	30	0	Prescription Dispensed
+1557780	2009-09-02	60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler [Advair Diskus 250/50]	00173069600^^357	60	30	0	Prescription Dispensed
+1557780	2009-09-02	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	00597007541^^357	30	30	0	Prescription Dispensed
+1557780	2009-09-04	Hydroxyzine 25 MG Oral Capsule	00185061301^^357	30	7	0	Prescription Dispensed
+1557780	2009-09-05	Doxycycline 100 MG Oral Capsule	00591544005^^357	20	10	0	Prescription Dispensed
+1557780	2009-09-05	Prednisone 20 MG Oral Tablet	00591544305^^357	14	8	0	Prescription Dispensed
+1577780	2009-02-02	mesalamine 400 MG Enteric Coated Tablet [Asacol]	00149075215^^357	180	30	0	Prescription Dispensed
+1577780	2009-02-10	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	30	30	0	Prescription Dispensed
+1577780	2009-03-23	Simvastatin 40 MG Oral Tablet	55111020090^^357	90	90	0	Prescription Dispensed
+1577780	2009-03-23	Thyroxine 0.2 MG Oral Tablet [Levothroid]	00456132701^^357	78	90	0	Prescription Dispensed
+1577780	2009-05-11	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	30	30	0	Prescription Dispensed
+1577780	2009-05-18	24 HR venlafaxine 75 MG Extended Release Capsule [Effexor]	00008083322^^357	90	90	0	Prescription Dispensed
+1577780	2009-05-21	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	90	90	0	Prescription Dispensed
+1577780	2009-06-01	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	00781185220^^357	20	10	0	Prescription Dispensed
+1577780	2009-06-01	Fluticasone Propionate Nasal Susp 50 MCG/ACT	60505082901^^357	16	30	0	Prescription Dispensed
+1577780	2009-06-08	mesalamine 400 MG Enteric Coated Tablet [Asacol]	00149075215^^357	540	90	0	Prescription Dispensed
+1577780	2009-06-17	Metformin 1000 MG / sitagliptin 50 MG Oral Tablet [Janumet 50/1000]	00006057762^^357	180	90	0	Prescription Dispensed
+1577780	2009-06-17	Tamoxifen 10 MG Oral Tablet	00093078486^^357	180	90	0	Prescription Dispensed
+1577780	2009-07-06	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	8	16	0	Prescription Dispensed
+1577780	2009-07-06	{6 (Azithromycin 250 MG Oral Tablet) } Pack	00093714618^^357	6	5	0	Prescription Dispensed
+1577780	2009-07-09	Thyroxine 0.2 MG Oral Tablet [Levothroid]	00456132701^^357	78	90	0	Prescription Dispensed
+1577780	2009-07-12	venlafaxine 75 MG Oral Tablet	00093738201^^357	60	30	0	Prescription Dispensed
+1577780	2009-07-15	Simvastatin 40 MG Oral Tablet	68180048003^^357	30	30	0	Prescription Dispensed
+1577780	2009-07-18	Simvastatin 40 MG Oral Tablet	55111020090^^357	90	90	0	Prescription Dispensed
+1577780	2009-07-18	venlafaxine 75 MG Oral Tablet	00378488401^^357	180	90	0	Prescription Dispensed
+1577780	2009-08-31	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	90	90	0	Prescription Dispensed
+1577780	2009-08-31	mesalamine 400 MG Enteric Coated Tablet [Asacol]	00149075215^^357	540	90	0	Prescription Dispensed
+1614502	2007-09-14	Amoxicillin 40 MG/ML Oral Suspension	00093416073^^357	200	10	0	Prescription Dispensed
+1614502	2007-10-28	Amoxicillin 25 MG/ML Oral Suspension	00093415080^^357	0	10	0	Prescription Dispensed
+1614502	2007-10-28	Amoxicillin 25 MG/ML Oral Suspension	00093415080^^357	150	10	0	Prescription Dispensed
+1614502	2007-10-28	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	0	10	0	Prescription Dispensed
+1614502	2007-10-28	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	30	10	0	Prescription Dispensed
+1614502	2007-12-02	cefdinir 25 MG/ML Oral Suspension	00781607761^^357	0	10	0	Prescription Dispensed
+1614502	2007-12-02	cefdinir 25 MG/ML Oral Suspension	00781607761^^357	60	10	0	Prescription Dispensed
+1614502	2008-04-03	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	0	10	0	Prescription Dispensed
+1614502	2008-04-03	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	150	10	0	Prescription Dispensed
+1614502	2008-04-03	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	0	7	0	Prescription Dispensed
+1614502	2008-04-03	Clotrimazole 10 MG/ML Topical Cream	51672127502^^357	30	7	0	Prescription Dispensed
+1614502	2008-04-03	Ibuprofen 20 MG/ML Oral Suspension	00472127016^^357	0	6	0	Prescription Dispensed
+1614502	2008-04-03	Ibuprofen 20 MG/ML Oral Suspension	00472127016^^357	120	6	0	Prescription Dispensed
+1614502	2008-07-11	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	0	10	0	Prescription Dispensed
+1614502	2008-07-11	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	150	10	0	Prescription Dispensed
+1614502	2008-11-12	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	0	10	0	Prescription Dispensed
+1614502	2008-11-12	Amoxicillin 80 MG/ML Oral Suspension	00093416178^^357	150	10	0	Prescription Dispensed
+1614502	2009-05-01	Permethrin 10 MG/ML Topical Lotion	00472524267^^357	59	7	0	Prescription Dispensed
+1614502	2009-05-09	Permethrin 10 MG/ML Topical Lotion	00472524267^^357	59	7	0	Prescription Dispensed
+1642068	2008-08-07	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	60793085501^^357	90	90	0	Prescription Dispensed
+1642068	2008-08-29	Hydrochlorothiazide 12.5 MG / irbesartan 150 MG Oral Tablet [Avalide 150/12.5]	00087277532^^357	90	90	0	Prescription Dispensed
+1642068	2008-09-21	pantoprazole 40 MG Enteric Coated Tablet	62756058081^^357	90	90	0	Prescription Dispensed
+1642068	2008-09-25	Alendronate 70 MG Oral Tablet	00093517144^^357	12	90	0	Prescription Dispensed
+1642068	2008-09-25	Ranitidine 150 MG Oral Tablet	49884054405^^357	90	90	0	Prescription Dispensed
+1642068	2008-10-02	Simvastatin 20 MG Oral Tablet	65862005299^^357	90	90	0	Prescription Dispensed
+1642068	2008-10-24	Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]	00025142160^^357	270	90	0	Prescription Dispensed
+1642068	2008-11-06	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	60793085501^^357	90	90	0	Prescription Dispensed
+1642068	2008-12-01	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	65862004401^^357	90	90	0	Prescription Dispensed
+1642068	2008-12-18	Alendronate 70 MG Oral Tablet	00093517144^^357	12	90	0	Prescription Dispensed
+1642068	2008-12-20	120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Nasal Inhaler [Nasonex]	00085128801^^357	17	30	0	Prescription Dispensed
+1642068	2008-12-20	Ranitidine 150 MG Oral Tablet	64679090603^^357	90	90	0	Prescription Dispensed
+1642068	2008-12-20	pantoprazole 40 MG Enteric Coated Tablet	62756058081^^357	90	90	0	Prescription Dispensed
+1642068	2008-12-26	Simvastatin 20 MG Oral Tablet	55111019905^^357	90	90	0	Prescription Dispensed
+1642068	2009-01-18	Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]	00025142160^^357	270	90	0	Prescription Dispensed
+1642068	2009-01-29	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	60793085501^^357	90	90	0	Prescription Dispensed
+1642068	2009-02-26	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	65862004401^^357	90	90	0	Prescription Dispensed
+1642068	2009-03-14	Alendronate 70 MG Oral Tablet	00093517144^^357	12	90	0	Prescription Dispensed
+1642068	2009-03-19	Ranitidine 150 MG Oral Tablet	64679090603^^357	90	90	0	Prescription Dispensed
+1642068	2009-03-19	pantoprazole 40 MG Enteric Coated Tablet [Protonix]	00008084181^^357	90	90	0	Prescription Dispensed
+1642068	2009-04-04	Simvastatin 20 MG Oral Tablet	65862005299^^357	90	90	0	Prescription Dispensed
+1642068	2009-05-02	Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]	00025142160^^357	270	90	0	Prescription Dispensed
+1642068	2009-05-02	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	60793085501^^357	90	90	0	Prescription Dispensed
+1642068	2009-05-22	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	00591086101^^357	90	90	0	Prescription Dispensed
+1642068	2009-06-04	Alendronate 70 MG Oral Tablet	00093517144^^357	12	90	0	Prescription Dispensed
+1642068	2009-06-18	Ranitidine 150 MG Oral Tablet	64679090603^^357	90	90	0	Prescription Dispensed
+1642068	2009-06-18	pantoprazole 40 MG Enteric Coated Tablet [Protonix]	00008084181^^357	90	90	0	Prescription Dispensed
+1642068	2009-06-22	Lisinopril 20 MG Oral Tablet	00172376070^^357	60	60	0	Prescription Dispensed
+1642068	2009-07-09	Simvastatin 20 MG Oral Tablet	65862005299^^357	90	90	0	Prescription Dispensed
+1642068	2009-07-16	Thyroxine 0.112 MG Oral Tablet [Levoxyl]	60793085501^^357	90	90	0	Prescription Dispensed
+1642068	2009-07-17	120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Nasal Inhaler [Nasonex]	00085128801^^357	17	30	0	Prescription Dispensed
+1642068	2009-08-24	Lisinopril 20 MG Oral Tablet	00172376070^^357	90	90	0	Prescription Dispensed
+1642068	2009-09-03	120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Nasal Inhaler [Nasonex]	00085128801^^357	17	30	0	Prescription Dispensed
+1642068	2009-09-03	Alendronate 70 MG Oral Tablet	00093517144^^357	12	90	0	Prescription Dispensed
+1642068	2009-09-03	Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]	00025142160^^357	270	90	0	Prescription Dispensed
+1642068	2009-09-17	Ranitidine 150 MG Oral Tablet	53746025305^^357	90	90	0	Prescription Dispensed
+1642068	2009-09-17	pantoprazole 40 MG Enteric Coated Tablet [Protonix]	00008084181^^357	90	90	0	Prescription Dispensed
+1685497	2003-11-18	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2003-11-25	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2003-12-18	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-01-04	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-01-10	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-02-04	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-02-16	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-03-12	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-03-18	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-04-13	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-04-13	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-05-15	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-05-17	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-06-15	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-06-22	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-07-15	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-08-04	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-08-18	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-09-06	Amoxicillin 875 MG Oral Tablet	63304076301^^357	0	0	0	Prescription Dispensed
+1685497	2004-09-07	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-09-17	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-10-09	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-10-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-11-19	Niacin 500 MG Extended Release Tablet [Niaspan]	60598000101^^357	0	0	0	Prescription Dispensed
+1685497	2004-11-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-12-25	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2004-12-25	Niacin 1000 MG Extended Release Tablet [Niaspan]	60598000301^^357	0	0	0	Prescription Dispensed
+1685497	2005-01-18	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-01-18	Niacin 1000 MG Extended Release Tablet [Niaspan]	60598000301^^357	0	0	0	Prescription Dispensed
+1685497	2005-01-18	sibutramine 10 MG Oral Capsule [Meridia]	00074245713^^357	0	0	0	Prescription Dispensed
+1685497	2005-01-24	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	0	0	Prescription Dispensed
+1685497	2005-02-17	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-02-17	sibutramine 10 MG Oral Capsule [Meridia]	00074245713^^357	0	0	0	Prescription Dispensed
+1685497	2005-02-24	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	0	0	Prescription Dispensed
+1685497	2005-03-20	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-03-20	sibutramine 10 MG Oral Capsule [Meridia]	00074245713^^357	0	0	0	Prescription Dispensed
+1685497	2005-03-26	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	0	0	Prescription Dispensed
+1685497	2005-04-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-05-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-06-20	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-07-23	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-08-20	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565810^^357	0	0	0	Prescription Dispensed
+1685497	2005-08-20	Methylprednisolone 4 MG Oral Tablet	00555030138^^357	0	0	0	Prescription Dispensed
+1685497	2005-08-21	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-09-10	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2005-09-21	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-10-23	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-10-23	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2005-11-21	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2005-12-24	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-01-20	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-02-25	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-03-30	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-05-01	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-05-27	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-06-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-07-22	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-08-20	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-09-25	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-10-09	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2006-10-25	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00093103501^^357	0	0	0	Prescription Dispensed
+1685497	2006-11-15	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2006-11-27	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2006-12-19	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2006-12-28	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-01-27	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-03-05	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-03-05	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-03-29	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-03-29	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-03-29	zolpidem 10 MG Oral Tablet	55111047901^^357	0	0	0	Prescription Dispensed
+1685497	2007-05-04	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-05-13	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-05-13	zolpidem 10 MG Oral Tablet	55111047901^^357	0	0	0	Prescription Dispensed
+1685497	2007-06-03	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-06-30	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-06-30	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-08-03	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-08-03	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-09-02	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-09-02	rosuvastatin 20 MG Oral Tablet [Crestor]	00310075290^^357	0	0	0	Prescription Dispensed
+1685497	2007-10-06	Hydrochlorothiazide 12.5 MG / Lisinopril 10 MG Oral Tablet	00172503360^^357	0	0	0	Prescription Dispensed
+1685497	2007-10-06	rosuvastatin 10 MG Oral Tablet [Crestor]	00310075190^^357	0	0	0	Prescription Dispensed
+1768562	2008-07-30	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565801^^357	30	30	0	Prescription Dispensed
+1768562	2008-07-30	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2008-07-30	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	90	90	0	Prescription Dispensed
+1768562	2008-07-30	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2008-08-22	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	30	30	0	Prescription Dispensed
+1768562	2008-08-28	Ramipril 10 MG Oral Capsule	68180059101^^357	180	90	0	Prescription Dispensed
+1768562	2008-08-31	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565801^^357	30	30	0	Prescription Dispensed
+1768562	2008-08-31	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2008-08-31	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2008-09-22	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	30	30	0	Prescription Dispensed
+1768562	2008-09-26	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2008-10-05	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565801^^357	30	30	0	Prescription Dispensed
+1768562	2008-10-05	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2008-10-30	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2008-10-30	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	30	30	0	Prescription Dispensed
+1768562	2008-11-06	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	90	90	0	Prescription Dispensed
+1768562	2008-11-06	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2008-11-08	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565801^^357	30	30	0	Prescription Dispensed
+1768562	2008-11-25	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2008-11-25	Ramipril 10 MG Oral Capsule	55111044190^^357	180	90	0	Prescription Dispensed
+1768562	2008-12-06	Cyclobenzaprine hydrochloride 10 MG Oral Tablet	00591565801^^357	30	30	0	Prescription Dispensed
+1768562	2008-12-06	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2008-12-06	celecoxib 200 MG Oral Capsule [Celebrex]	00025152531^^357	30	30	0	Prescription Dispensed
+1768562	2009-01-03	Digoxin 0.25 MG Oral Tablet	00527132510^^357	30	30	0	Prescription Dispensed
+1768562	2009-01-10	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-01-30	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2009-02-05	Furosemide 20 MG Oral Tablet	00591030010^^357	60	30	0	Prescription Dispensed
+1768562	2009-02-09	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-02-28	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2009-03-12	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-03-15	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-03-17	Furosemide 20 MG Oral Tablet	00591030010^^357	60	30	0	Prescription Dispensed
+1768562	2009-03-17	Ramipril 10 MG Oral Capsule	55111044190^^357	180	90	0	Prescription Dispensed
+1768562	2009-04-02	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024975^^357	30	30	0	Prescription Dispensed
+1768562	2009-04-11	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-04-11	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-04-18	Furosemide 20 MG Oral Tablet	63304062410^^357	60	30	0	Prescription Dispensed
+1768562	2009-04-30	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024955^^357	30	30	0	Prescription Dispensed
+1768562	2009-05-12	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-05-12	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-05-27	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024955^^357	30	30	0	Prescription Dispensed
+1768562	2009-05-27	Furosemide 20 MG Oral Tablet	63304062410^^357	60	30	0	Prescription Dispensed
+1768562	2009-06-13	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-06-13	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-06-17	Ramipril 10 MG Oral Capsule	55111044190^^357	180	90	0	Prescription Dispensed
+1768562	2009-07-02	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024955^^357	30	30	0	Prescription Dispensed
+1768562	2009-07-02	Furosemide 20 MG Oral Tablet	63304062410^^357	60	30	0	Prescription Dispensed
+1768562	2009-07-15	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-07-15	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-08-04	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024955^^357	30	30	0	Prescription Dispensed
+1768562	2009-08-04	Furosemide 20 MG Oral Tablet	63304062410^^357	60	30	0	Prescription Dispensed
+1768562	2009-08-12	Warfarin 5 MG Oral Tablet [Coumadin]	00056017270^^357	30	30	0	Prescription Dispensed
+1768562	2009-08-12	carvedilol 25 MG Oral Tablet	00093729601^^357	60	30	0	Prescription Dispensed
+1768562	2009-08-31	Digoxin 0.25 MG Oral Tablet [Lanoxin]	00173024955^^357	30	30	0	Prescription Dispensed
+1796238	2009-06-09	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	8	30	0	Prescription Dispensed
+1796238	2009-08-04	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	8	30	0	Prescription Dispensed
+1796238	2009-08-10	sildenafil 100 MG Oral Tablet [Viagra]	00069422030^^357	6	6	0	Prescription Dispensed
+1796238	2009-08-30	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [ProAir HFA]	59310057920^^357	8	30	0	Prescription Dispensed
+1796238	2009-08-30	sildenafil 100 MG Oral Tablet [Viagra]	00069422030^^357	6	6	0	Prescription Dispensed
+1869612	2003-10-27	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2003-11-29	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2003-12-10	glimepiride 1 MG Oral Tablet [Amaryl]	00039022110^^357	0	0	0	Prescription Dispensed
+1869612	2003-12-27	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-01-19	glimepiride 1 MG Oral Tablet [Amaryl]	00039022110^^357	0	0	0	Prescription Dispensed
+1869612	2004-01-22	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-03-02	glimepiride 1 MG Oral Tablet [Amaryl]	00039022110^^357	0	0	0	Prescription Dispensed
+1869612	2004-03-02	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-03-31	glimepiride 1 MG Oral Tablet [Amaryl]	00039022110^^357	0	0	0	Prescription Dispensed
+1869612	2004-04-07	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-04-16	Lisinopril 10 MG Oral Tablet	00781166601^^357	0	0	0	Prescription Dispensed
+1869612	2004-04-30	Cefaclor 500 MG Oral Capsule	00172477160^^357	0	0	0	Prescription Dispensed
+1869612	2004-04-30	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-04-30	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-06-04	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-06-04	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-07-04	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-07-04	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-08-06	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-08-06	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-09-13	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-09-13	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-10-08	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-10-08	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-11-12	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-11-12	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2004-12-13	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2004-12-13	irbesartan 150 MG Oral Tablet [Avapro]	00087277231^^357	0	0	0	Prescription Dispensed
+1869612	2005-01-09	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-01-09	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-02-05	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-02-05	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-03-08	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-03-15	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-04-17	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-04-17	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-06-02	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-06-02	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-06-30	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-06-30	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-08-01	glimepiride 2 MG Oral Tablet	55111032101^^357	0	0	0	Prescription Dispensed
+1869612	2005-08-01	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-08-28	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-08-28	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2005-09-26	glimepiride 2 MG Oral Tablet [Amaryl]	00039022210^^357	0	0	0	Prescription Dispensed
+1869612	2005-09-26	irbesartan 150 MG Oral Tablet [Avapro]	00087277232^^357	0	0	0	Prescription Dispensed
+1869612	2008-10-12	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	54458099210^^357	30	30	0	Prescription Dispensed
+1869612	2008-10-12	Lisinopril 20 MG Oral Tablet	54458099610^^357	30	30	0	Prescription Dispensed
+1869612	2008-10-12	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2008-11-04	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2008-11-10	Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet	54458099210^^357	30	30	0	Prescription Dispensed
+1869612	2008-11-12	Cephalexin 500 MG Oral Capsule	00093314701^^357	28	9	0	Prescription Dispensed
+1869612	2008-11-12	Lisinopril 20 MG Oral Tablet	54458099610^^357	30	30	0	Prescription Dispensed
+1869612	2009-01-05	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2009-02-04	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2009-03-06	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2009-04-04	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2009-05-03	glimepiride 2 MG Oral Tablet	00093725501^^357	45	30	0	Prescription Dispensed
+1869612	2009-06-08	glimepiride 2 MG Oral Tablet	55111032101^^357	45	30	0	Prescription Dispensed
+1869612	2009-06-16	Lisinopril 20 MG Oral Tablet	54458099610^^357	30	30	0	Prescription Dispensed
+1869612	2009-06-22	Cephalexin 500 MG Oral Capsule	68180012201^^357	28	7	0	Prescription Dispensed
+1869612	2009-07-08	glimepiride 2 MG Oral Tablet	54458096710^^357	45	30	0	Prescription Dispensed
+1869612	2009-07-15	Lisinopril 20 MG Oral Tablet	54458099610^^357	30	30	0	Prescription Dispensed
+1869612	2009-08-06	glimepiride 2 MG Oral Tablet	54458096710^^357	45	30	0	Prescription Dispensed
+1869612	2009-08-15	Lisinopril 20 MG Oral Tablet	54458099610^^357	30	30	0	Prescription Dispensed
+2004454	2008-11-14	DTAP-HIB-IPV VACCINE IM	90698^^3	0	0	0	Prescription Dispensed
+2004454	2008-11-14	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+2004454	2008-11-14	Rotavirus Vaccine, Live Attenuated, G1P[8] Human 89-12 strain	90681^^3	0	0	0	Prescription Dispensed
+2004454	2009-01-10	DTAP-HIB-IPV VACCINE IM	90698^^3	0	0	0	Prescription Dispensed
+2004454	2009-01-10	Hepatitis B Vaccine	90744^^3	0	0	0	Prescription Dispensed
+2004454	2009-01-10	PNEUMOCOCCAL CONJ VACCINE POLYVALENT <5 YEARS IM	90669^^3	0	0	0	Prescription Dispensed
+2080416	2004-05-09	Erythromycin 0.005 MG/MG Ophthalmic Ointment	00168007038^^357	3	5	0	Prescription Dispensed
+2080416	2004-11-06	Amoxicillin 50 MG/ML Oral Suspension	00093415580^^357	150	10	0	Prescription Dispensed
+2080416	2008-08-19	Albuterol 0.83 MG/ML Inhalant Solution	00487950125^^357	75	4	0	Prescription Dispensed
+2080416	2009-05-19	Albuterol 0.83 MG/ML Inhalant Solution	00487950125^^357	75	4	0	Prescription Dispensed
+2113340	2006-09-02	Naproxen 500 MG Oral Tablet	00093014905^^357	0	0	0	Prescription Dispensed
+2113340	2009-03-07	Metoprolol 25 MG Oral Tablet	00378001801^^357	30	30	0	Prescription Dispensed
+2113340	2009-03-07	Nitroglycerin 0.4 MG Sublingual Tablet	68462014645^^357	25	30	0	Prescription Dispensed
+2113340	2009-03-10	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-03-10	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-04-09	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-04-09	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-04-09	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-04-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-05-09	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-05-09	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-05-09	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-05-09	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-06-08	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-06-08	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-06-08	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-06-08	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-07-08	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-07-08	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-07-08	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-07-08	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-08-05	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-08-05	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-08-05	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-08-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-09-05	Lisinopril 5 MG Oral Tablet	54458099809^^357	30	30	0	Prescription Dispensed
+2113340	2009-09-05	atorvastatin 80 MG Oral Tablet [Lipitor]	00071015823^^357	30	30	0	Prescription Dispensed
+2113340	2009-09-05	carvedilol 3.13 MG Oral Tablet	00378363101^^357	60	30	0	Prescription Dispensed
+2113340	2009-09-05	clopidogrel 75 MG Oral Tablet [Plavix]	63653117106^^357	30	30	0	Prescription Dispensed
+2113340	2009-09-06	Metronidazole 500 MG Oral Tablet	50111033401^^357	14	7	0	Prescription Dispensed
+2113340	2009-09-07	Desonide 0.0005 MG/MG Topical Ointment	51672128103^^357	60	14	0	Prescription Dispensed
+2113340	2009-09-07	Urea 400 MG/ML Topical Cream	50383066403^^357	85	20	0	Prescription Dispensed
+2169591	2003-10-25	Doxycycline 100 MG Oral Tablet	00591049950^^357	0	0	0	Prescription Dispensed
+2169591	2003-10-25	Sertraline 100 MG Oral Tablet [Zoloft]	00049491066^^357	0	0	0	Prescription Dispensed
+2169591	2003-11-03	{21 (drospirenone 3 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Yasmin 28 Day]	50419040203^^357	0	0	0	Prescription Dispensed
+2169591	2003-11-24	tazarotene 1 MG/ML Topical Cream [Tazorac]	00023915630^^357	0	0	0	Prescription Dispensed
+2169591	2003-12-16	Sertraline 100 MG Oral Tablet [Zoloft]	00049491066^^357	0	0	0	Prescription Dispensed
+2169591	2003-12-21	Doxycycline 100 MG Oral Capsule	00591049850^^357	0	0	0	Prescription Dispensed
+2169591	2004-02-23	Sertraline 100 MG Oral Tablet [Zoloft]	00049491066^^357	0	0	0	Prescription Dispensed
+2169591	2004-03-28	Benzoyl Peroxide 0.05 MG/MG / Clindamycin 0.01 MG/MG Topical Gel [Benzaclin]	00066049450^^357	0	0	0	Prescription Dispensed
+2169591	2004-03-28	Doxycycline 100 MG Oral Capsule	00591049850^^357	0	0	0	Prescription Dispensed
+2169591	2004-03-28	Sertraline 100 MG Oral Tablet [Zoloft]	00049491066^^357	0	0	0	Prescription Dispensed
+2169591	2004-03-28	tazarotene 1 MG/ML Topical Cream [Tazorac]	00023915630^^357	0	0	0	Prescription Dispensed
+2169591	2004-07-07	Sertraline 100 MG Oral Tablet [Zoloft]	00049491066^^357	0	0	0	Prescription Dispensed
+2169591	2004-07-07	{21 (Ethinyl Estradiol 0.03 MG / Norgestrel 0.3 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Low-Ogestrel 28 Day]	52544084728^^357	0	0	0	Prescription Dispensed
+2169591	2004-07-18	Metronidazole 250 MG Oral Tablet	00591554001^^357	0	0	0	Prescription Dispensed
+2169591	2004-08-04	{21 (Ethinyl Estradiol 0.03 MG / Norgestrel 0.3 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Low-Ogestrel 28 Day]	52544084728^^357	0	0	0	Prescription Dispensed
+2169591	2004-09-08	{21 (Ethinyl Estradiol 0.03 MG / Norgestrel 0.3 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Low-Ogestrel 28 Day]	52544084728^^357	0	0	0	Prescription Dispensed
+2169591	2004-10-04	{21 (Ethinyl Estradiol 0.03 MG / Norgestrel 0.3 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Low-Ogestrel 28 Day]	52544084728^^357	0	0	0	Prescription Dispensed
+2169591	2008-08-30	Alprazolam 0.25 MG Oral Tablet	00378400105^^357	24	8	0	Prescription Dispensed
+2169591	2008-08-30	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2008-10-03	Sertraline 100 MG Oral Tablet	00093717756^^357	30	30	0	Prescription Dispensed
+2169591	2008-10-21	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2008-11-13	Sertraline 100 MG Oral Tablet	00093717756^^357	30	30	0	Prescription Dispensed
+2169591	2008-11-13	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2008-12-25	Sertraline 100 MG Oral Tablet	31722021430^^357	30	30	0	Prescription Dispensed
+2169591	2008-12-25	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2009-01-15	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2009-02-05	Sertraline 100 MG Oral Tablet	31722021430^^357	30	30	0	Prescription Dispensed
+2169591	2009-03-05	Ciprofloxacin 500 MG Oral Tablet	60505130901^^357	14	7	0	Prescription Dispensed
+2169591	2009-03-12	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2009-03-19	Sertraline 100 MG Oral Tablet	31722021430^^357	30	30	0	Prescription Dispensed
+2169591	2009-04-25	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2169591	2009-05-28	{21 (Desogestrel 0.15 MG / Ethinyl Estradiol 0.03 MG Oral Tablet) / 7 (Inert Ingredients 1 MG Oral Tablet) } Pack [Apri 28 Day]	00555904358^^357	28	28	0	Prescription Dispensed
+2354220	2008-10-15	Cephalexin 500 MG Oral Capsule	00093314705^^357	24	8	0	Prescription Dispensed
+2354220	2008-10-15	Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution	50383080416^^357	120	6	0	Prescription Dispensed
+2354220	2008-11-24	Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution	50383080416^^357	120	6	0	Prescription Dispensed
+2354220	2008-11-29	Amoxicillin 875 MG / Clavulanate 125 MG Oral Tablet	00781185220^^357	20	10	0	Prescription Dispensed
+2354220	2009-01-01	Naloxone 0.5 MG / Pentazocine 50 MG Oral Tablet	00591039501^^357	20	3	0	Prescription Dispensed
+2354220	2009-01-16	Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution	50383080416^^357	120	6	0	Prescription Dispensed
+2354220	2009-02-01	Estrogens, Conjugated (USP) 1.25 MG Oral Tablet [Premarin]	00046110481^^357	30	30	0	Prescription Dispensed
+2354220	2009-03-15	Estrogens, Conjugated (USP) 1.25 MG Oral Tablet [Premarin]	00046110481^^357	30	30	0	Prescription Dispensed
+2354220	2009-03-22	Estrogens, Conjugated (USP) 1.25 MG Oral Tablet [Premarin]	00046110481^^357	90	90	0	Prescription Dispensed
+2354220	2009-04-11	Codeine 2 MG/ML / Promethazine 1.25 MG/ML Oral Solution	50383080416^^357	120	6	0	Prescription Dispensed
+2354220	2009-09-02	Estrogens, Conjugated (USP) 1.25 MG Oral Tablet [Premarin]	00046110481^^357	90	90	0	Prescription Dispensed
+2354220	2009-09-26	Naloxone 0.5 MG / Pentazocine 50 MG Oral Tablet	00591039501^^357	25	6	0	Prescription Dispensed
+2502813	2008-11-13	120 ACTUAT Budesonide 0.08 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort 80/4.5]	00186037220^^357	30	90	0	Prescription Dispensed
+2502813	2008-11-13	24 HR Nisoldipine 8.5 MG Extended Release Tablet [Sular]	59630050010^^357	90	90	0	Prescription Dispensed
+2502813	2008-11-13	Atenolol 100 MG Oral Tablet	68382002401^^357	90	90	0	Prescription Dispensed
+2502813	2008-11-13	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00591042401^^357	90	90	0	Prescription Dispensed
+2502813	2008-11-13	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	00597007547^^357	90	90	0	Prescription Dispensed
+2502813	2008-11-16	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]	00173068220^^357	18	17	0	Prescription Dispensed
+2502813	2008-11-16	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00378135201^^357	14	14	0	Prescription Dispensed
+2502813	2009-02-05	Doxycycline 100 MG Oral Tablet	00143211205^^357	14	7	0	Prescription Dispensed
+2502813	2009-02-08	120 ACTUAT Budesonide 0.08 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort 80/4.5]	00186037220^^357	30	90	0	Prescription Dispensed
+2502813	2009-02-08	24 HR Nisoldipine 8.5 MG Extended Release Tablet [Sular]	59630050010^^357	90	90	0	Prescription Dispensed
+2502813	2009-02-08	Atenolol 100 MG Oral Tablet	68382002401^^357	90	90	0	Prescription Dispensed
+2502813	2009-02-08	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00591042401^^357	90	90	0	Prescription Dispensed
+2502813	2009-02-08	tiotropium 0.018 MG/ACTUAT Inhalant Powder [Spiriva]	00597007547^^357	90	90	0	Prescription Dispensed
+2502813	2009-03-26	Potassium Chloride 10 MEQ Extended Release Capsule	58177000108^^357	60	30	0	Prescription Dispensed
+2502813	2009-04-21	Potassium Chloride 10 MEQ Extended Release Capsule	58177000108^^357	60	30	0	Prescription Dispensed
+2502813	2009-05-11	Acetaminophen 500 MG / Hydrocodone 5 MG Oral Tablet	00406035705^^357	30	4	0	Prescription Dispensed
+2502813	2009-05-23	Atenolol 100 MG Oral Tablet	68382002401^^357	90	90	0	Prescription Dispensed
+2502813	2009-05-23	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00591042401^^357	90	90	0	Prescription Dispensed
+2502813	2009-06-25	Potassium Chloride 10 MEQ Extended Release Capsule	58177000108^^357	60	30	0	Prescription Dispensed
+2502813	2009-07-20	120 ACTUAT Budesonide 0.08 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Metered Dose Inhaler [Symbicort 80/4.5]	00186037220^^357	30	90	0	Prescription Dispensed
+2502813	2009-07-30	200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler [Ventolin HFA]	00173068220^^357	18	17	0	Prescription Dispensed
+2502813	2009-08-24	24 HR Nisoldipine 8.5 MG Extended Release Tablet [Sular]	59630050010^^357	90	90	0	Prescription Dispensed
+2502813	2009-08-24	Atenolol 100 MG Oral Tablet	68382002401^^357	90	90	0	Prescription Dispensed
+2502813	2009-08-24	Hydrochlorothiazide 25 MG / Triamterene 37.5 MG Oral Tablet	00591042401^^357	90	90	0	Prescription Dispensed
