@@ -30,12 +30,15 @@ RDFS=Namespace("http://www.w3.org/2000/01/rdf-schema#")
 class PatientGraph:
    """ Represents a patient's RDF graph"""
 
-   def codedValue(self,uri,value):
+   def codedValue(self,uri,title,system,identifier):
      """ Adds a CodedValue to the graph and returns node"""
      cNode=BNode()
      self.g.add((cNode,RDF.type,SP['CodedValue']))
      self.g.add((cNode,SP['code'],URIRef(uri)))
-     self.g.add((cNode,DCTERMS['title'],Literal(value)))
+     self.g.add((cNode,DCTERMS['title'],Literal(title)))
+     self.g.add((URIRef(uri), RDF.type, SP['Code']))
+     self.g.add((URIRef(uri), SP['system'], URIRef(system)))
+     self.g.add((URIRef(uri), SP['identifier'], Literal(identifier)))
      return cNode 
 
    def valueAndUnit(self,value,units):
@@ -77,7 +80,7 @@ class PatientGraph:
       for m in Med.meds[self.pid]:
         mNode = BNode()
         g.add((mNode,RDF.type,SP['Medication']))
-        g.add((mNode,SP['drugName'],self.codedValue(RXN_URI%m.rxn,m.name)))
+        g.add((mNode,SP['drugName'],self.codedValue(RXN_URI%m.rxn,m.name,RXN_URI%"",m.rxn)))
         g.add((mNode,SP['startDate'],Literal(m.start)))
         g.add((mNode,SP['instructions'],Literal(m.sig))) 
         if m.qtt:
@@ -103,7 +106,7 @@ class PatientGraph:
         g.add((pnode,RDF.type,SP['Problem']))
         g.add((pnode,SP['onset'],Literal(prob.start)))      
         g.add((pnode,SP['problemName'],
-            self.codedValue(SNOMED_URI%prob.snomed,prob.name)))
+            self.codedValue(SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
 
    def addLabResults(self):
        """Adds Lab Results to the patient's graph"""
@@ -113,7 +116,7 @@ class PatientGraph:
          lNode = BNode()
          g.add((lNode,RDF.type,SP['LabResult']))
          g.add((lNode,SP['labName'],
-            self.codedValue(LOINC_URI%lab.code,lab.name)))
+            self.codedValue(LOINC_URI%lab.code,lab.name,LOINC_URI%"",lab.code)))
 
          if lab.scale=='Qn':
            qNode = BNode()
@@ -152,31 +155,31 @@ class PatientGraph:
            aExcept = BNode()
            g.add((aExcept,RDF.type,SP['AllergyException']))
            g.add((aExcept,SP['exception'],
-               self.codedValue(SNOMED_URI%'160244002','No known allergies')))
+               self.codedValue(SNOMED_URI%'160244002','No known allergies',SNOMED_URI%'','160244002')))
 
          else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
            aNode = BNode()
            g.add((aNode,RDF.type,SP['Allergy']))
            g.add((aNode,SP['severity'],
-              self.codedValue(SNOMED_URI%'255604002','Mild')))
+              self.codedValue(SNOMED_URI%'255604002','Mild',SNOMED_URI%'','255604002')))
            g.add((aNode,SP['reaction'],
-              self.codedValue(SNOMED_URI%'271807003','Skin Rash')))
+              self.codedValue(SNOMED_URI%'271807003','Skin Rash',SNOMED_URI%'','271807003')))
            g.add((aNode,SP['category'],
-              self.codedValue(SNOMED_URI%'416098002','Drug Allergy')))
+              self.codedValue(SNOMED_URI%'416098002','Drug Allergy', SNOMED_URI%'','416098002')))
            g.add((aNode,SP['class'],
-              self.codedValue(NUI_URI%'N0000175503','Sulfonamide Antibacterial')))
+              self.codedValue(NUI_URI%'N0000175503','Sulfonamide Antibacterial',NUI_URI%''.split('&')[0], 'N0000175503')))
  
            if int(self.pid)%2: # And throw in some peanut allergies if odd pid...
              aNode = BNode()
              g.add((aNode,RDF.type,SP['Allergy'])) 
              g.add((aNode,SP['severity'],
-               self.codedValue(SNOMED_URI%'24484000','Severe')))
+               self.codedValue(SNOMED_URI%'24484000','Severe',SNOMED_URI%'','24484000')))
              g.add((aNode,SP['reaction'],
-               self.codedValue(SNOMED_URI%'39579001','Anaphylaxis')))
+               self.codedValue(SNOMED_URI%'39579001','Anaphylaxis',SNOMED_URI%'','39579001')))
              g.add((aNode,SP['category'],
-               self.codedValue(SNOMED_URI%'414285001','Food Allergy')))
+               self.codedValue(SNOMED_URI%'414285001','Food Allergy',SNOMED_URI%'','414285001')))
              g.add((aNode,SP['substance'],
-               self.codedValue(UNII_URI%'QE1QX6B99R','Peanut')))
+               self.codedValue(UNII_URI%'QE1QX6B99R','Peanut',UNII_URI%'','QE1QX6B99R')))
 
    def toRDF(self,format="pretty-xml"):
          return self.g.serialize(format=format)
