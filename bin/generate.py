@@ -38,7 +38,7 @@ class PatientGraph:
      self.g.add((cNode,DCTERMS['title'],Literal(title)))
      self.g.add((URIRef(uri), RDF.type, SP['Code']))
      self.g.add((URIRef(uri), SP['system'], URIRef(system)))
-     self.g.add((URIRef(uri), SP['identifier'], Literal(identifier)))
+     self.g.add((URIRef(uri), DCTERMS['identifier'], Literal(identifier)))
      return cNode 
 
    def valueAndUnit(self,value,units):
