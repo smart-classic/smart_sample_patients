@@ -13,7 +13,7 @@ import os
 FILE_NAME_TEMPLATE = "p%s.xml"  # format for output files: p<patient id>.xml
 
 SP_DEMOGRAPHICS = "http://smartplatforms.org/records/%s/demographics"
-RXN_URI="http://link.informatics.stonybrook.edu/rxnorm/RXCUI/%s"
+RXN_URI="http://rxnav.nlm.nih.gov/REST/rxcui/%s"
 NUI_URI="http://rxnav.nlm.nih.gov/REST/rxcui?idtype=NUI&id=%s"
 UNII_URI="http://fda.gov/UNII/%s"
 SNOMED_URI="http://www.ihtsdo.org/snomed-ct/concepts/%s"
