@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:sp="http://smartplatforms.org/terms#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-09-21</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-09-21</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-12-20</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>pantoprazole 40 MG Enteric Coated Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/314200"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>RDW RBC-Rto</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/30385-9"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A462595925</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>%</sp:unit>
+            <sp:value>13.5</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>14</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>11.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Albumin SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/1751-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A666358315</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>g/dL</sp:unit>
+            <sp:value>4.6</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>5.2</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>3.2</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>WBC # Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26464-8"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A941261664</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>10*3/uL</sp:unit>
+            <sp:value>8.3</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*3/uL</sp:unit>
+                <sp:value>10.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*3/uL</sp:unit>
+                <sp:value>4</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-10-02</sp:startDate>
+    <sp:instructions>1 qhs</sp:instructions>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Simvastatin 20 MG Oral Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/312961"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>H/O: penicillin allergy</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/161591004"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2006-01-07</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Lymphocytes NFr Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26478-8"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A535886637</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>%</sp:unit>
+            <sp:value>26</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>50</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>20</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-10-24</sp:startDate>
+    <sp:instructions>1 bid prn pain</sp:instructions>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Diclofenac 75 MG / Misoprostol 0.2 MG Enteric Coated Tablet [Arthrotec 75/200]</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/855918"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>2</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Pernicious anemia</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/84027009"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Essential hypertension</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/38341003"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>MCHC RBC Auto-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/786-4"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A582136263</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>g/dL</sp:unit>
+            <sp:value>34.1</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>36</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>32</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Platelet # Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26515-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A409306215</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>10*3/uL</sp:unit>
+            <sp:value>313</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*3/uL</sp:unit>
+                <sp:value>450</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*3/uL</sp:unit>
+                <sp:value>150</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Bilirub SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/1975-2"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A326435296</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mg/dL</sp:unit>
+            <sp:value>0.5</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>1</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>0.2</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>RBC # Bld Auto</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/789-8"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A696566823</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>10*6/uL</sp:unit>
+            <sp:value>4.83</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*6/uL</sp:unit>
+                <sp:value>5.4</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>10*6/uL</sp:unit>
+                <sp:value>4.2</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>MCV RBC</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/30428-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A863397490</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>fL</sp:unit>
+            <sp:value>91.6</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>fL</sp:unit>
+                <sp:value>100</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>fL</sp:unit>
+                <sp:value>78</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Monocytes NFr Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26485-3"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A478968871</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>%</sp:unit>
+            <sp:value>7</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>13</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>2</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>AST SerPl-cCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/1920-8"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A686689451</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>U/L</sp:unit>
+            <sp:value>25</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>31</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>0</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Sodium SerPl-sCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2951-2"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A971085894</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mmol/L</sp:unit>
+            <sp:value>140</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>145</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>133</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>BUN SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/3094-0"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A900682626</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mg/dL</sp:unit>
+            <sp:value>13</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>25</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>8</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Human immunodeficiency virus</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/19030005"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2009-03-08</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Creat SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2160-0"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A151493699</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mg/dL</sp:unit>
+            <sp:value>0.9</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>1.3</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>0.6</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Eosinophil NFr Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26450-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A150749013</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>%</sp:unit>
+            <sp:value>5</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>7</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>0</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Abnormal mammogram, unspecified</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/168750009"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2005-02-20</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Chloride SerPl-sCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2075-0"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A569257101</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mmol/L</sp:unit>
+            <sp:value>101</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>108</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>96</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Prot SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2885-2"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A590425817</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>g/dL</sp:unit>
+            <sp:value>7.5</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>8.3</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>6</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-12-01</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Hydrochlorothiazide 12.5 MG / Lisinopril 20 MG Oral Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/197886"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Potassium Bld-sCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/6298-4"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2005-02-20</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A369928973</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mmol/L</sp:unit>
+            <sp:value>3.9</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>4.9</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>3.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>MCH RBC Qn Auto</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/785-6"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A973889195</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>pg</sp:unit>
+            <sp:value>31.2</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>pg</sp:unit>
+                <sp:value>31</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>pg</sp:unit>
+                <sp:value>27</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>PMV Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/28542-9"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A616918998</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>fL</sp:unit>
+            <sp:value>9.2</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>fL</sp:unit>
+                <sp:value>9.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>fL</sp:unit>
+                <sp:value>6</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Hgb Bld-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/718-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A366756199</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>g/dL</sp:unit>
+            <sp:value>15.1</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>16</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>g/dL</sp:unit>
+                <sp:value>12.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Neutrophils NFr Bld</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/26511-6"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A871206022</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>%</sp:unit>
+            <sp:value>61</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>74</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>%</sp:unit>
+                <sp:value>44</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Benign neoplasm of stomach</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/78809005"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Osteoarthritis</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/396275006"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2005-02-20</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Potassium SerPl-sCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2823-3"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A961946397</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mmol/L</sp:unit>
+            <sp:value>3.8</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>5.5</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mmol/L</sp:unit>
+                <sp:value>3.6</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:AllergyException>
+    <sp:exception>
+      <sp:CodedValue>
+        <dcterms:title>No known allergies</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/160244002"/>
+      </sp:CodedValue>
+    </sp:exception>
+  </sp:AllergyException>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Pain in limb</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/10601006"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2005-12-20</sp:onset>
+  </sp:Problem>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Gastritis</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/235651006"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Hypothyroidism</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/40930008"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>ALP SerPl-cCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/6768-6"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A825886040</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>U/L</sp:unit>
+            <sp:value>122</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>125</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>20</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Exostosis of unspecified site</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/443092002"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2006-01-07</sp:onset>
+  </sp:Problem>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-08-07</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-05-02</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-01-29</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-07-16</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-08-07</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-11-06</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Thyroxine 0.112 MG Oral Tablet [Levoxyl]</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/206485"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2009-06-22</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>60</sp:dispenseQuantity>
+        <dc:date>2009-06-22</dc:date>
+        <sp:dispenseDaysSupply>60</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Lisinopril 20 MG Oral Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/314077"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Calcium SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/17861-6"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A832731642</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mg/dL</sp:unit>
+            <sp:value>9.9</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>10.4</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>8.4</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-09-25</sp:startDate>
+    <sp:instructions>1 bid</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-03-19</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-06-18</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-09-25</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2008-12-20</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>90</sp:dispenseQuantity>
+        <dc:date>2009-09-17</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Ranitidine 150 MG Oral Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/198191"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>2</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>Glucose SerPl-mCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/2345-7"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A134995400</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mg/dL</sp:unit>
+            <sp:value>94</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>99</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mg/dL</sp:unit>
+                <sp:value>65</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-08-29</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Hydrochlorothiazide 12.5 MG / irbesartan 150 MG Oral Tablet [Avalide 150/12.5]</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/823934"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-09-25</sp:startDate>
+    <sp:instructions>1 weekly</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>12</sp:dispenseQuantity>
+        <dc:date>2008-12-18</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>12</sp:dispenseQuantity>
+        <dc:date>2008-09-25</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>12</sp:dispenseQuantity>
+        <dc:date>2009-09-03</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>12</sp:dispenseQuantity>
+        <dc:date>2009-06-04</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>12</sp:dispenseQuantity>
+        <dc:date>2009-03-14</dc:date>
+        <sp:dispenseDaysSupply>90</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>Alendronate 70 MG Oral Tablet</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/617264"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/wk</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>ALT SerPl-cCnc</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/1742-6"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A443754793</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>U/L</sp:unit>
+            <sp:value>27</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>31</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>U/L</sp:unit>
+                <sp:value>0</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Other specified disorders of stomach and duodenum</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/236104004"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2004-12-19</sp:onset>
+  </sp:Problem>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{puff}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2008-12-20</sp:startDate>
+    <sp:instructions>1 puff bid</sp:instructions>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>17</sp:dispenseQuantity>
+        <dc:date>2009-09-03</dc:date>
+        <sp:dispenseDaysSupply>30</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>17</sp:dispenseQuantity>
+        <dc:date>2009-07-17</dc:date>
+        <sp:dispenseDaysSupply>30</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:fulfillment>
+      <sp:Fulfillment>
+        <sp:dispenseQuantity>17</sp:dispenseQuantity>
+        <dc:date>2008-12-20</dc:date>
+        <sp:dispenseDaysSupply>30</sp:dispenseDaysSupply>
+      </sp:Fulfillment>
+    </sp:fulfillment>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>120 ACTUAT mometasone furoate 0.05 MG/ACTUAT Nasal Inhaler [Nasonex]</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/746201"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>2</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <foaf:Person>
+    <sp:birthday>1962-10-06</sp:birthday>
+    <sp:zipcode>30315</sp:zipcode>
+    <foaf:givenName>Rebecca</foaf:givenName>
+    <foaf:gender>female</foaf:gender>
+    <foaf:familyName>Thompson</foaf:familyName>
+  </foaf:Person>
+  <sp:LabResult>
+    <sp:labName>
+      <sp:CodedValue>
+        <dcterms:title>TB Wheal 3D p 5 TU Diam</dcterms:title>
+        <sp:code rdf:resource="http://loinc.org/codes/1648-5"/>
+      </sp:CodedValue>
+    </sp:labName>
+    <sp:specimenCollected>
+      <sp:Attribution>
+        <sp:startTime>2006-01-01</sp:startTime>
+      </sp:Attribution>
+    </sp:specimenCollected>
+    <sp:externalID>A564229035</sp:externalID>
+    <sp:quantitativeResult>
+      <sp:QuantitativeResult>
+        <sp:valueAndUnit>
+          <sp:ValueAndUnit>
+            <sp:unit>mm</sp:unit>
+            <sp:value>0.6</sp:value>
+          </sp:ValueAndUnit>
+        </sp:valueAndUnit>
+        <sp:normalRange>
+          <sp:ResultRange>
+            <sp:maximum>
+              <sp:ValueAndUnit>
+                <sp:unit>mm</sp:unit>
+                <sp:value>1</sp:value>
+              </sp:ValueAndUnit>
+            </sp:maximum>
+            <sp:minimum>
+              <sp:ValueAndUnit>
+                <sp:unit>mm</sp:unit>
+                <sp:value>0</sp:value>
+              </sp:ValueAndUnit>
+            </sp:minimum>
+          </sp:ResultRange>
+        </sp:normalRange>
+      </sp:QuantitativeResult>
+    </sp:quantitativeResult>
+  </sp:LabResult>
+  <sp:Problem>
+    <sp:problemName>
+      <sp:CodedValue>
+        <dcterms:title>Tuberculosis</dcterms:title>
+        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/56717001"/>
+      </sp:CodedValue>
+    </sp:problemName>
+    <sp:onset>2009-03-08</sp:onset>
+  </sp:Problem>
+  <sp:Medication>
+    <sp:quantity>
+      <sp:ValueAndUnit>
+        <sp:unit>{tablet}</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:quantity>
+    <sp:startDate>2009-03-19</sp:startDate>
+    <sp:instructions>1 daily</sp:instructions>
+    <sp:drugName>
+      <sp:CodedValue>
+        <dcterms:title>pantoprazole 40 MG Enteric Coated Tablet [Protonix]</dcterms:title>
+        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/284400"/>
+      </sp:CodedValue>
+    </sp:drugName>
+    <sp:frequency>
+      <sp:ValueAndUnit>
+        <sp:unit>/d</sp:unit>
+        <sp:value>1</sp:value>
+      </sp:ValueAndUnit>
+    </sp:frequency>
+  </sp:Medication>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/855918">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>855918</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26478-8">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26478-8</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2885-2">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2885-2</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/19030005">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>19030005</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/1751-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>1751-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/160244002">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>160244002</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/3094-0">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>3094-0</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2823-3">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2823-3</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/235651006">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>235651006</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/823934">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>823934</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26464-8">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26464-8</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/197886">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>197886</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/40930008">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>40930008</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/161591004">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>161591004</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2075-0">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2075-0</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/78809005">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>78809005</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/30385-9">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>30385-9</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/28542-9">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>28542-9</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26450-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26450-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/84027009">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>84027009</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/38341003">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>38341003</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26511-6">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26511-6</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26485-3">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26485-3</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/786-4">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>786-4</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/56717001">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>56717001</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/314077">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>314077</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/168750009">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>168750009</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/6768-6">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>6768-6</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/6298-4">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>6298-4</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/314200">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>314200</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/26515-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>26515-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/206485">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>206485</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/1920-8">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>1920-8</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/17861-6">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>17861-6</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2345-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2345-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2951-2">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2951-2</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/785-6">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>785-6</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/30428-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>30428-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/396275006">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>396275006</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/284400">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>284400</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/1648-5">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>1648-5</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/10601006">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>10601006</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/1975-2">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>1975-2</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/312961">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>312961</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/746201">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>746201</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/789-8">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>789-8</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/236104004">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>236104004</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/1742-6">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>1742-6</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/617264">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>617264</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/198191">
+    <sp:system rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/"/>
+    <dcterms:identifier>198191</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/718-7">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>718-7</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/443092002">
+    <sp:system rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/"/>
+    <dcterms:identifier>443092002</dcterms:identifier>
+  </sp:Code>
+  <sp:Code rdf:about="http://loinc.org/codes/2160-0">
+    <sp:system rdf:resource="http://loinc.org/codes/"/>
+    <dcterms:identifier>2160-0</dcterms:identifier>
+  </sp:Code>
+</rdf:RDF>
+
