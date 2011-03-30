@@ -1,0 +1,8 @@
+Quick example of creating a new medical record based on some demographics:
+
+PYTHONPATH=../.. python send_data.py --path /records/ --method POST --data ../../test-data/joshtest.xml
+
+Quick example of querying for the SMART Medical Record URI given an
+external med rec number:
+
+PYTHONPATH=../.. python query_patients.py --external-medrec-number 123456 --external-medrec-system http://my.emr.site/

@@ -18,9 +18,10 @@ def run_query(args):
     sparql = """PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX  foaf:  <http://xmlns.com/foaf/0.1/>
 PREFIX  sp:  <http://smartplatforms.org/terms#>
-CONSTRUCT {?person rdf:type foaf:Person} 
+PREFIX dcterms: <http://purl.org/dc/terms/>
+CONSTRUCT {?person rdf:type sp:Demographics} 
 WHERE   {
-?person rdf:type foaf:Person. 
+?person rdf:type sp:Demographics. 
 $statements_here
 }
 order by ?ln"""
@@ -36,9 +37,14 @@ order by ?ln"""
         statements.append("?person foaf:gender '%s'"%args.gender)
     if args.bday:
         statements.append("?person sp:birthday '%s'"%args.bday)
+
     if args.externalID:
-        statements.append("?person sp:externalID <%s>"%args.externalID)
-        
+        statements.append("?person sp:medicalRecordNumber ?mrn")
+        statements.append("?mrn dcterms:identifier '%s'"%args.externalID)
+
+    if args.externalIDSystem:
+        statements.append("?person sp:medicalRecordNumber ?mrn")
+        statements.append("?mrn sp:system <%s>"%args.externalIDSystem)
 
     q = sparql.replace("$statements_here", ". \n".join(statements))
     print q
@@ -64,8 +70,11 @@ if __name__ == "__main__":
                         choices=['male','female'],
                         help="Gender")
 
-    parser.add_argument('--external-uri', dest='externalID', nargs='?', 
-                        help="external URI for the patient")
+    parser.add_argument('--external-medrec-system', dest='externalIDSystem', nargs='?', 
+                        help="URI of the system scoping an external Medication Record Number for the patient")
+
+    parser.add_argument('--external-medrec-number', dest='externalID', nargs='?', 
+                        help="Literal value of the external Medication Record Number for the patient")
 
     args = parser.parse_args()
 

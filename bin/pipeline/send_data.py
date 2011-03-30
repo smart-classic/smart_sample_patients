@@ -19,7 +19,8 @@ def submit_data(args):
     print response
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Test Data Writer')
+    parser = argparse.ArgumentParser(description='Test Data Writer', epilog="""Example usage:  PYTHONPATH=../.. python send_data.py --method POST --path /records/123/medication --data /path/to/medication.xml
+""")
 
     parser.add_argument('--path',dest='path', nargs='?', required=True,
                         help="specify path to post to, relative to container base (e.g. '/records/1234/medications/')")
