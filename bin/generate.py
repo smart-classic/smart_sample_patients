@@ -36,9 +36,6 @@ class PatientGraph:
      self.g.add((cNode,RDF.type,SP['CodedValue']))
      self.g.add((cNode,SP['code'],URIRef(uri)))
      self.g.add((cNode,DCTERMS['title'],Literal(title)))
-     self.g.add((URIRef(uri), RDF.type, SP['Code']))
-     self.g.add((URIRef(uri), SP['system'], URIRef(system)))
-     self.g.add((URIRef(uri), DCTERMS['identifier'], Literal(identifier)))
      return cNode 
 
    def valueAndUnit(self,value,units):
@@ -65,7 +62,7 @@ class PatientGraph:
 
       # Now add the patient demographic triples:
       pNode = BNode()
-      g.add((pNode,RDF.type,FOAF['Person']))
+      g.add((pNode,RDF.type,SP.Demographics))
       g.add((pNode,FOAF['givenName'],Literal(p.fname)))
       g.add((pNode,FOAF['familyName'],Literal(p.lname)))
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
@@ -126,7 +123,7 @@ class PatientGraph:
 
            # Add Range Values
            rNode = BNode()
-           g.add((rNode,RDF.type,SP['ResultRange']))
+           g.add((rNode,RDF.type,SP['ValueRange']))
            g.add((rNode,SP['minimum'],
                    self.valueAndUnit(lab.low,lab.units)))
            g.add((rNode,SP['maximum'],
@@ -136,9 +133,9 @@ class PatientGraph:
 
          if lab.scale=='Ord': # Handle an Ordinal Result  
            qNode = BNode()
-           g.add((qNode,RDF.type,SP['QualitativeResult']))
+           g.add((qNode,RDF.type,SP['NarrativeResult']))
            g.add((qNode,SP['value'],Literal(lab.value)))
-           g.add((lNode,SP['qualitativeResult'],qNode))
+           g.add((lNode,SP['narrativeResult'],qNode))
 
          aNode = BNode()
          g.add((aNode,RDF.type,SP['Attribution']))

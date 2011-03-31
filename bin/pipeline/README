@@ -1,6 +1,6 @@
 1.  Quick example of creating a new medical record based on some demographics:
 
-PYTHONPATH=../.. python send_data.py --path /records/ --method POST --data ../../test-data/joshtest.xml
+PYTHONPATH=../.. python send_data.py --path /records/ --method POST --data example_rdf/create_patient_example.xml
 
 
 
@@ -23,3 +23,18 @@ by referring to its external id:
 
   # later...
   PYTHONPATH=../.. python send_data.py --path /records/231811960711/medications/ --method POST --data example_rdf/med_example_step_2.xml 
+
+
+4.  And some labs:
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_quantitative_value.xml 
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_quantitative_ratio.xml 
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_quantitative_range.xml 
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_nominal.xml 
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_ordinal.xml 
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_narrative.xml 
