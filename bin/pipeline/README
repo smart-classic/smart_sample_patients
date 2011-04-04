@@ -38,3 +38,7 @@ PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ -
 PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_ordinal.xml 
 
 PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ --method POST --data example_rdf/new_lab_narrative.xml 
+
+5.  And an encounter
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/encounters/ --method POST --data example_rdf/encounter.xml
