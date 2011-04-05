@@ -42,3 +42,8 @@ PYTHONPATH=../.. python send_data.py --path /records/091857730931/lab_results/ -
 5.  And an encounter
 
 PYTHONPATH=../.. python send_data.py --path /records/091857730931/encounters/ --method POST --data example_rdf/encounter.xml
+
+
+5.  And some vital signs:
+
+PYTHONPATH=../.. python send_data.py --path /records/091857730931/vital_signs/ --method POST --data example_rdf/vital_signs.xml
