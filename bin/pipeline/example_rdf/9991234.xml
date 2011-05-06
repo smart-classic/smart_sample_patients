@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sp="http://smartplatforms.org/terms#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+
+<sp:Demographics>
+	<familyName xmlns="http://xmlns.com/foaf/0.1/">Misalis</familyName>
+	<givenName xmlns="http://xmlns.com/foaf/0.1/">Aidan</givenName>
+	<birthday xmlns="http://smartplatforms.org/terms#">2004-05-07T11:56:11.779443</birthday>
+	<gender xmlns="http://xmlns.com/foaf/0.1/">male</gender>
+	<zipcode xmlns="http://smartplatforms.org/terms#">74063</zipcode>
+</sp:Demographics>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-05-22T14:22:04.809937</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-05-22T14:22:04.809937</sp:startDate>
+	    <sp:endDate>2006-05-22T14:22:04.809937</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>91.7277218712</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>38.0338355563</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-05-23T04:52:36.452922</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-05-23T04:52:36.452922</sp:startDate>
+	    <sp:endDate>2006-05-23T04:52:36.452922</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>0.883442376138</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-06-29T15:36:50.980005</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-06-29T15:36:50.980005</sp:startDate>
+	    <sp:endDate>2006-06-29T15:36:50.980005</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>0.89165002334</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-07-12T18:23:48.564600</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-07-12T18:23:48.564600</sp:startDate>
+	    <sp:endDate>2006-07-12T18:23:48.564600</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>90.6129757123</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>43.2206659872</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-07-27T19:18:43.236431</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-07-27T19:18:43.236431</sp:startDate>
+	    <sp:endDate>2006-07-27T19:18:43.236431</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>0.897820779952</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-08-18T05:17:59.447956</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-08-18T05:17:59.447956</sp:startDate>
+	    <sp:endDate>2006-08-18T05:17:59.447956</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>90.4328038614</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>47.9495895534</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-10-22T22:46:09.462078</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-10-22T22:46:09.462078</sp:startDate>
+	    <sp:endDate>2006-10-22T22:46:09.462078</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>91.5047408129</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>44.9864565273</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-11-23T00:49:05.800487</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-11-23T00:49:05.800487</sp:startDate>
+	    <sp:endDate>2006-11-23T00:49:05.800487</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>92.7663524782</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>48.5993009653</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-12-26T10:51:32.856619</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-12-26T10:51:32.856619</sp:startDate>
+	    <sp:endDate>2006-12-26T10:51:32.856619</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>92.6586801466</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>44.9319794113</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2006-12-30T21:43:00.592365</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2006-12-30T21:43:00.592365</sp:startDate>
+	    <sp:endDate>2006-12-30T21:43:00.592365</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>95.0352971148</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>44.8784653653</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-01-21T07:03:50.805886</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-01-21T07:03:50.805886</sp:startDate>
+	    <sp:endDate>2007-01-21T07:03:50.805886</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>94.9405465632</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>45.1309496019</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-05-10T23:05:10.031449</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-05-10T23:05:10.031449</sp:startDate>
+	    <sp:endDate>2007-05-10T23:05:10.031449</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>97.3096414677</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>50.7040059809</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-09-14T06:56:23.529997</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-09-14T06:56:23.529997</sp:startDate>
+	    <sp:endDate>2007-09-14T06:56:23.529997</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.00586989431</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-09-24T23:34:25.062062</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-09-24T23:34:25.062062</sp:startDate>
+	    <sp:endDate>2007-09-24T23:34:25.062062</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>98.7266525696</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>54.5113538633</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-10-10T15:41:08.150604</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-10-10T15:41:08.150604</sp:startDate>
+	    <sp:endDate>2007-10-10T15:41:08.150604</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>97.53373582</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>55.3567289638</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2007-11-15T16:00:52.624053</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2007-11-15T16:00:52.624053</sp:startDate>
+	    <sp:endDate>2007-11-15T16:00:52.624053</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>99.7286886884</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>54.448655961</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-01-12T12:15:48.980791</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-01-12T12:15:48.980791</sp:startDate>
+	    <sp:endDate>2008-01-12T12:15:48.980791</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.0335373822</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-01-28T06:11:19.303241</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-01-28T06:11:19.303241</sp:startDate>
+	    <sp:endDate>2008-01-28T06:11:19.303241</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>100.647001385</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>56.5878120041</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-04-24T15:18:43.180516</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-04-24T15:18:43.180516</sp:startDate>
+	    <sp:endDate>2008-04-24T15:18:43.180516</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>102.348611724</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>55.0063347889</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-05-21T23:17:44.750843</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-05-21T23:17:44.750843</sp:startDate>
+	    <sp:endDate>2008-05-21T23:17:44.750843</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>101.708676382</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>55.5271629282</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-06-04T23:57:15.704005</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-06-04T23:57:15.704005</sp:startDate>
+	    <sp:endDate>2008-06-04T23:57:15.704005</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>102.850435137</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>58.0051317674</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-07-03T23:11:13.085797</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-07-03T23:11:13.085797</sp:startDate>
+	    <sp:endDate>2008-07-03T23:11:13.085797</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>102.195996574</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>55.6359189379</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-08-07T06:00:00.333635</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-08-07T06:00:00.333635</sp:startDate>
+	    <sp:endDate>2008-08-07T06:00:00.333635</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>102.976905656</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>57.0852031278</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-09-23T13:41:38.368052</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-09-23T13:41:38.368052</sp:startDate>
+	    <sp:endDate>2008-09-23T13:41:38.368052</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>104.618340931</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>61.2398804402</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2008-11-11T01:06:03.285757</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2008-11-11T01:06:03.285757</sp:startDate>
+	    <sp:endDate>2008-11-11T01:06:03.285757</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>104.265108935</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>62.9179257955</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-02-14T00:26:48.399035</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-02-14T00:26:48.399035</sp:startDate>
+	    <sp:endDate>2009-02-14T00:26:48.399035</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>105.660685378</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>63.5425480162</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-04-15T21:49:55.223101</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-04-15T21:49:55.223101</sp:startDate>
+	    <sp:endDate>2009-04-15T21:49:55.223101</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>106.725014585</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>63.584529717</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-04-22T15:34:37.728692</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-04-22T15:34:37.728692</sp:startDate>
+	    <sp:endDate>2009-04-22T15:34:37.728692</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.1184823769</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-05-01T17:36:08.745348</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-05-01T17:36:08.745348</sp:startDate>
+	    <sp:endDate>2009-05-01T17:36:08.745348</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>106.680844948</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>63.2014280326</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-06-30T22:27:36.075214</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-06-30T22:27:36.075214</sp:startDate>
+	    <sp:endDate>2009-06-30T22:27:36.075214</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>105.649400309</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>64.9874065205</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-07-08T04:25:15.063208</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-07-08T04:25:15.063208</sp:startDate>
+	    <sp:endDate>2009-07-08T04:25:15.063208</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>105.325494771</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>64.7713218129</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-07-21T22:56:51.692667</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-07-21T22:56:51.692667</sp:startDate>
+	    <sp:endDate>2009-07-21T22:56:51.692667</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.13675809212</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-09-09T10:16:51.803090</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-09-09T10:16:51.803090</sp:startDate>
+	    <sp:endDate>2009-09-09T10:16:51.803090</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>108.524298447</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>67.8683177069</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-09-15T10:13:56.783156</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-09-15T10:13:56.783156</sp:startDate>
+	    <sp:endDate>2009-09-15T10:13:56.783156</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>108.845113767</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>68.9569486969</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-10-02T20:43:07.724896</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-10-02T20:43:07.724896</sp:startDate>
+	    <sp:endDate>2009-10-02T20:43:07.724896</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>109.142016142</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>69.0451698671</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-10-15T22:40:02.766682</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-10-15T22:40:02.766682</sp:startDate>
+	    <sp:endDate>2009-10-15T22:40:02.766682</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>111.251707262</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>70.3275386838</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2009-12-14T19:52:25.309922</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2009-12-14T19:52:25.309922</sp:startDate>
+	    <sp:endDate>2009-12-14T19:52:25.309922</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>113.0</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>71.5030543321</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-01-23T04:57:06.845089</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-01-23T04:57:06.845089</sp:startDate>
+	    <sp:endDate>2010-01-23T04:57:06.845089</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>113.0</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>71.5872775104</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-02-27T11:44:38.644978</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-02-27T11:44:38.644978</sp:startDate>
+	    <sp:endDate>2010-02-27T11:44:38.644978</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>112.571212906</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>72.3292774293</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/368209003"/>
+           <dcterms:title>Right arm</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-02-28T15:36:06.815344</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-02-28T15:36:06.815344</sp:startDate>
+	    <sp:endDate>2010-02-28T15:36:06.815344</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.18401140608</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-03-11T05:25:43.713340</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-03-11T05:25:43.713340</sp:startDate>
+	    <sp:endDate>2010-03-11T05:25:43.713340</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>112.403525048</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>72.5079143055</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-03-22T03:14:07.663051</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-03-22T03:14:07.663051</sp:startDate>
+	    <sp:endDate>2010-03-22T03:14:07.663051</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>112.406317734</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>72.8549715132</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-04-08T08:28:01.078993</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-04-08T08:28:01.078993</sp:startDate>
+	    <sp:endDate>2010-04-08T08:28:01.078993</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.19056024343</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-06-17T02:15:57.853926</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-06-17T02:15:57.853926</sp:startDate>
+	    <sp:endDate>2010-06-17T02:15:57.853926</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>112.0</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>71.1570806791</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-07-11T08:09:47.147689</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-07-11T08:09:47.147689</sp:startDate>
+	    <sp:endDate>2010-07-11T08:09:47.147689</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>112.0</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>71.6836196662</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-11-28T21:25:49.139805</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-11-28T21:25:49.139805</sp:startDate>
+	    <sp:endDate>2010-11-28T21:25:49.139805</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#inpatient"/>
+		  <dcterms:title>Inpatient Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>110.422927876</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>69.0507653281</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2010-12-22T00:16:28.104530</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2010-12-22T00:16:28.104530</sp:startDate>
+	    <sp:endDate>2010-12-22T00:16:28.104530</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>109.212423608</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>68.2628129953</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2011-01-28T10:04:50.703242</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2011-01-28T10:04:50.703242</sp:startDate>
+	    <sp:endDate>2011-01-28T10:04:50.703242</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>106.683974087</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>62.1966104935</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2011-02-13T21:08:14.123627</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2011-02-13T21:08:14.123627</sp:startDate>
+	    <sp:endDate>2011-02-13T21:08:14.123627</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+
+    <sp:bloodPressure>
+      <sp:BloodPressure>
+       <sp:systolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <dcterms:title>Systolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>104.533907242</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:systolic>
+       <sp:diastolic>
+         <sp:VitalSign>
+          <sp:vitalName>
+           <sp:CodedValue>
+             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <dcterms:title>Diastolic blood pressure</dcterms:title>
+           </sp:CodedValue>
+         </sp:vitalName>
+         <sp:value>64.8445905069</sp:value>
+         <sp:unit>mm[Hg]</sp:unit>
+        </sp:VitalSign>
+       </sp:diastolic>
+       <sp:bodyPosition>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <dcterms:title>Sitting</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodyPosition>
+       <sp:bodySite>
+         <sp:CodedValue>
+           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/61396006"/>
+           <dcterms:title>Left thigh</dcterms:title>
+         </sp:CodedValue>
+       </sp:bodySite>
+      </sp:BloodPressure>
+    </sp:bloodPressure>
+
+ </sp:VitalSigns>
+
+
+ <sp:VitalSigns>
+    <dc:date>2011-04-20T17:32:09.539419</dc:date>
+    <sp:encounter>
+	 <sp:Encounter>
+	    <sp:startDate>2011-04-20T17:32:09.539419</sp:startDate>
+	    <sp:endDate>2011-04-20T17:32:09.539419</sp:endDate>
+	      <sp:encounterType>
+		<sp:CodedValue>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#ambulatory"/>
+		  <dcterms:title>Ambulatory Encounter</dcterms:title>
+		</sp:CodedValue>
+	      </sp:encounterType>
+	 </sp:Encounter>
+    </sp:encounter>
+<sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <dcterms:title>Height (measured)</dcterms:title>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.24</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+
+
+ </sp:VitalSigns>
+
+</rdf:RDF>
