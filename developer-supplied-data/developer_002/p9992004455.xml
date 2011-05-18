@@ -54,7 +54,7 @@
     </sp:labName>
     <sp:specimenCollected>
       <sp:Attribution>
-        <sp:startTime>2011-03031</sp:startTime>
+        <sp:startTime>2011-03-31</sp:startTime>
       </sp:Attribution>
     </sp:specimenCollected>
     <sp:quantitativeResult>
@@ -618,7 +618,7 @@
     <foaf:familyName>Demo</foaf:familyName>
     <sp:zipcode>02468</sp:zipcode>
     <foaf:gender>male</foaf:gender>
-    <foaf:givenName>John</foaf:givenName>
+    <foaf:givenName>George</foaf:givenName>
   </foaf:Person>
   <sp:LabResult>
     <sp:labName>
