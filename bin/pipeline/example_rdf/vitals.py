@@ -69,6 +69,16 @@ def choose_limb():
 		return "368209003"
 	return "61396006"
 
+methods = { "http://smartplatforms.org/terms/code/bloodPressureMethod#auscultation": "Auscultation",
+            "http://smartplatforms.org/terms/code/bloodPressureMethod#machine": "Machine"
+}
+def choose_method():
+	n = random.uniform(0, 1)
+	if n < .2:
+		return "Auscultation"
+	return "Machine"
+
+
 
 header = """<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -144,6 +154,12 @@ def tordf(v, include_height=False, include_bp=False):
            <dcterms:title>$limbn</dcterms:title>
          </sp:CodedValue>
        </sp:bodySite>
+       <sp:method>
+         <sp:CodedValue>
+           <sp:code rdf:resource="$method"/>
+           <dcterms:title>$methodn</dcterms:title>
+         </sp:CodedValue>
+       </sp:method>
       </sp:BloodPressure>
     </sp:bloodPressure>
 """)
@@ -174,13 +190,16 @@ $bp
   limb = choose_limb()
   limbn = limbs[limb]
 
+  method = choose_method()
+  methodn = methods[method]
+
 
   if include_height:
     h = h.substitute(height=v[1])
   else: h = ""
 
   if include_bp:
-    bp = bp.substitute(sbp=v[2], dbp=v[3],  limb=limb, limbn=limbn)
+    bp = bp.substitute(sbp=v[2], dbp=v[3],  limb=limb, limbn=limbn, method=method,methodn=methodn)
   else: bp=""
 
 
