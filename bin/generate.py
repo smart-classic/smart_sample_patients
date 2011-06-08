@@ -199,6 +199,7 @@ def writePatientGraph(f,pid):
    g.addAllergies()
    print >>f, g.toRDF()
 
+
 def displayPatientSummary(pid):
    """writes a patient summary to stdout"""
    if not pid in Patient.mpi: return
@@ -228,11 +229,13 @@ if __name__=='__main__':
      help='display RDF for a patient (default=1520204)')
   group.add_argument('--write', metavar='dir', nargs='?', const='.',
      help="writes all patient RDF files to directory dir (default='.')")
+  group.add_argument('--write-indivo',dest='writeIndivo', metavar='dir', nargs='?', const='.',
+     help="writes all patient RDF files to directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
   args = parser.parse_args()
 
-  # Print a patient summary:
+  # Print a patient summary: 
   if args.summary:
     initData()
     if args.summary=='all': # Print a summary of all patients
@@ -264,6 +267,26 @@ if __name__=='__main__':
     for pid in Patient.mpi:
       f = open(path+FILE_NAME_TEMPLATE%pid,'w')
       writePatientGraph(f,pid)
+      f.close()
+      # Show progress with '.' characters
+      print ".", 
+      sys.stdout.flush()
+    parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
+
+  # Write all patient RDF files out to a directory
+  if args.writeIndivo:
+    print "Writing files to %s:"%args.writeIndivo
+    initData()
+    path = args.writeIndivo
+    if not os.path.exists(path):
+      parser.error("Invalid path: '%s'.Path must already exist."%path)
+    if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
+
+    import indivo
+
+    for pid in Patient.mpi:
+      f = open(path+FILE_NAME_TEMPLATE%pid,'w')
+      indivo.writePatientFile(f, pid)
       f.close()
       # Show progress with '.' characters
       print ".", 
