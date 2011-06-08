@@ -53,7 +53,7 @@ class PatientGraph:
       g = ConjunctiveGraph()
       self.g = g  # Keep a reference to this graph as an instance var
 
-      # Bind Namespaces to the graph:
+      # BindNamespaces to the graph:
       g.bind('rdfs',RDFS)
       g.bind('sp',SP)
       g.bind('dc',DC)
@@ -285,7 +285,7 @@ if __name__=='__main__':
     import indivo
 
     for pid in Patient.mpi:
-      f = open(path+FILE_NAME_TEMPLATE%pid,'w')
+      f = open(path+"p%s.py"%pid,'w')
       indivo.writePatientFile(f, pid)
       f.close()
       # Show progress with '.' characters
