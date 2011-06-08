@@ -127,8 +127,8 @@ def writePatientFile(f,pid):
          if not m.qtt:
             m.qtt="1"
             m.qttunit="{tablet}"
-
-            addElement(f, "meds",  med.substitute(startDate=m.start,
+            
+         addElement(f, "meds",  med.substitute(startDate=m.start,
                                             rxnorm=m.rxn, 
                                             name=m.name, 
                                             quantityValue=m.qtt, 
