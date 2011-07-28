@@ -84,8 +84,13 @@ lab = Template("""
     <result xsi:type="ResultInRange">
       <valueAndUnit>
         <value>$value</value>
-        <unit type="http://unitsofmeasure.org/#" value="$units">$units</unit>
+        <unit type="http://unitsofmeasure.org/" value="$units">$units</unit>
       </valueAndUnit>
+      <normalRange>
+        <minimum>$low</minimum>
+        <maximum>$high</maximum>
+        <unit type="http://unitsofmeasure.org/" value="$units">$units</unit>
+      </normalRange>
     </result>    
   </labTest>
 </Lab>
@@ -109,7 +114,9 @@ def writePatientFile(f,pid):
                                             loinc=l.code,
                                             name=l.name,
                                             value=l.value,
-                                            units=l.units))
+                                            units=l.units,
+                                            low=l.low,
+                                            high=l.high))
                                             
                         
 
