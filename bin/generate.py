@@ -36,9 +36,6 @@ class PatientGraph:
      self.g.add((cNode,RDF.type,SP['CodedValue']))
      self.g.add((cNode,SP['code'],URIRef(uri)))
      self.g.add((cNode,DCTERMS['title'],Literal(title)))
-     self.g.add((URIRef(uri), RDF.type, SP['Code']))
-     self.g.add((URIRef(uri), SP['system'], URIRef(system)))
-     self.g.add((URIRef(uri), DCTERMS['identifier'], Literal(identifier)))
      return cNode 
 
    def valueAndUnit(self,value,units):
@@ -56,7 +53,7 @@ class PatientGraph:
       g = ConjunctiveGraph()
       self.g = g  # Keep a reference to this graph as an instance var
 
-      # Bind Namespaces to the graph:
+      # BindNamespaces to the graph:
       g.bind('rdfs',RDFS)
       g.bind('sp',SP)
       g.bind('dc',DC)
@@ -65,7 +62,7 @@ class PatientGraph:
 
       # Now add the patient demographic triples:
       pNode = BNode()
-      g.add((pNode,RDF.type,FOAF['Person']))
+      g.add((pNode,RDF.type,SP.Demographics))
       g.add((pNode,FOAF['givenName'],Literal(p.fname)))
       g.add((pNode,FOAF['familyName'],Literal(p.lname)))
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
@@ -126,7 +123,7 @@ class PatientGraph:
 
            # Add Range Values
            rNode = BNode()
-           g.add((rNode,RDF.type,SP['ResultRange']))
+           g.add((rNode,RDF.type,SP['ValueRange']))
            g.add((rNode,SP['minimum'],
                    self.valueAndUnit(lab.low,lab.units)))
            g.add((rNode,SP['maximum'],
@@ -136,9 +133,9 @@ class PatientGraph:
 
          if lab.scale=='Ord': # Handle an Ordinal Result  
            qNode = BNode()
-           g.add((qNode,RDF.type,SP['QualitativeResult']))
+           g.add((qNode,RDF.type,SP['NarrativeResult']))
            g.add((qNode,SP['value'],Literal(lab.value)))
-           g.add((lNode,SP['qualitativeResult'],qNode))
+           g.add((lNode,SP['narrativeResult'],qNode))
 
          aNode = BNode()
          g.add((aNode,RDF.type,SP['Attribution']))
@@ -202,6 +199,7 @@ def writePatientGraph(f,pid):
    g.addAllergies()
    print >>f, g.toRDF()
 
+
 def displayPatientSummary(pid):
    """writes a patient summary to stdout"""
    if not pid in Patient.mpi: return
@@ -231,11 +229,13 @@ if __name__=='__main__':
      help='display RDF for a patient (default=1520204)')
   group.add_argument('--write', metavar='dir', nargs='?', const='.',
      help="writes all patient RDF files to directory dir (default='.')")
+  group.add_argument('--write-indivo',dest='writeIndivo', metavar='dir', nargs='?', const='.',
+     help="writes all patient RDF files to directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
   args = parser.parse_args()
 
-  # Print a patient summary:
+  # Print a patient summary: 
   if args.summary:
     initData()
     if args.summary=='all': # Print a summary of all patients
@@ -267,6 +267,26 @@ if __name__=='__main__':
     for pid in Patient.mpi:
       f = open(path+FILE_NAME_TEMPLATE%pid,'w')
       writePatientGraph(f,pid)
+      f.close()
+      # Show progress with '.' characters
+      print ".", 
+      sys.stdout.flush()
+    parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
+
+  # Write all patient RDF files out to a directory
+  if args.writeIndivo:
+    print "Writing files to %s:"%args.writeIndivo
+    initData()
+    path = args.writeIndivo
+    if not os.path.exists(path):
+      parser.error("Invalid path: '%s'.Path must already exist."%path)
+    if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
+
+    import indivo
+
+    for pid in Patient.mpi:
+      f = open(path+"p%s.py"%pid,'w')
+      indivo.writePatientFile(f, pid)
       f.close()
       # Show progress with '.' characters
       print ".", 
