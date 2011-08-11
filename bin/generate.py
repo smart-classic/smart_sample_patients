@@ -233,6 +233,9 @@ if __name__=='__main__':
      help="writes all patient RDF files to directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
+  group.add_argument('--write-cem',dest='writeCEM', metavar='dir', nargs='?', const='.',
+     help="writes all patient RDF files to directory dir (default='.')")
+
   args = parser.parse_args()
 
   # Print a patient summary:
@@ -256,6 +259,25 @@ if __name__=='__main__':
       writePatientGraph(sys.stdout,args.rdf)
       parser.exit()
  
+  if args.writeCEM:
+    print "Writing files to %s:"%args.writeCEM
+    initData()
+    path = args.writeCEM
+    if not os.path.exists(path):
+      parser.error("Invalid path: '%s'.Path must already exist."%path)
+    if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
+
+    import cem
+
+    for pid in Patient.mpi:
+      f = open(path+"p%s.py"%pid,'w')
+      cem.writePatientFile(f, pid)
+      f.close()
+      # Show progress with '.' characters
+      print ".", 
+      sys.stdout.flush()
+    parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
+
   # Write all patient RDF files out to a directory
   if args.write:
     print "Writing files to %s:"%args.write
