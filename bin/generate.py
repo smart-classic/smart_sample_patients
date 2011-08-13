@@ -33,13 +33,21 @@ class PatientGraph:
 
    def codedValue(self,codeclass,uri,title,system,identifier):
      """ Adds a CodedValue to the graph and returns node"""
-     cNode=URIRef(uri)
+     cvNode=BNode()
+     self.g.add((cvNode,RDF.type,SP.CodedValue))
+     self.g.add((cvNode,DCTERMS['title'],Literal(title)))
 
+     cNode=URIRef(uri)
+     self.g.add((cvNode,SP['code'], cNode))
+
+     # Two types:  the general "Code" and specific, e.g. "BloodPressureCode"
      self.g.add((cNode,RDF.type,codeclass))
+     self.g.add((cNode,RDF.type,SP['Code']))
+
      self.g.add((cNode,DCTERMS['title'],Literal(title)))
      self.g.add((cNode, SP['system'], Literal(system)))
      self.g.add((cNode, DCTERMS['identifier'], Literal(identifier)))
-     return cNode 
+     return cvNode
 
    def valueAndUnit(self,value,units):
      """Adds a ValueAndUnit node to a graph; returns the node"""
@@ -59,6 +67,7 @@ class PatientGraph:
       # Bind Namespaces to the graph:
       g.bind('rdfs',RDFS)
       g.bind('sp',SP)
+      g.bind('spcode', SPCODE)
       g.bind('dc',DC)
       g.bind('dcterms',DCTERMS)
       g.bind('foaf',FOAF)
@@ -93,8 +102,11 @@ class PatientGraph:
           rfNode = BNode()
           g.add((rfNode,RDF.type,SP['Fulfillment']))
           g.add((rfNode,DC['date'],Literal(fill.date)))
-          g.add((rfNode,SP['dispenseQuantity'],Literal(fill.q))) 
+          g.add((rfNode,SP['dispenseQuantity'], self.valueAndUnit(fill.q,"{tab}")))
+
           g.add((rfNode,SP['dispenseDaysSupply'],Literal(fill.days)))
+
+          g.add((rfNode,SP['medication'],mNode)) # create bidirectional links
           g.add((mNode,SP['fulfillment'],rfNode))
 
    def addProblemList(self):
@@ -126,7 +138,7 @@ class PatientGraph:
 
            # Add Range Values
            rNode = BNode()
-           g.add((rNode,RDF.type,SP['ResultRange']))
+           g.add((rNode,RDF.type,SP['ValueRange']))
            g.add((rNode,SP['minimum'],
                    self.valueAndUnit(lab.low,lab.units)))
            g.add((rNode,SP['maximum'],
@@ -136,13 +148,13 @@ class PatientGraph:
 
          if lab.scale=='Ord': # Handle an Ordinal Result  
            qNode = BNode()
-           g.add((qNode,RDF.type,SP['QualitativeResult']))
+           g.add((qNode,RDF.type,SP['NarrativeResult']))
            g.add((qNode,SP['value'],Literal(lab.value)))
-           g.add((lNode,SP['qualitativeResult'],qNode))
+           g.add((lNode,SP['narrativeResult'],qNode))
 
          aNode = BNode()
          g.add((aNode,RDF.type,SP['Attribution']))
-         g.add((aNode,SP['startTime'],Literal(lab.date)))
+         g.add((aNode,SP['startDate'],Literal(lab.date)))
          g.add((lNode,SP['specimenCollected'],aNode))
 
          g.add((lNode,SP['externalID'],Literal(lab.acc_num)))      
@@ -154,7 +166,7 @@ class PatientGraph:
          if int(self.pid)%100 < 85:  # no allergies for ~ 85% of population
            aExcept = BNode()
            g.add((aExcept,RDF.type,SP['AllergyExclusion']))
-           g.add((aExcept,SP['code'],
+           g.add((aExcept,SP['allergyExclusionName'],
                self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','No known allergies',SNOMED_URI%'','160244002')))
 
          else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
@@ -181,7 +193,7 @@ class PatientGraph:
              g.add((aNode,SP['foodAllergen'],
                self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','Peanut',UNII_URI%'','QE1QX6B99R')))
 
-   def toRDF(self,format="pretty-xml"):
+   def toRDF(self,format="xml"):
          return self.g.serialize(format=format)
 
 def initData():

@@ -1,51 +1,51 @@
 zip	dob	GENDER	PID	YOB	lname	RACE	fname	gender
-74008	2007-03-03	M	2004454	2008	Black	White	George	male
-74008	2006-04-09	F	1614502	2007	Brooks	White	Maria	female
-74047	2000-05-24	F	1482713	2001	Jones	Inconsistent Data	Cynthia	female
-74014	2003-12-21	M	2080416	2004	Allen	Inconsistent Data	Eric	male
-74063	2007-06-12	F	1032702	2008	Taylor	(null)	Betty	female
-74008	2003-11-17	M	1081332	2004	Moore	White	Carl	male
-74063	1999-02-22	F	880378	2000	Morgan	White	Margaret	female
-74066	1995-08-27	M	1186747	1996	Reed	Inconsistent Data	Richard	male
-74047	2004-03-13	M	1134281	2005	Morgan	White	Charles	male
-74116	1968-07-29	F	640264	1969	Coleman	(null)	Cynthia	female
-74117	1943-07-03	F	644201	1944	Ross	(null)	Jessica	female
-74047	1951-11-25	F	665677	1952	Hall	White	Carol	female
-74008	1949-06-19	F	731673	1950	Collins	White	Jessica	female
-74116	1953-01-24	M	767980	1954	Black	White	Edward	male
-74063	1994-02-14	M	897185	1995	Anderson	White	George	male
-74047	1965-05-28	M	967332	1966	Ford	White	Christopher	male
-74008	1956-05-16	M	981968	1957	Brooks	White	Richard	male
-74108	1953-01-26	M	1098667	1954	Harris	White	John	male
-74108	1965-12-09	M	1213208	1966	Collins	(null)	Frank	male
-74008	1945-10-21	M	1272431	1946	Barnes	White	Daniel	male
-74066	1925-02-09	M	1288992	1926	Kelly	Black or African American	David	male
-74047	1939-07-01	F	1520204	1940	Smith	White	Maria	female
-74008	1964-09-24	F	1540505	1965	Ford	Hispanic	Shirley	female
-74126	1948-11-24	F	1551992	1949	Cole	Black or African American	Susan	female
-74014	1933-01-17	M	1557780	1934	Gracia	White	Paul	male
-74008	1953-10-06	M	1627321	1954	Cook	White	Frank	male
-74047	1940-11-19	F	1642068	1941	Smith	White	Mary	female
-74116	1969-10-22	M	1685497	1970	Diaz	White	Brian	male
-74047	1939-09-12	M	1768562	1940	Lewis	White	Joshua	male
-74116	1960-01-23	M	1796238	1961	Parker	White	Patrick	male
-74008	1950-03-01	M	1869612	1951	Adams	Black or African American	Thomas	male
-74047	1981-02-28	M	1951076	1982	Rodgers	White	Ronald	male
-74126	1981-07-13	M	2042917	1982	Gibson	Black or African American	George	male
-74116	1927-11-14	F	2081539	1928	Wilson	White	Nancy	female
-74063	1961-01-12	F	2113340	1962	Jones	Asian	Melissa	female
-74116	1979-07-28	F	2169591	1980	Owens	White	Elizabeth	female
-74047	1948-05-26	M	2347217	1949	Morgan	Hispanic	Scott	male
-74066	1959-12-23	F	2354220	1960	Jones	White	Elizabeth	female
-74008	1934-06-02	F	2502813	1935	Jackson	White	Jessica	female
-74063	1961-11-11	M	621799	1962	Davis	White	Charles	male
-74126	1981-12-24	F	629528	1982	Young	White	Amy	female
-74126	1991-02-15	F	724111	1992	Hill	White	Barbara	female
-74116	1953-03-08	F	765583	1954	Campbell	White	Sarah	female
-74008	1953-10-16	M	935270	1954	Allen	White	Jason	male
-74008	1954-06-03	M	1137192	1955	Morgan	White	Jason	male
-74047	1949-10-24	F	1157764	1950	White	White	Patricia	female
-74014	1932-05-25	F	1291938	1933	West	White	Sandra	female
-74116	1963-11-30	F	1577780	1964	West	White	Lisa	female
-74108	1965-11-14	M	613876	1966	James	White	David	male
-74063	1946-02-23	F	736230	1947	Lee	(null)	Sandra	female
+74014	2007-07-15	M	2004454	2008	Lee	White	Kevin	male
+74116	2006-11-22	F	1614502	2007	Williams	White	Susan	female
+74047	2000-12-27	F	1482713	2001	Clark	Inconsistent Data	Susan	female
+74008	2003-12-14	M	2080416	2004	Shaw	Inconsistent Data	Joseph	male
+74047	2007-03-20	F	1032702	2008	Shaw	(null)	Amy	female
+74063	2003-10-02	M	1081332	2004	Ross	White	Joseph	male
+74116	1999-12-08	F	880378	2000	Lee	White	Amy	female
+74008	1995-02-22	M	1186747	1996	Johnson	Inconsistent Data	Daniel	male
+74063	2004-10-15	M	1134281	2005	Taylor	White	Patrick	male
+74126	1968-05-31	F	640264	1969	Moore	(null)	Kimberly	female
+74047	1943-12-20	F	644201	1944	Wilson	(null)	Donna	female
+74014	1951-08-23	F	665677	1952	Black	White	Ruth	female
+74047	1949-09-22	F	731673	1950	Graham	White	Sarah	female
+74108	1953-08-29	M	767980	1954	Moore	White	Thomas	male
+74008	1994-07-08	M	897185	1995	Kelly	White	Kevin	male
+74126	1965-08-09	M	967332	1966	Robinson	White	William	male
+74117	1956-03-23	M	981968	1957	Brooks	White	Brian	male
+74014	1953-10-27	M	1098667	1954	Hill	White	Robert	male
+74008	1965-06-22	M	1213208	1966	Gracia	(null)	Brian	male
+74008	1945-05-01	M	1272431	1946	Graham	White	Stephan	male
+74126	1925-12-23	M	1288992	1926	Adams	Black or African American	Daniel	male
+74047	1939-09-14	F	1520204	1940	James	White	Helen	female
+74047	1964-01-21	F	1540505	1965	Clark	Hispanic	Amy	female
+74008	1948-04-14	F	1551992	1949	Coleman	Black or African American	Lisa	female
+74008	1933-06-16	M	1557780	1934	Thomas	White	William	male
+74116	1953-09-05	M	1627321	1954	Taylor	White	Frank	male
+74047	1940-12-14	F	1642068	1941	Davis	White	Betty	female
+74063	1969-10-21	M	1685497	1970	Robinson	White	Richard	male
+74117	1939-08-30	M	1768562	1940	Lee	White	Carl	male
+74066	1960-03-11	M	1796238	1961	Shaw	White	Anthony	male
+74063	1950-07-31	M	1869612	1951	Coleman	Black or African American	Anthony	male
+74066	1981-08-10	M	1951076	1982	Williams	White	Charles	male
+74063	1981-12-18	M	2042917	1982	Lewis	Black or African American	Michael	male
+74047	1927-12-11	F	2081539	1928	Wilson	White	Michelle	female
+74108	1961-02-11	F	2113340	1962	Green	Asian	Sharon	female
+74066	1979-12-21	F	2169591	1980	Lewis	White	Karen	female
+74117	1948-07-15	M	2347217	1949	Coleman	Hispanic	Steven	male
+74008	1959-07-10	F	2354220	1960	Young	White	Lisa	female
+74047	1934-02-07	F	2502813	1935	Owens	White	Dorothy	female
+74066	1961-09-18	M	621799	1962	Diaz	White	Joshua	male
+74008	1981-10-27	F	629528	1982	Harris	White	Michelle	female
+74108	1991-06-07	F	724111	1992	Morgan	White	Amy	female
+74047	1953-08-26	F	765583	1954	Cook	White	Ruth	female
+74047	1953-02-21	M	935270	1954	Lewis	White	Stephan	male
+74047	1954-08-21	M	1137192	1955	Williams	White	Joshua	male
+74008	1949-11-04	F	1157764	1950	Hughes	White	Carol	female
+74014	1932-02-26	F	1291938	1933	Young	White	Carol	female
+74126	1963-12-26	F	1577780	1964	Allen	White	Carol	female
+74008	1965-02-13	M	613876	1966	Hill	White	Joshua	male
+74117	1946-01-17	F	736230	1947	Long	(null)	Mary	female
