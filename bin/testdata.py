@@ -53,7 +53,7 @@ def rndDate(y):
    """Returns a random date within a given year."""
 
    d = datetime.date(y,1,1)      # Start with Jan 1st
-   ylen = 365 if y%4 else 366    # Adjust year length for leap years
+   ylen = 366 if y%400 == 0 or (y%4 == 0 and y%100 != 0) else 365    # Adjust year length for leap years
    r = randint(0,ylen-1)         # Generate random day in year   
    return datetime.date.fromordinal(d.toordinal()+r)
 
