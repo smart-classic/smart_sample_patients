@@ -65,7 +65,7 @@ limbs = {"368209003": "Right arm",
 		"61396006": "Left thigh"}
 def choose_limb():
 	n = random.uniform(0, 1)
-	if n < .2:
+	if n < .8:
 		return "368209003"
 	return "61396006"
 
@@ -74,7 +74,7 @@ methods = { "Auscultation": "http://smartplatforms.org/terms/code/bloodPressureM
 }
 def choose_method():
 	n = random.uniform(0, 1)
-	if n < .2:
+	if n < .5:
 		return "Auscultation"
 	return "Machine"
 
