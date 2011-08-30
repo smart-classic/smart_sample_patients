@@ -26,6 +26,7 @@ DC = Namespace("http://purl.org/dc/elements/1.1/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 FOAF = Namespace("http://xmlns.com/foaf/0.1/")
 RDFS=Namespace("http://www.w3.org/2000/01/rdf-schema#")
+VCARD=Namespace("http://www.w3.org/2006/vcard/ns#")
 
 
 class PatientGraph:
@@ -75,11 +76,22 @@ class PatientGraph:
       # Now add the patient demographic triples:
       pNode = BNode()
       g.add((pNode,RDF.type,SP.Demographics))
-      g.add((pNode,FOAF['givenName'],Literal(p.fname)))
-      g.add((pNode,FOAF['familyName'],Literal(p.lname)))
+
+      nameNode = BNode()
+      g.add((pNode, VCARD['n'], nameNode))
+      g.add((nameNode,RDF.type, VCARD['Name']))
+      g.add((nameNode,VCARD['given-name'],Literal(p.fname)))
+      g.add((nameNode,VCARD['family-name'],Literal(p.lname)))
+
+
+      addrNode = BNode() 
+      g.add((pNode, VCARD['addr'], addrNode))
+      g.add((addrNode, RDF.type, VCARD['Address']))
+      g.add((addrNode,VCARD['postal-code'],Literal(p.zip)))
+
+
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
-      g.add((pNode,SP['zipcode'],Literal(p.zip)))
-      g.add((pNode,SP['birthday'],Literal(p.dob)))
+      g.add((pNode,VCARD['bday'],Literal(p.dob)))
 
    def addMedList(self):
       """Adds a MedList to a patient's graph"""
