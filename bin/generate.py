@@ -73,6 +73,9 @@ class PatientGraph:
       g.bind('dcterms',DCTERMS)
       g.bind('foaf',FOAF)
 
+      self.patient = BNode()
+      g.add((self.patient,RDF.type,SP.MedicalRecord))
+
       # Now add the patient demographic triples:
       pNode = BNode()
       g.add((pNode,RDF.type,SP.Demographics))
@@ -93,6 +96,10 @@ class PatientGraph:
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
 
+   def addStatement(self, s):
+      self.g.add((self.patient,SP.hasStatement, s))
+      self.g.add((s,SP.belongsTo, self.patient))
+
    def addMedList(self):
       """Adds a MedList to a patient's graph"""
 
@@ -109,6 +116,8 @@ class PatientGraph:
         if m.freq:
           g.add((mNode,SP['frequency'],self.valueAndUnit(m.freq,m.frequnit)))
 
+        self.addStatement(mNode)
+
         # Now,loop through and add fulfillments for each med
         for fill in Refill.refill_list(m.pid,m.rxn):
           rfNode = BNode()
@@ -120,6 +129,7 @@ class PatientGraph:
 
           g.add((rfNode,SP['medication'],mNode)) # create bidirectional links
           g.add((mNode,SP['fulfillment'],rfNode))
+          self.addStatement(rfNode)
 
    def addProblemList(self):
       """Add problems to a patient's graph"""
@@ -131,6 +141,8 @@ class PatientGraph:
         g.add((pnode,SP['startDate'],Literal(prob.start)))      
         g.add((pnode,SP['problemName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
+        self.addStatement(pnode)
+
 
    def addLabResults(self):
        """Adds Lab Results to the patient's graph"""
@@ -170,7 +182,7 @@ class PatientGraph:
          g.add((lNode,SP['specimenCollected'],aNode))
 
          g.add((lNode,SP['externalID'],Literal(lab.acc_num)))      
-
+         self.addStatement(lNode)
    def addAllergies(self):
          """A totally bogus method: doesn't read from an allergy file!"""
          g = self.g
@@ -180,7 +192,7 @@ class PatientGraph:
            g.add((aExcept,RDF.type,SP['AllergyExclusion']))
            g.add((aExcept,SP['allergyExclusionName'],
                self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','No known allergies',SNOMED_URI%'','160244002')))
-
+           self.addStatement(aExcept)
          else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
            aNode = BNode()
            g.add((aNode,RDF.type,SP['Allergy']))
@@ -192,7 +204,7 @@ class PatientGraph:
               self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','Drug Allergy', SNOMED_URI%'','416098002')))
            g.add((aNode,SP['drugClassAllergen'],
               self.codedValue(SPCODE["NDFRT"],NUI_URI%'N0000175503','Sulfonamide Antibacterial',NUI_URI%''.split('&')[0], 'N0000175503')))
- 
+           self.addStatement(aNode)
            if int(self.pid)%2: # And throw in some peanut allergies if odd pid...
              aNode = BNode()
              g.add((aNode,RDF.type,SP['Allergy'])) 
@@ -204,7 +216,7 @@ class PatientGraph:
                self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','Food Allergy',SNOMED_URI%'','414285001')))
              g.add((aNode,SP['foodAllergen'],
                self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','Peanut',UNII_URI%'','QE1QX6B99R')))
-
+             self.addStatement(aNode)
    def toRDF(self,format="xml"):
          return self.g.serialize(format=format)
 
