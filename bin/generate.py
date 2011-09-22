@@ -78,6 +78,7 @@ class PatientGraph:
 
       # Now add the patient demographic triples:
       pNode = BNode()
+      self.addStatement(pNode)
       g.add((pNode,RDF.type,SP.Demographics))
 
       nameNode = BNode()
@@ -95,6 +96,7 @@ class PatientGraph:
 
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
+
 
    def addStatement(self, s):
       self.g.add((self.patient,SP.hasStatement, s))
@@ -122,7 +124,7 @@ class PatientGraph:
         for fill in Refill.refill_list(m.pid,m.rxn):
           rfNode = BNode()
           g.add((rfNode,RDF.type,SP['Fulfillment']))
-          g.add((rfNode,DC['date'],Literal(fill.date)))
+          g.add((rfNode,DCTERMS['date'],Literal(fill.date)))
           g.add((rfNode,SP['dispenseQuantity'], self.valueAndUnit(fill.q,"{tab}")))
 
           g.add((rfNode,SP['dispenseDaysSupply'],Literal(fill.days)))
