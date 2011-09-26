@@ -89,7 +89,7 @@ class PatientGraph:
 
 
       addrNode = BNode() 
-      g.add((pNode, VCARD['addr'], addrNode))
+      g.add((pNode, VCARD['adr'], addrNode))
       g.add((addrNode, RDF.type, VCARD['Address']))
       g.add((addrNode,VCARD['postal-code'],Literal(p.zip)))
 
