@@ -88,15 +88,17 @@ header = """<?xml version="1.0" encoding="utf-8"?>
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:v="http://www.w3.org/2006/vcard/ns#">
 
-
 <sp:Demographics>
-	<familyName xmlns="http://xmlns.com/foaf/0.1/">Misalis</familyName>
-	<givenName xmlns="http://xmlns.com/foaf/0.1/">Aidan</givenName>
-	<birthday xmlns="http://smartplatforms.org/terms#">%s</birthday>
-	<gender xmlns="http://xmlns.com/foaf/0.1/">male</gender>
-	<zipcode xmlns="http://smartplatforms.org/terms#">74063</zipcode>
+ <v:n>
+    <v:Name>
+        <v:given-name>Aidan</v:given-name>
+        <v:family-name>Misalis</v:family-name>
+    </v:Name>
+ </v:n>
+ <foaf:gender>male</foaf:gender>
+ <v:bday>%s</v:bday>
 </sp:Demographics>
-"""%birthday.isoformat()
+"""%birthday.strftime("%Y-%m-%d")
 
 footer = """</rdf:RDF>"""
 
