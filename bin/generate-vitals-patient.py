@@ -69,8 +69,8 @@ def choose_limb():
 		return "368209003"
 	return "61396006"
 
-methods = { "Auscultation": "http://smartplatforms.org/terms/code/bloodPressureMethod#auscultation",
-            "Machine": "http://smartplatforms.org/terms/code/bloodPressureMethod#machine"
+methods = { "Auscultation": "http://smartplatforms.org/terms/codes/BloodPressureMethod#auscultation",
+            "Machine": "http://smartplatforms.org/terms/codes/BloodPressureMethod#machine"
 }
 def choose_method():
 	n = random.uniform(0, 1)
@@ -175,7 +175,7 @@ def tordf(v, include_height=False, include_bp=False):
 	    <sp:endDate>$encounter_end_date</sp:endDate>
 	      <sp:encounterType>
 		<sp:CodedValue>
-		  <sp:code rdf:resource="http://smartplatforms.org/terms/code/encounterType#$encounter_type"/>
+		  <sp:code rdf:resource="http://smartplatforms.org/terms/codes/EncounterType#$encounter_type"/>
 		  <dcterms:title>$encounter_type_name</dcterms:title>
 		</sp:CodedValue>
 	      </sp:encounterType>
