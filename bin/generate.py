@@ -8,7 +8,9 @@ from refill import Refill
 from vitals import VitalSigns
 from immunizations import Immunizations
 from lab import Lab
+import random
 import argparse
+import datetime
 import sys
 import os
 from client.common.util import *
@@ -83,6 +85,8 @@ class PatientGraph:
 
       # Now add the patient demographic triples:
       pNode = BNode()
+      self.personNode = pNode
+
       self.addStatement(pNode)
       g.add((pNode,RDF.type,SP.Demographics))
 
@@ -141,6 +145,32 @@ class PatientGraph:
 
       g = self.g
       if not self.pid in Med.meds: return  # No meds for this patient
+
+      patientReportList = BNode()
+      g.add((patientReportList, RDF.type, SP['MedicationList']))
+      g.add((patientReportList, SP['responsibleParty'], self.personNode))
+      g.add((patientReportList, DCTERMS['date'], Literal(max(m.start for m in Med.meds[self.pid]))))
+      g.add((patientReportList, 
+             SP['medListSource'], 
+             self.codedValue(SPCODE["MedListSource"],  
+                             SPCODE["MedListSource"]+"#patientReport",
+                             "Derived from patient report",
+                             SPCODE["MedListSource"]+"#",
+                             "patientReport")))
+
+      fulfillmentsBasedList= BNode()
+      g.add((fulfillmentsBasedList, RDF.type, SP['MedicationList']))
+      g.add((fulfillmentsBasedList, DCTERMS['date'], Literal(datetime.datetime.now().isoformat())))
+      g.add((fulfillmentsBasedList, 
+             SP['medListSource'], 
+             self.codedValue(SPCODE["MedListSource"],  
+                             SPCODE["MedListSource"]+"#fulfillment",
+                             "Derived from fulfillment records",
+                             SPCODE["MedListSource"]+"#",
+                             "fulfillment")))
+
+
+
       for m in Med.meds[self.pid]:
         mNode = BNode()
         g.add((mNode,RDF.type,SP['Medication']))
@@ -154,8 +184,17 @@ class PatientGraph:
 
         self.addStatement(mNode)
 
+        hasFill = False
+        
+        if (random.random() < .5):
+           g.add((patientReportList, SP['medication'], mNode))
+
         # Now,loop through and add fulfillments for each med
         for fill in Refill.refill_list(m.pid,m.rxn):
+          if not hasFill:
+             g.add((fulfillmentsBasedList, SP['medication'], mNode))
+             hasFill = True
+
           rfNode = BNode()
           g.add((rfNode,RDF.type,SP['Fulfillment']))
           g.add((rfNode,DCTERMS['date'],Literal(fill.date)))
@@ -166,6 +205,8 @@ class PatientGraph:
           g.add((rfNode,SP['medication'],mNode)) # create bidirectional links
           g.add((mNode,SP['fulfillment'],rfNode))
           self.addStatement(rfNode)
+
+   
 
    def addProblemList(self):
       """Add problems to a patient's graph"""
@@ -381,8 +422,7 @@ if __name__=='__main__':
      help='display RDF for a patient (default=1520204)')
   group.add_argument('--write', metavar='dir', nargs='?', const='.',
      help="writes all patient RDF files to directory dir (default='.')")
-  group.add_argument('--write-indivo',dest='writeIndivo', metavar='dir', nargs='?', const='.',
-     help="writes patient XML files to an Indivo sample data directory dir (default='.')")
+
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
 
@@ -425,21 +465,6 @@ if __name__=='__main__':
       print ".", 
       sys.stdout.flush()
     parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
-
-  # Write all patient RDF files out to a directory
-  if args.writeIndivo:
-    print "Writing files to %s:"%args.writeIndivo
-    initData()
-    path = args.writeIndivo
-    if not os.path.exists(path):
-      parser.error("Invalid path: '%s'.Path must already exist."%path)
-
-    import indivo
-
-    for pid in Patient.mpi:
-      indivo.writePatientData(path, pid)
-      sys.stdout.flush()
-    parser.exit(0,"Done writing %d patient data profiles!\n"%len(Patient.mpi))
 
   # Generate a new patients data file, re-randomizing old names, dob, etc:
   Patient.generate()  
