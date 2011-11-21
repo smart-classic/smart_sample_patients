@@ -72,6 +72,7 @@ class PatientGraph:
       g.bind('dc',DC)
       g.bind('dcterms',DCTERMS)
       g.bind('foaf',FOAF)
+      g.bind('v',VCARD)
 
       self.patient = BNode()
       g.add((self.patient,RDF.type,SP.MedicalRecord))
@@ -85,19 +86,48 @@ class PatientGraph:
       g.add((pNode, VCARD['n'], nameNode))
       g.add((nameNode,RDF.type, VCARD['Name']))
       g.add((nameNode,VCARD['given-name'],Literal(p.fname)))
+      g.add((nameNode,VCARD['additional-name'],Literal(p.initial)))
       g.add((nameNode,VCARD['family-name'],Literal(p.lname)))
-
 
       addrNode = BNode() 
       g.add((pNode, VCARD['adr'], addrNode))
       g.add((addrNode, RDF.type, VCARD['Address']))
-      g.add((addrNode,VCARD['postal-code'],Literal(p.zip)))
+      g.add((addrNode, RDF.type, VCARD['Home']))
+      g.add((addrNode, RDF.type, VCARD['Pref']))
+      g.add((addrNode,VCARD['street-address'],Literal(p.street)))
+      if len(p.apartment) > 0: g.add((addrNode,VCARD['extended-address'],Literal(p.apartment)))
+      g.add((addrNode,VCARD['locality'],Literal(p.city)))
+      g.add((addrNode,VCARD['region'],Literal(p.region)))
+      g.add((addrNode,VCARD['postal-code'],Literal(p.pcode)))
+      g.add((addrNode,VCARD['country'],Literal(p.country)))
 
-
+      if len(p.home) > 0:
+          homePhoneNode = BNode() 
+          g.add((pNode, VCARD['tel'], homePhoneNode))
+          g.add((homePhoneNode, RDF.type, VCARD['Tel']))
+          g.add((homePhoneNode, RDF.type, VCARD['Home']))
+          g.add((homePhoneNode, RDF.type, VCARD['Pref']))
+          g.add((homePhoneNode,RDF.value,Literal(p.home)))
+      
+      if len(p.cell) > 0:
+          cellPhoneNode = BNode() 
+          g.add((pNode, VCARD['tel'], cellPhoneNode))
+          g.add((cellPhoneNode, RDF.type, VCARD['Tel']))
+          g.add((cellPhoneNode, RDF.type, VCARD['Cell']))
+          if len(p.home) == 0: g.add((cellPhoneNode, RDF.type, VCARD['Pref']))
+          g.add((cellPhoneNode,RDF.value,Literal(p.cell)))
+      
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
+      g.add((pNode,VCARD['email'],Literal(p.email)))
 
-
+      recordNode = BNode()
+      g.add((pNode,SP['medicalRecordNumber'],recordNode))
+      g.add((recordNode, RDF.type, SP['Code']))
+      g.add((recordNode, DCTERMS['title'], Literal("My Hospital Record %s"%p.pid)))
+      g.add((recordNode, DCTERMS['identifier'], Literal(p.pid)))
+      g.add((recordNode, SP['system'], Literal("My Hospital Record")))
+      
    def addStatement(self, s):
       self.g.add((self.patient,SP.hasStatement, s))
       self.g.add((s,SP.belongsTo, self.patient))

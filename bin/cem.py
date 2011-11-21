@@ -19,6 +19,7 @@ header = Template("""
     <!ENTITY cemterms "http://smartplatforms.org/cemterms#" >
     <!ENTITY smartplatforms "http://smartplatforms.org/" >
     <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY v "http://www.w3.org/2006/vcard/ns#" >
 ]>
 
 
@@ -28,17 +29,69 @@ header = Template("""
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:sp="http://smartplatforms.org/terms#"
      xmlns:cem="http://smartplatforms.org/cemterms#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:v="http://www.w3.org/2006/vcard/ns#"
 >
-  <sp:Demographics>
-    <foaf:familyName>$family_name</foaf:familyName>
-    <sp:zipcode>$zipcode</sp:zipcode>
-    <foaf:givenName>$given_name</foaf:givenName>
-    <foaf:gender>$gender</foaf:gender>
-    <sp:birthday>$birthday</sp:birthday>
-  </sp:Demographics>
+   <sp:Demographics>
+
+     <v:n>
+        <v:Name>
+            <v:given-name>$given_name</v:given-name>
+            <v:additional-name>$middle_initial</v:additional-name>
+            <v:family-name>$family_name</v:family-name>
+        </v:Name>
+     </v:n>
+
+     <v:adr>
+        <v:Address>
+          <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
+          <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
+
+          <v:street-address>$street</v:street-address>
+          $apartment_xml
+          <v:locality>$city</v:locality>
+          <v:region>$region</v:region>
+          <v:postal-code>$zipcode</v:postal-code>
+          <v:country>$country</v:country>
+        </v:Address>
+     </v:adr>
+
+$home_phone_xml
+
+$cell_phone_xml
+
+     <foaf:gender>$gender</foaf:gender>
+     <v:bday>$birthday</v:bday>
+     <v:email>$email</v:email>
+
+     <sp:medicalRecordNumber>
+       <sp:Code>
+        <dcterms:title>My Hospital Record $pid</dcterms:title> 
+        <dcterms:identifier>$pid</dcterms:identifier> 
+        <sp:system>My Hospital Record</sp:system> 
+       </sp:Code>
+     </sp:medicalRecordNumber>
+
+   </sp:Demographics>
 
 """)
+
+apartment_template = Template("""<v:extended-address>$apartment</v:extended-address>""")
+
+home_phone_template = Template("""     <v:tel>
+        <v:Tel>
+          <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
+          <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
+          <rdf:value>$home_phone</rdf:value>
+        </v:Tel>
+     </v:tel>""")
+     
+cell_phone_template = Template("""     <v:tel>
+        <v:Tel>
+          <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Cell" />
+          <rdf:value>$cell_phone</rdf:value>
+        </v:Tel>
+     </v:tel>""")
 
 footer = """
 </rdf:RDF>
@@ -98,7 +151,12 @@ med = Template("""
 def writePatientFile(f,pid):
    """Writes a patient's RDF out to a file, f"""
    p = Patient.mpi[pid]
-   print >>f, header.substitute(given_name=p.fname, family_name=p.lname, zipcode=p.zip, birthday=p.dob, gender=p.gender)
+   
+   apartment_xml = "" if len(p.apartment)==0 else apartment_template.substitute(apartment=p.apartment)
+   home_phone_xml = "" if len(p.home)==0 else home_phone_template.substitute(home_phone=p.home)
+   cell_phone_xml = "" if len(p.cell)==0 else cell_phone_template.substitute(cell_phone=p.cell)
+   
+   print >>f, header.substitute(given_name=p.fname, family_name=p.lname, zipcode=p.zip, birthday=p.dob, gender=p.gender, middle_initial=p.initial, street=p.street, apartment_xml=apartment_xml, city=p.city, region=p.region, country=p.country, email=p.email, home_phone_xml=home_phone_xml, cell_phone_xml=cell_phone_xml, pid=p.pid)
 
    if  pid in Med.meds: 
        for m in Med.meds[pid]:

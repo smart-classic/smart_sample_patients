@@ -1,5 +1,5 @@
 from testdata import PATIENTS_FILE, RI_PATIENTS_FILE
-from testdata import rndDate, rndName, rndZip
+from testdata import rndDate, rndName, rndAddress, rndTelephone, toEmail
 from random import randint
 import datetime
 import argparse
@@ -26,20 +26,25 @@ class Patient:
       # Read in patient data:
       for pat in pats: 
         p=dict((zip(header,pat))) # create patient from header and row values     
-        # Add synthetic data: gender (SMArt codes), lname, fname, dob, and zip
+        # Add synthetic data
         patient_name = rndName(p['GENDER'])
         p['fname']=patient_name[0]
-        p['lname']=patient_name[1]
+        p['initial']=patient_name[1]
+        p['lname']=patient_name[2]
         # Add random day of year to year of birth to get dob value
         # Make it for the prior year so vists, tests come after birth
         p['dob']=rndDate(int(p['YOB'])-1).isoformat()
-        # Map raw GENDER to SMArt encoding values
-        # (For the moment, SMArt only handles 'male' and 'female'...)
+        # Map raw GENDER to SMART encoding values
+        # (For the moment, SMART only handles 'male' and 'female'...)
         gender = 'male' if p['GENDER']=='M' else 'female'
         p['gender'] = gender
-        # Finally, add a random zip:
-        p['zip']= rndZip()  
- 
+        p['email'] = toEmail(patient_name)
+        # Finally, add a random address:
+        adr = rndAddress()
+        p = dict(p.items() + adr.items())
+        p['home'] = '' if randint(0,1) else rndTelephone()
+        p['cell'] = '' if randint(0,1) else rndTelephone()
+        
         # Write out the new patient data file:
         # Start with the header (writing only once at the top of the file):
         if top:
@@ -70,8 +75,20 @@ class Patient:
       self.fname = self.demographics['fname']
       self.lname = self.demographics['lname']
       self.gender= self.demographics['gender']
-      self.zip = self.demographics['zip']
+      self.zip = self.demographics['pcode']
       self.dob = self.demographics['dob']
+      
+      # Initialize additional instance vars
+      self.initial = self.demographics['initial']
+      self.street = self.demographics['street']
+      self.apartment = self.demographics['apartment']
+      self.city = self.demographics['city']
+      self.region = self.demographics['region']
+      self.pcode = self.demographics['pcode']
+      self.country = self.demographics['country']
+      self.email = self.demographics['email']
+      self.home = self.demographics['home']
+      self.cell = self.demographics['cell']
       
       # Insert the patient instance into the Patient mpi store:
       pid = self.demographics['PID']
