@@ -89,14 +89,46 @@ header = """<?xml version="1.0" encoding="utf-8"?>
   xmlns:v="http://www.w3.org/2006/vcard/ns#">
 
 <sp:Demographics>
+
  <v:n>
     <v:Name>
         <v:given-name>Aidan</v:given-name>
         <v:family-name>Misalis</v:family-name>
     </v:Name>
  </v:n>
+ 
+ <v:adr>
+    <v:Address>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
+      <v:street-address>83 Main St</v:street-address>
+      <v:extended-address>Apt 6</v:extended-address>
+      <v:locality>Medford</v:locality>
+      <v:region>MA</v:region>
+      <v:postal-code>02155</v:postal-code>
+      <v:country>USA</v:country>
+    </v:Address>
+ </v:adr>
+ 
+ <v:tel>
+    <v:Tel>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
+      <rdf:value>800-834-9386</rdf:value>
+    </v:Tel>
+ </v:tel>
+ 
  <foaf:gender>male</foaf:gender>
  <v:bday>%s</v:bday>
+ <v:email>aidan.misalis@example.com</v:email>
+ 
+ <sp:medicalRecordNumber>
+   <sp:Code>
+    <dcterms:title>My Hospital Record 99912345</dcterms:title> 
+    <dcterms:identifier>99912345</dcterms:identifier> 
+    <sp:system>My Hospital Record</sp:system> 
+   </sp:Code>
+ </sp:medicalRecordNumber>
 </sp:Demographics>
 """%birthday.strftime("%Y-%m-%d")
 
