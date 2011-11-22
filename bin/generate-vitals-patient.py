@@ -122,19 +122,6 @@ header = """<?xml version="1.0" encoding="utf-8"?>
     </v:Address>
  </v:adr>
  
-<v:adr>
-    <v:Address>
-      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
-      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
-      <v:street-address>83 Main St</v:street-address>
-      <v:extended-address>Apt 6</v:extended-address>
-      <v:locality>Medford</v:locality>
-      <v:region>MA</v:region>
-      <v:postal-code>02155</v:postal-code>
-      <v:country>USA</v:country>
-    </v:Address>
- </v:adr>
- 
  <v:tel>
     <v:Tel>
       <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
