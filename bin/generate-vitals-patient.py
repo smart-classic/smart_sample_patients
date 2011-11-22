@@ -101,6 +101,30 @@ header = """<?xml version="1.0" encoding="utf-8"?>
  <v:adr>
     <v:Address>
       <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
+      <v:street-address>83 Main St</v:street-address>
+      <v:extended-address>Apt 6</v:extended-address>
+      <v:locality>Medford</v:locality>
+      <v:region>MA</v:region>
+      <v:postal-code>02155</v:postal-code>
+      <v:country>USA</v:country>
+    </v:Address>
+ </v:adr>
+ 
+  <v:adr>
+    <v:Address>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Postal" />
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
+      <v:post-office-box>P.O. Box 4261</v:post-office-box>
+      <v:locality>Medford</v:locality>
+      <v:region>MA</v:region>
+      <v:postal-code>02155</v:postal-code>
+      <v:country>USA</v:country>
+    </v:Address>
+ </v:adr>
+ 
+<v:adr>
+    <v:Address>
+      <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Home" />
       <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Pref" />
       <v:street-address>83 Main St</v:street-address>
       <v:extended-address>Apt 6</v:extended-address>
