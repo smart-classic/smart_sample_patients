@@ -301,7 +301,7 @@ if __name__=='__main__':
   group.add_argument('--write', metavar='dir', nargs='?', const='.',
      help="writes all patient RDF files to directory dir (default='.')")
   group.add_argument('--write-indivo',dest='writeIndivo', metavar='dir', nargs='?', const='.',
-     help="writes all patient RDF files to directory dir (default='.')")
+     help="writes patient XML files to an Indivo sample data directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
   group.add_argument('--write-cem',dest='writeCEM', metavar='dir', nargs='?', const='.',
@@ -373,18 +373,13 @@ if __name__=='__main__':
     path = args.writeIndivo
     if not os.path.exists(path):
       parser.error("Invalid path: '%s'.Path must already exist."%path)
-    if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
 
     import indivo
 
     for pid in Patient.mpi:
-      f = open(path+"p%s.py"%pid,'w')
-      indivo.writePatientFile(f, pid)
-      f.close()
-      # Show progress with '.' characters
-      print ".", 
+      indivo.writePatientData(path, pid)
       sys.stdout.flush()
-    parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
+    parser.exit(0,"Done writing %d patient data profiles!\n"%len(Patient.mpi))
 
   # Generate a new patients data file, re-randomizing old names, dob, etc:
   Patient.generate()  

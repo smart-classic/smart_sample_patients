@@ -1,43 +1,10 @@
 from string import Template
-from rdflib import ConjunctiveGraph, Namespace, BNode, Literal, RDF, URIRef
-from testdata import PATIENTS_FILE
 from patient import Patient
 from med import Med
 from problem import Problem
 from refill import Refill
 from lab import Lab
-import argparse
-import sys
 import os
-
-
-
-header = Template("""
-from indivo.models import *
-a = Account.objects.order_by('?')[0]
-record = Record(owner=a, label='$label')
-record.save()
-problems = []
-meds = []
-labs = []
-demographics = []
-""")
-
-footer = """
-# so we know which record we're adding this to
-print "adding SMART data to Record %s - %s" % (record.id, record.label)
-
-from indivo.views.documents.document import _document_create
-
-# create some demographics for that poor record
-demographics_doc = _document_create(record.owner, demographics[0], None, record)
-from indivo.views.documents.special_documents import set_special_doc
-set_special_doc(record, 'demographics', demographics_doc)
-
-for doc in problems + meds + labs:
-    print doc
-    _document_create(record.owner, doc, None, record)
-"""
 
 demographics = Template("""
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
@@ -96,34 +63,74 @@ lab = Template("""
 </Lab>
 """)
 
-def addElement(f, category, value):
-   print >>f, "%s.append(\"\"\"%s\"\"\".encode())\n"%(category, value)
+contact = Template("""
+<Contact xmlns="http://indivo.org/vocab/xml/documents#">
+  <name>
+    <fullName>$fullname</fullName>
+    <givenName>$firstname</givenName>
+    <familyName>$lastname</familyName>
+  </name>
+  <email type="personal">
+    <emailAddress>$email</emailAddress>
+  </email>
+  <address type="home">
+    <streetAddress>$street</streetAddress>
+    <postalCode>$postal</postalCode>
+    <locality>$city</locality>
+    <region>$state</region>
+    <country>$country</country>
+  </address>
+  <phoneNumber type="home">$hphone</phoneNumber>
+  <phoneNumber type="cell">$cphone</phoneNumber>
+</Contact>
+""")
 
-
-def writePatientFile(f,pid):
-   """Writes a patient's RDF out to a file, f"""
+def writePatientData(sample_data_dir, pid):
+   """Writes a patient's data to an Indivo sample data profile under 'sample_data_dir'."""
    p = Patient.mpi[pid]
-   print >>f, header.substitute(label="%s %s"%(p.fname, p.lname))
-   addElement(f, "demographics", demographics.substitute(dob=p.dob, gender=p.gender))
+   fullname = '%s %s'%(p.fname, p.lname)
 
-   if pid in Lab.results:  # No problems to add
+   print "adding SMART data to data profile %s: %s"%(pid, fullname)
+
+   # Build up XML for all of the patient's data
+   problems = []
+   meds = []
+   labs = []
+
+   demographics_doc = demographics.substitute(dob=p.dob, gender=p.gender)
+
+   contact_data = {
+       'fullname': fullname,
+       'firstname': p.fname,
+       'lastname': p.lname,
+       'email': p.email,
+       'street': p.street,
+       'postal': p.zip,
+       'city': p.city,
+       'state': p.region,
+       'country': p.country,
+       'hphone': p.home,
+       'cphone':p.cell,
+       }
+   contact_doc = contact.substitute(**contact_data)
+
+   if pid in Lab.results:
       
       for l in Lab.results[pid]:
          if l.scale != 'Qn': continue
-         addElement(f, "labs",  lab.substitute(date=l.date,
-                                            loinc=l.code,
-                                            name=l.name,
-                                            value=l.value,
-                                            units=l.units,
-                                            low=l.low,
-                                            high=l.high))
-                                            
-                        
+         labs.append(lab.substitute(date=l.date,
+                                    loinc=l.code,
+                                    name=l.name,
+                                    value=l.value,
+                                    units=l.units,
+                                    low=l.low,
+                                    high=l.high))                        
 
    if pid in Problem.problems: 
-      for p in Problem.problems[pid]:
-         addElement(f, "problems",  problem.substitute(onset=p.start, snomed=p.snomed, name=p.name))
-
+      for prob in Problem.problems[pid]:
+          problems.append(problem.substitute(onset=prob.start, 
+                                             snomed=prob.snomed, 
+                                             name=prob.name))
 
    if  pid in Med.meds: 
       for m in Med.meds[pid]:
@@ -135,12 +142,32 @@ def writePatientFile(f,pid):
             m.qtt="1"
             m.qttunit="{tablet}"
             
-         addElement(f, "meds",  med.substitute(startDate=m.start,
-                                            rxnorm=m.rxn, 
-                                            name=m.name, 
-                                            quantityValue=m.qtt, 
-                                            quantityUnits=m.qttunit, 
-                                            frequency=frequency,
-                                            instructions=m.sig))
-      
-   print >>f, footer
+         meds.append(med.substitute(startDate=m.start,
+                                    rxnorm=m.rxn, 
+                                    name=m.name, 
+                                    quantityValue=m.qtt, 
+                                    quantityUnits=m.qttunit, 
+                                    frequency=frequency,
+                                    instructions=m.sig))
+         
+   # create a directory for the patient
+   OUTPUT_DIR = os.path.join(sample_data_dir, "patient_%s"%pid)
+
+   try:
+       os.mkdir(OUTPUT_DIR)
+
+       # create a demographics file
+       with open(os.path.join(OUTPUT_DIR, "Demographics.xml"), 'w') as demo:
+           demo.write(demographics_doc)
+
+       # create a contact document
+       with open(os.path.join(OUTPUT_DIR, "Contact.xml"), 'w') as cont:
+           cont.write(contact_doc)
+
+       # create the rest of the data:
+       for i, doc in enumerate(problems + meds + labs):
+           with open(os.path.join(OUTPUT_DIR, "doc_%s.xml"%i), 'w') as d:
+               d.write(doc)
+
+   except OSError:
+       print "Patient with id %s already exists, skipping..."%pid
