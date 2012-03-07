@@ -295,7 +295,165 @@ labs = """  <sp:LabResult>
     <dcterms:title>Biotinidase DBS Ql</dcterms:title>
     <sp:system>http://loinc.org/codes/</sp:system>
   </spcode:LOINC>"""
-  
+ 
+
+extravitals = """
+ <sp:VitalSigns>
+    <dcterms:date>2010-08-12T04:00:00Z</dcterms:date>
+    <sp:encounter>
+      <sp:Encounter>
+      <sp:startDate>2010-08-12T04:00:00Z</sp:startDate>
+      <sp:endDate>2010-08-12T04:20:00Z</sp:endDate>
+      <sp:encounterType>
+        <sp:CodedValue>
+         <dcterms:title>Ambulatory encounter</dcterms:title>
+          <sp:code>
+           <spcode:EncounterType rdf:about="http://smartplatforms.org/terms/codes/EncounterType#ambulatory" >
+             <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+             <dcterms:title>Ambulatory encounter</dcterms:title>
+             <sp:system>http://smartplatforms.org/terms/codes/EncounterType#</sp:system>
+             <dcterms:identifier>ambulatory</dcterms:identifier> 
+           </spcode:EncounterType>    
+          </sp:code>
+        </sp:CodedValue>
+      </sp:encounterType>
+    </sp:Encounter>
+    </sp:encounter>
+    <sp:height>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Height (measured)</dcterms:title>
+          <sp:code>
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Height (measured)</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>8302-2</dcterms:identifier> 
+            </spcode:VitalSign>    
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>1.19</sp:value>
+      <sp:unit>m</sp:unit>
+     </sp:VitalSign>
+    </sp:height>
+    <sp:weight>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Body weight (measured)</dcterms:title>
+          <sp:code>    
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/3141-9">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Body weight (measured)</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>3141-9</dcterms:identifier> 
+            </spcode:VitalSign>
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>23</sp:value>
+      <sp:unit>kg</sp:unit>
+     </sp:VitalSign>
+    </sp:weight>
+    <sp:bodyMassIndex>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Body mass index</dcterms:title>
+          <sp:code>
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/39156-5">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Body mass index</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>39156-5</dcterms:identifier> 
+            </spcode:VitalSign>        
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>16.2</sp:value>
+      <sp:unit>{BMI}</sp:unit>
+     </sp:VitalSign>
+    </sp:bodyMassIndex>
+    <sp:respiratoryRate>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Respiration rate</dcterms:title>
+          <sp:code>
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/9279-1">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Respiration rate</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>9279-1</dcterms:identifier> 
+            </spcode:VitalSign>    
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>16</sp:value>
+      <sp:unit>{breaths}/min</sp:unit>
+     </sp:VitalSign>
+    </sp:respiratoryRate>
+    <sp:heartRate>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Heart rate</dcterms:title>
+          <sp:code>
+             <spcode:VitalSign rdf:about="http://loinc.org/codes/8867-4">
+               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+               <dcterms:title>Heart rate</dcterms:title>
+               <sp:system>http://loinc.org/codes/</sp:system>
+               <dcterms:identifier>8867-4</dcterms:identifier> 
+             </spcode:VitalSign>
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>90</sp:value>
+      <sp:unit>{beats}/min</sp:unit>
+     </sp:VitalSign>
+    </sp:heartRate>
+    <sp:oxygenSaturation>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Oxygen saturation</dcterms:title>
+          <sp:code>
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/2710-2">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Oxygen saturation</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>2710-2</dcterms:identifier> 
+            </spcode:VitalSign>        
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>99</sp:value>
+      <sp:unit>%{HemoglobinSaturation}</sp:unit>
+     </sp:VitalSign>
+    </sp:oxygenSaturation>
+    <sp:temperature>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Body temperature</dcterms:title>
+          <sp:code>
+            <spcode:VitalSign rdf:about="http://loinc.org/codes/8310-5">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Body temperature</dcterms:title>
+              <sp:system>http://loinc.org/codes/</sp:system>
+              <dcterms:identifier>8310-5</dcterms:identifier> 
+            </spcode:VitalSign>        
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>37</sp:value>
+      <sp:unit>Cel</sp:unit>
+     </sp:VitalSign>
+    </sp:temperature>
+ </sp:VitalSigns>
+""" 
 def tordf(v, include_height=False, include_bp=False):
   h = Template("""<sp:height>
       <sp:VitalSign>
@@ -424,5 +582,6 @@ print medications
 print problems
 print allergies
 print labs
+print extravitals
 print footer
 
