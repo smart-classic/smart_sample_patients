@@ -89,7 +89,12 @@ header = """<?xml version="1.0" encoding="utf-8"?>
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:v="http://www.w3.org/2006/vcard/ns#">
 
+<sp:MedicalRecord rdf:nodeID="patient">
+
+</sp:MedicalRecord>
+ 
 <sp:Demographics>
+ <sp:belongsTo rdf:nodeID="patient"/>
 
  <v:n>
     <v:Name>
@@ -147,6 +152,7 @@ header = """<?xml version="1.0" encoding="utf-8"?>
 footer = """</rdf:RDF>"""
 
 medications = """  <sp:Medication>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:startDate>2006-10-08</sp:startDate>
     <sp:instructions>7 mL bid x 10 days</sp:instructions>
     <sp:drugName>
@@ -170,6 +176,7 @@ medications = """  <sp:Medication>
   </sp:Medication>
   
   <sp:Medication>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:drugName>
       <sp:CodedValue>
         <dcterms:title>Permethrin 10 MG/ML Topical Lotion</dcterms:title>
@@ -195,6 +202,7 @@ medications = """  <sp:Medication>
   </sp:Code>"""
 
 problems = """  <sp:Problem>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:startDate>2008-10-06</sp:startDate>
     <sp:problemName>
       <sp:CodedValue>
@@ -205,6 +213,7 @@ problems = """  <sp:Problem>
   </sp:Problem>
   
   <sp:Problem>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:startDate>2006-07-18</sp:startDate>
     <sp:problemName>
       <sp:CodedValue>
@@ -229,6 +238,7 @@ problems = """  <sp:Problem>
   </sp:Code>"""
 
 allergies = """  <sp:AllergyExclusion>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:allergyExclusionName>
       <sp:CodedValue>
         <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/160244002"/>
@@ -245,6 +255,7 @@ allergies = """  <sp:AllergyExclusion>
   </sp:Code>"""
   
 labs = """  <sp:LabResult>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:specimenCollected>
       <sp:Attribution>
         <sp:startDate>2007-04-21</sp:startDate>
@@ -264,6 +275,7 @@ labs = """  <sp:LabResult>
   </sp:LabResult>
   
   <sp:LabResult>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <sp:specimenCollected>
       <sp:Attribution>
         <sp:startDate>2007-09-08</sp:startDate>
@@ -299,6 +311,7 @@ labs = """  <sp:LabResult>
 
 extravitals = """
  <sp:VitalSigns>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>2010-08-12T04:00:00Z</dcterms:date>
     <sp:encounter>
       <sp:Encounter>
@@ -519,6 +532,7 @@ def tordf(v, include_height=False, include_bp=False):
 
   r = Template("""
  <sp:VitalSigns>
+ <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>$vitals_date</dcterms:date>
     <sp:encounter>
 	 <sp:Encounter>
