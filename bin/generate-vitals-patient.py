@@ -640,10 +640,11 @@ def tordf(v, include_height=False, include_bp=False):
 
   r = Template("""
  <sp:VitalSigns>
- <sp:belongsTo rdf:nodeID="patient"/>
+    <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>$vitals_date</dcterms:date>
     <sp:encounter>
      <sp:Encounter>
+        <sp:belongsTo rdf:nodeID="patient"/>
         <sp:startDate>$encounter_start_date</sp:startDate>
         <sp:endDate>$encounter_end_date</sp:endDate>
           <sp:encounterType>
