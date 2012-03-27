@@ -223,31 +223,31 @@ class PatientGraph:
            aExcept = BNode()
            g.add((aExcept,RDF.type,SP['AllergyExclusion']))
            g.add((aExcept,SP['allergyExclusionName'],
-               self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','No known allergies',SNOMED_URI%'','160244002')))
+               self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','no known allergies',SNOMED_URI%'','160244002')))
            self.addStatement(aExcept)
          else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
            aNode = BNode()
            g.add((aNode,RDF.type,SP['Allergy']))
            g.add((aNode,SP['severity'],
-              self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'255604002','Mild',SNOMED_URI%'','255604002')))
+              self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'255604002','mild',SNOMED_URI%'','255604002')))
            g.add((aNode,SP['allergicReaction'],
-              self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'271807003','Skin Rash',SNOMED_URI%'','271807003')))
+              self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'271807003','skin rash',SNOMED_URI%'','271807003')))
            g.add((aNode,SP['category'],
-              self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','Drug Allergy', SNOMED_URI%'','416098002')))
+              self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','drug allergy', SNOMED_URI%'','416098002')))
            g.add((aNode,SP['drugClassAllergen'],
-              self.codedValue(SPCODE["NDFRT"],NUI_URI%'N0000175503','Sulfonamide Antibacterial',NUI_URI%''.split('&')[0], 'N0000175503')))
+              self.codedValue(SPCODE["NDFRT"],NUI_URI%'N0000175503','sulfonamide antibacterial',NUI_URI%''.split('&')[0], 'N0000175503')))
            self.addStatement(aNode)
            if int(self.pid)%2: # And throw in some peanut allergies if odd pid...
              aNode = BNode()
              g.add((aNode,RDF.type,SP['Allergy'])) 
              g.add((aNode,SP['severity'],
-               self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'24484000','Severe',SNOMED_URI%'','24484000')))
+               self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'24484000','severe',SNOMED_URI%'','24484000')))
              g.add((aNode,SP['allergicReaction'],
-               self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'39579001','Anaphylaxis',SNOMED_URI%'','39579001')))
+               self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'39579001','anaphylaxis',SNOMED_URI%'','39579001')))
              g.add((aNode,SP['category'],
-               self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','Food Allergy',SNOMED_URI%'','414285001')))
+               self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','food allergy',SNOMED_URI%'','414285001')))
              g.add((aNode,SP['foodAllergen'],
-               self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','Peanut',UNII_URI%'','QE1QX6B99R')))
+               self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','peanut',UNII_URI%'','QE1QX6B99R')))
              self.addStatement(aNode)
    def toRDF(self,format="xml"):
          return self.g.serialize(format=format)
