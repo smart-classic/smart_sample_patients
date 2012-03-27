@@ -392,6 +392,7 @@ extravitals = """
     <dcterms:date>2010-08-12T04:00:00Z</dcterms:date>
     <sp:encounter>
       <sp:Encounter>
+      <sp:belongsTo rdf:nodeID="patient"/>
       <sp:startDate>2010-08-12T04:00:00Z</sp:startDate>
       <sp:endDate>2010-08-12T04:20:00Z</sp:endDate>
       <sp:encounterType>
