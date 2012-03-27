@@ -51,34 +51,111 @@ birthday = datetime.now() - timedelta(days=stats[-1][0]*365)
 def add_years(d1, y):
   return d1 + timedelta(days=365*y)
 
-encounter_types = {"ambulatory": "Ambulatory Encounter",
-		"inpatient": "Inpatient Encounter"}
+encounter_types = {"ambulatory": "ambulatory encounter",
+        "inpatient": "inpatient encounter"}
 
 def choose_encounter_type():
-	n = random.uniform(0, 1)
-	if n < .25:
-		return "inpatient"
-	return "ambulatory"
+    n = random.uniform(0, 1)
+    if n < .25:
+        return "inpatient"
+    return "ambulatory"
 
 
-limbs = {"368209003": "Right arm",
-		"61396006": "Left thigh"}
+limbs = {"368209003": "right arm",
+        "61396006": "left thigh"}
 def choose_limb():
-	n = random.uniform(0, 1)
-	if n < .8:
-		return "368209003"
-	return "61396006"
+    n = random.uniform(0, 1)
+    if n < .8:
+        return "368209003"
+    return "61396006"
 
-methods = { "Auscultation": "http://smartplatforms.org/terms/codes/BloodPressureMethod#auscultation",
-            "Machine": "http://smartplatforms.org/terms/codes/BloodPressureMethod#machine"
+methods = { "auscultation": "http://smartplatforms.org/terms/codes/BloodPressureMethod#auscultation",
+            "machine": "http://smartplatforms.org/terms/codes/BloodPressureMethod#machine"
 }
 def choose_method():
-	n = random.uniform(0, 1)
-	if n < .5:
-		return "Auscultation"
-	return "Machine"
+    n = random.uniform(0, 1)
+    if n < .5:
+        return "auscultation"
+    return "machine"
+    
+def register_code (code):
+    if code not in codes:
+        codes.append (code)
+ 
+def getCodeFragment (code):
 
+    if code.lower() == "inpatient":
+    
+        return """
+  <spcode:EncounterType rdf:about="http://smartplatforms.org/terms/codes/EncounterType#inpatient">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>Inpatient encounter</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/EncounterType#</sp:system>
+    <dcterms:identifier>inpatient</dcterms:identifier> 
+  </spcode:EncounterType>
+"""
 
+    elif code.lower() == "ambulatory":
+    
+        return """
+  <spcode:EncounterType rdf:about="http://smartplatforms.org/terms/codes/EncounterType#ambulatory">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>ambulatory encounter</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/EncounterType#</sp:system>
+    <dcterms:identifier>ambulatory</dcterms:identifier> 
+  </spcode:EncounterType>
+"""
+
+    elif code.lower() == "368209003":
+    
+        return """
+  <spcode:BloodPressureBodySite rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/368209003">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>right arm</dcterms:title>
+    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <dcterms:identifier>368209003</dcterms:identifier> 
+  </spcode:BloodPressureBodySite>
+"""
+    
+    elif code.lower() == "61396006":
+    
+        return """
+  <spcode:BloodPressureBodySite rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/61396006">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>left thigh</dcterms:title>
+    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <dcterms:identifier>61396006</dcterms:identifier> 
+  </spcode:BloodPressureBodySite>
+"""
+    
+    elif code.lower() == "auscultation":
+    
+        return """
+  <spcode:BloodPressureMethod rdf:about="http://smartplatforms.org/terms/codes/BloodPressureMethod#auscultation">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>auscultation</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/BloodPressureMethod#</sp:system>
+    <dcterms:identifier>auscultation</dcterms:identifier> 
+  </spcode:BloodPressureMethod>
+"""
+    
+    elif code.lower() == "machine":
+    
+            return """
+  <spcode:BloodPressureMethod rdf:about="http://smartplatforms.org/terms/codes/BloodPressureMethod#machine">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>machine</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/BloodPressureMethod#</sp:system>
+    <dcterms:identifier>machine</dcterms:identifier> 
+  </spcode:BloodPressureMethod>
+"""
+def codesToRDF (codes):
+    out = ""
+    
+    for c in codes:
+        out += getCodeFragment(c)
+        
+    return out
 
 header = """<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -157,7 +234,7 @@ medications = """  <sp:Medication>
     <sp:instructions>7 mL bid x 10 days</sp:instructions>
     <sp:drugName>
       <sp:CodedValue>
-        <dcterms:title>cefdinir 25 MG/ML Oral Suspension</dcterms:title>
+        <dcterms:title>Cefdinir 25 MG/ML Oral Suspension</dcterms:title>
         <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/309054"/>
       </sp:CodedValue>
     </sp:drugName>
@@ -188,7 +265,7 @@ medications = """  <sp:Medication>
   </sp:Medication>
   
   <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/309054">
-    <dcterms:title>cefdinir 25 MG/ML Oral Suspension</dcterms:title>
+    <dcterms:title>Cefdinir 25 MG/ML Oral Suspension</dcterms:title>
     <dcterms:identifier>309054</dcterms:identifier>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
     <sp:system>http://rxnav.nlm.nih.gov/REST/rxcui/</sp:system>
@@ -207,7 +284,7 @@ problems = """  <sp:Problem>
     <sp:problemName>
       <sp:CodedValue>
         <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/425229001"/>
-        <dcterms:title>Foreign body in larynx</dcterms:title>
+        <dcterms:title>foreign body in larynx</dcterms:title>
       </sp:CodedValue>
     </sp:problemName>
   </sp:Problem>
@@ -218,7 +295,7 @@ problems = """  <sp:Problem>
     <sp:problemName>
       <sp:CodedValue>
         <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/65363002"/>
-        <dcterms:title>Otitis media</dcterms:title>
+        <dcterms:title>otitis media</dcterms:title>
       </sp:CodedValue>
     </sp:problemName>
   </sp:Problem>
@@ -226,14 +303,14 @@ problems = """  <sp:Problem>
   <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/65363002">
     <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/SNOMED"/>
-    <dcterms:title>Otitis media</dcterms:title>
+    <dcterms:title>otitis media</dcterms:title>
     <dcterms:identifier>65363002</dcterms:identifier>
   </sp:Code>
   
   <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/425229001">
     <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/SNOMED"/>
-    <dcterms:title>Foreign body in larynx</dcterms:title>
+    <dcterms:title>foreign body in larynx</dcterms:title>
     <dcterms:identifier>425229001</dcterms:identifier>
   </sp:Code>"""
 
@@ -242,14 +319,14 @@ allergies = """  <sp:AllergyExclusion>
     <sp:allergyExclusionName>
       <sp:CodedValue>
         <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/160244002"/>
-        <dcterms:title>No known allergies</dcterms:title>
+        <dcterms:title>no known allergies</dcterms:title>
       </sp:CodedValue>
     </sp:allergyExclusionName>
   </sp:AllergyExclusion>
   
   <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/160244002">
     <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
-    <dcterms:title>No known allergies</dcterms:title>
+    <dcterms:title>no known allergies</dcterms:title>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/AllergyExclusion"/>
     <dcterms:identifier>160244002</dcterms:identifier>
   </sp:Code>"""
@@ -319,11 +396,11 @@ extravitals = """
       <sp:endDate>2010-08-12T04:20:00Z</sp:endDate>
       <sp:encounterType>
         <sp:CodedValue>
-         <dcterms:title>Ambulatory encounter</dcterms:title>
+         <dcterms:title>ambulatory encounter</dcterms:title>
           <sp:code>
            <spcode:EncounterType rdf:about="http://smartplatforms.org/terms/codes/EncounterType#ambulatory" >
              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-             <dcterms:title>Ambulatory encounter</dcterms:title>
+             <dcterms:title>ambulatory encounter</dcterms:title>
              <sp:system>http://smartplatforms.org/terms/codes/EncounterType#</sp:system>
              <dcterms:identifier>ambulatory</dcterms:identifier> 
            </spcode:EncounterType>    
@@ -336,11 +413,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Height (measured)</dcterms:title>
+          <dcterms:title>height (measured)</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Height (measured)</dcterms:title>
+              <dcterms:title>height (measured)</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>8302-2</dcterms:identifier> 
             </spcode:VitalSign>    
@@ -355,11 +432,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Body weight (measured)</dcterms:title>
+          <dcterms:title>body weight (measured)</dcterms:title>
           <sp:code>    
             <spcode:VitalSign rdf:about="http://loinc.org/codes/3141-9">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Body weight (measured)</dcterms:title>
+              <dcterms:title>body weight (measured)</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>3141-9</dcterms:identifier> 
             </spcode:VitalSign>
@@ -374,11 +451,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Body mass index</dcterms:title>
+          <dcterms:title>body mass index</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/39156-5">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Body mass index</dcterms:title>
+              <dcterms:title>body mass index</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>39156-5</dcterms:identifier> 
             </spcode:VitalSign>        
@@ -393,11 +470,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Respiration rate</dcterms:title>
+          <dcterms:title>respiration rate</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/9279-1">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Respiration rate</dcterms:title>
+              <dcterms:title>respiration rate</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>9279-1</dcterms:identifier> 
             </spcode:VitalSign>    
@@ -412,11 +489,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Heart rate</dcterms:title>
+          <dcterms:title>heart rate</dcterms:title>
           <sp:code>
              <spcode:VitalSign rdf:about="http://loinc.org/codes/8867-4">
                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-               <dcterms:title>Heart rate</dcterms:title>
+               <dcterms:title>heart rate</dcterms:title>
                <sp:system>http://loinc.org/codes/</sp:system>
                <dcterms:identifier>8867-4</dcterms:identifier> 
              </spcode:VitalSign>
@@ -431,11 +508,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Oxygen saturation</dcterms:title>
+          <dcterms:title>oxygen saturation</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/2710-2">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Oxygen saturation</dcterms:title>
+              <dcterms:title>oxygen saturation</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>2710-2</dcterms:identifier> 
             </spcode:VitalSign>        
@@ -450,11 +527,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>Body temperature</dcterms:title>
+          <dcterms:title>body temperature</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/8310-5">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>Body temperature</dcterms:title>
+              <dcterms:title>body temperature</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>8310-5</dcterms:identifier> 
             </spcode:VitalSign>        
@@ -466,14 +543,45 @@ extravitals = """
      </sp:VitalSign>
     </sp:temperature>
  </sp:VitalSigns>
-""" 
+"""
+
+vitals_codes = """
+  <spcode:BloodPressureBodyPosition rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/33586001">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>sitting</dcterms:title>
+    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <dcterms:identifier>33586001</dcterms:identifier> 
+  </spcode:BloodPressureBodyPosition>
+
+  <spcode:VitalSign rdf:about="http://loinc.org/codes/8462-4">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>intravascular diastolic</dcterms:title>
+    <sp:system>http://loinc.org/codes/</sp:system>
+    <dcterms:identifier>8462-4</dcterms:identifier> 
+  </spcode:VitalSign>
+
+  <spcode:VitalSign rdf:about="http://loinc.org/codes/8480-6">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>intravascular systolic</dcterms:title>
+    <sp:system>http://loinc.org/codes/</sp:system>
+    <dcterms:identifier>8480-6</dcterms:identifier> 
+  </spcode:VitalSign>
+
+  <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>body height</dcterms:title>
+    <sp:system>http://loinc.org/codes/</sp:system>
+    <dcterms:identifier>8302-2</dcterms:identifier> 
+  </spcode:VitalSign>
+"""
+
 def tordf(v, include_height=False, include_bp=False):
   h = Template("""<sp:height>
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
           <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
-          <dcterms:title>Height (measured)</dcterms:title>
+          <dcterms:title>height (measured)</dcterms:title>
         </sp:CodedValue>
       </sp:vitalName>
       <sp:value>$height</sp:value>
@@ -489,7 +597,7 @@ def tordf(v, include_height=False, include_bp=False):
           <sp:vitalName>
            <sp:CodedValue>
              <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
-             <dcterms:title>Systolic blood pressure</dcterms:title>
+             <dcterms:title>systolic blood pressure</dcterms:title>
            </sp:CodedValue>
          </sp:vitalName>
          <sp:value>$sbp</sp:value>
@@ -501,7 +609,7 @@ def tordf(v, include_height=False, include_bp=False):
           <sp:vitalName>
            <sp:CodedValue>
              <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
-             <dcterms:title>Diastolic blood pressure</dcterms:title>
+             <dcterms:title>diastolic blood pressure</dcterms:title>
            </sp:CodedValue>
          </sp:vitalName>
          <sp:value>$dbp</sp:value>
@@ -511,7 +619,7 @@ def tordf(v, include_height=False, include_bp=False):
        <sp:bodyPosition>
          <sp:CodedValue>
            <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
-           <dcterms:title>Sitting</dcterms:title>
+           <dcterms:title>sitting</dcterms:title>
          </sp:CodedValue>
        </sp:bodyPosition>
        <sp:bodySite>
@@ -535,16 +643,16 @@ def tordf(v, include_height=False, include_bp=False):
  <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>$vitals_date</dcterms:date>
     <sp:encounter>
-	 <sp:Encounter>
-	    <sp:startDate>$encounter_start_date</sp:startDate>
-	    <sp:endDate>$encounter_end_date</sp:endDate>
-	      <sp:encounterType>
-		<sp:CodedValue>
-		  <sp:code rdf:resource="http://smartplatforms.org/terms/codes/EncounterType#$encounter_type"/>
-		  <dcterms:title>$encounter_type_name</dcterms:title>
-		</sp:CodedValue>
-	      </sp:encounterType>
-	 </sp:Encounter>
+     <sp:Encounter>
+        <sp:startDate>$encounter_start_date</sp:startDate>
+        <sp:endDate>$encounter_end_date</sp:endDate>
+          <sp:encounterType>
+        <sp:CodedValue>
+          <sp:code rdf:resource="http://smartplatforms.org/terms/codes/EncounterType#$encounter_type"/>
+          <dcterms:title>$encounter_type_name</dcterms:title>
+        </sp:CodedValue>
+          </sp:encounterType>
+     </sp:Encounter>
     </sp:encounter>
 $h
 $bp
@@ -553,12 +661,15 @@ $bp
 
   et = choose_encounter_type()
   etn = encounter_types[et]
+  register_code (et)
 
   limb = choose_limb()
   limbn = limbs[limb]
+  register_code (limb)
 
   methodn = choose_method()
   method = methods[methodn]
+  register_code (methodn)
 
 
   if include_height:
@@ -571,14 +682,14 @@ $bp
 
 
   return r.substitute(vitals_date=add_years(birthday, v[0]).isoformat(),
-			encounter_start_date=add_years(birthday, v[0]).isoformat(),
-			encounter_end_date=add_years(birthday, v[0]).isoformat(),
-			encounter_type=et,
-			encounter_type_name=etn,
-			h=h, bp=bp)
+            encounter_start_date=add_years(birthday, v[0]).isoformat(),
+            encounter_end_date=add_years(birthday, v[0]).isoformat(),
+            encounter_type=et,
+            encounter_type_name=etn,
+            h=h, bp=bp)
 
 
-
+codes = []
 a = []
 for p in range(50):
   t = random.uniform(stats[0][0], stats[-1][0])
@@ -592,6 +703,8 @@ for l in a:
   include_height=(random.random()<0.2)
   include_bp=not include_height
   print tordf(l, include_height, include_bp)
+print codesToRDF (codes)
+print vitals_codes
 print medications
 print problems
 print allergies
