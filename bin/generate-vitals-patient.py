@@ -413,11 +413,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>height (measured)</dcterms:title>
+          <dcterms:title>body height</dcterms:title>
           <sp:code>
             <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>height (measured)</dcterms:title>
+              <dcterms:title>body height</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>8302-2</dcterms:identifier> 
             </spcode:VitalSign>    
@@ -432,11 +432,11 @@ extravitals = """
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <dcterms:title>body weight (measured)</dcterms:title>
+          <dcterms:title>body weight</dcterms:title>
           <sp:code>    
             <spcode:VitalSign rdf:about="http://loinc.org/codes/3141-9">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-              <dcterms:title>body weight (measured)</dcterms:title>
+              <dcterms:title>body weight</dcterms:title>
               <sp:system>http://loinc.org/codes/</sp:system>
               <dcterms:identifier>3141-9</dcterms:identifier> 
             </spcode:VitalSign>
@@ -581,7 +581,7 @@ def tordf(v, include_height=False, include_bp=False):
        <sp:vitalName>
         <sp:CodedValue>
           <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
-          <dcterms:title>height (measured)</dcterms:title>
+          <dcterms:title>body height</dcterms:title>
         </sp:CodedValue>
       </sp:vitalName>
       <sp:value>$height</sp:value>
