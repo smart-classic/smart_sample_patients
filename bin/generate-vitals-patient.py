@@ -109,10 +109,10 @@ def getCodeFragment (code):
     elif code.lower() == "368209003":
     
         return """
-  <spcode:BloodPressureBodySite rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/368209003">
+  <spcode:BloodPressureBodySite rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/368209003">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>right arm</dcterms:title>
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <dcterms:identifier>368209003</dcterms:identifier> 
   </spcode:BloodPressureBodySite>
 """
@@ -120,10 +120,10 @@ def getCodeFragment (code):
     elif code.lower() == "61396006":
     
         return """
-  <spcode:BloodPressureBodySite rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/61396006">
+  <spcode:BloodPressureBodySite rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/61396006">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>left thigh</dcterms:title>
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <dcterms:identifier>61396006</dcterms:identifier> 
   </spcode:BloodPressureBodySite>
 """
@@ -235,7 +235,7 @@ medications = """  <sp:Medication>
     <sp:drugName>
       <sp:CodedValue>
         <dcterms:title>Cefdinir 25 MG/ML Oral Suspension</dcterms:title>
-        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/309054"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/RXNORM/309054"/>
       </sp:CodedValue>
     </sp:drugName>
     <sp:quantity>
@@ -257,25 +257,25 @@ medications = """  <sp:Medication>
     <sp:drugName>
       <sp:CodedValue>
         <dcterms:title>Permethrin 10 MG/ML Topical Lotion</dcterms:title>
-        <sp:code rdf:resource="http://rxnav.nlm.nih.gov/REST/rxcui/312320"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/RXNORM/312320"/>
       </sp:CodedValue>
     </sp:drugName>
     <sp:instructions>apply x1 as directed</sp:instructions>
     <sp:startDate>2009-08-03</sp:startDate>
   </sp:Medication>
   
-  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/309054">
+  <sp:Code rdf:about="http://purl.bioontology.org/ontology/RXNORM/309054">
     <dcterms:title>Cefdinir 25 MG/ML Oral Suspension</dcterms:title>
     <dcterms:identifier>309054</dcterms:identifier>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
-    <sp:system>http://rxnav.nlm.nih.gov/REST/rxcui/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/RXNORM/</sp:system>
   </sp:Code>
   
-  <sp:Code rdf:about="http://rxnav.nlm.nih.gov/REST/rxcui/312320">
+  <sp:Code rdf:about="http://purl.bioontology.org/ontology/RXNORM/312320">
     <dcterms:title>Permethrin 10 MG/ML Topical Lotion</dcterms:title>
     <dcterms:identifier>312320</dcterms:identifier>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/RxNorm_Semantic"/>
-    <sp:system>http://rxnav.nlm.nih.gov/REST/rxcui/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/RXNORM/</sp:system>
   </sp:Code>"""
 
 problems = """  <sp:Problem>
@@ -283,7 +283,7 @@ problems = """  <sp:Problem>
     <sp:startDate>2008-10-06</sp:startDate>
     <sp:problemName>
       <sp:CodedValue>
-        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/425229001"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/425229001"/>
         <dcterms:title>foreign body in larynx</dcterms:title>
       </sp:CodedValue>
     </sp:problemName>
@@ -294,21 +294,21 @@ problems = """  <sp:Problem>
     <sp:startDate>2006-07-18</sp:startDate>
     <sp:problemName>
       <sp:CodedValue>
-        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/65363002"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/65363002"/>
         <dcterms:title>otitis media</dcterms:title>
       </sp:CodedValue>
     </sp:problemName>
   </sp:Problem>
  
-  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/65363002">
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+  <sp:Code rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/65363002">
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/SNOMED"/>
     <dcterms:title>otitis media</dcterms:title>
     <dcterms:identifier>65363002</dcterms:identifier>
   </sp:Code>
   
-  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/425229001">
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+  <sp:Code rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/425229001">
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/SNOMED"/>
     <dcterms:title>foreign body in larynx</dcterms:title>
     <dcterms:identifier>425229001</dcterms:identifier>
@@ -318,14 +318,14 @@ allergies = """  <sp:AllergyExclusion>
  <sp:belongsTo rdf:nodeID="patient"/>
     <sp:allergyExclusionName>
       <sp:CodedValue>
-        <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/160244002"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/160244002"/>
         <dcterms:title>no known allergies</dcterms:title>
       </sp:CodedValue>
     </sp:allergyExclusionName>
   </sp:AllergyExclusion>
   
-  <sp:Code rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/160244002">
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+  <sp:Code rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/160244002">
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <dcterms:title>no known allergies</dcterms:title>
     <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/AllergyExclusion"/>
     <dcterms:identifier>160244002</dcterms:identifier>
@@ -345,7 +345,7 @@ labs = """  <sp:LabResult>
     </sp:narrativeResult>
     <sp:labName>
       <sp:CodedValue>
-        <sp:code rdf:resource="http://loinc.org/codes/38478-4"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/LNC/38478-4"/>
         <dcterms:title>Biotinidase DBS Ql</dcterms:title>
       </sp:CodedValue>
     </sp:labName>
@@ -365,24 +365,24 @@ labs = """  <sp:LabResult>
     </sp:narrativeResult>
     <sp:labName>
       <sp:CodedValue>
-        <sp:code rdf:resource="http://loinc.org/codes/29571-7"/>
+        <sp:code rdf:resource="http://purl.bioontology.org/ontology/LNC/29571-7"/>
         <dcterms:title>Phe DBS Ql</dcterms:title>
       </sp:CodedValue>
     </sp:labName>
   </sp:LabResult>
   
-  <spcode:LOINC rdf:about="http://loinc.org/codes/29571-7">
+  <spcode:LOINC rdf:about="http://purl.bioontology.org/ontology/LNC/29571-7">
     <dcterms:identifier>29571-7</dcterms:identifier>
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
     <dcterms:title>Phe DBS Ql</dcterms:title>
-    <sp:system>http://loinc.org/codes/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
   </spcode:LOINC>
   
-  <spcode:LOINC rdf:about="http://loinc.org/codes/38478-4">
+  <spcode:LOINC rdf:about="http://purl.bioontology.org/ontology/LNC/38478-4">
     <dcterms:identifier>38478-4</dcterms:identifier>
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code"/>
     <dcterms:title>Biotinidase DBS Ql</dcterms:title>
-    <sp:system>http://loinc.org/codes/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
   </spcode:LOINC>"""
  
 
@@ -416,10 +416,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>body height</dcterms:title>
           <sp:code>
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8302-2">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>body height</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>8302-2</dcterms:identifier> 
             </spcode:VitalSign>    
           </sp:code>
@@ -435,10 +435,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>body weight</dcterms:title>
           <sp:code>    
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/3141-9">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/3141-9">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>body weight</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>3141-9</dcterms:identifier> 
             </spcode:VitalSign>
           </sp:code>
@@ -454,17 +454,17 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>body mass index</dcterms:title>
           <sp:code>
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/39156-5">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/39156-5">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>body mass index</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>39156-5</dcterms:identifier> 
             </spcode:VitalSign>        
           </sp:code>
         </sp:CodedValue>
       </sp:vitalName>
       <sp:value>16.2</sp:value>
-      <sp:unit>{BMI}</sp:unit>
+      <sp:unit>kg/m2</sp:unit>
      </sp:VitalSign>
     </sp:bodyMassIndex>
     <sp:respiratoryRate>
@@ -473,10 +473,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>respiration rate</dcterms:title>
           <sp:code>
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/9279-1">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/9279-1">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>respiration rate</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>9279-1</dcterms:identifier> 
             </spcode:VitalSign>    
           </sp:code>
@@ -492,10 +492,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>heart rate</dcterms:title>
           <sp:code>
-             <spcode:VitalSign rdf:about="http://loinc.org/codes/8867-4">
+             <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8867-4">
                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
                <dcterms:title>heart rate</dcterms:title>
-               <sp:system>http://loinc.org/codes/</sp:system>
+               <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
                <dcterms:identifier>8867-4</dcterms:identifier> 
              </spcode:VitalSign>
           </sp:code>
@@ -511,10 +511,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>oxygen saturation</dcterms:title>
           <sp:code>
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/2710-2">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/2710-2">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>oxygen saturation</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>2710-2</dcterms:identifier> 
             </spcode:VitalSign>        
           </sp:code>
@@ -530,10 +530,10 @@ extravitals = """
         <sp:CodedValue>
           <dcterms:title>body temperature</dcterms:title>
           <sp:code>
-            <spcode:VitalSign rdf:about="http://loinc.org/codes/8310-5">
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8310-5">
               <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
               <dcterms:title>body temperature</dcterms:title>
-              <sp:system>http://loinc.org/codes/</sp:system>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
               <dcterms:identifier>8310-5</dcterms:identifier> 
             </spcode:VitalSign>        
           </sp:code>
@@ -547,31 +547,31 @@ extravitals = """
 """
 
 vitals_codes = """
-  <spcode:BloodPressureBodyPosition rdf:about="http://www.ihtsdo.org/snomed-ct/concepts/33586001">
+  <spcode:BloodPressureBodyPosition rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/33586001">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>sitting</dcterms:title>
-    <sp:system>http://www.ihtsdo.org/snomed-ct/concepts/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
     <dcterms:identifier>33586001</dcterms:identifier> 
   </spcode:BloodPressureBodyPosition>
 
-  <spcode:VitalSign rdf:about="http://loinc.org/codes/8462-4">
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8462-4">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>intravascular diastolic</dcterms:title>
-    <sp:system>http://loinc.org/codes/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
     <dcterms:identifier>8462-4</dcterms:identifier> 
   </spcode:VitalSign>
 
-  <spcode:VitalSign rdf:about="http://loinc.org/codes/8480-6">
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8480-6">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>intravascular systolic</dcterms:title>
-    <sp:system>http://loinc.org/codes/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
     <dcterms:identifier>8480-6</dcterms:identifier> 
   </spcode:VitalSign>
 
-  <spcode:VitalSign rdf:about="http://loinc.org/codes/8302-2">
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8302-2">
     <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
     <dcterms:title>body height</dcterms:title>
-    <sp:system>http://loinc.org/codes/</sp:system>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
     <dcterms:identifier>8302-2</dcterms:identifier> 
   </spcode:VitalSign>
 """
@@ -581,7 +581,7 @@ def tordf(v, include_height=False, include_bp=False):
       <sp:VitalSign>
        <sp:vitalName>
         <sp:CodedValue>
-          <sp:code rdf:resource="http://loinc.org/codes/8302-2"/>
+          <sp:code rdf:resource="http://purl.bioontology.org/ontology/LNC/8302-2"/>
           <dcterms:title>body height</dcterms:title>
         </sp:CodedValue>
       </sp:vitalName>
@@ -597,7 +597,7 @@ def tordf(v, include_height=False, include_bp=False):
          <sp:VitalSign>
           <sp:vitalName>
            <sp:CodedValue>
-             <sp:code rdf:resource="http://loinc.org/codes/8480-6"/>
+             <sp:code rdf:resource="http://purl.bioontology.org/ontology/LNC/8480-6"/>
              <dcterms:title>systolic blood pressure</dcterms:title>
            </sp:CodedValue>
          </sp:vitalName>
@@ -609,7 +609,7 @@ def tordf(v, include_height=False, include_bp=False):
          <sp:VitalSign>
           <sp:vitalName>
            <sp:CodedValue>
-             <sp:code rdf:resource="http://loinc.org/codes/8462-4"/>
+             <sp:code rdf:resource="http://purl.bioontology.org/ontology/LNC/8462-4"/>
              <dcterms:title>diastolic blood pressure</dcterms:title>
            </sp:CodedValue>
          </sp:vitalName>
@@ -619,13 +619,13 @@ def tordf(v, include_height=False, include_bp=False):
        </sp:diastolic>
        <sp:bodyPosition>
          <sp:CodedValue>
-           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/33586001"/>
+           <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/33586001"/>
            <dcterms:title>sitting</dcterms:title>
          </sp:CodedValue>
        </sp:bodyPosition>
        <sp:bodySite>
          <sp:CodedValue>
-           <sp:code rdf:resource="http://www.ihtsdo.org/snomed-ct/concepts/$limb"/>
+           <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/$limb"/>
            <dcterms:title>$limbn</dcterms:title>
          </sp:CodedValue>
        </sp:bodySite>
