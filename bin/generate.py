@@ -1,13 +1,17 @@
 from rdflib import ConjunctiveGraph, Namespace, BNode, Literal, RDF, URIRef
 from testdata import PATIENTS_FILE
+import ontology_service 
 from patient import Patient
 from med import Med
 from problem import Problem
 from refill import Refill
+from vitals import VitalSigns
+from immunizations import Immunizations
 from lab import Lab
 import argparse
 import sys
 import os
+from client.common.util import *
 
 # Some constant strings:
 FILE_NAME_TEMPLATE = "p%s.xml"  # format for output files: p<patient id>.xml
@@ -175,6 +179,69 @@ class PatientGraph:
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
         self.addStatement(pnode)
 
+   def addVitalSigns(self):
+      """Add vitals to a patient's graph"""
+      g = self.g
+      if not self.pid in VitalSigns.vitals: return # No vitals to add
+
+      for v in VitalSigns.vitals[self.pid]:
+        vnode = BNode()
+        self.addStatement(vnode)
+        g.add((vnode,RDF.type,SP['VitalSigns']))
+        g.add((vnode,dcterms.date, Literal(v.timestamp)))
+
+        enode = BNode()
+        g.add((enode,RDF.type,SP['Encounter']))
+        g.add((vnode,SP.encounter, enode))
+        g.add((enode,SP.startDate, Literal(v.start_date)))
+        g.add((enode,SP.endDate, Literal(v.end_date)))
+
+        if v.encounter_type == 'ambulatory':
+            etype = ontology_service.coded_value(g, URIRef("http://smartplatforms.org/terms/codes/EncounterType#ambulatory"))
+            g.add((enode, SP.encounterType, etype))
+        
+        def attachVital(vt, p):
+            ivnode = BNode()
+            if hasattr(v, vt['name']):
+                val = getattr(v, vt['name'])
+                g.add((ivnode, sp.value, Literal(val)))
+                g.add((ivnode, RDF.type, sp.VitalSign))
+                g.add((ivnode, sp.unit, Literal(vt['unit'])))
+                g.add((ivnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
+                g.add((p, sp[vt['predicate']], ivnode))
+            return ivnode
+
+        for vt in VitalSigns.vitalTypes:
+            attachVital(vt, vnode)
+
+        if v.systolic:
+            bpnode = BNode()
+            g.add((vnode, sp.bloodPressure, bpnode))
+            attachVital(VitalSigns.systolic, bpnode)
+            attachVital(VitalSigns.diastolic, bpnode)
+            
+        self.addStatement(vnode)
+
+   def addImmunizations(self):
+      """Add immunizations to a patient's graph"""
+
+      g = self.g
+
+      if not self.pid in Immunizations.immunizations: return # No immunizations to add
+
+      for i in Immunizations.immunizations[self.pid]:
+
+        inode = BNode()
+        self.addStatement(inode)
+        g.add((inode,RDF.type,SP['Immunization']))
+        g.add((inode,dcterms.date, Literal(v.timestamp)))
+        g.add((inode, sp.administrationStatus, ontology_service.coded_value(g, URIRef(i.administration_status))))
+
+        if i.refusal_reason:
+            g.add((inode, sp.refusalReason, ontology_service.coded_value(g, URIRef(i.refusal_reason))))
+
+        cvx_system, cvx_id = i.cvx.rsplit("#",1)
+        g.add((inode, sp.productName, self.codedValue(SPCODE["ImmunizationProduct"],URIRef(i.cvx), i.cvx_title, cvx_system+"#", cvx_id)))
 
    def addLabResults(self):
        """Adds Lab Results to the patient's graph"""
@@ -259,8 +326,10 @@ def initData():
    Problem.load()
    Lab.load()
    Refill.load()
+   VitalSigns.load()
+   Immunizations.load()
 
-def writePatientGraph(f,pid):
+def writePatientGraph(f,pid,format):
    """Writes a patient's RDF out to a file, f"""
    p = Patient.mpi[pid]
    g = PatientGraph(p)
@@ -268,7 +337,9 @@ def writePatientGraph(f,pid):
    g.addProblemList()
    g.addLabResults()
    g.addAllergies()
-   print >>f, g.toRDF()
+   g.addVitalSigns()
+   g.addImmunizations()
+   print >>f, g.toRDF(format=format)
 
 
 def displayPatientSummary(pid):
@@ -296,6 +367,8 @@ if __name__=='__main__':
   group = parser.add_mutually_exclusive_group()
   group.add_argument('--summary', metavar='pid',nargs='?', const="all", 
      help="displays patient summary (default is 'all')")
+  parser.add_argument('--rdf-format', metavar='rdf_format', nargs='?', default='xml',
+          help='RDF serialization format to use (defaults to "xml". Also allowed: "turtle".)')
   group.add_argument('--rdf', metavar='pid', nargs='?', const='1520204',
      help='display RDF for a patient (default=1520204)')
   group.add_argument('--write', metavar='dir', nargs='?', const='.',
@@ -304,8 +377,6 @@ if __name__=='__main__':
      help="writes patient XML files to an Indivo sample data directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
-  group.add_argument('--write-cem',dest='writeCEM', metavar='dir', nargs='?', const='.',
-     help="writes all patient RDF files to directory dir (default='.')")
 
   args = parser.parse_args()
 
@@ -327,28 +398,9 @@ if __name__=='__main__':
     if not args.rdf in Patient.mpi:
       parser.error("Patient ID = %s not found."%args.rdf)
     else:
-      writePatientGraph(sys.stdout,args.rdf)
+      writePatientGraph(sys.stdout,args.rdf, args.rdf_format)
       parser.exit()
  
-  if args.writeCEM:
-    print "Writing files to %s:"%args.writeCEM
-    initData()
-    path = args.writeCEM
-    if not os.path.exists(path):
-      parser.error("Invalid path: '%s'.Path must already exist."%path)
-    if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
-
-    import cem
-
-    for pid in Patient.mpi:
-      f = open(path+"p%s.py"%pid,'w')
-      cem.writePatientFile(f, pid)
-      f.close()
-      # Show progress with '.' characters
-      print ".", 
-      sys.stdout.flush()
-    parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
-
   # Write all patient RDF files out to a directory
   if args.write:
     print "Writing files to %s:"%args.write
@@ -359,7 +411,7 @@ if __name__=='__main__':
     if not path.endswith('/'): path = path+'/' # Works with DOS? Who cares??
     for pid in Patient.mpi:
       f = open(path+FILE_NAME_TEMPLATE%pid,'w')
-      writePatientGraph(f,pid)
+      writePatientGraph(f,pid,args.rdf_format)
       f.close()
       # Show progress with '.' characters
       print ".", 
