@@ -243,6 +243,14 @@ class PatientGraph:
         cvx_system, cvx_id = i.cvx.rsplit("#",1)
         g.add((inode, sp.productName, self.codedValue(SPCODE["ImmunizationProduct"],URIRef(i.cvx), i.cvx_title, cvx_system+"#", cvx_id)))
 
+        if (i.vg):
+            vg_system, vg_id = i.vg.rsplit("#",1)
+            g.add((inode, sp.productClass, self.codedValue(SPCODE["ImmunizationClass"],URIRef(i.vg), i.vg_title, vg_system+"#", vg_id)))
+
+        if (i.vg2):
+            vg2_system, vg2_id = i.vg2.rsplit("#",1)
+            g.add((inode, sp.productClass, self.codedValue(SPCODE["ImmunizationClass"],URIRef(i.vg2), i.vg2_title, vg2_system+"#", vg2_id)))
+
    def addLabResults(self):
        """Adds Lab Results to the patient's graph"""
        g = self.g
