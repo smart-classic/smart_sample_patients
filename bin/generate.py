@@ -159,7 +159,7 @@ class PatientGraph:
           rfNode = BNode()
           g.add((rfNode,RDF.type,SP['Fulfillment']))
           g.add((rfNode,DCTERMS['date'],Literal(fill.date)))
-          g.add((rfNode,SP['dispenseQuantity'], self.valueAndUnit(fill.q,"{tab}")))
+          g.add((rfNode,SP['quantityDispensed'], self.valueAndUnit(fill.q,"{tab}")))
 
           g.add((rfNode,SP['dispenseDaysSupply'],Literal(fill.days)))
 
