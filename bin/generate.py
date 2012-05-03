@@ -234,7 +234,7 @@ class PatientGraph:
         inode = BNode()
         self.addStatement(inode)
         g.add((inode,RDF.type,SP['Immunization']))
-        g.add((inode,dcterms.date, Literal(v.timestamp)))
+        g.add((inode,dcterms.date, Literal(i.date)))
         g.add((inode, sp.administrationStatus, ontology_service.coded_value(g, URIRef(i.administration_status))))
 
         if i.refusal_reason:
