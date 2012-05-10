@@ -1,4 +1,4 @@
-PID	date	CVX	CVX_title	VG1	VG1_title	VG2	VG2_title	administrationStatus	refusalReason
+PID  date  CVX  CVX_title  VG  VG_title  VG2  VG2_title  administration_status  refusal_reason
 1032702	2007-09-27	http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#110	DTaP-hepatitis B and poliovirus vaccine	http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#DTAP	DTAP			http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#doseGiven	
 1032702	2011-01-27	http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#89	"poliovirus vaccine, unspecified formulation"	http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#POLIO	POLIO			http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#doseGiven	
 1032702	2011-05-27	http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#89	"poliovirus vaccine, unspecified formulation"					http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#doseGiven	
