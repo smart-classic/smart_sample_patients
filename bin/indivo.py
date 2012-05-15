@@ -237,7 +237,7 @@ class IndivoSamplePatient(object):
                 prod_name = i.cvx_title
                 tmp, ref, ref_id = self.coded_value(i.refusal_reason) if i.refusal_reason else ('', '', '')
                 i_str = IMMUNIZATION.substitute(
-                    date=i.date + ':00Z', # sample immunizations have invalid datetime format
+                    date=i.date,
                     adm_status=adm_status,
                     adm_status_id=adm_status_id,
                     prod_class=prod_class,
