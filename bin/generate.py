@@ -437,7 +437,7 @@ if __name__=='__main__':
     import indivo
 
     for pid in Patient.mpi:
-      indivo.writePatientData(path, pid)
+      indivo.IndivoSamplePatient(pid, path).writePatientData()
       sys.stdout.flush()
     parser.exit(0,"Done writing %d patient data profiles!\n"%len(Patient.mpi))
 
