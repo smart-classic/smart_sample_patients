@@ -89,21 +89,30 @@ class IndivoSamplePatient(object):
         """ Add labs to the patient's data. """
         if self.pid in Lab.results:  
             for l in Lab.results[self.pid]:
-                try:
-                    float_val = float(l.value)
-                except Exception:
+                if l.scale == 'Qn':
+                    result_data = {
+                        'val': l.value,
+                        'units': l.units,
+                        'low_val': l.low,
+                        'high_val': l.high,
+                        }
+                    result_str = QRESULTS.substitute(**result_data)
+                elif l.scale == 'Ord':
+                    result_data = {'val': l.value,}
+                    result_str = NRESULTS.substitute(**result_data)
+                else:
+                    # no results, don't add this lab
                     continue
-                if l.scale != 'Qn':
-                    self.data.append(
-                        LAB.substitute(
-                            date=l.date,
-                            loinc=l.code,
-                            name=l.name,
-                            value=l.value,
-                            units=l.units,
-                            low=l.low,
-                            high=l.high))
 
+                lab_data = {
+                    'test_name_identifier': l.code,
+                    'test_name_title': l.name,
+                    'date': l.date,
+                    'acc_num': l.acc_num,
+                    'results': result_str,
+                    }
+                self.data.append(LAB.substitute(**lab_data))
+                        
     def addProblems(self):
         """ Add problems to the patient's data. """
         if self.pid in Problem.problems: 
@@ -439,28 +448,28 @@ NO_ALLERGY = Template("""
 </Model>
 """)
 
-LAB = Template("""
-<Lab xmlns="http://indivo.org/vocab/xml/documents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateMeasured>${date}T00:00:00Z</dateMeasured>
-  <labType>general</labType>
+QRESULTS = Template("""
+<Field name="quantitative_result_normal_range_max_value">$high_val</Field>
+<Field name="quantitative_result_normal_range_max_unit">$units</Field>
+<Field name="quantitative_result_normal_range_min_value">$low_val</Field>
+<Field name="quantitative_result_normal_range_min_unit">$units</Field>
+<Field name="quantitative_result_value_value">$val</Field> 
+<Field name="quantitative_result_value_unit">$units</Field>
+""")
 
-  <labTest xsi:type="SingleResultLabTest">
-    <dateMeasured>${date}T00:00:00Z</dateMeasured>
-    <name type="http://loinc.org/codes/"  value="$loinc"><![CDATA[$name]]></name>
-    <final>true</final>
-    <result xsi:type="ResultInRange">
-      <valueAndUnit>
-        <value>$value</value>
-        <unit type="http://unitsofmeasure.org/" value="$units">$units</unit>
-      </valueAndUnit>
-      <normalRange>
-        <minimum>$low</minimum>
-        <maximum>$high</maximum>
-        <unit type="http://unitsofmeasure.org/" value="$units">$units</unit>
-      </normalRange>
-    </result>    
-  </labTest>
-</Lab>
+NRESULTS = Template("""
+<Field name="narrative_result">$val</Field>
+""")
+
+LAB = Template("""
+<Model name="LabResult">
+    <Field name="accession_number">$acc_num</Field>
+    <Field name="test_name_title">$test_name_title</Field>
+    <Field name="test_name_system">http://purl.bioontology.org/ontology/LNC/</Field>
+    <Field name="test_name_identifier">$test_name_identifier</Field>
+    <Field name="collected_at">$date</Field>
+    $results
+</Model>
 """)
 
 CONTACT = Template("""
