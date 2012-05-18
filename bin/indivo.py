@@ -65,7 +65,7 @@ class IndivoSamplePatient(object):
     
     def addDemographics(self):
         """ Add demographics to the patient's data. """
-        self.demographics_doc = DEMOGRAPHICS.substitute(dob=self.p.dob, gender=self.p.gender)
+        self.demographics_doc = DEMOGRAPHICS.sub({'dob':self.p.dob, 'gender':self.p.gender}).done()
 
     def addContact(self):
         """ Add contact information to the patient's data. """
@@ -83,7 +83,7 @@ class IndivoSamplePatient(object):
             'hphone': p.home,
             'cphone':p.cell,
             }
-        self.contact_doc = CONTACT.substitute(**contact_data)
+        self.contact_doc = CONTACT.sub(contact_data).done()
 
     def addLabs(self):
         """ Add labs to the patient's data. """
@@ -96,10 +96,10 @@ class IndivoSamplePatient(object):
                         'low_val': l.low,
                         'high_val': l.high,
                         }
-                    result_str = QRESULTS.substitute(**result_data)
+                    result_str = QRESULTS.sub(result_data).done()
                 elif l.scale == 'Ord':
                     result_data = {'val': l.value,}
-                    result_str = NRESULTS.substitute(**result_data)
+                    result_str = NRESULTS.sub(result_data).done()
                 else:
                     # no results, don't add this lab
                     continue
@@ -109,9 +109,9 @@ class IndivoSamplePatient(object):
                     'test_name_title': l.name,
                     'date': l.date,
                     'acc_num': l.acc_num,
-                    'results': result_str,
                     }
-                self.data.append(LAB.substitute(**lab_data))
+                lab_str = LAB.sub(lab_data).sub({'results': result_str}, escape=False).done()
+                self.data.append(SDMX.sub({'models':lab_str}, escape=False).done())
                         
     def addProblems(self):
         """ Add problems to the patient's data. """
@@ -119,13 +119,13 @@ class IndivoSamplePatient(object):
             for prob in Problem.problems[self.pid]:
                 subs = {'end': {'end': '2010-09-13'}}
                 self._set_default_attrs(prob, subs)
-                prob_string = PROBLEM.substitute(
-                    onset=prob.start,
-                    resolution=prob.end,
-                    snomed=prob.snomed, 
-                    name=prob.name
-                    )
-                self.data.append(SDMX.substitute(models=prob_string))
+                prob_string = PROBLEM.sub({
+                        'onset':prob.start,
+                        'resolution':prob.end,
+                        'snomed':prob.snomed, 
+                        'name':prob.name
+                        }).done()
+                self.data.append(SDMX.sub({'models':prob_string}, escape=False).done())
 
     def addMeds(self):
         """ Add medications to the patient's data. """
@@ -153,26 +153,25 @@ class IndivoSamplePatient(object):
                 fills_str = ''
                 for f in Refill.refill_list(self.pid, m.rxn):
                     self._set_default_attrs(f, subs)
-                    fills_str = '\n'.join([fills_str, FULFILLMENT.substitute(
-                                date=f.date,
-                                days=f.days,
-                                pbm=f.pbm,
-                                ncpdp=f.ncpdp,
-                                pharm_org=f.pharm_org,
-                                pharm_co=f.pharm_co,
-                                pharm_ci=f.pharm_ci,
-                                pharm_pc=f.pharm_pc,
-                                pharm_st=f.pharm_st,
-                                pharm_re=f.pharm_re,
-                                prov_dea=f.prov_dea,
-                                prov_npi=f.prov_npi,
-                                prov_email=f.prov_email,
-                                prov_fn=f.prov_fn,
-                                prov_ln=f.prov_ln,
-                                prov_tel=f.prov_tel,
-                                quantity=f.q,
-                                quantityUnits=f.qunit
-                                )])
+                    fills_str = '\n'.join([fills_str, FULFILLMENT.sub({
+                                    'date': f.date,
+                                    'days': f.days,
+                                    'pbm': f.pbm,
+                                    'ncpdp': f.ncpdp,
+                                    'pharm_org': f.pharm_org,
+                                    'pharm_co': f.pharm_co,
+                                    'pharm_ci': f.pharm_ci,
+                                    'pharm_pc': f.pharm_pc,
+                                    'pharm_st': f.pharm_st,
+                                    'pharm_re': f.pharm_re,
+                                    'prov_dea': f.prov_dea,
+                                    'prov_npi': f.prov_npi,
+                                    'prov_email': f.prov_email,
+                                    'prov_fn': f.prov_fn,
+                                    'prov_ln': f.prov_ln,
+                                    'prov_tel': f.prov_tel,
+                                    'quantity': f.q,
+                                    'quantityUnits': f.qunit}).done()])
 
                 # build the med, setting some defaults
                 subs = {
@@ -182,56 +181,55 @@ class IndivoSamplePatient(object):
                     'end': {'end': '2010-04-09'},
                     }
                 self._set_default_attrs(m, subs)
-                med_str = MEDICATION.substitute(
-                    name=m.name,
-                    rxnorm=m.rxn,
-                    endDate=m.end,
-                    frequencyValue=m.freq,
-                    frequencyUnits=m.frequnit,
-                    instructions=m.sig,
-                    provenance=m.prov,
-                    provenance_id=m.prov_id,
-                    quantityValue=m.qtt,
-                    quantityUnits=m.qttunit,
-                    startDate=m.start,
-                    fills=fills_str,
-                    )
-                                          
-                self.data.append(SDMX.substitute(models=med_str))
+                med_data = {
+                    'name': m.name,
+                    'rxnorm': m.rxn,
+                    'endDate': m.end,
+                    'frequencyValue': m.freq,
+                    'frequencyUnits': m.frequnit,
+                    'instructions': m.sig,
+                    'provenance': m.prov,
+                    'provenance_id': m.prov_id,
+                    'quantityValue': m.qtt,
+                    'quantityUnits': m.qttunit,
+                    'startDate': m.start,
+                    }
+                med_str = MEDICATION.sub(med_data).sub({'fills':fills_str}, escape=False).done()                                          
+                self.data.append(SDMX.sub({'models':med_str}, escape=False).done())
     
     def addAllergies(self):
         """ Add allergies to the patient's data. Bogus data--doesn't read from an allergy file."""
         if int(self.pid)%100 < 85: # no allergies for ~ 85%
-            exclusion = NO_ALLERGY.substitute(
-                exclusion="no known allergies",
-                exclusion_id="160244002",
-                )
-            self.data.append(SDMX.substitute(models=exclusion))
+            exclusion = NO_ALLERGY.sub({
+                    'exclusion':"no known allergies",
+                    'exclusion_id':"160244002",
+                    }).done()
+            self.data.append(SDMX.sub({'models':exclusion}, escape=False).done())
         else: # Sprinkle in some sulfa allergies
-            al = DRUG_CLASS_ALLERGY.substitute(
-                reaction="skin rash",
-                reaction_id="271807003",
-                category="drug allergy",
-                category_id="416098002",
-                allergen="sulfonamide antibacterial",
-                allergen_id="N0000175503",
-                severity="mild",
-                severity_id="255604002",
-                )
-            self.data.append(SDMX.substitute(models=al))
+            al = DRUG_CLASS_ALLERGY.sub({
+                    'reaction': "skin rash",
+                    'reaction_id': "271807003",
+                    'category': "drug allergy",
+                    'category_id': "416098002",
+                    'allergen': "sulfonamide antibacterial",
+                    'allergen_id': "N0000175503",
+                    'severity': "mild",
+                    'severity_id': "255604002",
+                    }).done()
+            self.data.append(SDMX.sub({'models':al}, escape=False).done())
             
             if int(self.pid)%2: # and throw in peanut allergies for every other patient
-                al = FOOD_ALLERGY.substitute(
-                    reaction="anaphylaxis",
-                    reaction_id="39579001",
-                    category="food allergy",
-                    category_id="414285001",
-                    allergen="peanut",
-                    allergen_id="QE1QX6B99R",
-                    severity="severe",
-                    severity_id="24484000",
-                    )
-            self.data.append(SDMX.substitute(models=al))
+                al = FOOD_ALLERGY.sub({
+                        'reaction': "anaphylaxis",
+                        'reaction_id': "39579001",
+                        'category': "food allergy",
+                        'category_id': "414285001",
+                        'allergen': "peanut",
+                        'allergen_id': "QE1QX6B99R",
+                        'severity': "severe",
+                        'severity_id': "24484000",
+                        }).done()
+            self.data.append(SDMX.sub({'models':al}, escape=False).done())
 
     def addImmunizations(self):
         """ Add immunizations to the patient's data. """
@@ -245,20 +243,20 @@ class IndivoSamplePatient(object):
                 tmp, prod_name_id = i.cvx.rsplit("#", 1)
                 prod_name = i.cvx_title
                 tmp, ref, ref_id = self.coded_value(i.refusal_reason) if i.refusal_reason else ('', '', '')
-                i_str = IMMUNIZATION.substitute(
-                    date=i.date,
-                    adm_status=adm_status,
-                    adm_status_id=adm_status_id,
-                    prod_class=prod_class,
-                    prod_class_id=prod_class_id,
-                    prod_class_2=prod_class_2,
-                    prod_class_2_id=prod_class_2_id,
-                    prod_name=prod_name,
-                    prod_name_id=prod_name_id,
-                    ref=ref,
-                    ref_id=ref_id,
-                    )
-                self.data.append(SDMX.substitute(models=i_str))
+                i_str = IMMUNIZATION.sub({
+                        'date': i.date,
+                        'adm_status': adm_status,
+                        'adm_status_id': adm_status_id,
+                        'prod_class': prod_class,
+                        'prod_class_id': prod_class_id,
+                        'prod_class_2': prod_class_2,
+                        'prod_class_2_id': prod_class_2_id,
+                        'prod_name': prod_name,
+                        'prod_name_id': prod_name_id,
+                        'ref': ref,
+                        'ref_id': ref_id,
+                        }).done()
+                self.data.append(SDMX.sub({'models':i_str}, escape=False).done())
 
     def addVitals(self):
         """ Add vitals to the patient's data. """
@@ -274,14 +272,17 @@ class IndivoSamplePatient(object):
             if hasattr(v, vt['name']):
                 val = getattr(v, vt['name'])
                 sys, title, ident = self.coded_value(vt['uri'])
-                return VITAL_SIGN.substitute(
-                    prefix=vt['indivo_prefix'] if 'indivo_prefix' in vt else vt['name'],
-                    unit=vt['unit'],
-                    val=val,
-                    name_title=title,
-                    name_id=ident,
-                    name_system=sys
-                    )
+                return VITAL_SIGN.sub(
+                    {'unit': vt['unit'],
+                     'val': val,
+                     'name_title': title,
+                     'name_id': ident,
+                     'name_system': sys
+                     }
+                    ).sub(
+                    {'prefix': vt['indivo_prefix'] if 'indivo_prefix' in vt else vt['name']},                     
+                    escape=False
+                    ).done()
 
         def cleanVitalsDate(date_str):
             """ Convert dates coming from raw Vitals data into UTC ISO8601 Timestamps."""
@@ -299,17 +300,24 @@ class IndivoSamplePatient(object):
                     measurements.append(getBP(VitalSigns.systolic))
                     measurements.append(getBP(VitalSigns.diastolic))
 
-                encounter_str = ENCOUNTER.substitute(
-                    start=cleanVitalsDate(v.start_date),
-                    end=cleanVitalsDate(v.end_date),
-                    encounterType=ENCOUNTER_TYPE.substitute() if v.encounter_type == 'ambulatory' else '',
-                    )
-                vitals_str = VITAL_SIGNS.substitute(
-                    date=cleanVitalsDate(v.timestamp),
-                    encounter=encounter_str,
-                    vitals_str = ''.join(measurements),
-                    )
-                self.data.append(SDMX.substitute(models=vitals_str))
+                encounter_str = ENCOUNTER.sub(
+                    {'start':cleanVitalsDate(v.start_date),
+                     'end':cleanVitalsDate(v.end_date)
+                     }
+                    ).sub(
+                    {'encounterType':ENCOUNTER_TYPE.done() if v.encounter_type == 'ambulatory' else ''}, 
+                    escape=False
+                    ).done()
+
+                vitals_str = VITAL_SIGNS.sub(
+                    {'date': cleanVitalsDate(v.timestamp),
+                     }
+                    ).sub(
+                    {'encounter': encounter_str,
+                     'vitals_str': ''.join(measurements)}, 
+                    escape=False
+                    ).done()
+                self.data.append(SDMX.sub({'models':vitals_str}, escape=False).done())
 
     def coded_value(self, raw_uri):
         """ Look up a URI in the ontology service. """
@@ -328,19 +336,31 @@ class IndivoSamplePatient(object):
                 for newattr_name, newattr_val in attr_subs.iteritems():
                     setattr(obj, newattr_name, newattr_val)
 
+class ChainableTemplate(Template):
+    def sub(self, data_dict={}, escape=True):
+        if escape:
+            data_dict = dict((key, self._cdata(value)) for key, value in data_dict.iteritems())    
+        return ChainableTemplate(self.safe_substitute(**data_dict))
+            
+    def done(self):
+        return self.template
+
+    def _cdata(self, data_str):
+        return "<![CDATA[%s]]>"%data_str
+
 ###########################
 # Constants and Templates #
 ###########################
 
 DCTERMS = rdflib.Namespace('http://purl.org/dc/terms/')
 
-SDMX = Template("""
+SDMX = ChainableTemplate("""
 <Models xmlns="http://indivo.org/vocab/xml/documents#">
 $models
 </Models>
 """)
 
-DEMOGRAPHICS = Template("""
+DEMOGRAPHICS = ChainableTemplate("""
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
     <dateOfBirth>$dob</dateOfBirth>
     <gender>$gender</gender>
@@ -348,7 +368,7 @@ DEMOGRAPHICS = Template("""
 </Demographics>
 """)
 
-MEDICATION = Template("""
+MEDICATION = ChainableTemplate("""
 <Model name="Medication">
   <Field name="drugName_title">$name</Field>
   <Field name="drugName_system">http://purl.bioontology.org/ontology/RXNORM/</Field>
@@ -371,7 +391,7 @@ MEDICATION = Template("""
 </Model>
 """)
 
-FULFILLMENT = Template("""
+FULFILLMENT = ChainableTemplate("""
 <Model name="Fill">
   <Field name="date">$date</Field>
   <Field name="dispenseDaysSupply">$days</Field>
@@ -396,7 +416,7 @@ FULFILLMENT = Template("""
 </Model>
 """)
 
-PROBLEM = Template("""
+PROBLEM = ChainableTemplate("""
 <Model name="Problem">
   <Field name="startDate">$onset</Field>
   <Field name="endDate">$resolution</Field>
@@ -406,7 +426,7 @@ PROBLEM = Template("""
 </Model>
 """)
 
-DRUG_CLASS_ALLERGY = Template("""
+DRUG_CLASS_ALLERGY = ChainableTemplate("""
 <Model name="Allergy">
     <Field name="allergic_reaction_title">$reaction</Field>
     <Field name="allergic_reaction_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
@@ -423,7 +443,7 @@ DRUG_CLASS_ALLERGY = Template("""
 </Model>
 """)
 
-FOOD_ALLERGY = Template("""
+FOOD_ALLERGY = ChainableTemplate("""
 <Model name="Allergy">
     <Field name="allergic_reaction_title">$reaction</Field>
     <Field name="allergic_reaction_system">http://purl.bioontology.org/ontology/SNOMEDCT/</Field>
@@ -440,7 +460,7 @@ FOOD_ALLERGY = Template("""
 </Model>
 """)
 
-NO_ALLERGY = Template("""
+NO_ALLERGY = ChainableTemplate("""
 <Model name="AllergyExclusion">
     <Field name="name_title">$exclusion</Field>
     <Field name="name_identifier">$exclusion_id</Field>
@@ -448,7 +468,7 @@ NO_ALLERGY = Template("""
 </Model>
 """)
 
-QRESULTS = Template("""
+QRESULTS = ChainableTemplate("""
 <Field name="quantitative_result_normal_range_max_value">$high_val</Field>
 <Field name="quantitative_result_normal_range_max_unit">$units</Field>
 <Field name="quantitative_result_normal_range_min_value">$low_val</Field>
@@ -457,11 +477,11 @@ QRESULTS = Template("""
 <Field name="quantitative_result_value_unit">$units</Field>
 """)
 
-NRESULTS = Template("""
+NRESULTS = ChainableTemplate("""
 <Field name="narrative_result">$val</Field>
 """)
 
-LAB = Template("""
+LAB = ChainableTemplate("""
 <Model name="LabResult">
     <Field name="accession_number">$acc_num</Field>
     <Field name="test_name_title">$test_name_title</Field>
@@ -472,7 +492,7 @@ LAB = Template("""
 </Model>
 """)
 
-CONTACT = Template("""
+CONTACT = ChainableTemplate("""
 <Contact xmlns="http://indivo.org/vocab/xml/documents#">
   <name>
     <fullName>$fullname</fullName>
@@ -494,7 +514,7 @@ CONTACT = Template("""
 </Contact>
 """)
 
-IMMUNIZATION = Template("""
+IMMUNIZATION = ChainableTemplate("""
 <Model name="Immunization">
     <Field name="date">$date</Field>
     <Field name="administration_status_title">$adm_status</Field>
@@ -515,7 +535,7 @@ IMMUNIZATION = Template("""
 </Model>
 """)
 
-ENCOUNTER = Template("""
+ENCOUNTER = ChainableTemplate("""
 <Model name="Encounter">
     <Field name="startDate">$start</Field>
     <Field name="endDate">$end</Field>
@@ -523,13 +543,13 @@ ENCOUNTER = Template("""
 </Model>
 """)
 
-ENCOUNTER_TYPE = Template("""
+ENCOUNTER_TYPE = ChainableTemplate("""
     <Field name="encounterType_title">Ambulatory encounter</Field>
     <Field name="encounterType_system">http://smartplatforms.org/terms/codes/EncounterType#</Field>
     <Field name="encounterType_identifier">ambulatory</Field>
 """)
 
-VITAL_SIGNS = Template("""
+VITAL_SIGNS = ChainableTemplate("""
 <Model name="VitalSigns">
     <Field name="date">$date</Field>
     <Field name="encounter">$encounter</Field>
@@ -537,7 +557,7 @@ VITAL_SIGNS = Template("""
 </Model>
 """)
 
-VITAL_SIGN = Template("""
+VITAL_SIGN = ChainableTemplate("""
 <Field name="${prefix}_unit">$unit</Field>
 <Field name="${prefix}_value">$val</Field>
 <Field name="${prefix}_name_title">$name_title</Field>
