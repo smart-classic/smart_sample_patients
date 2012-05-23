@@ -217,7 +217,7 @@ class PatientGraph:
         if v.systolic:
             bpnode = BNode()
             g.add((vnode, sp.bloodPressure, bpnode))
-            g.add((bpnode, RDF.type, sp:BloodPressure))
+            g.add((bpnode, RDF.type, sp.BloodPressure))
             attachVital(VitalSigns.systolic, bpnode)
             attachVital(VitalSigns.diastolic, bpnode)
             
