@@ -20,13 +20,11 @@ class IndivoSamplePatient(object):
         self.fullname = '%s %s'%(self.p.fname, self.p.lname)
         self.populated_p = False
         self.demographics_doc = None
-        self.contact_doc = None
         self.data = []
         
     def _populate(self):
         """ parse the sample data into Indivo documents. """
         self.addDemographics()
-        self.addContact()
         self.addLabs()
         self.addProblems()
         self.addMeds()
@@ -51,10 +49,6 @@ class IndivoSamplePatient(object):
             with open(os.path.join(OUTPUT_DIR, "Demographics.xml"), 'w') as demo:
                 demo.write(self.demographics_doc)
 
-            # create a contact document
-            with open(os.path.join(OUTPUT_DIR, "Contact.xml"), 'w') as cont:
-                cont.write(self.contact_doc)
-
             # create the rest of the data:
             for i, doc in enumerate(self.data):
                 with open(os.path.join(OUTPUT_DIR, "doc_%s.xml"%i), 'w') as d:
@@ -65,25 +59,22 @@ class IndivoSamplePatient(object):
     
     def addDemographics(self):
         """ Add demographics to the patient's data. """
-        self.demographics_doc = DEMOGRAPHICS.sub({'dob':self.p.dob, 'gender':self.p.gender}).done()
-
-    def addContact(self):
-        """ Add contact information to the patient's data. """
         p = self.p
-        contact_data = {
-            'fullname': self.fullname,
-            'firstname': p.fname,
-            'lastname': p.lname,
-            'email': p.email,
-            'street': p.street,
-            'postal': p.zip,
-            'city': p.city,
-            'state': p.region,
-            'country': p.country,
-            'hphone': p.home,
-            'cphone':p.cell,
-            }
-        self.contact_doc = CONTACT.sub(contact_data).done()
+        demographics_data = {
+           'dob': p.dob,
+           'gender': p.gender,
+           'email': p.email,
+           'fname': p.fname,
+           'lname': p.lname,
+           'hphone': p.home,
+           'cphone': p.cell,
+           'country': p.country,
+           'city': p.city,
+           'pcode': p.pcode,
+           'region': p.region,
+           'street': p.street,
+        }
+        self.demographics_doc = DEMOGRAPHICS.sub(demographics_data).done()
 
     def addLabs(self):
         """ Add labs to the patient's data. """
@@ -364,7 +355,28 @@ DEMOGRAPHICS = ChainableTemplate("""
 <Demographics xmlns="http://indivo.org/vocab/xml/documents#">
     <dateOfBirth>$dob</dateOfBirth>
     <gender>$gender</gender>
-    <language>EN</language>
+    <email>$email</email>
+    <preferredLanguage>EN</preferredLanguage>
+    <Name>
+        <familyName>$fname</familyName>
+        <givenName>$lname</givenName>
+    </Name>
+    <Telephone>
+        <type>h</type>
+        <number>$hphone</number>
+        <preferred>true</preferred>
+    </Telephone>
+    <Telephone>
+        <type>c</type>
+        <number>$cphone</number>
+    </Telephone>
+    <Address>
+        <country>$country</country>
+        <city>$city</city>
+        <postalCode>$pcode</postalCode>
+        <region>$region</region>
+        <street>$street</street>
+    </Address>
 </Demographics>
 """)
 
@@ -490,28 +502,6 @@ LAB = ChainableTemplate("""
     <Field name="collected_at">$date</Field>
     $results
 </Model>
-""")
-
-CONTACT = ChainableTemplate("""
-<Contact xmlns="http://indivo.org/vocab/xml/documents#">
-  <name>
-    <fullName>$fullname</fullName>
-    <givenName>$firstname</givenName>
-    <familyName>$lastname</familyName>
-  </name>
-  <email type="personal">
-    <emailAddress>$email</emailAddress>
-  </email>
-  <address type="home">
-    <streetAddress>$street</streetAddress>
-    <postalCode>$postal</postalCode>
-    <locality>$city</locality>
-    <region>$state</region>
-    <country>$country</country>
-  </address>
-  <phoneNumber type="home">$hphone</phoneNumber>
-  <phoneNumber type="cell">$cphone</phoneNumber>
-</Contact>
 """)
 
 IMMUNIZATION = ChainableTemplate("""
