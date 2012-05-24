@@ -11,7 +11,7 @@ from lab import Lab
 import argparse
 import sys
 import os
-from client.common.util import *
+from common.rdf_tools.util import *
 
 # Some constant strings:
 FILE_NAME_TEMPLATE = "p%s.xml"  # format for output files: p<patient id>.xml
