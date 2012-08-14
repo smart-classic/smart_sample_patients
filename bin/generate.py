@@ -187,7 +187,7 @@ class PatientGraph:
       for v in VitalSigns.vitals[self.pid]:
         vnode = BNode()
         self.addStatement(vnode)
-        g.add((vnode,RDF.type,SP['VitalSigns']))
+        g.add((vnode,RDF.type,SP['VitalSignSet']))
         g.add((vnode,dcterms.date, Literal(v.timestamp)))
 
         enode = BNode()
