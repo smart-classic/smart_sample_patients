@@ -2,7 +2,6 @@ from common.rdf_tools.util import *
 from common.rdf_tools import rdf_ontology
 import argparse
 
-rdf_ontology.parse_ontology(open('common/schema/smart.owl').read())
 cv = rdf_ontology.SMART_Class["http://smartplatforms.org/terms#CodedValue"]
 
 def code(g, uri):
