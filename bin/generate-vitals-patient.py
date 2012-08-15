@@ -387,7 +387,7 @@ labs = """  <sp:LabResult>
  
 
 extravitals = """
- <sp:VitalSigns>
+ <sp:VitalSignSets>
  <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>2010-08-12T04:00:00Z</dcterms:date>
     <sp:encounter>
@@ -543,7 +543,7 @@ extravitals = """
       <sp:unit>Cel</sp:unit>
      </sp:VitalSign>
     </sp:temperature>
- </sp:VitalSigns>
+ </sp:VitalSignSets>
 """
 
 vitals_codes = """
@@ -640,7 +640,7 @@ def tordf(v, include_height=False, include_bp=False):
 """)
 
   r = Template("""
- <sp:VitalSigns>
+ <sp:VitalSignSets>
     <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>$vitals_date</dcterms:date>
     <sp:encounter>
@@ -658,7 +658,7 @@ def tordf(v, include_height=False, include_bp=False):
     </sp:encounter>
 $h
 $bp
- </sp:VitalSigns>
+ </sp:VitalSignSets>
 """)
 
   et = choose_encounter_type()
