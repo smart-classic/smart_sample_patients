@@ -333,11 +333,7 @@ allergies = """  <sp:AllergyExclusion>
   
 labs = """  <sp:LabResult>
  <sp:belongsTo rdf:nodeID="patient"/>
-    <sp:specimenCollected>
-      <sp:Attribution>
-        <sp:startDate>2007-04-21</sp:startDate>
-      </sp:Attribution>
-    </sp:specimenCollected>
+    <dcterms:date>2007-04-21</dcterms:date>
     <sp:narrativeResult>
       <sp:NarrativeResult>
         <sp:value>Normal</sp:value>
@@ -352,12 +348,8 @@ labs = """  <sp:LabResult>
   </sp:LabResult>
   
   <sp:LabResult>
- <sp:belongsTo rdf:nodeID="patient"/>
-    <sp:specimenCollected>
-      <sp:Attribution>
-        <sp:startDate>2007-09-08</sp:startDate>
-      </sp:Attribution>
-    </sp:specimenCollected>
+    <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2007-09-08</dcterms:date>
     <sp:narrativeResult>
       <sp:NarrativeResult>
         <sp:value>Normal</sp:value>

@@ -284,13 +284,9 @@ class PatientGraph:
            g.add((qNode,SP['value'],Literal(lab.value)))
            g.add((lNode,SP['narrativeResult'],qNode))
 
-         aNode = BNode()
-         g.add((aNode,RDF.type,SP['Attribution']))
-         g.add((aNode,SP['startDate'],Literal(lab.date)))
-         g.add((lNode,SP['specimenCollected'],aNode))
+         g.add((lNode,dcterms.date, Literal(lab.date)))
+         g.add((lNode,SP['accessionNumber'],Literal(lab.acc_num)))      
 
-         g.add((lNode,SP['externalID'],Literal(lab.acc_num)))      
-         self.addStatement(lNode)
    def addAllergies(self):
          """A totally bogus method: doesn't read from an allergy file!"""
          g = self.g
