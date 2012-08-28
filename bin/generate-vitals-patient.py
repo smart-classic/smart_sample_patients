@@ -228,6 +228,124 @@ header = """<?xml version="1.0" encoding="utf-8"?>
 
 footer = """</rdf:RDF>"""
 
+procedures = """
+ <sp:Procedure>
+    <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2011-02-15</dcterms:date>
+    <sp:procedureName>
+      <sp:CodedValue>
+          <dcterms:title></dcterms:title>
+          <sp:code>
+            <spcode:Procedure rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/80146002">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+              <dcterms:identifier>80146002</dcterms:identifier>
+              <dcterms:title>Appendectomy</dcterms:title>
+            </spcode:Procedure>    
+          </sp:code>
+      </sp:CodedValue>
+    </sp:procedureName>
+    <sp:provider>
+      <sp:Provider>
+        <v:n>
+          <v:Name>
+           <v:given-name>Joshua</v:given-name>
+           <v:family-name>Mandel</v:family-name>
+          </v:Name>
+        </v:n>
+      </sp:Provider>
+    </sp:provider>
+ </sp:Procedure>
+"""
+
+immunizations = """
+   <sp:Immunization>
+      <sp:belongsTo rdf:nodeID="patient"/>
+	  <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+
+	  <sp:administrationStatus>
+	    <sp:CodedValue>
+	      <dcterms:title>Not Administered</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#notAdministered">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus" /> 
+	          <dcterms:title>Not Administered</dcterms:title>
+	          <sp:system>http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</sp:system>
+	          <dcterms:identifier>notAdministered</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:administrationStatus>
+
+	  <sp:refusalReason>
+	    <sp:CodedValue>
+	      <dcterms:title>Allergy to vaccine/vaccine components, or allergy to eggs</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#allergy">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationRefusalReason" /> 
+	          <dcterms:title>Allergy to vaccine/vaccine components, or allergy to eggs</dcterms:title>
+	          <sp:system>http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</sp:system>
+	          <dcterms:identifier>allergy</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:refusalReason>
+
+	  <sp:productName>
+	    <sp:CodedValue>
+	      <dcterms:title>typhoid, oral</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#25">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationProduct" /> 
+	          <dcterms:title>typhoid, oral</dcterms:title>
+	          <sp:system>http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</sp:system>
+	          <dcterms:identifier>25</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:productName>
+
+	  <sp:productClass>
+	    <sp:CodedValue>
+	      <dcterms:title>TYPHOID</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#TYPHOID">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationClass" /> 
+	          <dcterms:title>TYPHOID</dcterms:title>
+	          <sp:system>http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</sp:system>
+	          <dcterms:identifier>TYPHOID</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:productClass>
+
+   </sp:Immunization>
+"""
+
+notes = """
+ <sp:ClinicalNote>
+    <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2012-05-17</dcterms:date>
+    <dcterms:title>Telephone note</dcterms:title>
+    <dcterms:hasFormat>
+         <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
+            <dcterms:format rdf:resoruce="http://purl.org/NET/mediatypes/text/html"/>
+            <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
+         </sp:DocumentWithFormat>
+    </dcterms:hasFormat>
+    <sp:provider>
+      <sp:Provider>
+        <v:n>
+          <v:Name>
+           <v:given-name>Joshua</v:given-name>
+           <v:family-name>Mandel</v:family-name>
+          </v:Name>
+        </v:n>
+      </sp:Provider>
+    </sp:provider>
+ </sp:ClinicalNote>
+"""
+
 medications = """  <sp:Medication>
  <sp:belongsTo rdf:nodeID="patient"/>
     <sp:startDate>2006-10-08</sp:startDate>
@@ -701,8 +819,10 @@ print codesToRDF (codes)
 print vitals_codes
 print medications
 print problems
+print procedures
+print immunizations
 print allergies
 print labs
 print extravitals
+print notes
 print footer
-

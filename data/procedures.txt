@@ -1,8 +1,8 @@
 PID	START_DATE	SNOMED	NAME
-1291938	2002-05-23  35637008    Alcohol rehabilitation
+1291938	2002-05-23	35637008	Alcohol rehabilitation
 1291938	2000-02-12	384742004	Smoking cessation assistance
-2502813 2002-08-21	384742004	Smoking cessation assistance
-2502813 2002-02-11	426945003	X-ray of bone
+2502813	2002-08-21	384742004	Smoking cessation assistance
+2502813	2002-02-11	426945003	X-ray of bone
 1642068	2010-12-19	359728003	Radical mastectomy including pectoral muscles and axillary lymph nodes
 1642068	1980-02-12	169961004	Normal birth
 665677	2008-02-17	302497006	Hemodialysis
