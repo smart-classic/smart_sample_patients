@@ -4,10 +4,13 @@ import ontology_service
 from patient import Patient
 from med import Med
 from problem import Problem
+from procedure import Procedure
 from refill import Refill
 from vitals import VitalSigns
-from immunizations import Immunizations
+from immunization import Immunization
 from lab import Lab
+from clinicalnote import ClinicalNote
+from socialhistory import SocialHistory
 import argparse
 import sys
 import os
@@ -167,6 +170,28 @@ class PatientGraph:
           g.add((mNode,SP['fulfillment'],rfNode))
           self.addStatement(rfNode)
 
+   def addClinicalNotes(self):
+      """Add notes to a patient's graph"""
+      g = self.g
+      if not self.pid in ClinicalNote.clinicalNotes: return # No notes to add
+      for note in ClinicalNote.clinicalNotes[self.pid]:
+        self.addStatement(note.triples((None, RDF.type, SP['ClinicalNote'])).next()[0])
+        g += note
+
+   def addSocialHistory(self):
+      """Add social history to a patient's graph"""
+      if not self.pid in SocialHistory.socialHistories: return # No social history
+
+      g = self.g
+      sh = SocialHistory.socialHistories[self.pid]
+      smokingStatus = ontology_service.coded_value(g,URIRef(SNOMED_URI%sh.smokingStatusCode))
+      
+      hnode = BNode()
+      g.add((hnode,RDF.type,SP['SocialHistory']))
+      g.add((hnode,SP['smokingStatus'],smokingStatus))
+
+      self.addStatement(hnode)
+
    def addProblemList(self):
       """Add problems to a patient's graph"""
       g = self.g
@@ -179,6 +204,18 @@ class PatientGraph:
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
         self.addStatement(pnode)
 
+   def addProcedureList(self):
+      """Add procedures to a patient's graph"""
+      g = self.g
+      if not self.pid in Procedure.procedures: return
+      for proc in Procedure.procedures[self.pid]:
+        pnode = BNode()
+        g.add((pnode,RDF.type,SP['Procedure']))
+        g.add((pnode,SP['startDate'],Literal(proc.start)))      
+        g.add((pnode,SP['procedureName'],
+            self.codedValue(SPCODE["SNOMED"],SNOMED_URI%proc.snomed,proc.name,SNOMED_URI%"",proc.snomed)))
+        self.addStatement(pnode)
+
    def addVitalSigns(self):
       """Add vitals to a patient's graph"""
       g = self.g
@@ -187,7 +224,7 @@ class PatientGraph:
       for v in VitalSigns.vitals[self.pid]:
         vnode = BNode()
         self.addStatement(vnode)
-        g.add((vnode,RDF.type,SP['VitalSigns']))
+        g.add((vnode,RDF.type,SP['VitalSignSet']))
         g.add((vnode,dcterms.date, Literal(v.timestamp)))
 
         enode = BNode()
@@ -228,9 +265,9 @@ class PatientGraph:
 
       g = self.g
 
-      if not self.pid in Immunizations.immunizations: return # No immunizations to add
+      if not self.pid in Immunization.immunizations: return # No immunizations to add
 
-      for i in Immunizations.immunizations[self.pid]:
+      for i in Immunization.immunizations[self.pid]:
 
         inode = BNode()
         self.addStatement(inode)
@@ -284,13 +321,9 @@ class PatientGraph:
            g.add((qNode,SP['value'],Literal(lab.value)))
            g.add((lNode,SP['narrativeResult'],qNode))
 
-         aNode = BNode()
-         g.add((aNode,RDF.type,SP['Attribution']))
-         g.add((aNode,SP['startDate'],Literal(lab.date)))
-         g.add((lNode,SP['specimenCollected'],aNode))
+         g.add((lNode,dcterms.date, Literal(lab.date)))
+         g.add((lNode,SP['accessionNumber'],Literal(lab.acc_num)))      
 
-         g.add((lNode,SP['externalID'],Literal(lab.acc_num)))      
-         self.addStatement(lNode)
    def addAllergies(self):
          """A totally bogus method: doesn't read from an allergy file!"""
          g = self.g
@@ -336,7 +369,10 @@ def initData():
    Lab.load()
    Refill.load()
    VitalSigns.load()
-   Immunizations.load()
+   Immunization.load()
+   Procedure.load()
+   SocialHistory.load()
+   ClinicalNote.load()
 
 def writePatientGraph(f,pid,format):
    """Writes a patient's RDF out to a file, f"""
@@ -344,6 +380,9 @@ def writePatientGraph(f,pid,format):
    g = PatientGraph(p)
    g.addMedList()
    g.addProblemList()
+   g.addProcedureList()
+   g.addSocialHistory()
+   g.addClinicalNotes()
    g.addLabResults()
    g.addAllergies()
    g.addVitalSigns()
