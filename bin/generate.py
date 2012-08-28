@@ -415,7 +415,7 @@ if __name__=='__main__':
   group = parser.add_mutually_exclusive_group()
   group.add_argument('--summary', metavar='pid',nargs='?', const="all", 
      help="displays patient summary (default is 'all')")
-  parser.add_argument('--rdf-format', metavar='rdf_format', nargs='?', default='n3',
+  parser.add_argument('--rdf-format', metavar='rdf_format', nargs='?', default='xml',
           help='RDF serialization format to use (defaults to "xml". Also allowed: "turtle".)')
   group.add_argument('--rdf', metavar='pid', nargs='?', const='1520204',
      help='display RDF for a patient (default=1520204)')
