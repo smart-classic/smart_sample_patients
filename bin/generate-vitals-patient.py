@@ -164,6 +164,7 @@ header = """<?xml version="1.0" encoding="utf-8"?>
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dctitle="http://purl.org/dc/terms/title#"
   xmlns:v="http://www.w3.org/2006/vcard/ns#">
 
 <sp:MedicalRecord rdf:nodeID="patient">
@@ -329,7 +330,9 @@ notes = """
     <dcterms:title>Telephone note</dcterms:title>
     <dcterms:hasFormat>
          <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
-            <dcterms:format rdf:resoruce="http://purl.org/NET/mediatypes/text/html"/>
+            <dcterms:format>
+               <dctitle:MediaTypeOrExtent rdf:resoruce="http://purl.org/NET/mediatypes/text/html"/>
+            </dcterms:format>
             <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
          </sp:DocumentWithFormat>
     </dcterms:hasFormat>
