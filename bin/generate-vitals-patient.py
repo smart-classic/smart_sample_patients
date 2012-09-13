@@ -332,7 +332,7 @@ notes = """
     <dcterms:hasFormat>
          <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
             <dcterms:format>
-               <dctitle:MediaTypeOrExtent rdf:resoruce="http://purl.org/NET/mediatypes/text/html">
+               <dctitle:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/html">
                     <rdfs:label>text/html</rdfs:label>
                </dctitle:MediaTypeOrExtent>
             </dcterms:format>
