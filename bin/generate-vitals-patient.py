@@ -332,7 +332,7 @@ notes = """
             <dcterms:format>
                <dcterms:title#MediaTypeOrExtent rdf:resoruce="http://purl.org/NET/mediatypes/text/html">
                     <rdfs:label>text/html</rdfs:label>
-               <dcterms:title#MediaTypeOrExtent/>
+               </dcterms:title#MediaTypeOrExtent>
             </dcterms:format>
             <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
          </sp:DocumentWithFormat>
