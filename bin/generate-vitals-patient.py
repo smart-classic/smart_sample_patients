@@ -159,6 +159,7 @@ def codesToRDF (codes):
 
 header = """<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:sp="http://smartplatforms.org/terms#"
   xmlns:spcode="http://smartplatforms.org/terms/codes/"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -227,6 +228,128 @@ header = """<?xml version="1.0" encoding="utf-8"?>
 """%birthday.strftime("%Y-%m-%d")
 
 footer = """</rdf:RDF>"""
+
+procedures = """
+ <sp:Procedure>
+    <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2011-02-15</dcterms:date>
+    <sp:procedureName>
+      <sp:CodedValue>
+          <dcterms:title></dcterms:title>
+          <sp:code>
+            <spcode:Procedure rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/80146002">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+              <dcterms:identifier>80146002</dcterms:identifier>
+              <dcterms:title>Appendectomy</dcterms:title>
+            </spcode:Procedure>    
+          </sp:code>
+      </sp:CodedValue>
+    </sp:procedureName>
+    <sp:provider>
+      <sp:Provider>
+        <v:n>
+          <v:Name>
+           <v:given-name>Joshua</v:given-name>
+           <v:family-name>Mandel</v:family-name>
+          </v:Name>
+        </v:n>
+      </sp:Provider>
+    </sp:provider>
+ </sp:Procedure>
+"""
+
+immunizations = """
+   <sp:Immunization>
+      <sp:belongsTo rdf:nodeID="patient"/>
+	  <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+
+	  <sp:administrationStatus>
+	    <sp:CodedValue>
+	      <dcterms:title>Not Administered</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#notAdministered">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus" /> 
+	          <dcterms:title>Not Administered</dcterms:title>
+	          <sp:system>http://smartplatforms.org/terms/codes/ImmunizationAdministrationStatus#</sp:system>
+	          <dcterms:identifier>notAdministered</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:administrationStatus>
+
+	  <sp:refusalReason>
+	    <sp:CodedValue>
+	      <dcterms:title>Allergy to vaccine/vaccine components, or allergy to eggs</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#allergy">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationRefusalReason" /> 
+	          <dcterms:title>Allergy to vaccine/vaccine components, or allergy to eggs</dcterms:title>
+	          <sp:system>http://smartplatforms.org/terms/codes/ImmunizationRefusalReason#</sp:system>
+	          <dcterms:identifier>allergy</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:refusalReason>
+
+	  <sp:productName>
+	    <sp:CodedValue>
+	      <dcterms:title>typhoid, oral</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=cvx#25">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationProduct" /> 
+	          <dcterms:title>typhoid, oral</dcterms:title>
+	          <sp:system>http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</sp:system>
+	          <dcterms:identifier>25</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:productName>
+
+	  <sp:productClass>
+	    <sp:CodedValue>
+	      <dcterms:title>TYPHOID</dcterms:title>
+	      <sp:code>
+	        <sp:Code rdf:about="http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#TYPHOID">
+	          <rdf:type rdf:resource="http://smartplatforms.org/terms/codes/ImmunizationClass" /> 
+	          <dcterms:title>TYPHOID</dcterms:title>
+	          <sp:system>http://www2a.cdc.gov/nip/IIS/IISStandards/vaccines.asp?rpt=vg#</sp:system>
+	          <dcterms:identifier>TYPHOID</dcterms:identifier>
+	        </sp:Code>
+	      </sp:code>
+	    </sp:CodedValue>
+	  </sp:productClass>
+
+   </sp:Immunization>
+"""
+
+notes = """
+<sp:ClinicalNote>
+  <sp:belongsTo rdf:nodeID="patient"/>
+  <dcterms:date>2012-05-17</dcterms:date>
+  <dcterms:title>Telephone note</dcterms:title>
+  <dcterms:hasFormat>
+    <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+          <rdfs:label>text/plain</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
+    </sp:DocumentWithFormat>
+  </dcterms:hasFormat>
+  <sp:provider>
+    <sp:Provider>
+      <v:n>
+        <v:Name>
+          <v:given-name>Joshua</v:given-name>
+          <v:family-name>Mandel</v:family-name>
+        </v:Name>
+      </v:n>
+    </sp:Provider>
+  </sp:provider>
+</sp:ClinicalNote>
+"""
 
 medications = """  <sp:Medication>
  <sp:belongsTo rdf:nodeID="patient"/>
@@ -333,11 +456,7 @@ allergies = """  <sp:AllergyExclusion>
   
 labs = """  <sp:LabResult>
  <sp:belongsTo rdf:nodeID="patient"/>
-    <sp:specimenCollected>
-      <sp:Attribution>
-        <sp:startDate>2007-04-21</sp:startDate>
-      </sp:Attribution>
-    </sp:specimenCollected>
+    <dcterms:date>2007-04-21</dcterms:date>
     <sp:narrativeResult>
       <sp:NarrativeResult>
         <sp:value>Normal</sp:value>
@@ -352,12 +471,8 @@ labs = """  <sp:LabResult>
   </sp:LabResult>
   
   <sp:LabResult>
- <sp:belongsTo rdf:nodeID="patient"/>
-    <sp:specimenCollected>
-      <sp:Attribution>
-        <sp:startDate>2007-09-08</sp:startDate>
-      </sp:Attribution>
-    </sp:specimenCollected>
+    <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2007-09-08</dcterms:date>
     <sp:narrativeResult>
       <sp:NarrativeResult>
         <sp:value>Normal</sp:value>
@@ -387,7 +502,7 @@ labs = """  <sp:LabResult>
  
 
 extravitals = """
- <sp:VitalSigns>
+ <sp:VitalSignSet>
  <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>2010-08-12T04:00:00Z</dcterms:date>
     <sp:encounter>
@@ -543,7 +658,7 @@ extravitals = """
       <sp:unit>Cel</sp:unit>
      </sp:VitalSign>
     </sp:temperature>
- </sp:VitalSigns>
+ </sp:VitalSignSet>
 """
 
 vitals_codes = """
@@ -640,7 +755,7 @@ def tordf(v, include_height=False, include_bp=False):
 """)
 
   r = Template("""
- <sp:VitalSigns>
+ <sp:VitalSignSet>
     <sp:belongsTo rdf:nodeID="patient"/>
     <dcterms:date>$vitals_date</dcterms:date>
     <sp:encounter>
@@ -658,7 +773,7 @@ def tordf(v, include_height=False, include_bp=False):
     </sp:encounter>
 $h
 $bp
- </sp:VitalSigns>
+ </sp:VitalSignSet>
 """)
 
   et = choose_encounter_type()
@@ -709,8 +824,10 @@ print codesToRDF (codes)
 print vitals_codes
 print medications
 print problems
+print procedures
+print immunizations
 print allergies
 print labs
 print extravitals
+print notes
 print footer
-

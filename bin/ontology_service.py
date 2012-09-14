@@ -1,9 +1,7 @@
-from testdata import SMART_SERVER_PATH
-from client.common.util import *
-from client.common import rdf_ontology
+from common.rdf_tools.util import *
+from common.rdf_tools import rdf_ontology
 import argparse
 
-rdf_ontology.parse_ontology(open(SMART_SERVER_PATH + 'smart/document_processing/schema/smart.owl').read())
 cv = rdf_ontology.SMART_Class["http://smartplatforms.org/terms#CodedValue"]
 
 def code(g, uri):

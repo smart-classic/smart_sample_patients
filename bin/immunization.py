@@ -3,21 +3,21 @@ import argparse
 import csv
 
 
-class Immunizations: 
-    """Create instances of Immunizations list entries; 
-also maintains complete Immunizations lists by patient id"""
+class Immunization: 
+    """Create instances of Immunization list entries; 
+also maintains complete Immunization lists by patient id"""
 
     immunizations = {} # Dictionary of Immunization lists, by patient id 
 
     @classmethod
     def load(cls):
-      """Loads patient Immunizations observations"""
+      """Loads patient Immunization observations"""
       
       # Loop through Immunizations and build patient Immunizations lists:
-      Immunizations = csv.reader(file(IMMUNIZATIONS_FILE,'U'),dialect='excel-tab')
-      header = Immunizations.next() 
-      for Immunization in Immunizations:
-          cls(dict(zip(header,Immunization))) # Create a Immunization instance (saved in Immunizations.immunizations)
+      iis = csv.reader(file(IMMUNIZATIONS_FILE,'U'),dialect='excel-tab')
+      header = iis.next() 
+      for i in iis:
+          cls(dict(zip(header,i))) # Create a Immunization instance (saved in Immunizations.immunizations)
 
     def __init__(self,m):
         for f in m:
@@ -42,12 +42,12 @@ if __name__== '__main__':
      help='display Immunizations for a given patient id (default=1614502)')
   args = parser.parse_args()
   print args 
-  Immunizations.load()
+  Immunization.load()
   if args.pid:
-    if not args.pid in Immunizations.immunizations:
+    if not args.pid in Immunization.immunizations:
       parser.error("No results found for pid = %s"%args.pid)
-    Immunizations = Immunizations.immunizations[args.pid]
-    for Immunization in Immunizations: 
+    iis = Immunization.immunizations[args.pid]
+    for Immunization in iis: 
       print Immunization.asTabString()
     
 

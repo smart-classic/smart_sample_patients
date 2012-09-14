@@ -5,8 +5,6 @@ import datetime
 # Constants for building test data from data 
 
 # Paths relative source data and mapping files
-SMART_SERVER_PATH  = "../../smart_server/"
-
 DATA_PATH  = "../data/"
 MAP_PATH   =   "../maps/"
 RI_PATH   = "../ri-data/"
@@ -18,6 +16,9 @@ IMMUNIZATIONS_FILE  = DATA_PATH+'immunizations.txt'
 VITALS_FILE  = DATA_PATH+'vitals.txt'
 MEDS_FILE  = DATA_PATH+'meds.txt'
 PROBLEMS_FILE = DATA_PATH+'problems.txt'
+PROCEDURES_FILE = DATA_PATH+'procedures.txt'
+SOCIALHISTORY_FILE = DATA_PATH+'socialhistory.txt'
+NOTES_PATH = DATA_PATH+'notes'
 REFILLS_FILE = DATA_PATH+'refills.txt'
 RI_PATIENTS_FILE = RI_PATH+'ri-patients.txt'
 
