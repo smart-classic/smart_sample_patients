@@ -4,30 +4,35 @@
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:v="http://www.w3.org/2006/vcard/ns#"
   xmlns:spcode="http://smartplatforms.org/terms/codes/"
->
- <sp:ClinicalNote>
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <sp:ClinicalNote>
     <dcterms:date>2006-09-01</dcterms:date>
     <dcterms:title>Pulmonology clinic acute visit</dcterms:title>
     <dcterms:hasFormat>
-         <sp:DocumentWithFormat>
-            <dcterms:format rdf:resoruce="http://purl.org/NET/mediatypes/text/html"/>
-            <rdf:value><![CDATA[Personal Data and Overall Health
+      <sp:DocumentWithFormat>
+        <dcterms:format>
+          <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+            <rdfs:label>text/plain</rdfs:label>
+          </dcterms:MediaTypeOrExtent>
+        </dcterms:format>
+        <rdf:value><![CDATA[Personal Data and Overall Health
 September 1, 2006
 
 Problems
-    Asthma, unspecified without mention of status asthmaticus
+Asthma, unspecified without mention of status asthmaticus
 
 Medications
-    Flovent 110 mcg/inh aerosol with adapter Glaxo Wellcome
-	Singulair 5mg tablet chewable Merck & Co. Inc
-	Albuterol Sulfate 4mg tablet ESI Lederle Generics
-	Sulfamethoxazole-Trimethoprim 80mg-16 mg/ml solution ESI Lederle Generics
-	Penicillin V Potassium V potassium 500mg tablet UDL Laboratories Inc
+Flovent 110 mcg/inh aerosol with adapter Glaxo Wellcome
+Singulair 5mg tablet chewable Merck & Co. Inc
+Albuterol Sulfate 4mg tablet ESI Lederle Generics
+Sulfamethoxazole-Trimethoprim 80mg-16 mg/ml solution ESI Lederle Generics
+Penicillin V Potassium V potassium 500mg tablet UDL Laboratories Inc
 
 Allergies
-	Lactose
-	Shellfish
-      
+Lactose
+Shellfish
+
 
 Reason for Visit
 Shortness of breath following pneumonia.
@@ -39,11 +44,11 @@ Review of Systems
 Shortness of breath. Coughing. Swimming in the head. Chest pain.
 
 Vital Signs
-      BLOOD PRESSURE   119/61
-      PULSE   125.7 
-      TEMPERATURE   97.8 F
-      WEIGHT   114.4 lb
-      O2 SAT   81
+BLOOD PRESSURE   119/61
+PULSE   125.7 
+TEMPERATURE   97.8 F
+WEIGHT   114.4 lb
+O2 SAT   81
 
 
 Exam
@@ -63,17 +68,17 @@ Plan
 1.)? Nebulizer
 2.)? RTC 2 weeks.
 ]]></rdf:value>
-         </sp:DocumentWithFormat>
+      </sp:DocumentWithFormat>
     </dcterms:hasFormat>
     <sp:provider>
       <sp:Provider>
         <v:n>
           <v:Name>
-           <v:given-name>John</v:given-name>
-           <v:family-name>Smith</v:family-name>
+            <v:given-name>John</v:given-name>
+            <v:family-name>Smith</v:family-name>
           </v:Name>
         </v:n>
       </sp:Provider>
     </sp:provider>
- </sp:ClinicalNote>
+  </sp:ClinicalNote>
 </rdf:RDF>

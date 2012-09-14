@@ -165,7 +165,6 @@ header = """<?xml version="1.0" encoding="utf-8"?>
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dctitle="http://purl.org/dc/terms/title#"
   xmlns:v="http://www.w3.org/2006/vcard/ns#">
 
 <sp:MedicalRecord rdf:nodeID="patient">
@@ -325,31 +324,31 @@ immunizations = """
 """
 
 notes = """
- <sp:ClinicalNote>
-    <sp:belongsTo rdf:nodeID="patient"/>
-    <dcterms:date>2012-05-17</dcterms:date>
-    <dcterms:title>Telephone note</dcterms:title>
-    <dcterms:hasFormat>
-         <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
-            <dcterms:format>
-               <dctitle:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/html">
-                    <rdfs:label>text/html</rdfs:label>
-               </dctitle:MediaTypeOrExtent>
-            </dcterms:format>
-            <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
-         </sp:DocumentWithFormat>
-    </dcterms:hasFormat>
-    <sp:provider>
-      <sp:Provider>
-        <v:n>
-          <v:Name>
-           <v:given-name>Joshua</v:given-name>
-           <v:family-name>Mandel</v:family-name>
-          </v:Name>
-        </v:n>
-      </sp:Provider>
-    </sp:provider>
- </sp:ClinicalNote>
+<sp:ClinicalNote>
+  <sp:belongsTo rdf:nodeID="patient"/>
+  <dcterms:date>2012-05-17</dcterms:date>
+  <dcterms:title>Telephone note</dcterms:title>
+  <dcterms:hasFormat>
+    <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+          <rdfs:label>text/plain</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
+    </sp:DocumentWithFormat>
+  </dcterms:hasFormat>
+  <sp:provider>
+    <sp:Provider>
+      <v:n>
+        <v:Name>
+          <v:given-name>Joshua</v:given-name>
+          <v:family-name>Mandel</v:family-name>
+        </v:Name>
+      </v:n>
+    </sp:Provider>
+  </sp:provider>
+</sp:ClinicalNote>
 """
 
 medications = """  <sp:Medication>

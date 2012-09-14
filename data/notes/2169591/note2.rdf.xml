@@ -4,14 +4,19 @@
   xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:v="http://www.w3.org/2006/vcard/ns#"
   xmlns:spcode="http://smartplatforms.org/terms/codes/"
->
- <sp:ClinicalNote>
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <sp:ClinicalNote>
     <dcterms:date>2007-01-21</dcterms:date>
     <dcterms:title>Primary care clinic visit</dcterms:title>
     <dcterms:hasFormat>
-         <sp:DocumentWithFormat>
-            <dcterms:format rdf:resoruce="http://purl.org/NET/mediatypes/text/html"/>
-            <rdf:value><![CDATA[Chief Complaint
+      <sp:DocumentWithFormat>
+        <dcterms:format>
+          <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+            <rdfs:label>text/plain</rdfs:label>
+          </dcterms:MediaTypeOrExtent>
+        </dcterms:format>
+        <rdf:value><![CDATA[Chief Complaint
 Irregular menstrual cycle
 
 History of Present Illness
@@ -30,9 +35,9 @@ Past Medical History
 3.  Back pain
 
 Medications
-	Flovent 110 mcg/inh aerosol with adapter Glaxo Wellcome
-	Singulair 5mg tablet chewable Merck &#038; Co. Inc
-	Albuterol Sulfate 4mg tablet ESI Lederle Generics
+Flovent 110 mcg/inh aerosol with adapter Glaxo Wellcome
+Singulair 5mg tablet chewable Merck &#038; Co. Inc
+Albuterol Sulfate 4mg tablet ESI Lederle Generics
 
 ALLERGIES:  LACTOSE, SHELLFISH
 
@@ -62,17 +67,17 @@ Plan
 Lab - pregnancy test
 Nausea - hold for results
 ]]></rdf:value>
-         </sp:DocumentWithFormat>
-    </dcterms:hasFormat>
-    <sp:provider>
-      <sp:Provider>
-        <v:n>
-          <v:Name>
-           <v:given-name>John</v:given-name>
-           <v:family-name>Smith</v:family-name>
-          </v:Name>
-        </v:n>
-      </sp:Provider>
-    </sp:provider>
- </sp:ClinicalNote>
-</rdf:RDF>
+	  </sp:DocumentWithFormat>
+	</dcterms:hasFormat>
+	<sp:provider>
+	  <sp:Provider>
+	    <v:n>
+<v:Name>
+		<v:given-name>John</v:given-name>
+		<v:family-name>Smith</v:family-name>
+</v:Name>
+	    </v:n>
+	  </sp:Provider>
+	</sp:provider>
+      </sp:ClinicalNote>
+    </rdf:RDF>
