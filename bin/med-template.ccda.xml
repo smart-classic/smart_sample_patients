@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cda.xsl"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdtc="urn:hl7-org:sdtc" classCode="DOCCLIN" moodCode="EVN">
+	<realmCode code="US"/>
+	<typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+	<templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+	<id root="{{docid}}"/>
+	<code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of episode note"/>
+	<title>Continuity of Care Document: 10/26/2010 to 10/28/2010</title>
+	<effectiveTime value="20101028092016.829-0500"/>
+	<confidentialityCode code="N" displayName="Normal" codeSystem="2.16.840.1.113883.5.25"/>
+	<languageCode code="en-US"/>
+	<recordTarget typeCode="RCT" contextControlCode="OP">
+		{{#patient}}
+		<patientRole classCode="PAT">
+			<id root="2.16.840.1.113883.3.13.300.1.1.2.1" extension="{{pid}}"/>
+			<addr use="HP">
+				<streetAddressLine>{{StreetAddress}}</streetAddressLine>
+				<city>{{City}}</city>
+				<state>{{State}}</state>
+				<postalCode>{{ZipCode}}</postalCode>
+				<country>US</country>
+			</addr>
+			<telecom use="HP" value="tel:{{TelephoneNumber}}"/>
+			<patient classCode="PSN" determinerCode="INSTANCE">
+				<name use="L">
+					<given>{{GivenName}}</given>
+                                        {{#MiddleInitial}}
+					<given>{{MiddleInitial}}</given>
+                                        {{/MiddleInitial}}
+					<family>{{Surname}}</family>
+				</name>
+				<administrativeGenderCode code="{{gendercode}}" displayName="{{genderdisplay}}" codeSystem="2.16.840.1.113883.5.1">
+				</administrativeGenderCode>
+				<birthTime value="{{birthdate}}"/>
+				<languageCommunication>
+					<languageCode code="en-US"/>
+					<modeCode code="RWR" displayName="Recieve Written" codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode"/>
+					<preferenceInd value="true"/>
+				</languageCommunication>
+			</patient>
+		</patientRole>
+		{{/patient}}
+	</recordTarget>
+	<author typeCode="AUT" contextControlCode="OP">
+		<time value="20101028092016.829-0500"/>
+		<assignedAuthor classCode="ASSIGNED">
+			<id nullFlavor="NI"/>
+			<addr nullFlavor="NI"/>
+			<telecom nullFlavor="NI"/>
+			<assignedPerson>
+				<name>
+					<given nullFlavor="NA"/>
+					<family>Auto Generated</family>
+				</name>
+			</assignedPerson>
+			<representedOrganization>
+				<name>Baseline West Medical Center</name>
+				<telecom nullFlavor="NI"/>
+				<addr nullFlavor="NI"/>
+			</representedOrganization>
+		</assignedAuthor>
+	</author>
+	<custodian typeCode="CST">
+		<assignedCustodian classCode="ASSIGNED">
+			<representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+				<id root="2.16.840.1.113883.3.13.300.1.1.2"/>
+				<name>Baseline West Medical Center</name>
+				<telecom use="WP" value="tel:+18162011202"/>
+				<addr use="WP">
+					<streetAddressLine>1500 Baseline Beltway</streetAddressLine>
+					<city>Kansas City</city>
+					<state>MO</state>
+					<postalCode>64118-    </postalCode>
+					<country>US</country>
+				</addr>
+			</representedCustodianOrganization>
+		</assignedCustodian>
+	</custodian>
+	<documentationOf typeCode="DOC">
+		<serviceEvent classCode="PCPR" moodCode="EVN">
+			<effectiveTime>
+				<low value="20101026091700.000-0500"/>
+				<high value="20101028092015.977-0500"/>
+			</effectiveTime>
+			<performer typeCode="PRF">
+				<templateId root="2.16.840.1.113883.3.88.11.83.4"/>
+				<templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+				<functionCode code="CP" displayName="Consulting Provider" codeSystem="2.16.840.1.113883.12.443">
+					<originalText>Consulting Physician</originalText>
+				</functionCode>
+				<time>
+					<low nullFlavor="NI"/>
+					<high nullFlavor="NI"/>
+				</time>
+				<assignedEntity classCode="ASSIGNED">
+					<id root="2.16.840.1.113883.4.6" extension="8877443210"/>
+					<addr nullFlavor="NI"/>
+					<telecom nullFlavor="NI"/>
+					<assignedPerson>
+						<name>
+							<given>Evan</given>
+							<family>Ward</family>
+							<suffix>MD</suffix>
+						</name>
+					</assignedPerson>
+				</assignedEntity>
+			</performer>
+			<performer typeCode="PRF">
+				<functionCode code="PP" displayName="Primary Care Provider" codeSystem="2.16.840.1.113883.12.443">
+					<originalText>Primary Care Provider</originalText>
+				</functionCode>
+				<time>
+					<low  nullFlavor="NI"/>
+					<high  nullFlavor="NI"/>
+				</time>
+				<assignedEntity classCode="ASSIGNED">
+					<id root="2.16.840.1.113883.4.6" extension="8877996546"/>
+					<addr use="WP">
+						<streetAddressLine>2800 Rockcreek Parkway</streetAddressLine>
+						<city>Kansas City</city>
+						<state>MO</state>
+						<postalCode>64116-    </postalCode>
+						<country>US</country>
+					</addr>
+					<telecom use="WP" value="tel:+18162012811"/>
+					<assignedPerson>
+						<name>
+							<given>EV</given>
+							<family>Easley</family>
+							<suffix>MD</suffix>
+						</name>
+					</assignedPerson>
+				</assignedEntity>
+			</performer>
+			<performer typeCode="PRF">
+				<templateId root="2.16.840.1.113883.3.88.11.83.4"/>
+				<templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+				<functionCode code="CP" displayName="Consulting Provider" codeSystem="2.16.840.1.113883.12.443">
+					<originalText>Consulting Physician</originalText>
+				</functionCode>
+				<time>
+					<low nullFlavor="NI"/>
+					<high nullFlavor="NI"/>
+				</time>
+				<assignedEntity classCode="ASSIGNED">
+					<id root="2.16.840.1.113883.4.6" extension="6257677609"/>
+					<addr use="WP">
+						<streetAddressLine>Base Physician Office</streetAddressLine>
+						<streetAddressLine>2800 Rockcreek Parkway</streetAddressLine>
+						<streetAddressLine>(816)201-1190   Fax (816)571-1190</streetAddressLine>
+						<city>Kansas City</city>
+						<state>MO</state>
+						<postalCode>64117-    </postalCode>
+						<country>US</country>
+					</addr>
+					<telecom nullFlavor="NI"/>
+					<assignedPerson>
+						<name>
+							<given>Lee</given>
+							<family>Morris</family>
+							<suffix>MD</suffix>
+						</name>
+					</assignedPerson>
+				</assignedEntity>
+			</performer>
+		</serviceEvent>
+	</documentationOf>
+	<component typeCode="COMP">
+		<structuredBody classCode="DOCBODY" moodCode="EVN">
+			<component typeCode="COMP" contextConductionInd="true">
+				<section classCode="DOCSECT" moodCode="EVN">
+					<templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+					<code code="10160-0" codeSystem="2.16.840.1.113883.6.1" displayName="History of medication use"/>
+					<title>Medications</title>
+					<text>
+					</text>
+					{{#meds}}
+					<entry typeCode="DRIV" contextConductionInd="true">
+						<substanceAdministration classCode="SBADM" moodCode="INT">
+							<templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+							<id root="{{medid}}"/>
+							<text>{{medtext}}</text>
+							<statusCode code="completed"/>
+							<effectiveTime xsi:type="IVL_TS">
+								{{#medfrom}}
+								<low value="{{medfrom}}"/>
+								{{/medfrom}}
+								{{^medfrom}}
+								<low nullFlavor="NI"/>
+								{{/medfrom}}
+								{{#medto}}
+								<high value="{{medto}}"/>
+								{{/medto}}
+								{{^medto}}
+								<high nullFlavor="NI"/>
+								{{/medto}}
+							</effectiveTime>
+							{{#route}}
+							<routeCode code="{{code}}" displayName="{{name}}" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus"/>
+							{{/route}}
+							{{^route}}
+							<routeCode nullFlavor="NI"/>
+							{{/route}}
+							<doseQuantity nullFlavor="NI">
+							</doseQuantity>
+							<consumable typeCode="CSM">
+								<manufacturedProduct classCode="MANU">
+									<templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+									<manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+										<code code="{{drugcode}}" displayName="{{drugname}}" codeSystemName="RxNorm" codeSystem="2.16.840.1.113883.6.88">
+											<originalText>{{drugname}}</originalText>
+										</code>
+									</manufacturedMaterial>
+								</manufacturedProduct>
+							</consumable>
+						</substanceAdministration>
+					</entry>
+					{{/meds}}
+				</section>
+			</component>
+********************************************************
+VITAL SIGNS
+********************************************************
+-->
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+					<code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+					<title>VITAL SIGNS</title>
+					<text> </text>
+					{{#vitals}}
+					<entry typeCode="DRIV">
+						<organizer classCode="CLUSTER" moodCode="EVN">
+							<templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+							<!-- Vital signs organizer template -->
+							<code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED -CT" displayName="Vital signs"/>
+							<statusCode code="completed"/>
+							<effectiveTime value="{{timestamp}}"/>
+							{{#measurements}}
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+									<!-- Vital Sign Observation template -->
+									<id root="{{vitalid}}"/>
+									<code code="{{code}}" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="{{title}}">
+
+                                    </code>
+				    <text>{{title}} {{value}} {{unit}}</text>
+									<statusCode code="completed"/>
+									<effectiveTime value="{{timestamp}}"/>
+									<value xsi:type="PQ" value="{{value}}" unit="{{unit}}"/>
+									<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+								</observation>
+							</component>
+							{{/measurements}}
+						</organizer>
+					</entry>
+					{{/vitals}}
+				</section>
+			</component>
+			<component>
+				<section>
+					<templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+					<code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="RESULTS"/>
+					<title>RESULTS</title>
+					<text></text>
+                        {{#labs}}
+					<entry typeCode="DRIV">
+						<organizer classCode="BATTERY" moodCode="EVN">
+							<!-- Result organizer template -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                                                        <id root="{{lorgid}}"/>
+                                                        <code code="43789009" displayName="{{name}}" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<statusCode code="completed"/>
+							<component>
+								<observation classCode="OBS" moodCode="EVN">
+									<!-- Result observation template -->
+									<templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                                                        <id root="{{labid}}"/>
+                                                                        <code code="{{code}}" displayName="{{name}}" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC">
+                                                                          <originalText>{{title}} {{value}} {{units}}</originalText>
+									</code>
+                                                                        
+									<statusCode code="completed"/>
+                                                                        <effectiveTime value="{{date}}"/>
+                                                                        <value xsi:type="PQ" value="{{val}}" unit="{{units}}"/>
+									<interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+									<methodCode/>
+									<targetSiteCode/>
+									<author>
+										<time/>
+										<assignedAuthor>
+										</assignedAuthor>
+									</author>
+								</observation>
+							</component>
+						</organizer>
+					</entry>
+                        {{/labs}}
+				</section>
+			</component>
+
+		</structuredBody>
+	</component>
+</ClinicalDocument>
