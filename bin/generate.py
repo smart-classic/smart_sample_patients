@@ -423,6 +423,8 @@ if __name__=='__main__':
      help="writes all patient RDF files to directory dir (default='.')")
   group.add_argument('--write-indivo',dest='writeIndivo', metavar='dir', nargs='?', const='.',
      help="writes patient XML files to an Indivo sample data directory dir (default='.')")
+  group.add_argument('--write-ccda',dest='writeCCDA', metavar='dir', nargs='?', const='.',
+     help="writes patient XML files to an CCDA sample data directory dir (default='.')")
   group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
 
@@ -465,6 +467,21 @@ if __name__=='__main__':
       print ".", 
       sys.stdout.flush()
     parser.exit(0,"\nDone writing %d patient RDF files!"%len(Patient.mpi))
+
+ 
+  # Write all patient RDF files out to a directory
+  if args.writeCCDA:
+    import ccda
+    print "Writing files to %s:"%args.write
+    initData()
+    path = args.writeCCDA
+    if not os.path.exists(path):
+      parser.error("Invalid path: '%s'.Path must already exist."%path)
+    for pid in Patient.mpi:
+      ccda.CCDASamplePatient(pid, path).writePatientData()
+      # Show progress with '.' characters
+      sys.stdout.flush()
+    parser.exit(0,"\nDone writing %d patient CCDA files!"%len(Patient.mpi))
 
   # Write all patient RDF files out to a directory
   if args.writeIndivo:

@@ -112,6 +112,7 @@ class CCDASamplePatient(object):
       for m in Med.meds[self.pid]:
         # build the med, setting some defaults
         med_data = {
+            'medid': str(uuid.uuid4()),
             'drugname': m.name,
             'drugcode': m.rxn,
             'medto': m.end if hasattr(m, "end") else None,
