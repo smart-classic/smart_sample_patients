@@ -211,7 +211,7 @@ class PatientGraph:
       for proc in Procedure.procedures[self.pid]:
         pnode = BNode()
         g.add((pnode,RDF.type,SP['Procedure']))
-        g.add((pnode,SP['startDate'],Literal(proc.start)))      
+        g.add((pnode,dcterms.date, Literal(proc.start)))
         g.add((pnode,SP['procedureName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%proc.snomed,proc.name,SNOMED_URI%"",proc.snomed)))
         self.addStatement(pnode)
