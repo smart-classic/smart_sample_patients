@@ -355,7 +355,7 @@ class PatientGraph:
                self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'39579001','anaphylaxis',SNOMED_URI%'','39579001')))
              g.add((aNode,SP['category'],
                self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','food allergy',SNOMED_URI%'','414285001')))
-             g.add((aNode,SP['foodAllergen'],
+             g.add((aNode,SP['otherAllergen'],
                self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','peanut',UNII_URI%'','QE1QX6B99R')))
              self.addStatement(aNode)
    def toRDF(self,format="xml"):
