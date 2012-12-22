@@ -329,7 +329,7 @@ notes = """
   <dcterms:date>2012-05-17</dcterms:date>
   <dcterms:title>Telephone note</dcterms:title>
   <dcterms:hasFormat>
-    <sp:DocumentWithFormat rdf:about="http://url.of.raw.note/content">
+    <sp:DocumentWithFormat>
       <dcterms:format>
         <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
           <rdfs:label>text/plain</rdfs:label>
