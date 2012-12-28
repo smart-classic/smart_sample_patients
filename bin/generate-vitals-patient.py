@@ -525,6 +525,25 @@ extravitals = """
       </sp:encounterType>
     </sp:Encounter>
     </sp:encounter>
+    <sp:headCircumference>
+      <sp:VitalSign>
+       <sp:vitalName>
+        <sp:CodedValue>
+          <dcterms:title>Head circumference</dcterms:title>
+          <sp:code>    
+            <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8287-5">
+              <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+              <dcterms:title>Head circumference</dcterms:title>
+              <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+              <dcterms:identifier>8287-5</dcterms:identifier> 
+            </spcode:VitalSign>
+          </sp:code>
+        </sp:CodedValue>
+      </sp:vitalName>
+      <sp:value>51.2</sp:value>
+      <sp:unit>cm</sp:unit>
+     </sp:VitalSign>
+    </sp:headCircumference>
     <sp:height>
       <sp:VitalSign>
        <sp:vitalName>
