@@ -123,6 +123,13 @@ class PatientGraph:
           g.add((cellPhoneNode, RDF.type, VCARD['Cell']))
           if len(p.home) == 0: g.add((cellPhoneNode, RDF.type, VCARD['Pref']))
           g.add((cellPhoneNode,RDF.value,Literal(p.cell)))
+          
+      if len(p.gestage) > 0:
+          gestAge = BNode() 
+          g.add((pNode, SP['gestationalAgeAtBirth'], gestAge))
+          g.add((gestAge, RDF.type, SP['GestationalAgeAtBirth']))
+          g.add((gestAge,SP['value'],Literal(p.gestage)))
+          g.add((gestAge,SP['unit'],Literal("weeks")))
       
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
