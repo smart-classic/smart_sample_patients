@@ -127,7 +127,7 @@ class PatientGraph:
       if len(p.gestage) > 0:
           gestAge = BNode() 
           g.add((pNode, SP['gestationalAgeAtBirth'], gestAge))
-          g.add((gestAge, RDF.type, SP['GestationalAgeAtBirth']))
+          g.add((gestAge, RDF.type, SP['ValueAndUnit']))
           g.add((gestAge,SP['value'],Literal(p.gestage)))
           g.add((gestAge,SP['unit'],Literal("wk")))
       
