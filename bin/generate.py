@@ -129,7 +129,7 @@ class PatientGraph:
           g.add((pNode, SP['gestationalAgeAtBirth'], gestAge))
           g.add((gestAge, RDF.type, SP['GestationalAgeAtBirth']))
           g.add((gestAge,SP['value'],Literal(p.gestage)))
-          g.add((gestAge,SP['unit'],Literal("weeks")))
+          g.add((gestAge,SP['unit'],Literal("wk")))
       
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
