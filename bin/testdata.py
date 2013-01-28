@@ -109,6 +109,13 @@ def rndTelephone():
                          str(randint(1000,9999)) ))
   return telephone
   
+def rndGestAge():
+  """
+  Returns a random gestational age"""
+  gestage = '.'.join(( str(randint(30,45)),
+                         str(randint(0,9)) ))
+  return gestage
+  
 def rndAccNum():
   """ Returns a random accession number """
   return "A%d"%randint(100000000,999999999)
