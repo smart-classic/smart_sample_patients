@@ -9,7 +9,7 @@ also maintains complete VitalSigns lists by patient id"""
         
     vitalTypes = [{'name': 'height',
                         'uri': 'http://purl.bioontology.org/ontology/LNC/8302-2',
-                        'unit': 'm',
+                        'unit': 'cm',
                         'predicate': 'height'},
                       {'name': 'heart_rate',
                         'uri': 'http://purl.bioontology.org/ontology/LNC/8867-4',
