@@ -559,8 +559,8 @@ extravitals = """
           </sp:code>
         </sp:CodedValue>
       </sp:vitalName>
-      <sp:value>1.19</sp:value>
-      <sp:unit>m</sp:unit>
+      <sp:value>119</sp:value>
+      <sp:unit>cm</sp:unit>
      </sp:VitalSign>
     </sp:height>
     <sp:weight>
@@ -720,7 +720,7 @@ def tordf(v, include_height=False, include_bp=False):
         </sp:CodedValue>
       </sp:vitalName>
       <sp:value>$height</sp:value>
-      <sp:unit>m</sp:unit>
+      <sp:unit>cm</sp:unit>
      </sp:VitalSign>
     </sp:height>
 """)
@@ -809,7 +809,7 @@ $bp
 
 
   if include_height:
-    h = h.substitute(height=v[1])
+    h = h.substitute(height=v[1] * 100)
   else: h = ""
 
   if include_bp:
