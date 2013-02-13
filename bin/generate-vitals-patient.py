@@ -501,8 +501,8 @@ labs = """  <sp:LabResult>
   </spcode:LOINC>"""
  
 docs = """
-    <sp:Document rdf:about="http://sandbox-api.smartplatforms.org/records/2169591/documents/632678">
-      <sp:belongsTo  rdf:resource="http://sandbox-api.smartplatforms.org/records/2169591" />
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>reportScan.png</sp:fileName>
       <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
       <dc:date>2010-05-12T04:00:00Z</dc:date>
@@ -533,7 +533,7 @@ docs = """
       </sp:fileSize>
       <sp:resource>
         <sp:Resource>
-           <sp:location>http://sandbox-api.smartplatforms.org/records/2169591/documents/632678</sp:location>
+           <sp:location>http://sandbox-api.smartplatforms.org/records/99912345/documents/632678</sp:location>
            <sp:hash>
               <sp:Hash>
                  <sp:algorithm>SHA-256</sp:algorithm>
@@ -552,8 +552,8 @@ docs = """
       <sp:classification>image</sp:classification>
       <sp:classification>report</sp:classification>
     </sp:Document>
-    <sp:Document rdf:about="http://sandbox-api.smartplatforms.org/records/2169591/documents/73265">
-      <sp:belongsTo  rdf:resource="http://sandbox-api.smartplatforms.org/records/2169591" />
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>notes.txt</sp:fileName>
       <dcterms:title>Notes about the patient</dcterms:title>
       <dc:date>2011-05-18T06:30:00Z</dc:date>
@@ -584,7 +584,7 @@ docs = """
       </sp:fileSize>
       <sp:resource>
         <sp:Resource>
-           <sp:location>http://sandbox-api.smartplatforms.org/records/2169591/documents/73265</sp:location>
+           <sp:location>http://sandbox-api.smartplatforms.org/records/99912345/documents/73265</sp:location>
            <sp:hash>
               <sp:Hash>
                  <sp:algorithm>SHA-256</sp:algorithm>
