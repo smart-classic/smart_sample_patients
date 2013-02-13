@@ -505,7 +505,7 @@ docs = """
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>reportScan.png</sp:fileName>
       <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
-      <dc:date>2010-05-12T04:00:00Z</dc:date>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
       <dcterms:hasFormat>
          <sp:DocumentWithFormat>
             <dcterms:format>
@@ -556,7 +556,7 @@ docs = """
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>notes.txt</sp:fileName>
       <dcterms:title>Notes about the patient</dcterms:title>
-      <dc:date>2011-05-18T06:30:00Z</dc:date>
+      <dcterms:date>2011-05-18T06:30:00Z</dcterms:date>
       <dcterms:hasFormat>
          <sp:DocumentWithFormat>
             <dcterms:format>
