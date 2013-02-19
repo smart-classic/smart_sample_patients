@@ -599,9 +599,8 @@ docs = """
            </sp:content>
         </sp:Resource>
       </sp:resource>
-      <sp:classification>scan</sp:classification>
-      <sp:classification>image</sp:classification>
-      <sp:classification>report</sp:classification>
+      <sp:classification>note</sp:classification>
+      <sp:classification>text</sp:classification>
     </sp:Document>"""
 
 extravitals = """
