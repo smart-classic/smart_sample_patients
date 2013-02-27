@@ -11,6 +11,7 @@ from immunization import Immunization
 from lab import Lab
 from clinicalnote import ClinicalNote
 from socialhistory import SocialHistory
+from familyhistory import FamilyHistory
 import argparse
 import sys
 import os
@@ -199,6 +200,34 @@ class PatientGraph:
 
       self.addStatement(hnode)
 
+   def addFamilyHistory(self):
+      """Add family history to a patient's graph"""
+      if not self.pid in FamilyHistory.familyHistories: return # No family history
+      g = self.g
+      for fh in FamilyHistory.familyHistories[self.pid]:
+        fhnode = BNode()
+        g.add((fhnode,RDF.type,SP['FamilyHistory']))
+        g.add((fhnode,SP['aboutRelative'],
+            self.codedValue(SPCODE["SNOMED"],SNOMED_URI%fh.relativecode,fh.relativetitle,SNOMED_URI%"",fh.relativecode)))
+        if len(fh.dateofbirth) > 0:
+            g.add((fhnode,SP['dateOfBirth'],Literal(fh.dateofbirth)))
+        if len(fh.dateofdeath) > 0:
+            g.add((fhnode,SP['dateOfDeath'],Literal(fh.dateofdeath)))
+        if len(fh.problemcode) > 0:
+            g.add((fhnode,SP['hasProblem'],
+                self.codedValue(SPCODE["SNOMED"],SNOMED_URI%fh.problemcode,fh.problemtitle,SNOMED_URI%"",fh.problemcode)))
+        if len(fh.heightcm) > 0:
+            for vt in VitalSigns.vitalTypes:
+                if vt['name'] == 'height':
+                    hnode = BNode()
+                    g.add((hnode, sp.value, Literal(fh.heightcm)))
+                    g.add((hnode, RDF.type, sp.VitalSign))
+                    g.add((hnode, sp.unit, Literal(vt['unit'])))
+                    g.add((hnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
+                    g.add((fhnode, sp[vt['predicate']], hnode))
+                    break
+        self.addStatement(fhnode)
+
    def addProblemList(self):
       """Add problems to a patient's graph"""
       g = self.g
@@ -379,6 +408,7 @@ def initData():
    Immunization.load()
    Procedure.load()
    SocialHistory.load()
+   FamilyHistory.load()
    ClinicalNote.load()
 
 def writePatientGraph(f,pid,format):
@@ -389,6 +419,7 @@ def writePatientGraph(f,pid,format):
    g.addProblemList()
    g.addProcedureList()
    g.addSocialHistory()
+   g.addFamilyHistory()
    g.addClinicalNotes()
    g.addLabResults()
    g.addAllergies()
