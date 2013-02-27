@@ -1,0 +1,1 @@
+gestage	city	apartment	street	cell	dob	region	initial	PID	pcode	gender	home	country	email	lname	fname28.3					2011-09-16			7777701		male				Richey	Steve					2008-10-01			7777702		female				Warren	Yolanda					2003-08-01			7777703		male				Luttrell	Paul					2003-08-16			7777704		female				Revis	Kimberly25.2					2012-08-24			7777705		female				Montgomery	Angela
