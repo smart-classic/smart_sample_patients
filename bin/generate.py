@@ -94,20 +94,23 @@ class PatientGraph:
       g.add((pNode, VCARD['n'], nameNode))
       g.add((nameNode,RDF.type, VCARD['Name']))
       g.add((nameNode,VCARD['given-name'],Literal(p.fname)))
-      g.add((nameNode,VCARD['additional-name'],Literal(p.initial)))
       g.add((nameNode,VCARD['family-name'],Literal(p.lname)))
+      
+      if len(p.initial) > 0:
+         g.add((nameNode,VCARD['additional-name'],Literal(p.initial)))
 
-      addrNode = BNode() 
-      g.add((pNode, VCARD['adr'], addrNode))
-      g.add((addrNode, RDF.type, VCARD['Address']))
-      g.add((addrNode, RDF.type, VCARD['Home']))
-      g.add((addrNode, RDF.type, VCARD['Pref']))
-      g.add((addrNode,VCARD['street-address'],Literal(p.street)))
-      if len(p.apartment) > 0: g.add((addrNode,VCARD['extended-address'],Literal(p.apartment)))
-      g.add((addrNode,VCARD['locality'],Literal(p.city)))
-      g.add((addrNode,VCARD['region'],Literal(p.region)))
-      g.add((addrNode,VCARD['postal-code'],Literal(p.pcode)))
-      g.add((addrNode,VCARD['country'],Literal(p.country)))
+      if len(p.pcode) > 0:
+          addrNode = BNode() 
+          g.add((pNode, VCARD['adr'], addrNode))
+          g.add((addrNode, RDF.type, VCARD['Address']))
+          g.add((addrNode, RDF.type, VCARD['Home']))
+          g.add((addrNode, RDF.type, VCARD['Pref']))
+          g.add((addrNode,VCARD['street-address'],Literal(p.street)))
+          if len(p.apartment) > 0: g.add((addrNode,VCARD['extended-address'],Literal(p.apartment)))
+          g.add((addrNode,VCARD['locality'],Literal(p.city)))
+          g.add((addrNode,VCARD['region'],Literal(p.region)))
+          g.add((addrNode,VCARD['postal-code'],Literal(p.pcode)))
+          g.add((addrNode,VCARD['country'],Literal(p.country)))
 
       if len(p.home) > 0:
           homePhoneNode = BNode() 
@@ -134,7 +137,9 @@ class PatientGraph:
       
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
-      g.add((pNode,VCARD['email'],Literal(p.email)))
+      
+      if len(p.email) > 0:
+          g.add((pNode,VCARD['email'],Literal(p.email)))
 
       recordNode = BNode()
       g.add((pNode,SP['medicalRecordNumber'],recordNode))
@@ -277,11 +282,12 @@ class PatientGraph:
             ivnode = BNode()
             if hasattr(v, vt['name']):
                 val = getattr(v, vt['name'])
-                g.add((ivnode, sp.value, Literal(val)))
-                g.add((ivnode, RDF.type, sp.VitalSign))
-                g.add((ivnode, sp.unit, Literal(vt['unit'])))
-                g.add((ivnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
-                g.add((p, sp[vt['predicate']], ivnode))
+                if val and len(val) > 0:
+                    g.add((ivnode, sp.value, Literal(val)))
+                    g.add((ivnode, RDF.type, sp.VitalSign))
+                    g.add((ivnode, sp.unit, Literal(vt['unit'])))
+                    g.add((ivnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
+                    g.add((p, sp[vt['predicate']], ivnode))
             return ivnode
 
         for vt in VitalSigns.vitalTypes:
