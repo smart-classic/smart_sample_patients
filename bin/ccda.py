@@ -4,7 +4,7 @@ from med import Med
 from problem import Problem
 from refill import Refill
 from lab import Lab
-from immunizations import Immunizations
+from immunization import Immunization
 from vitals import VitalSigns
 import ontology_service
 import os
