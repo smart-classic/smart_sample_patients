@@ -18,6 +18,7 @@ MEDS_FILE  = DATA_PATH+'meds.txt'
 PROBLEMS_FILE = DATA_PATH+'problems.txt'
 PROCEDURES_FILE = DATA_PATH+'procedures.txt'
 SOCIALHISTORY_FILE = DATA_PATH+'socialhistory.txt'
+FAMILYHISTORY_FILE = DATA_PATH+'familyhistory.txt'
 NOTES_PATH = DATA_PATH+'notes'
 REFILLS_FILE = DATA_PATH+'refills.txt'
 RI_PATIENTS_FILE = RI_PATH+'ri-patients.txt'
@@ -108,6 +109,13 @@ def rndTelephone():
                          str(randint(100,999)),
                          str(randint(1000,9999)) ))
   return telephone
+  
+def rndGestAge():
+  """
+  Returns a random gestational age"""
+  gestage = '.'.join(( str(randint(30,45)),
+                         str(randint(0,9)) ))
+  return gestage
   
 def rndAccNum():
   """ Returns a random accession number """
