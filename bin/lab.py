@@ -62,7 +62,7 @@ and a dictionary of loinc code frequencies"""
         self.code= o['LOINC'] 
         self.date = o['DATE']
         self.name = Loinc.info[self.code].name
-        self.scale = Loinc.info[self.code].scale
+        self.scale = o['SCALE']#Loinc.info[self.code].scale
         # Handle value and ranges:
         self.value = o['VALUE']
         if self.scale=='Qn':
@@ -82,7 +82,7 @@ and a dictionary of loinc code frequencies"""
         else: self.units = o['UNITS'] # Otherwise, use result units
 
         self.acc_num = rndAccNum()
-        self.scale = Loinc.info[self.code].scale
+        #self.scale = Loinc.info[self.code].scale
       
         # Append result to the results dictionary of lists
         if self.pid in  self.__class__.results:
