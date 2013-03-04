@@ -347,15 +347,16 @@ class PatientGraph:
            g.add((qNode,SP['valueAndUnit'],
              self.valueAndUnit(lab.value,lab.units)))
 
-           # Add Range Values
-           rNode = BNode()
-           g.add((rNode,RDF.type,SP['ValueRange']))
-           g.add((rNode,SP['minimum'],
-                   self.valueAndUnit(lab.low,lab.units)))
-           g.add((rNode,SP['maximum'],
-                   self.valueAndUnit(lab.high,lab.units)))
-           g.add((qNode,SP['normalRange'],rNode)) 
-           g.add((lNode,SP['quantitativeResult'],qNode))
+           if len(lab.low) > 0 and len(lab.high):
+               # Add Range Values
+               rNode = BNode()
+               g.add((rNode,RDF.type,SP['ValueRange']))
+               g.add((rNode,SP['minimum'],
+                       self.valueAndUnit(lab.low,lab.units)))
+               g.add((rNode,SP['maximum'],
+                       self.valueAndUnit(lab.high,lab.units)))
+               g.add((qNode,SP['normalRange'],rNode)) 
+               g.add((lNode,SP['quantitativeResult'],qNode))
 
          if lab.scale=='Ord': # Handle an Ordinal Result  
            qNode = BNode()
