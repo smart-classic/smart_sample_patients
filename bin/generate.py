@@ -356,7 +356,8 @@ class PatientGraph:
                g.add((rNode,SP['maximum'],
                        self.valueAndUnit(lab.high,lab.units)))
                g.add((qNode,SP['normalRange'],rNode)) 
-               g.add((lNode,SP['quantitativeResult'],qNode))
+               
+           g.add((lNode,SP['quantitativeResult'],qNode))
 
          if lab.scale=='Ord': # Handle an Ordinal Result  
            qNode = BNode()
