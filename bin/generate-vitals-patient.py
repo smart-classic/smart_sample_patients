@@ -328,16 +328,11 @@ notes = """
   <sp:belongsTo rdf:nodeID="patient"/>
   <dcterms:date>2012-05-17</dcterms:date>
   <dcterms:title>Telephone note</dcterms:title>
-  <dcterms:hasFormat>
-    <sp:DocumentWithFormat>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
-          <rdfs:label>text/plain</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-      <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
-    </sp:DocumentWithFormat>
-  </dcterms:hasFormat>
+  <dcterms:format>
+    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+      <rdfs:label>text/plain</rdfs:label>
+    </dcterms:MediaTypeOrExtent>
+  </dcterms:format>
   <sp:provider>
     <sp:Provider>
       <v:n>
@@ -348,6 +343,16 @@ notes = """
       </v:n>
     </sp:Provider>
   </sp:provider>
+  <sp:resource>
+    <sp:Resource>
+        <sp:content>
+            <sp:Content>
+               <encoding>UTF-8</encoding>
+               <value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</value>
+            </sp:Content>
+        </sp:content>
+    </sp:Resource>
+  </sp:resource>
 </sp:ClinicalNote>
 """
 
@@ -506,15 +511,11 @@ docs = """
       <sp:fileName>reportScan.png</sp:fileName>
       <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
       <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
-      <dcterms:hasFormat>
-         <sp:DocumentWithFormat>
-            <dcterms:format>
-                <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/png">
-                    <rdfs:label>image/png</rdfs:label>
-                </dcterms:MediaTypeOrExtent>
-            </dcterms:format>
-         </sp:DocumentWithFormat>
-      </dcterms:hasFormat>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/png">
+            <rdfs:label>image/png</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
       <sp:provider>
         <sp:Provider>
           <v:n>
@@ -557,15 +558,11 @@ docs = """
       <sp:fileName>notes.txt</sp:fileName>
       <dcterms:title>Notes about the patient</dcterms:title>
       <dcterms:date>2011-05-18T06:30:00Z</dcterms:date>
-      <dcterms:hasFormat>
-         <sp:DocumentWithFormat>
-            <dcterms:format>
-                <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
-                    <rdfs:label>text/plain</rdfs:label>
-                </dcterms:MediaTypeOrExtent>
-            </dcterms:format>
-         </sp:DocumentWithFormat>
-      </dcterms:hasFormat>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+            <rdfs:label>text/plain</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
       <sp:provider>
         <sp:Provider>
           <v:n>
