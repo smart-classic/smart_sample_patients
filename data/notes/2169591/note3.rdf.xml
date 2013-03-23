@@ -28,8 +28,8 @@
         <sp:Resource>
             <sp:content>
                 <sp:Content>
-                   <encoding>UTF-8</encoding>
-                   <value><![CDATA[I saw this patient in the ED briefly along with Dr. Gladd.  I
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[I saw this patient in the ED briefly along with Dr. Gladd.  I
 interviewed and examined the patient myself.  I have read through
 the resident chart.  I have discussed the diagnosis,
 disposition, and plan with the patient.  Please see the resident
@@ -51,7 +51,7 @@ DIAGNOSES:
 2.  Dehydration.
 Admitted to the ER in stable condition.
 For the rest of the elements, please see the documentation in Dr.
-Gladds note.]]></value>
+Gladds note.]]></sp:value>
                 </sp:Content>
             </sp:content>
         </sp:Resource>

@@ -28,8 +28,8 @@
         <sp:Resource>
             <sp:content>
                 <sp:Content>
-                   <encoding>UTF-8</encoding>
-                   <value><![CDATA[Chief Complaint
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[Chief Complaint
 Irregular menstrual cycle
 
 History of Present Illness
@@ -79,7 +79,7 @@ Plan
 
 Lab - pregnancy test
 Nausea - hold for results
-]]></value>
+]]></sp:value>
                 </sp:Content>
             </sp:content>
         </sp:Resource>

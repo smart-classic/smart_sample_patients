@@ -28,8 +28,8 @@
         <sp:Resource>
             <sp:content>
                 <sp:Content>
-                   <encoding>UTF-8</encoding>
-                   <value><![CDATA[Personal Data and Overall Health
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[Personal Data and Overall Health
 September 1, 2006
 
 Problems
@@ -80,7 +80,7 @@ Generally doing well.? Low 02 sat. Pain reasonably well controlled.? No signs of
 Plan
 1.)? Nebulizer
 2.)? RTC 2 weeks.
-]]></value>
+]]></sp:value>
                 </sp:Content>
             </sp:content>
         </sp:Resource>
