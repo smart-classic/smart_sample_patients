@@ -347,8 +347,8 @@ notes = """
     <sp:Resource>
         <sp:content>
             <sp:Content>
-               <encoding>UTF-8</encoding>
-               <value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</value>
+               <sp:encoding>UTF-8</sp:encoding>
+               <sp:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</sp:value>
             </sp:Content>
         </sp:content>
     </sp:Resource>
