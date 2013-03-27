@@ -508,7 +508,41 @@ labs = """  <sp:LabResult>
 docs = """
     <sp:Document>
       <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:fileName>reportScan.png</sp:fileName>
+      <sp:fileName>report4521.pdf</sp:fileName>
+      <dcterms:title>A sample clinical report about the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/pdf">
+            <rdfs:label>application/pdf</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+    </sp:Document>
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>reportScan713.png</sp:fileName>
       <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
       <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
       <dcterms:format>
@@ -526,36 +560,36 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:fileSize>
-        <sp:ValueAndUnit>
-          <sp:value>2917</sp:value>
-          <sp:unit>byte</sp:unit>
-        </sp:ValueAndUnit>
-      </sp:fileSize>
-      <sp:resource>
-        <sp:Resource>
-           <sp:location>http://sandbox-api.smartplatforms.org/records/99912345/documents/632678</sp:location>
-           <sp:hash>
-              <sp:Hash>
-                 <sp:algorithm>SHA-256</sp:algorithm>
-                 <sp:value>0e7981902c6c410d673771a3dd0a830712c15930bdec77701922138ea950c620</sp:value>
-              </sp:Hash>
-           </sp:hash>
-          <sp:content>
-              <sp:Content>
-                 <sp:encoding>Base64</sp:encoding>
-                 <sp:value>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</sp:value>
-              </sp:Content>
-           </sp:content>
-        </sp:Resource>
-      </sp:resource>
-      <sp:classification>scan</sp:classification>
-      <sp:classification>image</sp:classification>
-      <sp:classification>report</sp:classification>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#image">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>image</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
     </sp:Document>
     <sp:Document>
       <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:fileName>notes.txt</sp:fileName>
+      <sp:fileName>notes6267.txt</sp:fileName>
       <dcterms:title>Notes about the patient</dcterms:title>
       <dcterms:date>2011-05-18T06:30:00Z</dcterms:date>
       <dcterms:format>
@@ -573,32 +607,67 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:fileSize>
-        <sp:ValueAndUnit>
-          <sp:value>758</sp:value>
-          <sp:unit>byte</sp:unit>
-        </sp:ValueAndUnit>
-      </sp:fileSize>
-      <sp:resource>
-        <sp:Resource>
-           <sp:location>http://sandbox-api.smartplatforms.org/records/99912345/documents/73265</sp:location>
-           <sp:hash>
-              <sp:Hash>
-                 <sp:algorithm>SHA-256</sp:algorithm>
-                 <sp:value>8efea07f4cc5ecbc6456cc08a8634808536bb4cb6a1a0951b37817df66585257</sp:value>
-              </sp:Hash>
-           </sp:hash>
-          <sp:content>
-              <sp:Content>
-                 <sp:encoding>UTF-8</sp:encoding>
-                 <sp:value>Allen V. states recent difficulties with sleeping and concentration due to current problem. Cl. states getting only a few hours of sleep each night and complains that ? wake up in the middle of the night thinking about this stuff.?Cl. states change in mood becoming increasingly depressed, tearful at times. Cl. describes no change in eating. Cl. denies any increase/decrease in alcohol/drug use. Cl. states symptoms have lasted at least two months and are getting worse. Cl. denies any current medical concerns but states use of medication to decrease blood pressure. States last physical exam was 6 months ago. Cl. still able to perform duties/responsibilities as required. Cl. has been using social supports, exercise to deal with current stressors.</sp:value>
-              </sp:Content>
-           </sp:content>
-        </sp:Resource>
-      </sp:resource>
-      <sp:classification>note</sp:classification>
-      <sp:classification>text</sp:classification>
-    </sp:Document>"""
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A clinical note about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#note">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A clinical note about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>note</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+    </sp:Document>
+    <sp:MedicalImage>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+      <dcterms:title>Heart CT Scan</dcterms:title>
+      <dcterms:date>2004-09-30T12:14:00.6848</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+            <rdfs:label>application/dicom</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:modality>CT</sp:modality>
+      <sp:bodySite>
+          <sp:CodedValue>
+            <dcterms:title>Entire heart (body structure)</dcterms:title>
+            <sp:code>
+              <sp:Code rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/302509004" >
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+                <dcterms:title>Entire heart (body structure)</dcterms:title>
+                <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+                <dcterms:identifier>302509004</dcterms:identifier> 
+              </sp:Code>        
+            </sp:code>
+          </sp:CodedValue>
+      </sp:bodySite>
+    </sp:MedicalImage>
+    <sp:Photograph>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>photo831.jpg</sp:fileName>
+      <dcterms:title>Head photograph of the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/jpeg">
+            <rdfs:label>image/jpeg</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+    </sp:Photograph>
+    """
 
 extravitals = """
  <sp:VitalSignSet>
