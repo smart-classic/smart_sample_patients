@@ -598,7 +598,6 @@ docs = """
             <rdfs:label>image/jpeg</rdfs:label>
         </dcterms:MediaTypeOrExtent>
       </dcterms:format>
-      </sp:resource>
     </sp:Photograph>
     """
 
