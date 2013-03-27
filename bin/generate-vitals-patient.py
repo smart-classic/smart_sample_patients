@@ -573,8 +573,6 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:classification>image</sp:classification>
-      <sp:classification>dicom</sp:classification>
       <sp:modality>CT</sp:modality>
       <sp:bodySite>
           <sp:CodedValue>
@@ -590,6 +588,18 @@ docs = """
           </sp:CodedValue>
       </sp:bodySite>
     </sp:MedicalImage>
+    <sp:Photograph>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>photo831.jpg</sp:fileName>
+      <dcterms:title>Head photograph of the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/jpeg">
+            <rdfs:label>image/jpeg</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      </sp:resource>
+    </sp:Photograph>
     """
 
 extravitals = """
