@@ -508,6 +508,29 @@ labs = """  <sp:LabResult>
 docs = """
     <sp:Document>
       <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>report4521.pdf</sp:fileName>
+      <dcterms:title>A sample clinical report about the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/pdf">
+            <rdfs:label>application/pdf</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:classification>report</sp:classification>
+      <sp:classification>pdf</sp:classification>
+    </sp:Document>
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>reportScan713.png</sp:fileName>
       <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
       <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
