@@ -526,8 +526,19 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:classification>report</sp:classification>
-      <sp:classification>pdf</sp:classification>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
     </sp:Document>
     <sp:Document>
       <sp:belongsTo rdf:nodeID="patient"/>
@@ -549,9 +560,32 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:classification>scan</sp:classification>
-      <sp:classification>image</sp:classification>
-      <sp:classification>report</sp:classification>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#image">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>image</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
     </sp:Document>
     <sp:Document>
       <sp:belongsTo rdf:nodeID="patient"/>
@@ -573,8 +607,19 @@ docs = """
           </v:n>
         </sp:Provider>
       </sp:provider>
-      <sp:classification>note</sp:classification>
-      <sp:classification>text</sp:classification>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A clinical note about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#note">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A clinical note about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>note</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
     </sp:Document>
     <sp:MedicalImage>
       <sp:belongsTo rdf:nodeID="patient"/>
