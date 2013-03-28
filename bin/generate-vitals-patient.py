@@ -642,19 +642,6 @@ docs = """
         </sp:Provider>
       </sp:provider>
       <sp:modality>CT</sp:modality>
-      <sp:bodySite>
-          <sp:CodedValue>
-            <dcterms:title>Entire heart (body structure)</dcterms:title>
-            <sp:code>
-              <sp:Code rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/302509004" >
-                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
-                <dcterms:title>Entire heart (body structure)</dcterms:title>
-                <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
-                <dcterms:identifier>302509004</dcterms:identifier> 
-              </sp:Code>        
-            </sp:code>
-          </sp:CodedValue>
-      </sp:bodySite>
     </sp:MedicalImage>
     <sp:Photograph>
       <sp:belongsTo rdf:nodeID="patient"/>
