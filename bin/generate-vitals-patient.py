@@ -328,16 +328,11 @@ notes = """
   <sp:belongsTo rdf:nodeID="patient"/>
   <dcterms:date>2012-05-17</dcterms:date>
   <dcterms:title>Telephone note</dcterms:title>
-  <dcterms:hasFormat>
-    <sp:DocumentWithFormat>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
-          <rdfs:label>text/plain</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-      <rdf:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</rdf:value>
-    </sp:DocumentWithFormat>
-  </dcterms:hasFormat>
+  <dcterms:format>
+    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+      <rdfs:label>text/plain</rdfs:label>
+    </dcterms:MediaTypeOrExtent>
+  </dcterms:format>
   <sp:provider>
     <sp:Provider>
       <v:n>
@@ -348,6 +343,16 @@ notes = """
       </v:n>
     </sp:Provider>
   </sp:provider>
+  <sp:resource>
+    <sp:Resource>
+        <sp:content>
+            <sp:Content>
+               <sp:encoding>UTF-8</sp:encoding>
+               <sp:value>Patient's mother telephoned to say that he no longer needs documentation of a sports physical for school</sp:value>
+            </sp:Content>
+        </sp:content>
+    </sp:Resource>
+  </sp:resource>
 </sp:ClinicalNote>
 """
 
@@ -500,6 +505,156 @@ labs = """  <sp:LabResult>
     <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
   </spcode:LOINC>"""
  
+docs = """
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>report4521.pdf</sp:fileName>
+      <dcterms:title>A sample clinical report about the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/pdf">
+            <rdfs:label>application/pdf</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+    </sp:Document>
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>reportScan713.png</sp:fileName>
+      <dcterms:title>Image of a report received from NGD about the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/png">
+            <rdfs:label>image/png</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#image">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A digital image pertaining to the patient record</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>image</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A report about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#report">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A report about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>report</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+    </sp:Document>
+    <sp:Document>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>notes6267.txt</sp:fileName>
+      <dcterms:title>Notes about the patient</dcterms:title>
+      <dcterms:date>2011-05-18T06:30:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+            <rdfs:label>text/plain</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>Peter</v:given-name>
+             <v:family-name>Peterson</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:documentType>
+          <sp:CodedValue>
+            <dcterms:title>A clinical note about the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/DocumentType#note">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A clinical note about the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/DocumentType#</sp:system>
+                <dcterms:identifier>note</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:documentType>
+    </sp:Document>
+    <sp:MedicalImage>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+      <dcterms:title>Heart CT Scan</dcterms:title>
+      <dcterms:date>2004-09-30T12:14:00.6848</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+            <rdfs:label>application/dicom</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+      <sp:provider>
+        <sp:Provider>
+          <v:n>
+            <v:Name>
+             <v:given-name>John</v:given-name>
+             <v:family-name>Smith</v:family-name>
+            </v:Name>
+          </v:n>
+        </sp:Provider>
+      </sp:provider>
+      <sp:modality>CT</sp:modality>
+    </sp:MedicalImage>
+    <sp:Photograph>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:fileName>photo831.jpg</sp:fileName>
+      <dcterms:title>Head photograph of the patient</dcterms:title>
+      <dcterms:date>2010-05-12T04:00:00Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/image/jpeg">
+            <rdfs:label>image/jpeg</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+    </sp:Photograph>
+    """
 
 extravitals = """
  <sp:VitalSignSet>
@@ -559,8 +714,8 @@ extravitals = """
           </sp:code>
         </sp:CodedValue>
       </sp:vitalName>
-      <sp:value>1.19</sp:value>
-      <sp:unit>m</sp:unit>
+      <sp:value>119</sp:value>
+      <sp:unit>cm</sp:unit>
      </sp:VitalSign>
     </sp:height>
     <sp:weight>
@@ -720,7 +875,7 @@ def tordf(v, include_height=False, include_bp=False):
         </sp:CodedValue>
       </sp:vitalName>
       <sp:value>$height</sp:value>
-      <sp:unit>m</sp:unit>
+      <sp:unit>cm</sp:unit>
      </sp:VitalSign>
     </sp:height>
 """)
@@ -809,7 +964,7 @@ $bp
 
 
   if include_height:
-    h = h.substitute(height=v[1])
+    h = h.substitute(height=v[1] * 100)
   else: h = ""
 
   if include_bp:
@@ -848,5 +1003,6 @@ print immunizations
 print allergies
 print labs
 print extravitals
+print docs
 print notes
 print footer

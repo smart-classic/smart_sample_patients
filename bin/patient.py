@@ -1,5 +1,5 @@
 from testdata import PATIENTS_FILE, RI_PATIENTS_FILE
-from testdata import rndDate, rndName, rndAddress, rndTelephone, toEmail
+from testdata import rndDate, rndName, rndAddress, rndTelephone, toEmail, rndGestAge
 from random import randint
 import datetime
 import argparse
@@ -44,6 +44,7 @@ class Patient:
         p = dict(p.items() + adr.items())
         p['home'] = '' if randint(0,1) else rndTelephone()
         p['cell'] = '' if randint(0,1) else rndTelephone()
+        p['gestage'] = '' if randint(0,1) else rndGestAge()
         
         # Write out the new patient data file:
         # Start with the header (writing only once at the top of the file):
@@ -89,6 +90,7 @@ class Patient:
       self.email = self.demographics['email']
       self.home = self.demographics['home']
       self.cell = self.demographics['cell']
+      self.gestage = self.demographics['gestage']
       
       # Insert the patient instance into the Patient mpi store:
       pid = self.demographics['PID']

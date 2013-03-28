@@ -9,14 +9,27 @@
   <sp:ClinicalNote>
     <dcterms:date>2007-01-21</dcterms:date>
     <dcterms:title>Primary care clinic visit</dcterms:title>
-    <dcterms:hasFormat>
-      <sp:DocumentWithFormat>
-        <dcterms:format>
-          <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
-            <rdfs:label>text/plain</rdfs:label>
-          </dcterms:MediaTypeOrExtent>
-        </dcterms:format>
-        <rdf:value><![CDATA[Chief Complaint
+    <dcterms:format>
+      <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+        <rdfs:label>text/plain</rdfs:label>
+      </dcterms:MediaTypeOrExtent>
+    </dcterms:format>
+    <sp:provider>
+      <sp:Provider>
+        <v:n>
+          <v:Name>
+            <v:given-name>John</v:given-name>
+            <v:family-name>Smith</v:family-name>
+          </v:Name>
+        </v:n>
+      </sp:Provider>
+    </sp:provider>
+    <sp:resource>
+        <sp:Resource>
+            <sp:content>
+                <sp:Content>
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[Chief Complaint
 Irregular menstrual cycle
 
 History of Present Illness
@@ -66,18 +79,10 @@ Plan
 
 Lab - pregnancy test
 Nausea - hold for results
-]]></rdf:value>
-	  </sp:DocumentWithFormat>
-	</dcterms:hasFormat>
-	<sp:provider>
-	  <sp:Provider>
-	    <v:n>
-<v:Name>
-		<v:given-name>John</v:given-name>
-		<v:family-name>Smith</v:family-name>
-</v:Name>
-	    </v:n>
-	  </sp:Provider>
-	</sp:provider>
-      </sp:ClinicalNote>
-    </rdf:RDF>
+]]></sp:value>
+                </sp:Content>
+            </sp:content>
+        </sp:Resource>
+    </sp:resource>
+  </sp:ClinicalNote>
+</rdf:RDF>

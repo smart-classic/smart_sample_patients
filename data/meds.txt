@@ -10,6 +10,7 @@
 665677	"2008-10-04"	197746	"Guanfacine 2 MG Oral Tablet"	"1 qhs"	30	30	0	1	"{tablet}"	1	"/d"
 665677	"2008-10-15"	845660	"24 HR Bupropion 150 MG Extended Release Tablet [Budeprion]"	"1 daily"	30	30	0	1	"{tablet}"	1	"/d"
 665677	"2008-12-05"	403917	"24 HR Bupropion 150 MG Extended Release Tablet"	"1 daily"	90	90	0	1	"{tablet}"	1	"/d"
+665677	"2006-02-02"	316133	"Leflunomide 10 MILLIGRAM In 1 TABLET ORAL TABLET, FILM COATED"	"1 daily"	90	90	0	1	"{tablet}"	1	"/d"
 731673	"2004-10-28"	210596	"Cetirizine 10 MG Oral Tablet [Zyrtec]"	"1 daily"	30	30	0	1	"{tablet}"	1	"/d"
 731673	"2004-10-28"	211816	"Levofloxacin 500 MG Oral Tablet [Levaquin]"	"1 daily"	10	10	0	1	"{tablet}"	1	"/d"
 731673	"2004-10-28"	312664	"Promethazine 25 MG Oral Tablet"	"1 qid prn nausea"	20	5	0	1	"{tablet}"	4	"/d"
