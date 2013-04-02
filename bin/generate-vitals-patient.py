@@ -621,6 +621,7 @@ docs = """
           </sp:CodedValue>
       </sp:documentType>
     </sp:Document>
+    <!--
     <sp:MedicalImage>
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>IM-0002-0001.dcm</sp:fileName>
@@ -642,7 +643,7 @@ docs = """
         </sp:Provider>
       </sp:provider>
       <sp:modality>CT</sp:modality>
-    </sp:MedicalImage>
+    </sp:MedicalImage>-->
     <sp:Photograph>
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>photo831.jpg</sp:fileName>
