@@ -444,6 +444,7 @@ problems = """  <sp:Problem>
 
 allergies = """  <sp:AllergyExclusion>
  <sp:belongsTo rdf:nodeID="patient"/>
+    <dcterms:date>2008-05-05</dcterms:date>
     <sp:allergyExclusionName>
       <sp:CodedValue>
         <sp:code rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/160244002"/>
