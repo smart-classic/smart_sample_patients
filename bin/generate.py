@@ -367,12 +367,14 @@ class PatientGraph:
          if int(self.pid)%100 < 85:  # no allergies for ~ 85% of population
            aExcept = BNode()
            g.add((aExcept,RDF.type,SP['AllergyExclusion']))
+           g.add((aExcept,DCTERMS['date'],Literal("2005-05-05")))
            g.add((aExcept,SP['allergyExclusionName'],
                self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','no known allergies',SNOMED_URI%'','160244002')))
            self.addStatement(aExcept)
          else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
            aNode = BNode()
            g.add((aNode,RDF.type,SP['Allergy']))
+           g.add((aNode,SP['startDate'],Literal("2005-05-05")))
            g.add((aNode,SP['severity'],
               self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'255604002','mild',SNOMED_URI%'','255604002')))
            g.add((aNode,SP['allergicReaction'],
@@ -384,7 +386,8 @@ class PatientGraph:
            self.addStatement(aNode)
            if int(self.pid)%2: # And throw in some peanut allergies if odd pid...
              aNode = BNode()
-             g.add((aNode,RDF.type,SP['Allergy'])) 
+             g.add((aNode,RDF.type,SP['Allergy']))
+             g.add((aNode,SP['startDate'],Literal("2005-05-05")))
              g.add((aNode,SP['severity'],
                self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'24484000','severe',SNOMED_URI%'','24484000')))
              g.add((aNode,SP['allergicReaction'],
