@@ -23,6 +23,7 @@ class Procedure:
         self.start = p['START_DATE']
         self.snomed= p['SNOMED'] 
         self.name = p['NAME']
+        self.notes = p['NOTES']
         # Append procedure to the patient's procedure list:
         if self.pid in  self.__class__.procedures:
           self.__class__.procedures[self.pid].append(self)

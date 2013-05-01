@@ -54,14 +54,13 @@ and a dictionary of loinc code frequencies"""
        print "%d patients with lab results"%len(cls.results)
        print "%d unique tests (LOINC codes)"%len(cls.codes)
 
-           
-    
-
     def __init__(self,o):
         self.pid = o['PID']
         self.code= o['LOINC'] 
         self.date = o['DATE']
-        self.name = Loinc.info[self.code].name
+        if self.code in Loinc.info.keys():
+            self.name = Loinc.info[self.code].name
+        else: self.name = o['NAME']
         self.scale = o['SCALE']#Loinc.info[self.code].scale
         # Handle value and ranges:
         self.value = o['VALUE']
@@ -71,13 +70,13 @@ and a dictionary of loinc code frequencies"""
         if self.scale=='Ord':
           # The Ord choices are stored in the low value field, separated by ';'
           self.low = o['LOW'].split('; ')
-          if not self.value in self.low:
+          if len (self.low[0]) > 0 and not self.value in self.low:
             # Print out error msg if Ord values not formatted properly:
             print "%s -> Error for code %s: value=%s not in %s"%(
               self.pid,self.code,self.value,self.low)
 
         # Handle units, update to UCUM if possible:
-        if Loinc.info[self.code].ucum: #if there is a ucum unit available
+        if self.code in Loinc.info.keys() and Loinc.info[self.code].ucum: #if there is a ucum unit available
           self.units = Loinc.info[self.code].ucum  # Then use it
         else: self.units = o['UNITS'] # Otherwise, use result units
 
@@ -130,6 +129,4 @@ if __name__== '__main__':
       for lab in Lab.results[pid]:
         print lab.asTabString()
     parser.exit()
-  parser.error("No arguments given")  
-
-     
+  parser.error("No arguments given")

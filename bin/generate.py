@@ -162,6 +162,8 @@ class PatientGraph:
         g.add((mNode,RDF.type,SP['Medication']))
         g.add((mNode,SP['drugName'],self.codedValue(SPCODE["RxNorm_Semantic"], RXN_URI%m.rxn,m.name,RXN_URI%"",m.rxn)))
         g.add((mNode,SP['startDate'],Literal(m.start)))
+        if len(m.end) > 0:
+            g.add((mNode,SP['endDate'],Literal(m.end))) 
         g.add((mNode,SP['instructions'],Literal(m.sig))) 
         if m.qtt:
           g.add((mNode,SP['quantity'],self.valueAndUnit(m.qtt,m.qttunit)))
@@ -240,7 +242,9 @@ class PatientGraph:
       for prob in Problem.problems[self.pid]:
         pnode = BNode()
         g.add((pnode,RDF.type,SP['Problem']))
-        g.add((pnode,SP['startDate'],Literal(prob.start)))      
+        g.add((pnode,SP['startDate'],Literal(prob.start)))
+        if len(prob.end) > 0:
+            g.add((pnode,SP['endDate'],Literal(prob.end)))        
         g.add((pnode,SP['problemName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
         self.addStatement(pnode)
@@ -255,6 +259,7 @@ class PatientGraph:
         g.add((pnode,dcterms.date, Literal(proc.start)))
         g.add((pnode,SP['procedureName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%proc.snomed,proc.name,SNOMED_URI%"",proc.snomed)))
+        g.add((pnode,SP['notes'], Literal(proc.notes)))
         self.addStatement(pnode)
 
    def addVitalSigns(self):
@@ -347,7 +352,7 @@ class PatientGraph:
            g.add((qNode,SP['valueAndUnit'],
              self.valueAndUnit(lab.value,lab.units)))
 
-           if len(lab.low) > 0 and len(lab.high):
+           if len(lab.low) > 0 and len(lab.high) > 0:
                # Add Range Values
                rNode = BNode()
                g.add((rNode,RDF.type,SP['ValueRange']))
@@ -359,7 +364,7 @@ class PatientGraph:
                
            g.add((lNode,SP['quantitativeResult'],qNode))
 
-         if lab.scale=='Ord': # Handle an Ordinal Result  
+         else:  
            qNode = BNode()
            g.add((qNode,RDF.type,SP['NarrativeResult']))
            g.add((qNode,SP['value'],Literal(lab.value)))
