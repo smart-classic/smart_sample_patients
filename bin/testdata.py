@@ -5,7 +5,7 @@ import datetime
 # Constants for building test data from data 
 
 # Paths relative source data and mapping files
-DATA_PATH  = "../data-pgc/"
+DATA_PATH  = "../data-elaina/"
 MAP_PATH   =   "../maps/"
 RI_PATH   = "../ri-data/"
 
@@ -17,6 +17,7 @@ VITALS_FILE  = DATA_PATH+'vitals.txt'
 MEDS_FILE  = DATA_PATH+'meds.txt'
 PROBLEMS_FILE = DATA_PATH+'problems.txt'
 PROCEDURES_FILE = DATA_PATH+'procedures.txt'
+ALLERGIES_FILE = DATA_PATH+'allergies.txt'
 SOCIALHISTORY_FILE = DATA_PATH+'socialhistory.txt'
 FAMILYHISTORY_FILE = DATA_PATH+'familyhistory.txt'
 NOTES_PATH = DATA_PATH+'notes'
