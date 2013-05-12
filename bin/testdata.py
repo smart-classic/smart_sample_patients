@@ -5,7 +5,7 @@ import datetime
 # Constants for building test data from data 
 
 # Paths relative source data and mapping files
-DATA_PATH  = "../data-elaina/"
+DATA_PATH  = "../data/"
 MAP_PATH   =   "../maps/"
 RI_PATH   = "../ri-data/"
 
