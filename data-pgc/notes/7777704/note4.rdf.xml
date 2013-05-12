@@ -7,15 +7,20 @@
   <sp:ClinicalNote>
     <dcterms:date>2007-08-15</dcterms:date>
     <dcterms:title>Note About The Patient</dcterms:title>
-    <dcterms:hasFormat>
-      <sp:DocumentWithFormat>
-        <dcterms:format>
-          <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
-            <rdfs:label>text/plain</rdfs:label>
-          </dcterms:MediaTypeOrExtent>
-        </dcterms:format>
-        <rdf:value><![CDATA[sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus]]></rdf:value>
-      </sp:DocumentWithFormat>
-    </dcterms:hasFormat>
+    <dcterms:format>
+      <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+        <rdfs:label>text/plain</rdfs:label>
+      </dcterms:MediaTypeOrExtent>
+    </dcterms:format>
+    <sp:resource>
+        <sp:Resource>
+            <sp:content>
+                <sp:Content>
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus]]></sp:value>
+                </sp:Content>
+            </sp:content>
+        </sp:Resource>
+    </sp:resource>
   </sp:ClinicalNote>
 </rdf:RDF>
