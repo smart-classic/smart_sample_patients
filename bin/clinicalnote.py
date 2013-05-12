@@ -11,13 +11,16 @@ class ClinicalNote:
 
     @classmethod
     def load(cls):
-      """Loads patient ClinicalNote"""
+        """Loads patient ClinicalNote"""
       
-      # Loop through clinicalNotes and build patient clinicalNote lists:
-      for pid in os.listdir(NOTES_PATH):
-          cls.clinicalNotes[pid] = []
-          patientpath = os.path.join(NOTES_PATH, pid)
-          for notefile in os.listdir(patientpath):
-              noteval = open(os.path.join(patientpath, notefile)).read()
-              notegraph = parse_rdf(noteval)
-              cls.clinicalNotes[pid].append(notegraph)
+        try:
+          # Loop through clinicalNotes and build patient clinicalNote lists:
+          for pid in os.listdir(NOTES_PATH):
+              cls.clinicalNotes[pid] = []
+              patientpath = os.path.join(NOTES_PATH, pid)
+              for notefile in os.listdir(patientpath):
+                  noteval = open(os.path.join(patientpath, notefile)).read()
+                  notegraph = parse_rdf(noteval)
+                  cls.clinicalNotes[pid].append(notegraph)
+        except:
+            pass

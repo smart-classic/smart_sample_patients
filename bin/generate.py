@@ -9,6 +9,7 @@ from refill import Refill
 from vitals import VitalSigns
 from immunization import Immunization
 from lab import Lab
+from allergy import Allergy
 from clinicalnote import ClinicalNote
 from socialhistory import SocialHistory
 from familyhistory import FamilyHistory
@@ -94,20 +95,23 @@ class PatientGraph:
       g.add((pNode, VCARD['n'], nameNode))
       g.add((nameNode,RDF.type, VCARD['Name']))
       g.add((nameNode,VCARD['given-name'],Literal(p.fname)))
-      g.add((nameNode,VCARD['additional-name'],Literal(p.initial)))
       g.add((nameNode,VCARD['family-name'],Literal(p.lname)))
+      
+      if len(p.initial) > 0:
+         g.add((nameNode,VCARD['additional-name'],Literal(p.initial)))
 
-      addrNode = BNode() 
-      g.add((pNode, VCARD['adr'], addrNode))
-      g.add((addrNode, RDF.type, VCARD['Address']))
-      g.add((addrNode, RDF.type, VCARD['Home']))
-      g.add((addrNode, RDF.type, VCARD['Pref']))
-      g.add((addrNode,VCARD['street-address'],Literal(p.street)))
-      if len(p.apartment) > 0: g.add((addrNode,VCARD['extended-address'],Literal(p.apartment)))
-      g.add((addrNode,VCARD['locality'],Literal(p.city)))
-      g.add((addrNode,VCARD['region'],Literal(p.region)))
-      g.add((addrNode,VCARD['postal-code'],Literal(p.pcode)))
-      g.add((addrNode,VCARD['country'],Literal(p.country)))
+      if len(p.pcode) > 0:
+          addrNode = BNode() 
+          g.add((pNode, VCARD['adr'], addrNode))
+          g.add((addrNode, RDF.type, VCARD['Address']))
+          g.add((addrNode, RDF.type, VCARD['Home']))
+          g.add((addrNode, RDF.type, VCARD['Pref']))
+          g.add((addrNode,VCARD['street-address'],Literal(p.street)))
+          if len(p.apartment) > 0: g.add((addrNode,VCARD['extended-address'],Literal(p.apartment)))
+          g.add((addrNode,VCARD['locality'],Literal(p.city)))
+          g.add((addrNode,VCARD['region'],Literal(p.region)))
+          g.add((addrNode,VCARD['postal-code'],Literal(p.pcode)))
+          g.add((addrNode,VCARD['country'],Literal(p.country)))
 
       if len(p.home) > 0:
           homePhoneNode = BNode() 
@@ -134,7 +138,9 @@ class PatientGraph:
       
       g.add((pNode,FOAF['gender'],Literal(p.gender)))
       g.add((pNode,VCARD['bday'],Literal(p.dob)))
-      g.add((pNode,VCARD['email'],Literal(p.email)))
+      
+      if len(p.email) > 0:
+          g.add((pNode,VCARD['email'],Literal(p.email)))
 
       recordNode = BNode()
       g.add((pNode,SP['medicalRecordNumber'],recordNode))
@@ -157,6 +163,8 @@ class PatientGraph:
         g.add((mNode,RDF.type,SP['Medication']))
         g.add((mNode,SP['drugName'],self.codedValue(SPCODE["RxNorm_Semantic"], RXN_URI%m.rxn,m.name,RXN_URI%"",m.rxn)))
         g.add((mNode,SP['startDate'],Literal(m.start)))
+        if len(m.end) > 0:
+            g.add((mNode,SP['endDate'],Literal(m.end))) 
         g.add((mNode,SP['instructions'],Literal(m.sig))) 
         if m.qtt:
           g.add((mNode,SP['quantity'],self.valueAndUnit(m.qtt,m.qttunit)))
@@ -235,7 +243,9 @@ class PatientGraph:
       for prob in Problem.problems[self.pid]:
         pnode = BNode()
         g.add((pnode,RDF.type,SP['Problem']))
-        g.add((pnode,SP['startDate'],Literal(prob.start)))      
+        g.add((pnode,SP['startDate'],Literal(prob.start)))
+        if len(prob.end) > 0:
+            g.add((pnode,SP['endDate'],Literal(prob.end)))        
         g.add((pnode,SP['problemName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%prob.snomed,prob.name,SNOMED_URI%"",prob.snomed)))
         self.addStatement(pnode)
@@ -250,6 +260,7 @@ class PatientGraph:
         g.add((pnode,dcterms.date, Literal(proc.start)))
         g.add((pnode,SP['procedureName'],
             self.codedValue(SPCODE["SNOMED"],SNOMED_URI%proc.snomed,proc.name,SNOMED_URI%"",proc.snomed)))
+        g.add((pnode,SP['notes'], Literal(proc.notes)))
         self.addStatement(pnode)
 
    def addVitalSigns(self):
@@ -277,11 +288,12 @@ class PatientGraph:
             ivnode = BNode()
             if hasattr(v, vt['name']):
                 val = getattr(v, vt['name'])
-                g.add((ivnode, sp.value, Literal(val)))
-                g.add((ivnode, RDF.type, sp.VitalSign))
-                g.add((ivnode, sp.unit, Literal(vt['unit'])))
-                g.add((ivnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
-                g.add((p, sp[vt['predicate']], ivnode))
+                if val and len(val) > 0:
+                    g.add((ivnode, sp.value, Literal(val)))
+                    g.add((ivnode, RDF.type, sp.VitalSign))
+                    g.add((ivnode, sp.unit, Literal(vt['unit'])))
+                    g.add((ivnode, sp.vitalName, ontology_service.coded_value(g, URIRef(vt['uri']))))
+                    g.add((p, sp[vt['predicate']], ivnode))
             return ivnode
 
         for vt in VitalSigns.vitalTypes:
@@ -341,17 +353,19 @@ class PatientGraph:
            g.add((qNode,SP['valueAndUnit'],
              self.valueAndUnit(lab.value,lab.units)))
 
-           # Add Range Values
-           rNode = BNode()
-           g.add((rNode,RDF.type,SP['ValueRange']))
-           g.add((rNode,SP['minimum'],
-                   self.valueAndUnit(lab.low,lab.units)))
-           g.add((rNode,SP['maximum'],
-                   self.valueAndUnit(lab.high,lab.units)))
-           g.add((qNode,SP['normalRange'],rNode)) 
+           if len(lab.low) > 0 and len(lab.high) > 0:
+               # Add Range Values
+               rNode = BNode()
+               g.add((rNode,RDF.type,SP['ValueRange']))
+               g.add((rNode,SP['minimum'],
+                       self.valueAndUnit(lab.low,lab.units)))
+               g.add((rNode,SP['maximum'],
+                       self.valueAndUnit(lab.high,lab.units)))
+               g.add((qNode,SP['normalRange'],rNode)) 
+               
            g.add((lNode,SP['quantitativeResult'],qNode))
 
-         if lab.scale=='Ord': # Handle an Ordinal Result  
+         else:  
            qNode = BNode()
            g.add((qNode,RDF.type,SP['NarrativeResult']))
            g.add((qNode,SP['value'],Literal(lab.value)))
@@ -361,42 +375,44 @@ class PatientGraph:
          g.add((lNode,SP['accessionNumber'],Literal(lab.acc_num)))      
 
    def addAllergies(self):
-         """A totally bogus method: doesn't read from an allergy file!"""
-         g = self.g
+        """Add allergies to a patient's graph"""
 
-         if int(self.pid)%100 < 85:  # no allergies for ~ 85% of population
-           aExcept = BNode()
-           g.add((aExcept,RDF.type,SP['AllergyExclusion']))
-           g.add((aExcept,DCTERMS['date'],Literal("2005-05-05")))
-           g.add((aExcept,SP['allergyExclusionName'],
-               self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%'160244002','no known allergies',SNOMED_URI%'','160244002')))
-           self.addStatement(aExcept)
-         else:  # Sprinkle in some sulfa allergies, for pid ending 85 and up
-           aNode = BNode()
-           g.add((aNode,RDF.type,SP['Allergy']))
-           g.add((aNode,SP['startDate'],Literal("2005-05-05")))
-           g.add((aNode,SP['severity'],
-              self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'255604002','mild',SNOMED_URI%'','255604002')))
-           g.add((aNode,SP['allergicReaction'],
-              self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'271807003','skin rash',SNOMED_URI%'','271807003')))
-           g.add((aNode,SP['category'],
-              self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','drug allergy', SNOMED_URI%'','416098002')))
-           g.add((aNode,SP['drugClassAllergen'],
-              self.codedValue(SPCODE["NDFRT"],NUI_URI%'N0000175503','sulfonamide antibacterial',NUI_URI%''.split('&')[0], 'N0000175503')))
-           self.addStatement(aNode)
-           if int(self.pid)%2: # And throw in some peanut allergies if odd pid...
-             aNode = BNode()
-             g.add((aNode,RDF.type,SP['Allergy']))
-             g.add((aNode,SP['startDate'],Literal("2005-05-05")))
-             g.add((aNode,SP['severity'],
-               self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%'24484000','severe',SNOMED_URI%'','24484000')))
-             g.add((aNode,SP['allergicReaction'],
-               self.codedValue(SPCODE["SNOMED"],SNOMED_URI%'39579001','anaphylaxis',SNOMED_URI%'','39579001')))
-             g.add((aNode,SP['category'],
-               self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','food allergy',SNOMED_URI%'','414285001')))
-             g.add((aNode,SP['otherAllergen'],
-               self.codedValue(SPCODE["UNII"],UNII_URI%'QE1QX6B99R','peanut',UNII_URI%'','QE1QX6B99R')))
-             self.addStatement(aNode)
+        g = self.g
+
+        if not self.pid in Allergy.allergies: return # No allergies to add
+
+        for a in Allergy.allergies[self.pid]:
+            if a.statement == 'negative':
+                aExcept = BNode()
+                g.add((aExcept,RDF.type,SP['AllergyExclusion']))
+                g.add((aExcept,SP['allergyExclusionName'], self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%a.code,a.allergen,SNOMED_URI%'',a.code)))
+                self.addStatement(aExcept)
+            else:
+                aNode = BNode()
+                g.add((aNode,RDF.type,SP['Allergy']))
+                g.add((aNode,SP['severity'], self.codedValue(SPCODE["AllergySeverity"],SNOMED_URI%a.severity_code,a.severity,SNOMED_URI%'',a.severity_code)))
+                g.add((aNode,SP['allergicReaction'], self.codedValue(SPCODE["SNOMED"],SNOMED_URI%a.snomed,a.reaction,SNOMED_URI%'',a.snomed)))
+                g.add((aNode,SP['startDate'],Literal(a.start)))
+                if len(a.end) > 0:
+                    g.add((aNode,SP['endDate'],Literal(a.end)))   
+                
+                if a.type == 'drugClass':
+                    g.add((aNode,SP['category'], self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','drug allergy', SNOMED_URI%'','416098002')))
+                    g.add((aNode,SP['drugClassAllergen'],
+                    self.codedValue(SPCODE["NDFRT"],NUI_URI%a.code,a.allergen,NUI_URI%''.split('&')[0], a.code)))
+                elif a.type == 'drug':
+                    g.add((aNode,SP['category'], self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'416098002','drug allergy', SNOMED_URI%'','416098002')))
+                    g.add((aNode,SP['drugAllergen'],
+                    self.codedValue(SPCODE["RxNorm_Ingredient"],RXN_URI%a.code,a.allergen,RXN_URI%'', a.code)))
+                elif a.type == 'food':
+                    g.add((aNode,SP['category'], self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'414285001','food allergy',SNOMED_URI%'','414285001')))
+                    g.add((aNode,SP['otherAllergen'], self.codedValue(SPCODE["UNII"],UNII_URI%a.code,a.allergen,UNII_URI%'',a.code)))
+                elif a.type == 'environmental':
+                    g.add((aNode,SP['category'], self.codedValue(SPCODE["AllergyCategory"],SNOMED_URI%'426232007','environmental allergy',SNOMED_URI%'','426232007')))
+                    g.add((aNode,SP['otherAllergen'], self.codedValue(SPCODE["UNII"],UNII_URI%a.code,a.allergen,UNII_URI%'',a.code)))
+                
+                self.addStatement(aNode)
+
    def toRDF(self,format="xml"):
          return self.g.serialize(format=format)
 
@@ -413,6 +429,7 @@ def initData():
    SocialHistory.load()
    FamilyHistory.load()
    ClinicalNote.load()
+   Allergy.load()
 
 def writePatientGraph(f,pid,format):
    """Writes a patient's RDF out to a file, f"""
