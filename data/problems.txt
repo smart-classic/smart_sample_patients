@@ -1,530 +1,1 @@
-PID	START_DATE	SNOMED	NAME
-1291938	2007-05-23	254837009	Primary malignant neoplasm of female breast
-1291938	2007-06-05	89164003	Breast lump
-1291938	2007-06-19	189336000	Carcinoma in situ of breast
-1291938	2007-07-17	185903001	Needs influenza immunization
-1291938	2007-12-20	76498008	Asymptomatic postmenopausal status (age-related) (natural)
-1291938	2007-12-20	16041008	Ovarian failure
-1291938	2008-02-07	193589009	Senile nuclear sclerosis
-1291938	2008-02-28	126926005	Neoplasm of breast
-1291938	2008-02-28	213299007	Postprocedural state finding
-1291938	2008-04-18	309523001	H/O: artificial eye lens
-1291938	2008-11-19	267024001	Abnormal weight loss
-1291938	2009-06-17	38341003	Essential hypertension
-1291938	2009-06-17	55822004	Hyperlipidemia
-1288992	2005-05-22	48167000	Amnesia
-1288992	2007-07-11	1201005	Benign essential hypertension
-1288992	2007-07-11	396275006	Osteoarthritis
-1288992	2007-09-15	52448006	Other persistent mental disorders due to conditions classified elsewhere
-1288992	2007-11-17	429998004	"Vascular dementia, uncomplicated"
-1288992	2008-04-20	38341003	Essential hypertension
-1288992	2008-07-10	427359005	Disorder of lung
-1288992	2008-08-08	26929004	Alzheimer's disease
-1288992	2008-08-08	191519005	Dementia associated with another disease
-1288992	2008-08-08	185903001	Needs influenza immunization
-2502813	2003-12-05	54150009	Acute upper respiratory infection
-2502813	2003-12-05	13645005	Chronic obstructive lung disease
-2502813	2003-12-05	38341003	Essential hypertension
-2502813	2003-12-05	89765005	Tobacco dependence syndrome
-2502813	2004-06-01	247373008	Arthralgia of the ankle and/or foot
-2502813	2004-06-06	312824007	Family history of malignant neoplasm of gastrointestinal tract
-2502813	2004-06-06	429047008	History of polyp of colon
-2502813	2006-02-02	60241006	Female stress incontinence
-2502813	2006-06-13	125649002	Open wound of forearm without complication
-1642068	2004-12-19	78809005	Benign neoplasm of stomach
-1642068	2004-12-19	38341003	Essential hypertension
-1642068	2004-12-19	235651006	Gastritis
-1642068	2004-12-19	40930008	Hypothyroidism
-1642068	2004-12-19	236104004	Other specified disorders of stomach and duodenum
-1642068	2004-12-19	84027009	Pernicious anemia
-1642068	2005-02-20	168750009	"Abnormal mammogram, unspecified"
-1642068	2005-02-20	396275006	Osteoarthritis
-1642068	2005-12-20	10601006	Pain in limb
-1642068	2006-01-07	443092002	Exostosis of unspecified site
-1642068	2006-01-07	161591004	H/O: penicillin allergy
-1272431	2003-08-23	399068003	Primary malignant neoplasm of prostate
-1272431	2004-05-29	34014006	Viral disease
-1272431	2005-12-17	54150009	Acute upper respiratory infection
-1272431	2005-12-17	55822004	Hyperlipidemia
-1272431	2006-05-27	12063002	Hemorrhage of rectum and anus
-1272431	2006-05-27	60700002	Sensorineural hearing loss
-1272431	2006-07-09	68496003	Benign neoplasm of colon
-1272431	2006-07-09	398050005	Diverticular disease of colon
-1272431	2006-07-09	90458007	Internal hemorrhoids without mention of complication
-1272431	2006-11-07	363518003	Primary malignant neoplasm of kidney
-1272431	2008-09-07	279039007	Low back pain
-1272431	2008-09-07	45326000	Shoulder joint pain
-1272431	2009-08-09	84229001	Malaise and fatigue
-2080416	2004-03-23	422400008	Vomiting
-2080416	2004-03-26	78164000	Feeding difficulties and mismanagement
-2080416	2004-04-01	72552008	Feeding problems in newborn
-2080416	2004-05-10	49727002	Cough
-2080416	2004-05-10	274667000	Finding of head and neck region
-2080416	2004-09-02	1023001	Apnea
-2080416	2004-11-06	35183001	Acute secretory otitis media
-2080416	2005-03-06	386661006	Fever and other physiologic disturbances of temperature regulation
-2080416	2005-03-06	65363002	Otitis media
-1614502	2007-10-28	237084006	Cervicitis and endocervicitis
-1614502	2007-10-28	91487003	Diaper rash
-1614502	2007-10-28	65363002	Otitis media
-1614502	2007-12-01	425229001	Foreign body in larynx
-1614502	2007-12-01	422400008	Vomiting
-1614502	2008-02-14	54150009	Acute upper respiratory infection
-1614502	2008-02-14	81302005	General well-being finding
-1614502	2008-12-12	25374005	Other and unspecified noninfectious gastroenteritis and colitis
-1951076	2004-12-20	37796009	Migraine
-1951076	2004-12-27	25374005	Other and unspecified noninfectious gastroenteritis and colitis
-1951076	2005-02-01	16932000	Nausea and vomiting
-1951076	2007-01-24	210682000	"Open wound of knee, leg [except thigh], and ankle, without mention of complication"
-1951076	2008-03-25	28651003	Orthostatic hypotension
-1951076	2008-11-15	79890006	Anorexia
-1951076	2008-11-15	24199005	Clinical finding
-1951076	2008-11-15	35489007	Depressive disorder
-1951076	2008-11-15	91175000	Seizure
-1951076	2008-11-24	85005007	Cannabis dependence
-1557780	2005-06-01	193590000	Mature cataract
-1557780	2005-06-01	87433001	Pulmonary emphysema
-1557780	2005-06-01	89765005	Tobacco dependence syndrome
-1557780	2005-06-15	13645005	Chronic obstructive lung disease
-1557780	2009-03-16	267036007	Other dyspnea and respiratory abnormality
-1557780	2009-06-01	185086009	Emphysematous bronchitis
-1557780	2009-09-04	10509002	Acute bronchitis
-1557780	2009-09-04	195949008	Chronic asthmatic bronchitis
-1557780	2009-09-04	38341003	Essential hypertension
-1557780	2009-09-04	235595009	Gastroesophageal reflux disease
-1627321	2007-08-31	44054006	Diabetes mellitus type 2
-1627321	2008-09-08	190828008	Articular gout
-1627321	2008-09-08	202708005	Displacement of lumbar intervertebral disc without myelopathy
-1627321	2008-09-08	38341003	Essential hypertension
-1627321	2008-09-08	275134007	FH: Arthritis
-1627321	2008-09-08	160303001	FH: Diabetes mellitus
-1627321	2008-09-08	279039007	Low back pain
-1627321	2008-09-08	238136002	Morbid obesity
-1627321	2008-09-08	16932000	Nausea and vomiting
-1627321	2008-11-18	10601006	Pain in limb
-731673	2004-10-28	36971009	Acute sinusitis
-731673	2004-10-28	61582004	Allergic rhinitis
-731673	2004-10-28	404640003	Dizziness and giddiness
-731673	2004-10-29	68235000	Other diseases of nasal cavity and sinuses
-731673	2005-02-16	3723001	Arthropathy
-731673	2005-02-16	68962001	"Myalgia and myositis, unspecified"
-731673	2005-03-27	48694002	Anxiety
-731673	2005-03-27	1201005	Benign essential hypertension
-731673	2005-05-12	35489007	Depressive disorder
-731673	2005-05-12	68566005	Urinary tract infectious disease
-731673	2005-06-18	25064002	Headache
-731673	2005-06-19	38341003	Essential hypertension
-731673	2005-06-19	55822004	Hyperlipidemia
-731673	2005-07-07	50438001	Peripheral vertigo
-731673	2005-07-07	60700002	Sensorineural hearing loss
-1032702	2007-12-14	442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
-1032702	2007-12-19	267024001	Abnormal weight loss
-1032702	2007-12-19	310249008	Follow-up encounter
-1032702	2008-04-03	235595009	Gastroesophageal reflux disease
-1032702	2008-06-29	185903001	Needs influenza immunization
-665677	2004-04-15	1201005	Benign essential hypertension
-665677	2004-08-19	84229001	Malaise and fatigue
-665677	2006-01-06	161891005	Backache
-665677	2006-01-06	53298000	Hematuria syndrome
-665677	2006-01-14	197321007	Chronic nonalcoholic liver disease
-665677	2006-01-14	90708001	Unspecified disorder of kidney and ureter
-665677	2006-02-17	427359005	Disorder of lung
-665677	2006-02-17	415081006	History of malignant neoplasm of kidney
-665677	2006-02-17	363518003	Primary malignant neoplasm of kidney
-665677	2006-03-15	44054006	Diabetes mellitus type 2
-665677	2006-03-15	38341003	Essential hypertension
-665677	2006-03-15	395704004	Heart disease
-665677	2006-03-15	429484003	History of malignant neoplasm of cervix
-665677	2008-10-02	193462001	Insomnia
-665677	2008-10-02	197275004	"Subacute hepatic failure"
-665677	2008-11-13	78667006	Dysthymia
-2347217	2003-10-15	1201005	Benign essential hypertension
-2347217	2003-10-15	55822004	Hyperlipidemia
-2347217	2003-12-14	29857009	Chest pain
-2347217	2003-12-14	102589003	Chest pain
-2347217	2003-12-14	38341003	Essential hypertension
-2347217	2004-06-06	162116003	Finding of frequency of urination
-2347217	2004-06-20	398050005	Diverticular disease of colon
-1796238	2006-07-17	409622000	Acute respiratory failure
-1796238	2006-07-17	195949008	Chronic asthmatic bronchitis
-1796238	2006-07-17	34095006	Dehydration
-1796238	2006-07-17	44054006	Diabetes mellitus type 2
-1796238	2006-07-17	38341003	Essential hypertension
-1796238	2006-07-17	55525008	Paralytic ileus
-1213208	2009-02-17	81680005	Neck pain
-1213208	2009-02-17	90392009	Spasm
-1213208	2009-05-11	108365000	Unspecified local infection of skin and subcutaneous tissue
-1213208	2009-05-13	1201005	Benign essential hypertension
-1213208	2009-05-13	267782008	Cellulitis and abscess of leg
-1213208	2009-05-13	57643001	Gastro-esophageal reflux disease with esophagitis
-1213208	2009-05-15	30473006	Abdominal pain
-1213208	2009-05-15	202381003	Joint effusion of the lower leg
-1213208	2009-05-15	19471005	Lymphadenitis
-1213208	2009-06-25	200645004	Cellulitis and abscess of face
-1768562	2003-11-30	49436004	Atrial fibrillation
-1768562	2003-11-30	29857009	Chest pain
-1768562	2003-11-30	88223008	Chronic pulmonary heart disease
-1768562	2003-11-30	82523003	Congestive rheumatic heart failure
-1768562	2003-11-30	233817007	Coronary arteriosclerosis
-1768562	2003-11-30	83521008	Dilated cardiomyopathy secondary to alcohol
-1768562	2003-11-30	297242006	FH: Cardiac disorder
-1768562	2003-11-30	64715009	"Hypertensive heart disease, unspecified, without heart failure"
-1768562	2003-11-30	36083008	Sinus node dysfunction
-1768562	2003-11-30	89765005	Tobacco dependence syndrome
-1768562	2004-01-03	85898001	Cardiomyopathy
-1768562	2004-01-03	35489007	Depressive disorder
-1768562	2004-01-03	8517006	History of tobacco use
-1768562	2004-01-03	55822004	Hyperlipidemia
-1768562	2004-09-15	13645005	Chronic obstructive lung disease
-2113340	2006-02-14	84229001	Malaise and fatigue
-2113340	2006-08-15	34840004	Enthesopathy
-2113340	2007-05-13	44054006	Diabetes mellitus type 2
-2113340	2007-08-25	55822004	Hyperlipidemia
-2113340	2009-03-08	22298006	Acute myocardial infarction
-2113340	2009-03-08	71884009	Precordial pain
-2081539	2006-01-16	49436004	Atrial fibrillation
-2081539	2006-01-16	68496003	Benign neoplasm of colon
-2081539	2006-01-16	398050005	Diverticular disease of colon
-2081539	2006-01-16	38341003	Essential hypertension
-2081539	2006-01-16	429047008	History of polyp of colon
-2081539	2006-01-16	396275006	Osteoarthritis
-2081539	2009-01-07	39772007	Anal and rectal polyp
-2081539	2009-01-07	44054006	Diabetes mellitus type 2
-2081539	2009-01-07	23913003	External hemorrhoids without complication
-2081539	2009-01-07	8517006	History of tobacco use
-1520204	2007-07-08	267952008	Arthralgia of the pelvic region and thigh
-1520204	2007-07-08	13645005	Chronic obstructive lung disease
-1520204	2007-07-08	38341003	Essential hypertension
-1520204	2007-07-08	239872002	"Osteoarthrosis, unspecified whether generalized or localized, involving pelvic region and thigh"
-1520204	2007-07-08	89765005	Tobacco dependence syndrome
-1520204	2008-01-14	55822004	Hyperlipidemia
-1520204	2008-01-14	396275006	Osteoarthritis
-1520204	2008-04-24	53726008	Acute conjunctivitis
-1520204	2008-04-24	421961002	Allergy
-1520204	2008-09-02	161891005	Backache
-1520204	2008-09-02	32398004	Bronchitis
-1520204	2008-09-02	29857009	Chest pain
-1520204	2008-09-02	49727002	Cough
-1520204	2009-01-26	30989003	Arthralgia of the lower leg
-1520204	2009-01-26	1201005	Benign essential hypertension
-1520204	2009-01-26	267432004	Pure hypercholesterolemia
-1520204	2009-04-22	285381006	Acute exacerbation of chronic obstructive airways disease
-1520204	2009-04-22	3723001	Arthropathy
-2169591	2003-11-24	88616000	Acne
-2169591	2004-05-17	40930008	Hypothyroidism
-2169591	2004-05-17	34486009	Thyrotoxicosis without goiter OR other cause
-2169591	2004-06-06	312399001	Abnormal results of thyroid function studies
-2169591	2004-06-28	271939006	Leukorrhea
-2169591	2004-06-28	441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)
-2169591	2004-12-04	1475003	Herpes simplex without complication
-2169591	2008-08-18	55822004	Hyperlipidemia
-2169591	2009-09-23	421961002	Allergy
-2169591	2009-09-23	299703001	"Swelling, mass, or lump in head and neck"
-1134281	2005-07-04	73749009	Neonatal jaundice associated with preterm delivery
-1134281	2005-07-04	95617006	Perinatal cyanotic attacks
-1134281	2005-07-04	46775006	Respiratory distress syndrome in the newborn
-1134281	2005-07-04	206200000	Scalp injury
-1134281	2005-07-04	442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
-1134281	2005-07-08	387712008	Neonatal jaundice
-1134281	2005-07-10	18165001	Jaundice
-1134281	2005-11-28	54150009	Acute upper respiratory infection
-1134281	2006-02-09	235595009	Gastroesophageal reflux disease
-1134281	2006-08-31	65363002	Otitis media
-1134281	2006-12-14	25374005	Other and unspecified noninfectious gastroenteritis and colitis
-1134281	2009-06-17	36971009	Acute sinusitis
-935270	2006-09-13	102594003	Abnormal ECG
-935270	2006-09-13	272036004	Asthenia
-935270	2006-12-06	29857009	Chest pain
-935270	2006-12-06	49727002	Cough
-935270	2006-12-06	38341003	Essential hypertension
-935270	2007-11-20	233817007	Coronary arteriosclerosis
-935270	2008-02-06	413838009	Chronic ischemic heart disease
-935270	2008-02-06	55822004	Hyperlipidemia
-935270	2008-09-13	200665006	Cellulitis and abscess of upper arm and forearm
-935270	2008-09-13	39812007	Contusion of forearm
-935270	2008-09-13	302227002	Disorder of cardiovascular system
-935270	2008-09-13	125598003	"Other and unspecified injury to elbow, forearm, and wrist"
-935270	2008-09-13	10601006	Pain in limb
-767980	2004-08-12	29857009	Chest pain
-767980	2004-08-12	38341003	Essential hypertension
-767980	2004-08-12	266998003	H/O: peptic ulcer
-767980	2004-08-12	102588006	Painful respiration
-767980	2004-08-12	267432004	Pure hypercholesterolemia
-767980	2004-08-12	89765005	Tobacco dependence syndrome
-767980	2004-10-18	32398004	Bronchitis
-767980	2004-10-22	80394007	Blood chemistry abnormal
-767980	2004-12-10	54150009	Acute upper respiratory infection
-767980	2004-12-10	44054006	Diabetes mellitus type 2
-767980	2005-09-08	185903001	Needs influenza immunization
-767980	2005-12-16	249288007	Incomplete emptying of bladder
-981968	2005-05-17	279039007	Low back pain
-981968	2005-06-25	209565008	Lumbar sprain
-981968	2005-10-11	195967001	Asthma
-981968	2005-10-11	267432004	Pure hypercholesterolemia
-981968	2005-10-17	55260003	Calcaneal spur
-981968	2005-10-17	202855006	Lateral epicondylitis
-981968	2005-10-17	10601006	Pain in limb
-981968	2008-06-21	90560007	Gout
-981968	2008-06-21	13600006	Hair and hair follicle diseases
-981968	2008-06-21	84229001	Malaise and fatigue
-981968	2008-07-10	404640003	Dizziness and giddiness
-981968	2008-07-21	51868009	"Duodenal ulcer without hemorrhage, without perforation AND without obstruction"
-981968	2008-07-21	235595009	Gastroesophageal reflux disease
-1098667	2004-12-01	68272006	Acute maxillary sinusitis
-1098667	2005-02-24	36971009	Acute sinusitis
-1098667	2005-02-24	25064002	Headache
-1098667	2005-03-17	56097005	Migraine without aura
-1098667	2005-04-09	55822004	Hyperlipidemia
-1098667	2005-04-22	80394007	Blood chemistry abnormal
-1098667	2005-04-28	400210000	Hemangioma
-1098667	2005-04-28	267432004	Pure hypercholesterolemia
-1098667	2005-08-26	312824007	Family history of malignant neoplasm of gastrointestinal tract
-1098667	2005-08-26	429047008	History of polyp of colon
-1098667	2005-10-15	92359006	Benign neoplasm of skin of face
-1098667	2005-10-15	92380000	Benign neoplasm of skin of trunk
-2354220	2007-07-23	271737000	Anemia
-2354220	2007-07-23	266599000	Dysmenorrhea
-2354220	2007-07-23	76376003	Endometriosis of uterus
-2354220	2007-07-23	386692008	Excessive and frequent menstruation
-2354220	2007-07-23	93616000	Intramural leiomyoma of uterus
-2354220	2007-07-23	95280005	Subserous leiomyoma of uterus
-2354220	2007-07-23	89765005	Tobacco dependence syndrome
-2354220	2007-07-23	252030006	Urinary symptoms
-2354220	2008-11-23	29857009	Chest pain
-2354220	2008-11-23	13645005	Chronic obstructive lung disease
-2354220	2008-11-23	55822004	Hyperlipidemia
-2004454	2008-07-09	442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
-2004454	2008-07-14	267024001	Abnormal weight loss
-2004454	2008-08-01	91487003	Diaper rash
-2004454	2009-03-02	54150009	Acute upper respiratory infection
-2004454	2009-03-02	65363002	Otitis media
-2004454	2009-08-07	16932000	Nausea and vomiting
-2004454	2009-08-07	34014006	Viral disease
-1186747	2004-12-31	242489002	Accidental burning caused by caustic and corrosive substance
-1186747	2004-12-31	67678004	Acute atopic conjunctivitis
-1186747	2006-01-18	406506008	Attention deficit hyperactivity disorder
-1186747	2006-09-25	54150009	Acute upper respiratory infection
-1186747	2006-09-25	16001004	Otalgia
-1186747	2006-10-16	14760008	Constipation
-1186747	2006-11-23	195967001	Asthma
-1186747	2006-11-23	49727002	Cough
-1186747	2006-11-23	66857006	Hemoptysis
-1186747	2007-12-19	568005	Tic disorder
-1186747	2008-02-10	26079004	Abnormal involuntary movement
-1482713	2003-12-11	271807003	Eruption
-1482713	2004-01-31	54150009	Acute upper respiratory infection
-1482713	2004-01-31	65363002	Otitis media
-1482713	2005-06-25	429305003	"Insect bite, nonvenomous, of other, multiple, and unspecified sites, without mention of infection"
-1482713	2005-06-25	68235000	Other diseases of nasal cavity and sinuses
-1482713	2005-09-25	43116000	"Contact dermatitis and other eczema, unspecified cause"
-1482713	2006-09-03	170539009	Poliomyelitis vaccination
-1482713	2008-12-31	277843001	Disruptive behavior disorder
-1482713	2009-02-04	23560001	"Other specified pervasive developmental disorders, current or active state"
-1482713	2009-04-01	20301004	Disturbance in speech
-621799	2003-12-14	233817007	Coronary arteriosclerosis
-621799	2003-12-14	267431006	Disorder of lipid metabolism
-621799	2003-12-14	25569003	Paroxysmal ventricular tachycardia
-621799	2003-12-14	89765005	Tobacco dependence syndrome
-621799	2008-08-16	194828000	Angina
-621799	2008-08-16	42343007	Congestive heart failure
-621799	2008-08-30	85898001	Cardiomyopathy
-621799	2008-08-30	414795007	Chronic ischemic heart disease
-621799	2008-08-30	404640003	Dizziness and giddiness
-621799	2008-08-30	297242006	FH: Cardiac disorder
-621799	2008-08-30	55822004	Hyperlipidemia
-621799	2008-08-30	1755008	Old myocardial infarction
-621799	2008-11-21	267432004	Pure hypercholesterolemia
-629528	2007-02-06	35489007	Depressive disorder
-629528	2007-11-20	285836003	Cervical intraepithelial neoplasia grade 1
-629528	2007-11-20	237084006	Cervicitis and endocervicitis
-629528	2007-11-20	240532009	Human papilloma virus infection
-629528	2007-11-20	441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)
-1577780	2005-08-02	54302000	Disorder of breast
-1577780	2005-08-22	38341003	Essential hypertension
-1577780	2005-08-22	254837009	Primary malignant neoplasm of female breast
-1577780	2005-09-22	195967001	Asthma
-1577780	2005-10-27	40930008	Hypothyroidism
-1577780	2006-02-20	8517006	History of tobacco use
-1577780	2006-02-20	188155002	Primary malignant neoplasm of lower outer quadrant of female breast
-1577780	2007-01-07	44054006	Diabetes mellitus type 2
-1577780	2007-02-21	353295004	Toxic diffuse goiter
-1577780	2008-04-08	55822004	Hyperlipidemia
-1685497	2003-11-10	29857009	Chest pain
-1685497	2003-11-10	102589003	Chest pain
-1685497	2003-11-10	79922009	Epigastric pain
-1685497	2003-11-10	297242006	FH: Cardiac disorder
-1685497	2003-11-10	386661006	Fever and other physiologic disturbances of temperature regulation
-1685497	2003-11-10	57643001	Gastro-esophageal reflux disease with esophagitis
-1685497	2003-11-10	422587007	Nausea
-1685497	2003-11-10	111583006	White blood cell disorder
-1685497	2003-11-18	38341003	Essential hypertension
-1685497	2003-11-18	237602007	Metabolic syndrome X
-1685497	2003-11-18	238136002	Morbid obesity
-1685497	2003-12-20	1201005	Benign essential hypertension
-1685497	2003-12-20	267432004	Pure hypercholesterolemia
-1685497	2005-01-18	44054006	Diabetes mellitus type 2
-1685497	2005-01-18	55822004	Hyperlipidemia
-1685497	2005-08-20	279039007	Low back pain
-736230	2004-05-24	40930008	Hypothyroidism
-736230	2004-06-13	248802009	Disorder of breast
-736230	2006-04-17	267038008	Edema
-736230	2006-05-09	289903006	Menopausal syndrome
-736230	2008-07-05	76498008	Asymptomatic postmenopausal status (age-related) (natural)
-897185	2004-09-20	165084003	Clinical finding
-897185	2004-09-20	55822004	Hyperlipidemia
-897185	2007-01-22	399963005	"Abrasion or friction burn of other, multiple, and unspecified sites, without mention of infection"
-897185	2007-01-22	82271004	Injury of head
-897185	2007-01-28	34649000	Closed fracture of malar AND/OR maxillary bones
-897185	2007-06-02	21186006	Chronic non-suppurative otitis media
-897185	2007-09-26	10509002	Acute bronchitis
-1157764	2003-12-16	254837009	Primary malignant neoplasm of female breast
-1157764	2005-09-14	17226007	Adjustment disorder
-1157764	2005-11-14	7620006	Crohn's disease of large bowel
-1157764	2005-11-15	18818009	"Recurrent major depressive episodes, moderate"
-1157764	2006-09-26	36971009	Acute sinusitis
-1157764	2006-10-30	53298000	Hematuria syndrome
-1157764	2008-10-21	372064008	Primary malignant neoplasm of central portion of female breast
-1157764	2009-05-20	77075001	Primary open angle glaucoma
-1157764	2009-07-01	50485007	Low tension glaucoma
-2042917	2006-04-11	193570009	Asthma
-2042917	2006-04-11	44465007	Sprain of ankle
-2042917	2006-04-11	422400008	Vomiting
-2042917	2006-04-11	56018004	Wheezing
-2042917	2006-07-05	267024001	Abnormal weight loss
-2042917	2006-07-05	195967001	Asthma
-2042917	2006-07-05	405729008	Blood in stool
-2042917	2006-07-05	78267003	Cocaine abuse
-2042917	2006-07-05	44808001	Conduction disorder of the heart
-2042917	2006-07-05	38341003	Essential hypertension
-2042917	2006-07-05	281239006	Exacerbation of asthma
-2042917	2006-07-05	89765005	Tobacco dependence syndrome
-1551992	2004-08-19	29857009	Chest pain
-1551992	2008-02-22	1201005	Benign essential hypertension
-1551992	2008-02-22	11934000	Hypertensive disorder
-1551992	2008-05-14	65074000	Chronic obstructive lung disease
-1551992	2008-05-14	90560007	Gout
-1551992	2008-06-05	310249008	Follow-up encounter
-1551992	2008-06-20	414941008	Onychomycosis due to dermatophyte
-1551992	2008-11-06	239873007	"Osteoarthrosis, unspecified whether generalized or localized, involving lower leg"
-1540505	2005-03-09	162031009	Dyspepsia and other specified disorders of function of stomach
-1540505	2005-03-09	13200003	"Peptic ulcer without hemorrhage, without perforation AND without obstruction"
-1540505	2005-03-12	21522001	Abdominal pain
-1540505	2005-03-12	44054006	Diabetes mellitus type 2
-1540505	2005-03-25	301717006	Right upper quadrant pain
-1540505	2005-11-20	29857009	Chest pain
-1540505	2005-12-30	14302001	Absence of menstruation
-1540505	2005-12-30	59455009	Acidosis
-1540505	2005-12-30	14760008	Constipation
-1540505	2005-12-30	34095006	Dehydration
-1540505	2005-12-30	235595009	Gastroesophageal reflux disease
-1540505	2005-12-30	43339004	Hypokalemia
-1540505	2005-12-30	25374005	Other and unspecified noninfectious gastroenteritis and colitis
-1540505	2005-12-30	267432004	Pure hypercholesterolemia
-1540505	2006-04-10	38341003	Essential hypertension
-1540505	2006-04-10	25064002	Headache
-967332	2007-11-14	195967001	Asthma
-967332	2007-11-14	44054006	Diabetes mellitus type 2
-967332	2007-11-14	55822004	Hyperlipidemia
-967332	2007-11-23	78275009	Unspecified sleep apnea
-967332	2008-01-04	1201005	Benign essential hypertension
-967332	2008-01-04	29857009	Chest pain
-967332	2008-01-04	233817007	Coronary arteriosclerosis
-967332	2008-01-04	38341003	Essential hypertension
-967332	2008-01-04	43339004	Hypokalemia
-967332	2008-01-04	4557003	Preinfarction syndrome
-967332	2008-01-18	53741008	Coronary arteriosclerosis
-967332	2008-03-28	267432004	Pure hypercholesterolemia
-967332	2008-07-29	10509002	Acute bronchitis
-967332	2008-07-29	185903001	Needs influenza immunization
-1869612	2004-01-08	68272006	Acute maxillary sinusitis
-1869612	2004-04-28	1201005	Benign essential hypertension
-1869612	2004-04-28	65363002	Otitis media
-1869612	2004-08-23	198036002	Impotence of organic origin
-1869612	2005-08-03	85848002	Superficial injury of cornea
-1869612	2005-08-21	193995004	Acquired stenosis of nasolacrimal duct
-1869612	2006-11-13	55566008	Accident
-1869612	2006-11-13	58075000	Contusion of toe
-1869612	2006-11-13	44054006	Diabetes mellitus type 2
-1869612	2007-12-11	128302006	Chronic hepatitis C
-1081332	2004-04-12	442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"
-1081332	2004-06-15	54150009	Acute upper respiratory infection
-1081332	2004-07-13	65363002	Otitis media
-1081332	2004-10-29	68235000	Other diseases of nasal cavity and sinuses
-1081332	2004-12-05	25374005	Other and unspecified noninfectious gastroenteritis and colitis
-1081332	2004-12-07	62315008	Diarrhea
-1081332	2004-12-07	386661006	Fever and other physiologic disturbances of temperature regulation
-1081332	2004-12-07	34095006	Hypovolemia
-1081332	2004-12-07	233604007	Pneumonia
-1081332	2004-12-08	422400008	Vomiting
-1081332	2005-02-22	81564005	Chronic serous otitis media
-1081332	2007-06-20	35183001	Acute secretory otitis media
-724111	2003-11-11	78737005	Acute frontal sinusitis
-724111	2004-04-15	35489007	Depressive disorder
-724111	2004-04-15	18941000	Oppositional defiant disorder
-724111	2004-06-16	40055000	Chronic sinusitis
-724111	2006-10-19	406506008	Attention deficit hyperactivity disorder
-724111	2006-10-19	79298009	"Single major depressive episode, mild"
-724111	2007-05-18	55822004	Hyperlipidemia
-724111	2007-05-18	170539009	Poliomyelitis vaccination
-724111	2008-03-18	277843001	Disruptive behavior disorder
-724111	2008-04-01	15639000	"Single major depressive episode, moderate"
-724111	2008-07-01	35253001	Child attention deficit disorder
-724111	2008-07-01	18818009	"Recurrent major depressive episodes, moderate"
-1137192	2004-06-11	413838009	Chronic ischemic heart disease
-1137192	2005-06-03	53741008	Coronary arteriosclerosis
-1137192	2006-11-05	254902007	Benign prostatic hyperplasia
-1137192	2007-09-22	48694002	Anxiety
-1137192	2007-10-26	79298009	"Single major depressive episode, mild"
-1137192	2008-05-30	102594003	Abnormal ECG
-1137192	2009-07-04	21522001	Abdominal pain
-1137192	2009-07-04	230462002	Migraine with aura
-1137192	2009-07-04	63102001	Visual disturbance
-1137192	2009-07-13	297946004	Mononeuritis of lower limb
-880378	2003-11-07	21522001	Abdominal pain
-880378	2003-11-07	14760008	Constipation
-880378	2004-11-01	71186008	Croup
-880378	2004-11-01	16001004	Otalgia
-880378	2004-11-01	267036007	Other dyspnea and respiratory abnormality
-880378	2004-11-03	82272006	Common cold
-880378	2004-12-13	54150009	Acute upper respiratory infection
-880378	2004-12-13	65363002	Otitis media
-880378	2005-08-10	36971009	Acute sinusitis
-880378	2005-08-10	185903001	Needs influenza immunization
-880378	2007-07-26	46689006	Hypertrophy of tonsils
-880378	2009-07-23	49727002	Cough
-644201	2007-07-01	312894000	Disorder of bone and articular cartilage
-644201	2007-07-25	38341003	Essential hypertension
-644201	2007-07-25	55822004	Hyperlipidemia
-644201	2007-12-13	4800001	Urine finding
-644201	2008-04-21	10601006	Pain in limb
-644201	2008-10-20	1201005	Benign essential hypertension
-644201	2008-10-20	64859006	Osteoporosis
-765583	2004-03-06	35678005	Multiple joint pain
-765583	2006-12-23	404640003	Dizziness and giddiness
-765583	2007-03-10	68962001	"Myalgia and myositis, unspecified"
-765583	2008-01-28	36971009	Acute sinusitis
-765583	2008-01-28	9826008	Conjunctivitis
-765583	2008-07-18	408643008	Overlapping malignant neoplasm of female breast
-765583	2008-07-25	254837009	Primary malignant neoplasm of female breast
-765583	2008-07-26	161891005	Backache
-765583	2008-07-26	89164003	Breast lump
-765583	2008-08-15	54150009	Acute upper respiratory infection
-765583	2008-08-16	239160006	Hemorrhage AND/OR hematoma complicating procedure
-765583	2008-08-16	429494008	Seroma complicating a procedure
-640264	2006-11-20	70153002	Hemorrhoids
-640264	2007-03-15	12063002	Hemorrhage of rectum and anus
-640264	2007-03-15	80182007	Irregular periods
-640264	2007-03-29	52073004	Unspecified disorders of menstruation and other abnormal bleeding from female genital tract
-640264	2007-03-31	61582004	Allergic rhinitis
-640264	2007-04-02	36971009	Acute sinusitis
-640264	2007-04-02	128045006	Cellulitis and abscess of unspecified sites
-640264	2007-08-06	1201005	Benign essential hypertension
-640264	2007-08-06	84229001	Malaise and fatigue
-613876	2007-10-01	40930008	Hypothyroidism
-613876	2007-10-07	84229001	Malaise and fatigue
-613876	2007-10-13	30989003	Arthralgia of the lower leg
-613876	2007-10-13	312894000	Disorder of bone and articular cartilage
-613876	2007-10-21	168734001	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system
-613876	2007-10-22	218218000	Overexertion and strenuous movements
-613876	2007-10-27	43878008	Streptococcal sore throat
-613876	2007-10-28	201836008	"Localized, primary osteoarthritis of the lower leg"
+PID	START_DATE	END_DATE	SNOMED	NAME1291938	2007-05-23		254837009	Primary malignant neoplasm of female breast1291938	2007-06-05		89164003	Breast lump1291938	2007-06-19		189336000	Carcinoma in situ of breast1291938	2007-07-17		185903001	Needs influenza immunization1291938	2007-12-20		76498008	Asymptomatic postmenopausal status (age-related) (natural)1291938	2007-12-20		16041008	Ovarian failure1291938	2008-02-07		193589009	Senile nuclear sclerosis1291938	2008-02-28		126926005	Neoplasm of breast1291938	2008-02-28		213299007	Postprocedural state finding1291938	2008-04-18		309523001	H/O: artificial eye lens1291938	2008-11-19		267024001	Abnormal weight loss1291938	2009-06-17		38341003	Essential hypertension1291938	2009-06-17		55822004	Hyperlipidemia1288992	2005-05-22		48167000	Amnesia1288992	2007-07-11		1201005	Benign essential hypertension1288992	2007-07-11		396275006	Osteoarthritis1288992	2007-09-15		52448006	Other persistent mental disorders due to conditions classified elsewhere1288992	2007-11-17		429998004	"Vascular dementia, uncomplicated"1288992	2008-04-20		38341003	Essential hypertension1288992	2008-07-10		427359005	Disorder of lung1288992	2008-08-08		26929004	Alzheimer's disease1288992	2008-08-08		191519005	Dementia associated with another disease1288992	2008-08-08		185903001	Needs influenza immunization2502813	2003-12-05		54150009	Acute upper respiratory infection2502813	2003-12-05		13645005	Chronic obstructive lung disease2502813	2003-12-05		38341003	Essential hypertension2502813	2003-12-05		89765005	Tobacco dependence syndrome2502813	2004-06-01		247373008	Arthralgia of the ankle and/or foot2502813	2004-06-06		312824007	Family history of malignant neoplasm of gastrointestinal tract2502813	2004-06-06		429047008	History of polyp of colon2502813	2006-02-02		60241006	Female stress incontinence2502813	2006-06-13		125649002	Open wound of forearm without complication1642068	2004-12-19		78809005	Benign neoplasm of stomach1642068	2004-12-19		38341003	Essential hypertension1642068	2004-12-19		235651006	Gastritis1642068	2004-12-19		40930008	Hypothyroidism1642068	2004-12-19		236104004	Other specified disorders of stomach and duodenum1642068	2004-12-19		84027009	Pernicious anemia1642068	2005-02-20		168750009	"Abnormal mammogram, unspecified"1642068	2005-02-20		396275006	Osteoarthritis1642068	2005-12-20		10601006	Pain in limb1642068	2006-01-07		443092002	Exostosis of unspecified site1642068	2006-01-07		161591004	H/O: penicillin allergy1272431	2003-08-23		399068003	Primary malignant neoplasm of prostate1272431	2004-05-29		34014006	Viral disease1272431	2005-12-17		54150009	Acute upper respiratory infection1272431	2005-12-17		55822004	Hyperlipidemia1272431	2006-05-27		12063002	Hemorrhage of rectum and anus1272431	2006-05-27		60700002	Sensorineural hearing loss1272431	2006-07-09		68496003	Benign neoplasm of colon1272431	2006-07-09		398050005	Diverticular disease of colon1272431	2006-07-09		90458007	Internal hemorrhoids without mention of complication1272431	2006-11-07		363518003	Primary malignant neoplasm of kidney1272431	2008-09-07		279039007	Low back pain1272431	2008-09-07		45326000	Shoulder joint pain1272431	2009-08-09		84229001	Malaise and fatigue2080416	2004-03-23		422400008	Vomiting2080416	2004-03-26		78164000	Feeding difficulties and mismanagement2080416	2004-04-01		72552008	Feeding problems in newborn2080416	2004-05-10		49727002	Cough2080416	2004-05-10		274667000	Finding of head and neck region2080416	2004-09-02		1023001	Apnea2080416	2004-11-06		35183001	Acute secretory otitis media2080416	2005-03-06		386661006	Fever and other physiologic disturbances of temperature regulation2080416	2005-03-06		65363002	Otitis media1614502	2007-10-28		237084006	Cervicitis and endocervicitis1614502	2007-10-28		91487003	Diaper rash1614502	2007-10-28		65363002	Otitis media1614502	2007-12-01		425229001	Foreign body in larynx1614502	2007-12-01		422400008	Vomiting1614502	2008-02-14		54150009	Acute upper respiratory infection1614502	2008-02-14		81302005	General well-being finding1614502	2008-12-12		25374005	Other and unspecified noninfectious gastroenteritis and colitis1951076	2004-12-20		37796009	Migraine1951076	2004-12-27		25374005	Other and unspecified noninfectious gastroenteritis and colitis1951076	2005-02-01		16932000	Nausea and vomiting1951076	2007-01-24		210682000	"Open wound of knee, leg [except thigh], and ankle, without mention of complication"1951076	2008-03-25		28651003	Orthostatic hypotension1951076	2008-11-15		79890006	Anorexia1951076	2008-11-15		24199005	Clinical finding1951076	2008-11-15		35489007	Depressive disorder1951076	2008-11-15		91175000	Seizure1951076	2008-11-24		85005007	Cannabis dependence1557780	2005-06-01		193590000	Mature cataract1557780	2005-06-01		87433001	Pulmonary emphysema1557780	2005-06-01		89765005	Tobacco dependence syndrome1557780	2005-06-15		13645005	Chronic obstructive lung disease1557780	2009-03-16		267036007	Other dyspnea and respiratory abnormality1557780	2009-06-01		185086009	Emphysematous bronchitis1557780	2009-09-04		10509002	Acute bronchitis1557780	2009-09-04		195949008	Chronic asthmatic bronchitis1557780	2009-09-04		38341003	Essential hypertension1557780	2009-09-04		235595009	Gastroesophageal reflux disease1627321	2007-08-31		44054006	Diabetes mellitus type 21627321	2008-09-08		190828008	Articular gout1627321	2008-09-08		202708005	Displacement of lumbar intervertebral disc without myelopathy1627321	2008-09-08		38341003	Essential hypertension1627321	2008-09-08		275134007	FH: Arthritis1627321	2008-09-08		160303001	FH: Diabetes mellitus1627321	2008-09-08		279039007	Low back pain1627321	2008-09-08		238136002	Morbid obesity1627321	2008-09-08		16932000	Nausea and vomiting1627321	2008-11-18		10601006	Pain in limb731673	2004-10-28		36971009	Acute sinusitis731673	2004-10-28		61582004	Allergic rhinitis731673	2004-10-28		404640003	Dizziness and giddiness731673	2004-10-29		68235000	Other diseases of nasal cavity and sinuses731673	2005-02-16		3723001	Arthropathy731673	2005-02-16		68962001	"Myalgia and myositis, unspecified"731673	2005-03-27		48694002	Anxiety731673	2005-03-27		1201005	Benign essential hypertension731673	2005-05-12		35489007	Depressive disorder731673	2005-05-12		68566005	Urinary tract infectious disease731673	2005-06-18		25064002	Headache731673	2005-06-19		38341003	Essential hypertension731673	2005-06-19		55822004	Hyperlipidemia731673	2005-07-07		50438001	Peripheral vertigo731673	2005-07-07		60700002	Sensorineural hearing loss1032702	2007-12-14		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"1032702	2007-12-19		267024001	Abnormal weight loss1032702	2007-12-19		310249008	Follow-up encounter1032702	2008-04-03		235595009	Gastroesophageal reflux disease1032702	2008-06-29		185903001	Needs influenza immunization665677	2004-04-15		1201005	Benign essential hypertension665677	2004-08-19		84229001	Malaise and fatigue665677	2006-01-06		161891005	Backache665677	2006-01-06		53298000	Hematuria syndrome665677	2006-01-14		197321007	Chronic nonalcoholic liver disease665677	2006-01-14		90708001	Unspecified disorder of kidney and ureter665677	2006-02-17		427359005	Disorder of lung665677	2006-02-17		415081006	History of malignant neoplasm of kidney665677	2006-02-17		363518003	Primary malignant neoplasm of kidney665677	2006-03-15		44054006	Diabetes mellitus type 2665677	2006-03-15		38341003	Essential hypertension665677	2006-03-15		395704004	Heart disease665677	2006-03-15		429484003	History of malignant neoplasm of cervix665677	2008-10-02		193462001	Insomnia665677	2008-10-02		197275004	Subacute hepatic failure665677	2008-11-13		78667006	Dysthymia2347217	2003-10-15		1201005	Benign essential hypertension2347217	2003-10-15		55822004	Hyperlipidemia2347217	2003-12-14		29857009	Chest pain2347217	2003-12-14		102589003	Chest pain2347217	2003-12-14		38341003	Essential hypertension2347217	2004-06-06		162116003	Finding of frequency of urination2347217	2004-06-20		398050005	Diverticular disease of colon1796238	2006-07-17		409622000	Acute respiratory failure1796238	2006-07-17		195949008	Chronic asthmatic bronchitis1796238	2006-07-17		34095006	Dehydration1796238	2006-07-17		44054006	Diabetes mellitus type 21796238	2006-07-17		38341003	Essential hypertension1796238	2006-07-17		55525008	Paralytic ileus1213208	2009-02-17		81680005	Neck pain1213208	2009-02-17		90392009	Spasm1213208	2009-05-11		108365000	Unspecified local infection of skin and subcutaneous tissue1213208	2009-05-13		1201005	Benign essential hypertension1213208	2009-05-13		267782008	Cellulitis and abscess of leg1213208	2009-05-13		57643001	Gastro-esophageal reflux disease with esophagitis1213208	2009-05-15		30473006	Abdominal pain1213208	2009-05-15		202381003	Joint effusion of the lower leg1213208	2009-05-15		19471005	Lymphadenitis1213208	2009-06-25		200645004	Cellulitis and abscess of face1768562	2003-11-30		49436004	Atrial fibrillation1768562	2003-11-30		29857009	Chest pain1768562	2003-11-30		88223008	Chronic pulmonary heart disease1768562	2003-11-30		82523003	Congestive rheumatic heart failure1768562	2003-11-30		233817007	Coronary arteriosclerosis1768562	2003-11-30		83521008	Dilated cardiomyopathy secondary to alcohol1768562	2003-11-30		297242006	FH: Cardiac disorder1768562	2003-11-30		64715009	"Hypertensive heart disease, unspecified, without heart failure"1768562	2003-11-30		36083008	Sinus node dysfunction1768562	2003-11-30		89765005	Tobacco dependence syndrome1768562	2004-01-03		85898001	Cardiomyopathy1768562	2004-01-03		35489007	Depressive disorder1768562	2004-01-03		8517006	History of tobacco use1768562	2004-01-03		55822004	Hyperlipidemia1768562	2004-09-15		13645005	Chronic obstructive lung disease2113340	2006-02-14		84229001	Malaise and fatigue2113340	2006-08-15		34840004	Enthesopathy2113340	2007-05-13		44054006	Diabetes mellitus type 22113340	2007-08-25		55822004	Hyperlipidemia2113340	2009-03-08		22298006	Acute myocardial infarction2113340	2009-03-08		71884009	Precordial pain2081539	2006-01-16		49436004	Atrial fibrillation2081539	2006-01-16		68496003	Benign neoplasm of colon2081539	2006-01-16		398050005	Diverticular disease of colon2081539	2006-01-16		38341003	Essential hypertension2081539	2006-01-16		429047008	History of polyp of colon2081539	2006-01-16		396275006	Osteoarthritis2081539	2009-01-07		39772007	Anal and rectal polyp2081539	2009-01-07		44054006	Diabetes mellitus type 22081539	2009-01-07		23913003	External hemorrhoids without complication2081539	2009-01-07		8517006	History of tobacco use1520204	2007-07-08		267952008	Arthralgia of the pelvic region and thigh1520204	2007-07-08		13645005	Chronic obstructive lung disease1520204	2007-07-08		38341003	Essential hypertension1520204	2007-07-08		239872002	"Osteoarthrosis, unspecified whether generalized or localized, involving pelvic region and thigh"1520204	2007-07-08		89765005	Tobacco dependence syndrome1520204	2008-01-14		55822004	Hyperlipidemia1520204	2008-01-14		396275006	Osteoarthritis1520204	2008-04-24		53726008	Acute conjunctivitis1520204	2008-04-24		421961002	Allergy1520204	2008-09-02		161891005	Backache1520204	2008-09-02		32398004	Bronchitis1520204	2008-09-02		29857009	Chest pain1520204	2008-09-02		49727002	Cough1520204	2009-01-26		30989003	Arthralgia of the lower leg1520204	2009-01-26		1201005	Benign essential hypertension1520204	2009-01-26		267432004	Pure hypercholesterolemia1520204	2009-04-22		285381006	Acute exacerbation of chronic obstructive airways disease1520204	2009-04-22		3723001	Arthropathy2169591	2003-11-24		88616000	Acne2169591	2004-05-17		40930008	Hypothyroidism2169591	2004-05-17		34486009	Thyrotoxicosis without goiter OR other cause2169591	2004-06-06		312399001	Abnormal results of thyroid function studies2169591	2004-06-28		271939006	Leukorrhea2169591	2004-06-28		441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)2169591	2004-12-04		1475003	Herpes simplex without complication2169591	2008-08-18		55822004	Hyperlipidemia2169591	2009-09-23		421961002	Allergy2169591	2009-09-23		299703001	"Swelling, mass, or lump in head and neck"1134281	2005-07-04		73749009	Neonatal jaundice associated with preterm delivery1134281	2005-07-04		95617006	Perinatal cyanotic attacks1134281	2005-07-04		46775006	Respiratory distress syndrome in the newborn1134281	2005-07-04		206200000	Scalp injury1134281	2005-07-04		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"1134281	2005-07-08		387712008	Neonatal jaundice1134281	2005-07-10		18165001	Jaundice1134281	2005-11-28		54150009	Acute upper respiratory infection1134281	2006-02-09		235595009	Gastroesophageal reflux disease1134281	2006-08-31		65363002	Otitis media1134281	2006-12-14		25374005	Other and unspecified noninfectious gastroenteritis and colitis1134281	2009-06-17		36971009	Acute sinusitis935270	2006-09-13		102594003	Abnormal ECG935270	2006-09-13		272036004	Asthenia935270	2006-12-06		29857009	Chest pain935270	2006-12-06		49727002	Cough935270	2006-12-06		38341003	Essential hypertension935270	2007-11-20		233817007	Coronary arteriosclerosis935270	2008-02-06		413838009	Chronic ischemic heart disease935270	2008-02-06		55822004	Hyperlipidemia935270	2008-09-13		200665006	Cellulitis and abscess of upper arm and forearm935270	2008-09-13		39812007	Contusion of forearm935270	2008-09-13		302227002	Disorder of cardiovascular system935270	2008-09-13		125598003	"Other and unspecified injury to elbow, forearm, and wrist"935270	2008-09-13		10601006	Pain in limb767980	2004-08-12		29857009	Chest pain767980	2004-08-12		38341003	Essential hypertension767980	2004-08-12		266998003	H/O: peptic ulcer767980	2004-08-12		102588006	Painful respiration767980	2004-08-12		267432004	Pure hypercholesterolemia767980	2004-08-12		89765005	Tobacco dependence syndrome767980	2004-10-18		32398004	Bronchitis767980	2004-10-22		80394007	Blood chemistry abnormal767980	2004-12-10		54150009	Acute upper respiratory infection767980	2004-12-10		44054006	Diabetes mellitus type 2767980	2005-09-08		185903001	Needs influenza immunization767980	2005-12-16		249288007	Incomplete emptying of bladder981968	2005-05-17		279039007	Low back pain981968	2005-06-25		209565008	Lumbar sprain981968	2005-10-11		195967001	Asthma981968	2005-10-11		267432004	Pure hypercholesterolemia981968	2005-10-17		55260003	Calcaneal spur981968	2005-10-17		202855006	Lateral epicondylitis981968	2005-10-17		10601006	Pain in limb981968	2008-06-21		90560007	Gout981968	2008-06-21		13600006	Hair and hair follicle diseases981968	2008-06-21		84229001	Malaise and fatigue981968	2008-07-10		404640003	Dizziness and giddiness981968	2008-07-21		51868009	"Duodenal ulcer without hemorrhage, without perforation AND without obstruction"981968	2008-07-21		235595009	Gastroesophageal reflux disease1098667	2004-12-01		68272006	Acute maxillary sinusitis1098667	2005-02-24		36971009	Acute sinusitis1098667	2005-02-24		25064002	Headache1098667	2005-03-17		56097005	Migraine without aura1098667	2005-04-09		55822004	Hyperlipidemia1098667	2005-04-22		80394007	Blood chemistry abnormal1098667	2005-04-28		400210000	Hemangioma1098667	2005-04-28		267432004	Pure hypercholesterolemia1098667	2005-08-26		312824007	Family history of malignant neoplasm of gastrointestinal tract1098667	2005-08-26		429047008	History of polyp of colon1098667	2005-10-15		92359006	Benign neoplasm of skin of face1098667	2005-10-15		92380000	Benign neoplasm of skin of trunk2354220	2007-07-23		271737000	Anemia2354220	2007-07-23		266599000	Dysmenorrhea2354220	2007-07-23		76376003	Endometriosis of uterus2354220	2007-07-23		386692008	Excessive and frequent menstruation2354220	2007-07-23		93616000	Intramural leiomyoma of uterus2354220	2007-07-23		95280005	Subserous leiomyoma of uterus2354220	2007-07-23		89765005	Tobacco dependence syndrome2354220	2007-07-23		252030006	Urinary symptoms2354220	2008-11-23		29857009	Chest pain2354220	2008-11-23		13645005	Chronic obstructive lung disease2354220	2008-11-23		55822004	Hyperlipidemia2004454	2008-07-09		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"2004454	2008-07-14		267024001	Abnormal weight loss2004454	2008-08-01		91487003	Diaper rash2004454	2009-03-02		54150009	Acute upper respiratory infection2004454	2009-03-02		65363002	Otitis media2004454	2009-08-07		16932000	Nausea and vomiting2004454	2009-08-07		34014006	Viral disease1186747	2004-12-31		242489002	Accidental burning caused by caustic and corrosive substance1186747	2004-12-31		67678004	Acute atopic conjunctivitis1186747	2006-01-18		406506008	Attention deficit hyperactivity disorder1186747	2006-09-25		54150009	Acute upper respiratory infection1186747	2006-09-25		16001004	Otalgia1186747	2006-10-16		14760008	Constipation1186747	2006-11-23		195967001	Asthma1186747	2006-11-23		49727002	Cough1186747	2006-11-23		66857006	Hemoptysis1186747	2007-12-19		568005	Tic disorder1186747	2008-02-10		26079004	Abnormal involuntary movement1482713	2003-12-11		271807003	Eruption1482713	2004-01-31		54150009	Acute upper respiratory infection1482713	2004-01-31		65363002	Otitis media1482713	2005-06-25		429305003	"Insect bite, nonvenomous, of other, multiple, and unspecified sites, without mention of infection"1482713	2005-06-25		68235000	Other diseases of nasal cavity and sinuses1482713	2005-09-25		43116000	"Contact dermatitis and other eczema, unspecified cause"1482713	2006-09-03		170539009	Poliomyelitis vaccination1482713	2008-12-31		277843001	Disruptive behavior disorder1482713	2009-02-04		23560001	"Other specified pervasive developmental disorders, current or active state"1482713	2009-04-01		20301004	Disturbance in speech621799	2003-12-14		233817007	Coronary arteriosclerosis621799	2003-12-14		267431006	Disorder of lipid metabolism621799	2003-12-14		25569003	Paroxysmal ventricular tachycardia621799	2003-12-14		89765005	Tobacco dependence syndrome621799	2008-08-16		194828000	Angina621799	2008-08-16		42343007	Congestive heart failure621799	2008-08-30		85898001	Cardiomyopathy621799	2008-08-30		414795007	Chronic ischemic heart disease621799	2008-08-30		404640003	Dizziness and giddiness621799	2008-08-30		297242006	FH: Cardiac disorder621799	2008-08-30		55822004	Hyperlipidemia621799	2008-08-30		1755008	Old myocardial infarction621799	2008-11-21		267432004	Pure hypercholesterolemia629528	2007-02-06		35489007	Depressive disorder629528	2007-11-20		285836003	Cervical intraepithelial neoplasia grade 1629528	2007-11-20		237084006	Cervicitis and endocervicitis629528	2007-11-20		240532009	Human papilloma virus infection629528	2007-11-20		441087007	Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US)1577780	2005-08-02		54302000	Disorder of breast1577780	2005-08-22		38341003	Essential hypertension1577780	2005-08-22		254837009	Primary malignant neoplasm of female breast1577780	2005-09-22		195967001	Asthma1577780	2005-10-27		40930008	Hypothyroidism1577780	2006-02-20		8517006	History of tobacco use1577780	2006-02-20		188155002	Primary malignant neoplasm of lower outer quadrant of female breast1577780	2007-01-07		44054006	Diabetes mellitus type 21577780	2007-02-21		353295004	Toxic diffuse goiter1577780	2008-04-08		55822004	Hyperlipidemia1685497	2003-11-10		29857009	Chest pain1685497	2003-11-10		102589003	Chest pain1685497	2003-11-10		79922009	Epigastric pain1685497	2003-11-10		297242006	FH: Cardiac disorder1685497	2003-11-10		386661006	Fever and other physiologic disturbances of temperature regulation1685497	2003-11-10		57643001	Gastro-esophageal reflux disease with esophagitis1685497	2003-11-10		422587007	Nausea1685497	2003-11-10		111583006	White blood cell disorder1685497	2003-11-18		38341003	Essential hypertension1685497	2003-11-18		237602007	Metabolic syndrome X1685497	2003-11-18		238136002	Morbid obesity1685497	2003-12-20		1201005	Benign essential hypertension1685497	2003-12-20		267432004	Pure hypercholesterolemia1685497	2005-01-18		44054006	Diabetes mellitus type 21685497	2005-01-18		55822004	Hyperlipidemia1685497	2005-08-20		279039007	Low back pain736230	2004-05-24		40930008	Hypothyroidism736230	2004-06-13		248802009	Disorder of breast736230	2006-04-17		267038008	Edema736230	2006-05-09		289903006	Menopausal syndrome736230	2008-07-05		76498008	Asymptomatic postmenopausal status (age-related) (natural)897185	2004-09-20		165084003	Clinical finding897185	2004-09-20		55822004	Hyperlipidemia897185	2007-01-22		399963005	"Abrasion or friction burn of other, multiple, and unspecified sites, without mention of infection"897185	2007-01-22		82271004	Injury of head897185	2007-01-28		34649000	Closed fracture of malar AND/OR maxillary bones897185	2007-06-02		21186006	Chronic non-suppurative otitis media897185	2007-09-26		10509002	Acute bronchitis1157764	2003-12-16		254837009	Primary malignant neoplasm of female breast1157764	2005-09-14		17226007	Adjustment disorder1157764	2005-11-14		7620006	Crohn's disease of large bowel1157764	2005-11-15		18818009	"Recurrent major depressive episodes, moderate"1157764	2006-09-26		36971009	Acute sinusitis1157764	2006-10-30		53298000	Hematuria syndrome1157764	2008-10-21		372064008	Primary malignant neoplasm of central portion of female breast1157764	2009-05-20		77075001	Primary open angle glaucoma1157764	2009-07-01		50485007	Low tension glaucoma2042917	2006-04-11		193570009	Asthma2042917	2006-04-11		44465007	Sprain of ankle2042917	2006-04-11		422400008	Vomiting2042917	2006-04-11		56018004	Wheezing2042917	2006-07-05		267024001	Abnormal weight loss2042917	2006-07-05		195967001	Asthma2042917	2006-07-05		405729008	Blood in stool2042917	2006-07-05		78267003	Cocaine abuse2042917	2006-07-05		44808001	Conduction disorder of the heart2042917	2006-07-05		38341003	Essential hypertension2042917	2006-07-05		281239006	Exacerbation of asthma2042917	2006-07-05		89765005	Tobacco dependence syndrome1551992	2004-08-19		29857009	Chest pain1551992	2008-02-22		1201005	Benign essential hypertension1551992	2008-02-22		11934000	Hypertensive disorder1551992	2008-05-14		65074000	Chronic obstructive lung disease1551992	2008-05-14		90560007	Gout1551992	2008-06-05		310249008	Follow-up encounter1551992	2008-06-20		414941008	Onychomycosis due to dermatophyte1551992	2008-11-06		239873007	"Osteoarthrosis, unspecified whether generalized or localized, involving lower leg"1540505	2005-03-09		162031009	Dyspepsia and other specified disorders of function of stomach1540505	2005-03-09		13200003	"Peptic ulcer without hemorrhage, without perforation AND without obstruction"1540505	2005-03-12		21522001	Abdominal pain1540505	2005-03-12		44054006	Diabetes mellitus type 21540505	2005-03-25		301717006	Right upper quadrant pain1540505	2005-11-20		29857009	Chest pain1540505	2005-12-30		14302001	Absence of menstruation1540505	2005-12-30		59455009	Acidosis1540505	2005-12-30		14760008	Constipation1540505	2005-12-30		34095006	Dehydration1540505	2005-12-30		235595009	Gastroesophageal reflux disease1540505	2005-12-30		43339004	Hypokalemia1540505	2005-12-30		25374005	Other and unspecified noninfectious gastroenteritis and colitis1540505	2005-12-30		267432004	Pure hypercholesterolemia1540505	2006-04-10		38341003	Essential hypertension1540505	2006-04-10		25064002	Headache967332	2007-11-14		195967001	Asthma967332	2007-11-14		44054006	Diabetes mellitus type 2967332	2007-11-14		55822004	Hyperlipidemia967332	2007-11-23		78275009	Unspecified sleep apnea967332	2008-01-04		1201005	Benign essential hypertension967332	2008-01-04		29857009	Chest pain967332	2008-01-04		233817007	Coronary arteriosclerosis967332	2008-01-04		38341003	Essential hypertension967332	2008-01-04		43339004	Hypokalemia967332	2008-01-04		4557003	Preinfarction syndrome967332	2008-01-18		53741008	Coronary arteriosclerosis967332	2008-03-28		267432004	Pure hypercholesterolemia967332	2008-07-29		10509002	Acute bronchitis967332	2008-07-29		185903001	Needs influenza immunization1869612	2004-01-08		68272006	Acute maxillary sinusitis1869612	2004-04-28		1201005	Benign essential hypertension1869612	2004-04-28		65363002	Otitis media1869612	2004-08-23		198036002	Impotence of organic origin1869612	2005-08-03		85848002	Superficial injury of cornea1869612	2005-08-21		193995004	Acquired stenosis of nasolacrimal duct1869612	2006-11-13		55566008	Accident1869612	2006-11-13		58075000	Contusion of toe1869612	2006-11-13		44054006	Diabetes mellitus type 21869612	2007-12-11		128302006	Chronic hepatitis C1081332	2004-04-12		442311008	"Single liveborn, born in hospital, delivered without mention of cesarean section"1081332	2004-06-15		54150009	Acute upper respiratory infection1081332	2004-07-13		65363002	Otitis media1081332	2004-10-29		68235000	Other diseases of nasal cavity and sinuses1081332	2004-12-05		25374005	Other and unspecified noninfectious gastroenteritis and colitis1081332	2004-12-07		62315008	Diarrhea1081332	2004-12-07		386661006	Fever and other physiologic disturbances of temperature regulation1081332	2004-12-07		34095006	Hypovolemia1081332	2004-12-07		233604007	Pneumonia1081332	2004-12-08		422400008	Vomiting1081332	2005-02-22		81564005	Chronic serous otitis media1081332	2007-06-20		35183001	Acute secretory otitis media724111	2003-11-11		78737005	Acute frontal sinusitis724111	2004-04-15		35489007	Depressive disorder724111	2004-04-15		18941000	Oppositional defiant disorder724111	2004-06-16		40055000	Chronic sinusitis724111	2006-10-19		406506008	Attention deficit hyperactivity disorder724111	2006-10-19		79298009	"Single major depressive episode, mild"724111	2007-05-18		55822004	Hyperlipidemia724111	2007-05-18		170539009	Poliomyelitis vaccination724111	2008-03-18		277843001	Disruptive behavior disorder724111	2008-04-01		15639000	"Single major depressive episode, moderate"724111	2008-07-01		35253001	Child attention deficit disorder724111	2008-07-01		18818009	"Recurrent major depressive episodes, moderate"1137192	2004-06-11		413838009	Chronic ischemic heart disease1137192	2005-06-03		53741008	Coronary arteriosclerosis1137192	2006-11-05		254902007	Benign prostatic hyperplasia1137192	2007-09-22		48694002	Anxiety1137192	2007-10-26		79298009	"Single major depressive episode, mild"1137192	2008-05-30		102594003	Abnormal ECG1137192	2009-07-04		21522001	Abdominal pain1137192	2009-07-04		230462002	Migraine with aura1137192	2009-07-04		63102001	Visual disturbance1137192	2009-07-13		297946004	Mononeuritis of lower limb880378	2003-11-07		21522001	Abdominal pain880378	2003-11-07		14760008	Constipation880378	2004-11-01		71186008	Croup880378	2004-11-01		16001004	Otalgia880378	2004-11-01		267036007	Other dyspnea and respiratory abnormality880378	2004-11-03		82272006	Common cold880378	2004-12-13		54150009	Acute upper respiratory infection880378	2004-12-13		65363002	Otitis media880378	2005-08-10		36971009	Acute sinusitis880378	2005-08-10		185903001	Needs influenza immunization880378	2007-07-26		46689006	Hypertrophy of tonsils880378	2009-07-23		49727002	Cough644201	2007-07-01		312894000	Disorder of bone and articular cartilage644201	2007-07-25		38341003	Essential hypertension644201	2007-07-25		55822004	Hyperlipidemia644201	2007-12-13		4800001	Urine finding644201	2008-04-21		10601006	Pain in limb644201	2008-10-20		1201005	Benign essential hypertension644201	2008-10-20		64859006	Osteoporosis765583	2004-03-06		35678005	Multiple joint pain765583	2006-12-23		404640003	Dizziness and giddiness765583	2007-03-10		68962001	"Myalgia and myositis, unspecified"765583	2008-01-28		36971009	Acute sinusitis765583	2008-01-28		9826008	Conjunctivitis765583	2008-07-18		408643008	Overlapping malignant neoplasm of female breast765583	2008-07-25		254837009	Primary malignant neoplasm of female breast765583	2008-07-26		161891005	Backache765583	2008-07-26		89164003	Breast lump765583	2008-08-15		54150009	Acute upper respiratory infection765583	2008-08-16		239160006	Hemorrhage AND/OR hematoma complicating procedure765583	2008-08-16		429494008	Seroma complicating a procedure640264	2006-11-20		70153002	Hemorrhoids640264	2007-03-15		12063002	Hemorrhage of rectum and anus640264	2007-03-15		80182007	Irregular periods640264	2007-03-29		52073004	Unspecified disorders of menstruation and other abnormal bleeding from female genital tract640264	2007-03-31		61582004	Allergic rhinitis640264	2007-04-02		36971009	Acute sinusitis640264	2007-04-02		128045006	Cellulitis and abscess of unspecified sites640264	2007-08-06		1201005	Benign essential hypertension640264	2007-08-06		84229001	Malaise and fatigue613876	2007-10-01		40930008	Hypothyroidism613876	2007-10-07		84229001	Malaise and fatigue613876	2007-10-13		30989003	Arthralgia of the lower leg613876	2007-10-13		312894000	Disorder of bone and articular cartilage613876	2007-10-21		168734001	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system613876	2007-10-22		218218000	Overexertion and strenuous movements613876	2007-10-27		43878008	Streptococcal sore throat613876	2007-10-28		201836008	"Localized, primary osteoarthritis of the lower leg"
