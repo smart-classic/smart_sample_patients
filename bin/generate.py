@@ -386,7 +386,7 @@ class PatientGraph:
                 aExcept = BNode()
                 g.add((aExcept,RDF.type,SP['AllergyExclusion']))
                 g.add((aExcept,SP['allergyExclusionName'], self.codedValue(SPCODE["AllergyExclusion"],SNOMED_URI%a.code,a.allergen,SNOMED_URI%'',a.code)))
-                g.add((aExcept,SP['date'],Literal(a.start)))
+                g.add((aExcept,dcterms.date,Literal(a.start)))
                 self.addStatement(aExcept)
             else:
                 aNode = BNode()
