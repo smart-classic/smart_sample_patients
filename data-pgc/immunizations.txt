@@ -1,1 +1,0 @@
-PID	date	CVX	CVX_title	VG	VG_title	VG2	VG2_title	administration_status	refusal_reason
