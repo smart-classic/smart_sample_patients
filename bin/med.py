@@ -23,6 +23,7 @@ also maintains complete med lists by patient id"""
     def __init__(self,m):
         self.pid = m['PT_ID']
         self.start = m['START_DATE']
+        self.end = m['END_DATE']
         self.rxn= m['RxNorm'] 
         self.name = m['Name']
         self.sig = m['SIG']

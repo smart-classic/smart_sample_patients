@@ -20,9 +20,10 @@ class Procedure:
 
     def __init__(self,p):
         self.pid = p['PID']
-        self.start = p['START_DATE']
+        self.date = p['DATE']
         self.snomed= p['SNOMED'] 
         self.name = p['NAME']
+        self.notes = p['NOTES']
         # Append procedure to the patient's procedure list:
         if self.pid in  self.__class__.procedures:
           self.__class__.procedures[self.pid].append(self)
@@ -30,7 +31,7 @@ class Procedure:
 
     def asTabString(self):
        """Returns a tab-separated string representation of a procedure"""
-       dl = [self.pid, self.start, self.snomed, self.name[:20]]
+       dl = [self.pid, self.date, self.snomed, self.name[:20]]
        s = ""
        for v in dl:
          s += "%s\t"%v 
