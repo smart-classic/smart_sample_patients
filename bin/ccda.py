@@ -1,3 +1,4 @@
+import datetime
 from patient import Patient
 import rdflib
 from med import Med
@@ -15,9 +16,12 @@ import pystache
 from lxml import etree
 import sys
 
-template = open("med-template.ccda.xml").read()
-renderer = pystache.Renderer(decode_errors="replace")
+from jinja2 import Environment, FileSystemLoader
+template_env = Environment(loader=FileSystemLoader('fhir_templates'), autoescape=True)
 sp= rdflib.Namespace('http://smartplatforms.org/terms#')
+
+def uid():
+    return str(uuid.uuid4())
 
 def coded_value(self, raw_uri):
   """ Look up a URI in the ontology service. """
@@ -30,110 +34,97 @@ def coded_value(self, raw_uri):
   sys, ident = str(uri).rsplit(sep, 1)
   return {'title': str(title), 'code':str(code)}
 
+def getVital(v, vt):
+  return {
+    'date': v.timestamp[:10],
+    'code': vt['uri'].split('/')[-1],
+    'units': vt['unit'],
+    'value': int(float(getattr(v, vt['name']))),
+    'scale': 'Qn',
+    'name': vt['name']
+    }
+
 class CCDASamplePatient(object):
   def __init__(self, pid, path):
     self.path = path
     self.pid = pid
-    p = Patient.mpi[pid]
-
-    birthdate  = p.dob
-
-    self.jpatient = jpatient = {
-        'patient': {
-          'gendercode': p.gender[0].title(),
-          'genderdisplay': p.gender.title(),
-          'birthdate': p.dob,
-          'GivenName': p.fname,
-          'Surname': p.lname,
-          'TelephoneNumber': p.home,
-          'City': p.city,
-          'State': p.region,
-          'ZipCode': p.pcode,
-          'StreetAddress': p.street
-          },
-        'pid': pid,
-        'docid':str(uuid.uuid4()),
-        'meds': [],
-        'labs': [],
-        'vitals': []
-        }
-
-
-    def getVital(vt):
-      return {
-          'timestamp': v.timestamp,
-          'code': vt['uri'].split('/')[-1],
-          'unit': vt['unit'],
-          'value': getattr(v, vt['name']),
-          'title': vt['name'],
-          'vitalid': str(uuid.uuid4())
-          }
-
-    if self.pid in VitalSigns.vitals:
-      for v in  VitalSigns.vitals[pid]:
-        measurements = []
-        for vt in VitalSigns.vitalTypes + [VitalSigns.systolic, VitalSigns.diastolic]:
-          measurements.append(getVital(vt))
-        jpatient['vitals'].append({
-        'timestamp': measurements[0]['timestamp'],
-        'measurements': measurements})
-
-    if self.pid in Lab.results:  
-      labs = []
-      for l in Lab.results[pid]:
-        if l.scale == 'Qn':
-          result_data = {
-              'val': l.value,
-              'units': l.units,
-              'low_val': l.low,
-              'high_val': l.high,
-              }
-        else:
-          # no results, don't add this lab
-           continue
-
-        # TODO mplement non-PQ labs 
-        """
-        elif l.scale == 'Ord':
-        """
-        lab_data = {
-            'code': l.code,
-            'name': l.name,
-            'date': l.date,
-            'acc_num': l.acc_num,
-            'labid': str(uuid.uuid4()),
-            'lorgid': str(uuid.uuid4()),
-            'val': result_data['val'],
-            'units': result_data['units']
-            }
-        jpatient['labs'].append(lab_data)
-
-    if self.pid in Med.meds:
+    
+    return
+    """if self.pid in Med.meds:
       for m in Med.meds[self.pid]:
         # build the med, setting some defaults
         med_data = {
-            'medid': str(uuid.uuid4()),
+            'medid': uid(),
             'drugname': m.name,
             'drugcode': m.rxn,
             'medto': m.end if hasattr(m, "end") else None,
             'medfrom': m.start,
-            'instructions': m.sig
+            'instructions': m.sig,
+            'freq': m.freq,
+            'frequ': m.frequnit,
+            'quant': m.qtt,
+            'quantu': m.qttunit
             }
 
-        """
             add these in later
             'frequencyValue': m.freq,
             'frequencyUnits': m.frequnit,
             'quantityValue': m.qtt,
             'quantityUnits': m.qttunit,
             """
-        jpatient['meds'].append(med_data)
-
-        print json.dumps(jpatient, indent=2)
-        """
-       """
 
   def writePatientData(self):
-    o = open(os.path.join(self.path, "p%s.ccda.xml"%self.pid), "w")
-    print >>o, renderer.render(template, self.jpatient)
-    o.close()
+
+    pfile = open(os.path.join(self.path, "patient-%s.fhir-bundle.xml"%self.pid), "w")
+    pid = self.pid
+    p = Patient.mpi[pid]
+
+    now = datetime.datetime.now().isoformat()
+    id = "patient-%s"%pid
+    print >>pfile, """<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SMART patient bundle for transactional posting</title>
+  <id>urn:uuid:%s</id>
+  <updated>%s</updated>
+"""%(uid(), now)
+
+    template = template_env.get_template('patient.xml')
+    print >>pfile, template.render(dict(globals(), **locals()))
+
+    bps = []
+    othervitals = []
+
+    if self.pid in VitalSigns.vitals:
+      for v in  VitalSigns.vitals[pid]:
+          for vt in VitalSigns.vitalTypes:
+              othervitals.append(getVital(v, vt))
+          systolic = getVital(v, VitalSigns.systolic)
+          diastolic = getVital(v, VitalSigns.diastolic)
+          bp = systolic
+          bp['systolic'] = systolic['value']
+          bp['diastolic'] = diastolic['value']
+          bps.append(bp)
+
+    template = template_env.get_template('blood_pressure.xml')
+    for bp in bps:
+        id = "bp-%s"%uid()
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+    template = template_env.get_template('observation.xml')
+    for o in othervitals:
+        id = "vital-%s"%uid()
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+    if self.pid in Lab.results:  
+      for o in Lab.results[pid]:
+        id = "lab-%s"%uid()
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+    template = template_env.get_template('condition.xml')
+    if self.pid in Problem.problems:  
+      for c in Problem.problems[pid]:
+        id = "problem-%s"%uid()
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+    print >>pfile, "\n</feed>"
+    pfile.close()

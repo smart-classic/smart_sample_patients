@@ -1,0 +1,59 @@
+  {%- extends "entry.xml" %}
+  {%- block content %}
+  <Observation xmlns="http://hl7.org/fhir">
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">{{o.date}}: {{o.name}} = {{o.value}} {{o.units|default('')}}</div>
+    </text>
+    <name>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="{{o.code}}"/>
+        <display value="{{o.name}}"/>
+      </coding>
+    </name>
+    {%- if o.scale is defined and o.scale == 'Qn' %}
+    <valueQuantity>
+      <value value="{{o.value | float(0)}}"/>
+      <units value="{{o.units}}"/>
+      <code value="{{o.units}}"/>
+    </valueQuantity>
+    {% endif %}
+    {%- if o.scale is defined and o.scale == 'Ord'%}
+    <valueString value="{{o.value}}"/>
+    {% endif %}
+    <appliesDateTime value="{{o.date}}"/>
+    <status value="final"/>
+    <subject>
+      <type value="Patient"/>
+      <reference value="cid:patient-{{pid}}"/>
+    </subject>
+    {%- if o.low is defined and o.high is defined %}
+    <referenceRange>
+      <meaning>
+        <text value="Normal Range"/>
+      </meaning>
+      <rangeRange>
+        <low>
+          <value value="{{o.low | float(0)}}"/>
+          <units value="{{o.units}}"/>
+          <code value="{{o.units}}"/>
+          <system value="http://unitsofmeasure.org"/>
+        </low>
+        <high>
+          <value value="{{o.high | float(0)}}"/>
+          <units value="{{o.units}}"/>
+          <code value="{{o.units}}"/>
+          <system value="http://unitsofmeasure.org"/>
+        </high>
+      </rangeRange>
+    </referenceRange>
+    {% endif %}
+    {%- if o.id is defined %}
+    <identifier>
+      <system value="urn:smart-accession-number"/>
+      <key value="{{o.acc_num}}"/>
+    </identifier>
+    {% endif %}
+  </Observation>
+  {% endblock %}

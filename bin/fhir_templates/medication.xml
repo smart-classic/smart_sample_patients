@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{{#meds}}
+<MedicationPrescription xmlns="http://hl7.org/fhir">
+  <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+	    {{drugname}} {{drugcode}}
+    </div>
+  </text>
+  <status value="active" />
+  <patient>
+    <type value="Patient"/>
+    <reference value="patient/@{{pid}}"/>
+  </patient>
+
+  <medication>
+    <type value="Medication"/>
+    <reference value="medication/@example"/>
+  </medication>
+
+  <dosageInstruction>
+    <timingSchedule>
+      <repeat>
+      <frequency value="{{freq}}"/>
+        <duration value="1"/>
+	<units value="{{frequ}}"/>
+      </repeat>
+    </timingSchedule>
+    <route>
+      <coding>
+        <system value="http://snomed.info/id"/>
+        <code value="363743006"/>
+        <display value="oral administration of treatment"/>
+      </coding>
+    </route>
+    <doseQuantity>
+    <value value="{{quant}}"/>
+      <units value="{{quantu}}"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="{{quantu}}"/>
+    </doseQuantity>
+  </dosageInstruction>
+
+</MedicationPrescription>
+{{/meds}}

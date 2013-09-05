@@ -1,0 +1,23 @@
+  {% extends "entry.xml" %}
+  {% block content %}
+  <Condition xmlns="http://hl7.org/fhir">
+    <text>
+     <status value="generated"/>
+     <div xmlns="http://www.w3.org/1999/xhtml">{{c.name}}</div>   
+   </text>
+    <subject>
+      <type value="Patient"/>
+      <reference value="cid:patient-{{pid}}"/>
+    </subject>
+    <code> 
+      <coding>
+        <system value="http://snomed.info/id"/>
+        <code value="{{c.snomed}}"/>
+        <display value="{{c.name}}"/>
+      </coding>
+      <text value="{{c.name}}"/>
+    </code>
+   <status value="confirmed"/>
+   <onsetDate value="{{c.start}}"/>
+  </Condition>
+  {% endblock %}

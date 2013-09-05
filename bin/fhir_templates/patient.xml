@@ -1,0 +1,68 @@
+  {% extends "entry.xml" %}
+  {% block content %}
+  <Patient xmlns="http://hl7.org/fhir">
+    <text>
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        {% block summary -%}
+        <p>{{p.fname}} {{p.initial}}. {{p.lname}}</p>
+        {%- endblock %}
+      </div>
+    </text>
+
+    <identifier>
+      <use value="usual"/>
+      <label value="SMART Hospiptal MRN"/>
+      <system value="urn:oid:0.1.2.3.4.5.6.7"/>
+      <key value="{{p.pid}}"/>
+    </identifier>
+
+    <name>
+      <use value="official"/>
+      <given value="{{p.fname}}"/>
+      <given value="{{p.initial}}."/>
+      <family value="{{p.lname}}"/>
+    </name>
+
+    <birthDate value="{{p.dob}}" />
+
+    <gender>
+      <coding>
+        <system value="http://hl7.org/fhir/v3/AdministrativeGender"/>
+        <code value="{{p.gender | capitalize | truncate(1,true,'')}}"/>
+        <display value="{{p.gender | capitalize}}"/>
+      </coding>
+    </gender>
+
+    {% if p.home is defined %}
+    <telecom>
+      <use value="home"/>
+      <system value="phone"/>
+      <value value="{{p.home}}"/>
+    </telecom>
+    {% endif %}
+    {% if p.cell is defined %}
+    <telecom>
+      <system value="phone"/>
+      <value value="{{p.cell}}"/>
+      <use value="mobile"/>
+    </telecom>
+    {% endif %}
+
+    <telecom>
+      <system value="email"/>
+      <value value="{{p.email}}"/>
+    </telecom>
+
+    <address>
+      <use value="home"/>
+      <line value="{{p.street}}{{p.apartment | default('')}}"/>
+      <city value="{{p.city}}"/>
+      <state value="{{p.region}}"/>
+      <zip value="{{p.pcode}}"/>
+      <country value="{{p.country}}"/>
+    </address>
+
+    <active value="true"/>
+  </Patient>
+  {% endblock %}

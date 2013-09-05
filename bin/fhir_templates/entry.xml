@@ -1,0 +1,13 @@
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <title>SMART Patient-level resource</title>
+  <id>cid:{{id}}</id>
+  <updated>{{now}}</updated>
+  <published>{{now}}</published>
+  <author>
+    <name>https://github.com/chb/smart_sample_patients</name>
+  </author>
+  <content type="text/xml">
+    {% block content -%}
+    {%- endblock content %}
+  </content>
+</entry>
