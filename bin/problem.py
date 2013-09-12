@@ -22,6 +22,7 @@ also maintains complete problem lists by patient id"""
     def __init__(self,p):
         self.pid = p['PID']
         self.start = p['START_DATE']
+        self.end = p['END_DATE']
         self.snomed= p['SNOMED'] 
         self.name = p['NAME']
         # Append problem to the patient's problem list:

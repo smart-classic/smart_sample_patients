@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sp="http://smartplatforms.org/terms#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+  <sp:ClinicalNote>
+    <dcterms:date>2006-02-14</dcterms:date>
+    <dcterms:title>Note About The Patient</dcterms:title>
+    <dcterms:format>
+      <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/text/plain">
+        <rdfs:label>text/plain</rdfs:label>
+      </dcterms:MediaTypeOrExtent>
+    </dcterms:format>
+    <sp:resource>
+        <sp:Resource>
+            <sp:content>
+                <sp:Content>
+                   <sp:encoding>UTF-8</sp:encoding>
+                   <sp:value><![CDATA[malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo]]></sp:value>
+                </sp:Content>
+            </sp:content>
+        </sp:Resource>
+    </sp:resource>
+  </sp:ClinicalNote>
+</rdf:RDF>

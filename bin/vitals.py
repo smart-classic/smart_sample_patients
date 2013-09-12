@@ -34,7 +34,11 @@ also maintains complete VitalSigns lists by patient id"""
                       {'name': 'oxygen_saturation',
                         'uri': 'http://purl.bioontology.org/ontology/LNC/2710-2',
                         'unit': '%{HemoglobinSaturation}',
-                        'predicate': 'oxygenSaturation'}
+                        'predicate': 'oxygenSaturation'},
+                      {'name': 'head_circumference',
+                        'uri': 'http://purl.bioontology.org/ontology/LNC/8287-5',
+                        'unit': 'cm',
+                        'predicate': 'headCircumference'}
                         ]
 
     systolic, diastolic = [
