@@ -91,6 +91,3 @@ if __name__== '__main__':
     VitalSigns = VitalSigns.vitals[args.pid]
     for VitalSign in VitalSigns: 
       print VitalSign.asTabString()
-    
-
-     
