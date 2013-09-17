@@ -1,6 +1,5 @@
 import datetime
 from patient import Patient
-import rdflib
 from med import Med
 from problem import Problem
 from refill import Refill
@@ -9,15 +8,9 @@ from immunization import Immunization
 from vitals import VitalSigns
 import os
 import uuid
-import csv
-import json
-import pystache
-from lxml import etree
-import sys
 
 from jinja2 import Environment, FileSystemLoader
 template_env = Environment(loader=FileSystemLoader('fhir_templates'), autoescape=True)
-sp= rdflib.Namespace('http://smartplatforms.org/terms#')
 
 def uid():
     return str(uuid.uuid4())
