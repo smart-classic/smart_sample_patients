@@ -1,0 +1,53 @@
+{%- extends "entry.xml" %}
+{%- block content %}
+<MedicationDispense xmlns="http://hl7.org/fhir">
+  <!--  insert contents here  -->
+   <text>
+    <status value="generated"/>
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      Dispensed {{f.q}} tablets = {{f.days}} day supply of {{m.name}}
+    </div>
+  </text>  
+
+  <contained>
+    <Medication id="med">
+      <name value="{{m.name}}"/>
+      <code>
+	<coding>
+	  <system value="http://rxnav.nlm.nih.gov/REST/rxcui"/>
+	  <code value="{{m.rxn}}"/>
+	  <display value="{{m.name}}"/>
+	</coding>
+      </code>
+    </Medication>
+  </contained>
+
+  <patient>
+    <type value="Patient"/>
+    <reference value="cid:patient-{{pid}}"/>
+  </patient>
+
+  <authorizingPrescription>
+    <type value="MedicationPrescription"/>
+    <reference value="cid:{{medid}}"/>
+  </authorizingPrescription>
+
+  <dispense>
+    <status value="completed"/>  
+    <quantity>
+      <value value="{{f.q}}"/>
+      <units value="tablets"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="{tablets}"/>
+    </quantity>
+    <medication>
+      <type value="Medication"/>
+      <reference value="#med"/>
+    </medication>
+    <whenHandedOver>
+      <start value="{{f.date}}"/>
+      <end value="{{f.date}}"/>
+    </whenHandedOver>
+  </dispense>
+</MedicationDispense>
+{% endblock %}

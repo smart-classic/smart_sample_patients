@@ -1,45 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-{{#meds}}
+{%- extends "entry.xml" %}
+{%- block content %}
 <MedicationPrescription xmlns="http://hl7.org/fhir">
   <text>
     <status value="generated"/>
     <div xmlns="http://www.w3.org/1999/xhtml">
-	    {{drugname}} {{drugcode}}
+      {{m.name}} (rxnorm: {{m.rxn}})
     </div>
   </text>
+
+  <contained>
+    <Medication id="med">
+      <name value="{{m.name}}"/>
+      <code>
+	<coding>
+	  <system value="http://rxnav.nlm.nih.gov/REST/rxcui"/>
+	  <code value="{{m.rxn}}"/>
+	  <display value="{{m.name}}"/>
+	</coding>
+      </code>
+    </Medication>
+  </contained>
+
   <status value="active" />
   <patient>
     <type value="Patient"/>
-    <reference value="patient/@{{pid}}"/>
+    <reference value="cid:patient-{{pid}}"/>
   </patient>
 
   <medication>
     <type value="Medication"/>
-    <reference value="medication/@example"/>
+    <reference value="#med"/>
   </medication>
 
   <dosageInstruction>
     <timingSchedule>
+      <event>
+	<start value="{{m.start}}"/>
+	{%- if m.end is defined and m.end != "" %}
+	<end value="{{m.end}}"/>
+	{%endif%}
+      </event>
+      {%- if m.freqduration %}
       <repeat>
-      <frequency value="{{freq}}"/>
-        <duration value="1"/>
-	<units value="{{frequ}}"/>
+	<frequency value="{{m.freq}}"/>
+	<duration value="1"/>
+	<units value="{{m.freqduration}}"/>
       </repeat>
+      {% endif %}
     </timingSchedule>
-    <route>
-      <coding>
-        <system value="http://snomed.info/id"/>
-        <code value="363743006"/>
-        <display value="oral administration of treatment"/>
-      </coding>
-    </route>
+    {%- if m.qtt %}
     <doseQuantity>
-    <value value="{{quant}}"/>
-      <units value="{{quantu}}"/>
+      <value value="{{m.qtt}}"/>
+      <units value="{{m.qttunit}}"/>
       <system value="http://unitsofmeasure.org"/>
-      <code value="{{quantu}}"/>
+      <code value="{{m.qttunit}}"/>
     </doseQuantity>
+    {% endif %}
   </dosageInstruction>
-
 </MedicationPrescription>
-{{/meds}}
+{% endblock %}

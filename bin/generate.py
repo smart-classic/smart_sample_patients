@@ -1,6 +1,5 @@
 from rdflib import ConjunctiveGraph, Namespace, BNode, Literal, RDF, URIRef
 from testdata import PATIENTS_FILE
-import ontology_service 
 from patient import Patient
 from med import Med
 from problem import Problem

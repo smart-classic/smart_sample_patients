@@ -31,9 +31,13 @@ also maintains complete med lists by patient id"""
         self.days = m['DAYS']
         self.refills = m['REFILLS']
         self.qtt = m['Q_TO_TAKE_VALUE']
+        if(self.qtt != ""): self.qtt = int(float(self.qtt))
         self.qttunit = m['Q_TO_TAKE_UNIT']
         self.freq = m['FREQUENCY_VALUE'] 
         self.frequnit = m['FREQUENCY_UNIT']
+        assert self.frequnit == '' or self.frequnit.startswith('/')
+        if self.frequnit.startswith('/'):
+            self.freqduration = self.frequnit.split('/')[1]
 
         # Append med to the patient's med list:
         if self.pid in  self.__class__.meds:

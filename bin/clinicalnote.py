@@ -2,7 +2,6 @@ from testdata import NOTES_PATH
 import argparse
 import csv
 import os
-from common.rdf_tools.util import *
 
 class ClinicalNote: 
     """Create instances of ClinicalNote; also maintains notes by patient id"""

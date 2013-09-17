@@ -7,7 +7,6 @@ from refill import Refill
 from lab import Lab
 from immunization import Immunization
 from vitals import VitalSigns
-import ontology_service
 import os
 import uuid
 import csv
@@ -22,17 +21,6 @@ sp= rdflib.Namespace('http://smartplatforms.org/terms#')
 
 def uid():
     return str(uuid.uuid4())
-
-def coded_value(self, raw_uri):
-  """ Look up a URI in the ontology service. """
-  g = rdflib.Graph()
-  uri = rdflib.URIRef(raw_uri)
-  cv = ontology_service.coded_value(g, rdflib.URIRef(uri))
-  code = str(list(g.triples((uri, sp.code, None)))[0][2])
-  title = str(list(g.triples((uri, DCTERMS.title, None)))[0][2])
-  sep = "#" if "#" in str(uri) else "/"
-  sys, ident = str(uri).rsplit(sep, 1)
-  return {'title': str(title), 'code':str(code)}
 
 def getVital(v, vt):
   return {
@@ -123,6 +111,17 @@ class FHIRSamplePatient(object):
       for o in Lab.results[pid]:
         id = "lab-%s"%uid()
         print >>pfile, template.render(dict(globals(), **locals()))
+
+    medtemplate = template_env.get_template('medication.xml')
+    dispensetemplate = template_env.get_template('medication_dispense.xml')
+    if self.pid in Med.meds:  
+      for m in Med.meds[pid]:
+        medid = id = "med-%s"%uid()
+        print >>pfile, medtemplate.render(dict(globals(), **locals()))
+
+        for f in Refill.refill_list(m.pid, m.rxn):
+          id = "dispense-%s"%uid()
+          print >>pfile, dispensetemplate.render(dict(globals(), **locals()))
 
     template = template_env.get_template('condition.xml')
     if self.pid in Problem.problems:  
