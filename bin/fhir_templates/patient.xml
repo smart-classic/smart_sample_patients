@@ -14,7 +14,7 @@
       <use value="usual"/>
       <label value="SMART Hospiptal MRN"/>
       <system value="urn:oid:0.1.2.3.4.5.6.7"/>
-      <key value="{{p.pid}}"/>
+      <value value="{{p.pid}}"/>
     </identifier>
 
     <name>

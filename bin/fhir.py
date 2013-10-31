@@ -12,8 +12,11 @@ import uuid
 from jinja2 import Environment, FileSystemLoader
 template_env = Environment(loader=FileSystemLoader('fhir_templates'), autoescape=True)
 
+base=0
 def uid():
-    return str(uuid.uuid4())
+    global base
+    base += 1
+    return str(base)
 
 def getVital(v, vt):
   return {

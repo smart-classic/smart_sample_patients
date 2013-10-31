@@ -23,12 +23,10 @@
 
   <status value="active" />
   <patient>
-    <type value="Patient"/>
     <reference value="cid:patient-{{pid}}"/>
   </patient>
 
   <medication>
-    <type value="Medication"/>
     <reference value="#med"/>
   </medication>
 

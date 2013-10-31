@@ -25,7 +25,6 @@
     <appliesDateTime value="{{o.date}}"/>
     <status value="final"/>
     <subject>
-      <type value="Patient"/>
       <reference value="cid:patient-{{pid}}"/>
     </subject>
     {%- if o.low is defined and o.high is defined %}
@@ -52,7 +51,7 @@
     {%- if o.id is defined %}
     <identifier>
       <system value="urn:smart-accession-number"/>
-      <key value="{{o.acc_num}}"/>
+      <value value="{{o.acc_num}}"/>
     </identifier>
     {% endif %}
   </Observation>

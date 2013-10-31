@@ -23,12 +23,10 @@
   </contained>
 
   <patient>
-    <type value="Patient"/>
     <reference value="cid:patient-{{pid}}"/>
   </patient>
 
   <authorizingPrescription>
-    <type value="MedicationPrescription"/>
     <reference value="cid:{{medid}}"/>
   </authorizingPrescription>
 
@@ -41,7 +39,6 @@
       <code value="{tablets}"/>
     </quantity>
     <medication>
-      <type value="Medication"/>
       <reference value="#med"/>
     </medication>
     <whenHandedOver>

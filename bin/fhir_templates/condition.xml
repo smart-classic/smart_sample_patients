@@ -6,7 +6,6 @@
      <div xmlns="http://www.w3.org/1999/xhtml">{{c.name}}</div>   
    </text>
     <subject>
-      <type value="Patient"/>
       <reference value="cid:patient-{{pid}}"/>
     </subject>
     <code> 

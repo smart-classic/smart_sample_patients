@@ -17,7 +17,6 @@
     <status value="final"/>
 
     <subject>
-      <type value="Patient"/>
       <reference value="cid:patient-{{pid}}"/>
     </subject>
     <component>
