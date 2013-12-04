@@ -622,6 +622,94 @@ docs = """
           </sp:CodedValue>
       </sp:documentType>
     </sp:Document>
+    <sp:ImagingStudy>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+      <dcterms:date>2013-05-26T04:00:00Z</dcterms:date>
+      <sp:accessionNumber>87654321</sp:accessionNumber>
+      <sp:modality>
+          <sp:CodedValue>
+            <dcterms:title>An MRI study of the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MRI">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>An MRI study of the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
+                <dcterms:identifier>MRI</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:modality>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1003"/>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1004"/>
+                <rdf:rest rdf:parseType="Resource">
+                    <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1005"/>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:rest>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1011"/>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1012"/>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+    </sp:ImagingStudy>
+    <sp:ImagingStudy>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <dcterms:title>Chest CT scan to study bone structure</dcterms:title>
+      <dcterms:date>2013-05-27T02:30:00Z</dcterms:date>
+      <sp:accessionNumber>98765432</sp:accessionNumber>
+      <sp:modality>
+          <sp:CodedValue>
+            <dcterms:title>A CT study of the patient</dcterms:title>
+            <sp:code>
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#CT">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>A CT study of the patient</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
+                <dcterms:identifier>CT</dcterms:identifier>
+              </spcode:DocumentType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:modality>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1023"/>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1024"/>
+                <rdf:rest rdf:parseType="Resource">
+                    <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1025"/>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:rest>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1021"/>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1022"/>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+    </sp:ImagingStudy>
     <!--
     <sp:MedicalImage>
       <sp:belongsTo rdf:nodeID="patient"/>
