@@ -629,13 +629,13 @@ docs = """
       <sp:accessionNumber>87654321</sp:accessionNumber>
       <sp:modality>
           <sp:CodedValue>
-            <dcterms:title>An MRI study of the patient</dcterms:title>
+            <dcterms:title>Magnetic Resonance</dcterms:title>
             <sp:code>
-              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MRI">
+              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MR">
                 <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
-                <dcterms:title>An MRI study of the patient</dcterms:title>
+                <dcterms:title>Magnetic Resonance</dcterms:title>
                 <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
-                <dcterms:identifier>MRI</dcterms:identifier>
+                <dcterms:identifier>MR</dcterms:identifier>
               </spcode:DocumentType>
             </sp:code>
           </sp:CodedValue>
@@ -666,18 +666,18 @@ docs = """
       	</sp:Series>
       </sp:series>
     </sp:ImagingStudy>
-    <sp:ImagingStudy>
+    <sp:ImagingStudy rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456">
       <sp:belongsTo rdf:nodeID="patient"/>
       <dcterms:title>Chest CT scan to study bone structure</dcterms:title>
       <dcterms:date>2013-05-27T02:30:00Z</dcterms:date>
       <sp:accessionNumber>98765432</sp:accessionNumber>
       <sp:modality>
           <sp:CodedValue>
-            <dcterms:title>A CT study of the patient</dcterms:title>
+            <dcterms:title>Computed Tomography</dcterms:title>
             <sp:code>
               <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#CT">
                 <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
-                <dcterms:title>A CT study of the patient</dcterms:title>
+                <dcterms:title>Computed Tomography</dcterms:title>
                 <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
                 <dcterms:identifier>CT</dcterms:identifier>
               </spcode:DocumentType>
@@ -686,6 +686,7 @@ docs = """
       </sp:modality>
       <sp:series>
       	<sp:Series>
+          <dcterms:title>Upper chest area</dcterms:title>
           <sp:images rdf:parseType="Resource">
             <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1023"/>
             <rdf:rest rdf:parseType="Resource">
@@ -700,6 +701,7 @@ docs = """
       </sp:series>
       <sp:series>
       	<sp:Series>
+          <dcterms:title>Lower chest area</dcterms:title>
           <sp:images rdf:parseType="Resource">
             <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1021"/>
             <rdf:rest rdf:parseType="Resource">
@@ -710,29 +712,33 @@ docs = """
       	</sp:Series>
       </sp:series>
     </sp:ImagingStudy>
-    <!--
-    <sp:MedicalImage>
+    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1021">
       <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Heart CT Scan</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:00.6848</dcterms:date>
+      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
+      <sp:fileName>IM-0002-1021.dcm</sp:fileName>
+      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+      <dcterms:date>2004-09-30T12:14:00.6848Z</dcterms:date>
+      <sp:dicomStudyUID>53722</sp:dicomStudyUID>
+      <sp:dicomSeriesUID>748225</sp:dicomSeriesUID>
+      <sp:dicomImageUID>60937345</sp:dicomImageUID>
       <dcterms:format>
         <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
             <rdfs:label>application/dicom</rdfs:label>
         </dcterms:MediaTypeOrExtent>
       </dcterms:format>
-      <sp:provider>
-        <sp:Provider>
-          <v:n>
-            <v:Name>
-             <v:given-name>John</v:given-name>
-             <v:family-name>Smith</v:family-name>
-            </v:Name>
-          </v:n>
-        </sp:Provider>
-      </sp:provider>
-      <sp:modality>CT</sp:modality>
-    </sp:MedicalImage>-->
+    </sp:MedicalImage>
+    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1022">
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
+      <sp:fileName>IM-0002-1022.dcm</sp:fileName>
+      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+      <dcterms:date>2004-09-30T12:14:01.3421Z</dcterms:date>
+      <dcterms:format>
+        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+            <rdfs:label>application/dicom</rdfs:label>
+        </dcterms:MediaTypeOrExtent>
+      </dcterms:format>
+    </sp:MedicalImage>
     <sp:Photograph>
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>photo831.jpg</sp:fileName>
