@@ -622,7 +622,7 @@ docs = """
           </sp:CodedValue>
       </sp:documentType>
     </sp:Document>
-    <sp:ImagingStudy rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455">
+    <sp:ImagingStudy>
       <sp:belongsTo rdf:nodeID="patient"/>
       <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
       <dcterms:date>2013-05-26T04:00:00Z</dcterms:date>
@@ -643,11 +643,50 @@ docs = """
       <sp:series>
       	<sp:Series>
           <sp:images rdf:parseType="Resource">
-            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1003"/>
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:nodeID="patient" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                  <dcterms:date>2006-05-24T12:14:01.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
             <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1004"/>
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                      <dcterms:date>2006-05-24T12:14:02.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
                 <rdf:rest rdf:parseType="Resource">
-                    <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1005"/>
+                    <rdf:first>
+                        <sp:MedicalImage>
+                          <sp:belongsTo rdf:nodeID="patient"/>
+                          <sp:imagingStudy rdf:nodeID="patient" />
+                          <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                          <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                          <dcterms:date>2006-05-24T12:14:03.3421Z</dcterms:date>
+                          <dcterms:format>
+                            <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                                <rdfs:label>application/dicom</rdfs:label>
+                            </dcterms:MediaTypeOrExtent>
+                          </dcterms:format>
+                        </sp:MedicalImage>
+                    </rdf:first>
                     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                 </rdf:rest>
             </rdf:rest>
@@ -657,16 +696,42 @@ docs = """
       <sp:series>
       	<sp:Series>
           <sp:images rdf:parseType="Resource">
-            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1011"/>
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                  <dcterms:date>2006-05-24T12:14:041.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
             <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1012"/>
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                      <dcterms:date>2006-05-24T12:14:05.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:rest>
           </sp:images>
       	</sp:Series>
       </sp:series>
     </sp:ImagingStudy>
-    <sp:ImagingStudy rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456">
+    <sp:ImagingStudy>
       <sp:belongsTo rdf:nodeID="patient"/>
       <dcterms:title>Chest CT scan to study bone structure</dcterms:title>
       <dcterms:date>2013-05-27T02:30:00Z</dcterms:date>
@@ -688,11 +753,50 @@ docs = """
       	<sp:Series>
           <dcterms:title>Upper chest area</dcterms:title>
           <sp:images rdf:parseType="Resource">
-            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1023"/>
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                  <dcterms:date>2004-09-30T12:14:02.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
             <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1024"/>
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                      <dcterms:date>2004-09-30T12:14:03.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
                 <rdf:rest rdf:parseType="Resource">
-                    <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1025"/>
+                    <rdf:first>
+                        <sp:MedicalImage>
+                          <sp:belongsTo rdf:nodeID="patient"/>
+                          <sp:imagingStudy rdf:nodeID="patient" />
+                          <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                          <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                          <dcterms:date>2004-09-30T12:14:04.3421Z</dcterms:date>
+                          <dcterms:format>
+                            <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                                <rdfs:label>application/dicom</rdfs:label>
+                            </dcterms:MediaTypeOrExtent>
+                          </dcterms:format>
+                        </sp:MedicalImage>
+                    </rdf:first>
                     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                 </rdf:rest>
             </rdf:rest>
@@ -703,138 +807,44 @@ docs = """
       	<sp:Series>
           <dcterms:title>Lower chest area</dcterms:title>
           <sp:images rdf:parseType="Resource">
-            <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1021"/>
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:nodeID="patient" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                  <dcterms:date>2004-09-30T12:14:00.6848Z</dcterms:date>
+                  <sp:dicomStudyUID>53722</sp:dicomStudyUID>
+                  <sp:dicomSeriesUID>748225</sp:dicomSeriesUID>
+                  <sp:dicomImageUID>60937345</sp:dicomImageUID>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
             <rdf:rest rdf:parseType="Resource">
-                <rdf:first rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1022"/>
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                      <dcterms:date>2004-09-30T12:14:01.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:rest>
           </sp:images>
       	</sp:Series>
       </sp:series>
-    </sp:ImagingStudy>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1021">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:00.6848Z</dcterms:date>
-      <sp:dicomStudyUID>53722</sp:dicomStudyUID>
-      <sp:dicomSeriesUID>748225</sp:dicomSeriesUID>
-      <sp:dicomImageUID>60937345</sp:dicomImageUID>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1022">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:01.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1023">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:02.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1024">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:03.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-        <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1025">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:04.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1003">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
-      <dcterms:date>2006-05-24T12:14:01.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1004">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
-      <dcterms:date>2006-05-24T12:14:02.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1005">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
-      <dcterms:date>2006-05-24T12:14:03.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1011">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
-      <dcterms:date>2006-05-24T12:14:041.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
-    <sp:MedicalImage rdf:about="http://sandbox-api.smartplatforms.org/records/99912345/medical_images/1012">
-      <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
-      <dcterms:date>2006-05-24T12:14:05.3421Z</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-    </sp:MedicalImage>
+    </sp:ImagingStudy>    
     <sp:Photograph>
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>photo831.jpg</sp:fileName>
