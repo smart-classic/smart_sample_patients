@@ -28,11 +28,15 @@
       <reference value="cid:patient-{{pid}}"/>
     </subject>
     {%- if o.low is defined and o.high is defined %}
+
     <referenceRange>
       <meaning>
-        <text value="Normal Range"/>
+        <coding>
+         <system value="http://hl7.org/fhir/referencerange-meaning"/>
+         <code value="normal"/>
+         <display value="Normal Range"/>
+       </coding>
       </meaning>
-      <rangeRange>
         <low>
           <value value="{{o.low | float(0)}}"/>
           <units value="{{o.units}}"/>
@@ -45,7 +49,6 @@
           <code value="{{o.units}}"/>
           <system value="http://unitsofmeasure.org"/>
         </high>
-      </rangeRange>
     </referenceRange>
     {% endif %}
     {%- if o.id is defined %}

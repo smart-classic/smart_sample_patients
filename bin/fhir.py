@@ -93,9 +93,36 @@ class FHIRSamplePatient(object):
               bps.append(bp)
           except: pass
 
-    template = template_env.get_template('blood_pressure.xml')
     for bp in bps:
-        id = "bp-%s"%uid()
+        systolicid = "bp-%s-systolic"%uid()
+        diastolicid = "bp-%s-diastolic"%uid()
+        id = "bp-%s-list"%uid()
+        bplistid = id
+        template = template_env.get_template('blood_pressure.xml')
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+        id = systolicid
+        o = {
+                "date": bp['date'],
+                "code": "8480-6",
+                "name": "Systolic blood pressure",
+                "scale": "Qn",
+                "value": bp['systolic'],
+                "units": "mm[Hg]"
+        }
+        template = template_env.get_template('observation.xml')
+        print >>pfile, template.render(dict(globals(), **locals()))
+
+        id = diastolicid
+        o = {
+                "date": bp['date'],
+                "code": "8462-4",
+                "name": "Diastolic blood pressure",
+                "scale": "Qn",
+                "value": bp['diastolic'],
+                "units": "mm[Hg]"
+        }
+        template = template_env.get_template('observation.xml')
         print >>pfile, template.render(dict(globals(), **locals()))
 
     template = template_env.get_template('observation.xml')
