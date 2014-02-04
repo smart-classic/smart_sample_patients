@@ -631,12 +631,12 @@ docs = """
           <sp:CodedValue>
             <dcterms:title>Magnetic Resonance</dcterms:title>
             <sp:code>
-              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MR">
+              <spcode:ModalityType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MR">
                 <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
                 <dcterms:title>Magnetic Resonance</dcterms:title>
                 <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
                 <dcterms:identifier>MR</dcterms:identifier>
-              </spcode:DocumentType>
+              </spcode:ModalityType>
             </sp:code>
           </sp:CodedValue>
       </sp:modality>
@@ -740,12 +740,12 @@ docs = """
           <sp:CodedValue>
             <dcterms:title>Computed Tomography</dcterms:title>
             <sp:code>
-              <spcode:DocumentType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#CT">
+              <spcode:ModalityType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#CT">
                 <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
                 <dcterms:title>Computed Tomography</dcterms:title>
                 <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
                 <dcterms:identifier>CT</dcterms:identifier>
-              </spcode:DocumentType>
+              </spcode:ModalityType>
             </sp:code>
           </sp:CodedValue>
       </sp:modality>
