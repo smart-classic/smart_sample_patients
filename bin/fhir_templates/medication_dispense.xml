@@ -41,10 +41,7 @@
     <medication>
       <reference value="#med"/>
     </medication>
-    <whenHandedOver>
-      <start value="{{f.date}}"/>
-      <end value="{{f.date}}"/>
-    </whenHandedOver>
+    <whenHandedOver value="{{f.date}}"/>
   </dispense>
 </MedicationDispense>
 {% endblock %}
