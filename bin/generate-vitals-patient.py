@@ -1,3 +1,4 @@
+import argparse
 import random
 
 f = """male,2,0.88,90,42
@@ -1182,29 +1183,42 @@ $bp
             h=h, bp=bp)
 
 
-codes = []
-a = []
-for p in range(50):
-  t = random.uniform(stats[0][0], stats[-1][0])
-  r,t1,t2 = interpolate(t)
-  v = fuzz(r,t1,t2)
-  a.append(v)
+if __name__=='__main__':
 
-print header
-a.sort(key=lambda x: x[0])
-for l in a:
-  include_height=(random.random()<0.2)
-  include_bp=not include_height
-  print tordf(l, include_height, include_bp)
-print codesToRDF (codes)
-print vitals_codes
-print medications
-print problems
-print procedures
-print immunizations
-print allergies
-print labs
-print extravitals
-print docs
-print notes
-print footer
+    parser = argparse.ArgumentParser(description='Vitals Patient Generator')
+    parser.add_argument('filename', help='file in which to write the sample patient')
+    args = parser.parse_args()
+
+    codes = []
+    a = []
+    output = ""
+    for p in range(50):
+      t = random.uniform(stats[0][0], stats[-1][0])
+      r,t1,t2 = interpolate(t)
+      v = fuzz(r,t1,t2)
+      a.append(v)
+
+    output += header
+    a.sort(key=lambda x: x[0])
+    for l in a:
+      include_height=(random.random()<0.2)
+      include_bp=not include_height
+      output += tordf(l, include_height, include_bp)
+    output += codesToRDF (codes)
+    output += vitals_codes
+    output += medications
+    output += problems
+    output += procedures
+    output += immunizations
+    output += allergies
+    output += labs
+    output += extravitals
+    output += docs
+    output += notes
+    output += footer
+    
+    file = open(args.filename, "w")
+    file.write(output)
+    file.close()
+    
+    print 'Vitals patient written to "%s"' % args.filename
