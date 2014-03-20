@@ -1,3 +1,4 @@
+import argparse
 import random
 
 f = """male,2,0.88,90,42
@@ -622,29 +623,229 @@ docs = """
           </sp:CodedValue>
       </sp:documentType>
     </sp:Document>
-    <!--
-    <sp:MedicalImage>
+    <sp:ImagingStudy>
       <sp:belongsTo rdf:nodeID="patient"/>
-      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
-      <dcterms:title>Heart CT Scan</dcterms:title>
-      <dcterms:date>2004-09-30T12:14:00.6848</dcterms:date>
-      <dcterms:format>
-        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
-            <rdfs:label>application/dicom</rdfs:label>
-        </dcterms:MediaTypeOrExtent>
-      </dcterms:format>
-      <sp:provider>
-        <sp:Provider>
-          <v:n>
-            <v:Name>
-             <v:given-name>John</v:given-name>
-             <v:family-name>Smith</v:family-name>
-            </v:Name>
-          </v:n>
-        </sp:Provider>
-      </sp:provider>
-      <sp:modality>CT</sp:modality>
-    </sp:MedicalImage>-->
+      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+      <dcterms:date>2013-05-26T04:00:00Z</dcterms:date>
+      <sp:accessionNumber>87654321</sp:accessionNumber>
+      <sp:modality>
+          <sp:CodedValue>
+            <dcterms:title>Magnetic Resonance</dcterms:title>
+            <sp:code>
+              <spcode:ModalityType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#MR">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>Magnetic Resonance</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
+                <dcterms:identifier>MR</dcterms:identifier>
+              </spcode:ModalityType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:modality>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:nodeID="patient" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                  <dcterms:date>2006-05-24T12:14:01.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                      <dcterms:date>2006-05-24T12:14:02.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
+                <rdf:rest rdf:parseType="Resource">
+                    <rdf:first>
+                        <sp:MedicalImage>
+                          <sp:belongsTo rdf:nodeID="patient"/>
+                          <sp:imagingStudy rdf:nodeID="patient" />
+                          <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                          <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                          <dcterms:date>2006-05-24T12:14:03.3421Z</dcterms:date>
+                          <dcterms:format>
+                            <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                                <rdfs:label>application/dicom</rdfs:label>
+                            </dcterms:MediaTypeOrExtent>
+                          </dcterms:format>
+                        </sp:MedicalImage>
+                    </rdf:first>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:rest>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+      <sp:series>
+      	<sp:Series>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                  <dcterms:date>2006-05-24T12:14:041.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/455" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Knee MRI showing tissue damage</dcterms:title>
+                      <dcterms:date>2006-05-24T12:14:05.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+    </sp:ImagingStudy>
+    <sp:ImagingStudy>
+      <sp:belongsTo rdf:nodeID="patient"/>
+      <dcterms:title>Chest CT scan to study bone structure</dcterms:title>
+      <dcterms:date>2013-05-27T02:30:00Z</dcterms:date>
+      <sp:accessionNumber>98765432</sp:accessionNumber>
+      <sp:modality>
+          <sp:CodedValue>
+            <dcterms:title>Computed Tomography</dcterms:title>
+            <sp:code>
+              <spcode:ModalityType rdf:about="http://smartplatforms.org/terms/codes/ModalityType#CT">
+                <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" />
+                <dcterms:title>Computed Tomography</dcterms:title>
+                <sp:system>http://smartplatforms.org/terms/codes/ModalityType#</sp:system>
+                <dcterms:identifier>CT</dcterms:identifier>
+              </spcode:ModalityType>
+            </sp:code>
+          </sp:CodedValue>
+      </sp:modality>
+      <sp:series>
+      	<sp:Series>
+          <dcterms:title>Upper chest area</dcterms:title>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:resource="http://sandbox-api.smartplatforms.org/records/99912345/imaging_studies/456" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                  <dcterms:date>2004-09-30T12:14:02.3421Z</dcterms:date>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                      <dcterms:date>2004-09-30T12:14:03.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
+                <rdf:rest rdf:parseType="Resource">
+                    <rdf:first>
+                        <sp:MedicalImage>
+                          <sp:belongsTo rdf:nodeID="patient"/>
+                          <sp:imagingStudy rdf:nodeID="patient" />
+                          <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                          <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                          <dcterms:date>2004-09-30T12:14:04.3421Z</dcterms:date>
+                          <dcterms:format>
+                            <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                                <rdfs:label>application/dicom</rdfs:label>
+                            </dcterms:MediaTypeOrExtent>
+                          </dcterms:format>
+                        </sp:MedicalImage>
+                    </rdf:first>
+                    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:rest>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+      <sp:series>
+      	<sp:Series>
+          <dcterms:title>Lower chest area</dcterms:title>
+          <sp:images rdf:parseType="Resource">
+            <rdf:first>
+                <sp:MedicalImage>
+                  <sp:belongsTo rdf:nodeID="patient"/>
+                  <sp:imagingStudy rdf:nodeID="patient" />
+                  <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                  <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                  <dcterms:date>2004-09-30T12:14:00.6848Z</dcterms:date>
+                  <sp:dicomStudyUID>53722</sp:dicomStudyUID>
+                  <sp:dicomSeriesUID>748225</sp:dicomSeriesUID>
+                  <sp:dicomImageUID>60937345</sp:dicomImageUID>
+                  <dcterms:format>
+                    <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                        <rdfs:label>application/dicom</rdfs:label>
+                    </dcterms:MediaTypeOrExtent>
+                  </dcterms:format>
+                </sp:MedicalImage>
+            </rdf:first>
+            <rdf:rest rdf:parseType="Resource">
+                <rdf:first>
+                    <sp:MedicalImage>
+                      <sp:belongsTo rdf:nodeID="patient"/>
+                      <sp:imagingStudy rdf:nodeID="patient" />
+                      <sp:fileName>IM-0002-0001.dcm</sp:fileName>
+                      <dcterms:title>Image from chest CT scan to study bone structure</dcterms:title>
+                      <dcterms:date>2004-09-30T12:14:01.3421Z</dcterms:date>
+                      <dcterms:format>
+                        <dcterms:MediaTypeOrExtent rdf:about="http://purl.org/NET/mediatypes/application/dicom">
+                            <rdfs:label>application/dicom</rdfs:label>
+                        </dcterms:MediaTypeOrExtent>
+                      </dcterms:format>
+                    </sp:MedicalImage>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:rest>
+          </sp:images>
+      	</sp:Series>
+      </sp:series>
+    </sp:ImagingStudy>    
     <sp:Photograph>
       <sp:belongsTo rdf:nodeID="patient"/>
       <sp:fileName>photo831.jpg</sp:fileName>
@@ -982,29 +1183,42 @@ $bp
             h=h, bp=bp)
 
 
-codes = []
-a = []
-for p in range(50):
-  t = random.uniform(stats[0][0], stats[-1][0])
-  r,t1,t2 = interpolate(t)
-  v = fuzz(r,t1,t2)
-  a.append(v)
+if __name__=='__main__':
 
-print header
-a.sort(key=lambda x: x[0])
-for l in a:
-  include_height=(random.random()<0.2)
-  include_bp=not include_height
-  print tordf(l, include_height, include_bp)
-print codesToRDF (codes)
-print vitals_codes
-print medications
-print problems
-print procedures
-print immunizations
-print allergies
-print labs
-print extravitals
-print docs
-print notes
-print footer
+    parser = argparse.ArgumentParser(description='Vitals Patient Generator')
+    parser.add_argument('filename', help='file in which to write the sample patient')
+    args = parser.parse_args()
+
+    codes = []
+    a = []
+    output = ""
+    for p in range(50):
+      t = random.uniform(stats[0][0], stats[-1][0])
+      r,t1,t2 = interpolate(t)
+      v = fuzz(r,t1,t2)
+      a.append(v)
+
+    output += header
+    a.sort(key=lambda x: x[0])
+    for l in a:
+      include_height=(random.random()<0.2)
+      include_bp=not include_height
+      output += tordf(l, include_height, include_bp)
+    output += codesToRDF (codes)
+    output += vitals_codes
+    output += medications
+    output += problems
+    output += procedures
+    output += immunizations
+    output += allergies
+    output += labs
+    output += extravitals
+    output += docs
+    output += notes
+    output += footer
+    
+    file = open(args.filename, "w")
+    file.write(output)
+    file.close()
+    
+    print 'Vitals patient written to "%s"' % args.filename

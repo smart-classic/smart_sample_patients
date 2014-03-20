@@ -1,0 +1,1270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:v='http://www.w3.org/2006/vcard/ns#' xmlns:foaf='http://xmlns.com/foaf/0.1/' xmlns:sp='http://smartplatforms.org/terms#' xmlns:spcode="http://smartplatforms.org/terms/codes/" xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:dcterms='http://purl.org/dc/terms/'>
+	<sp:Demographics>
+		<v:n>
+			<v:Name>
+				<v:given-name>Aaron</v:given-name>
+				<v:family-name>Alexis</v:family-name>
+			</v:Name>
+		</v:n>
+		<v:adr>
+			<v:Address>
+				<v:postal-code>02155</v:postal-code>
+			</v:Address>
+		</v:adr>
+		<foaf:gender>male</foaf:gender>
+		<v:bday>1989-10-26</v:bday>
+		<sp:medicalRecordNumber>
+			<sp:Code>
+				<dcterms:title>TEST 85982</dcterms:title>
+				<dcterms:identifier>85982</dcterms:identifier>
+				<sp:system>TEST</sp:system>
+			</sp:Code>
+		</sp:medicalRecordNumber>
+	</sp:Demographics>
+		<sp:VitalSignSet>
+		<dcterms:date>2007-07-18T12:49:00.000+01:00</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p14072238'>
+				<sp:startDate>2007-07-18T12:49:00.000+01:00</sp:startDate>
+				<sp:endDate>2007-07-19T04:59:59.000+01:00</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>90.2</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>80</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>116</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>64</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2007-04-18T13:32:00.000+01:00</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p12683878'>
+				<sp:startDate>2007-04-18T13:32:00.000+01:00</sp:startDate>
+				<sp:endDate>2007-04-19T04:59:59.000+01:00</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>87</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197.5</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>60</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>62</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>121</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2010-12-22T17:23:00.000Z</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p30909632'>
+				<sp:startDate>2010-12-22T17:23:00.000Z</sp:startDate>
+				<sp:endDate>2010-12-23T04:59:59.000Z</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>92.3</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2010-12-22T17:23:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p30909632'/>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>92.3</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>52</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>59</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>123</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/33586001'/>
+						<dcterms:title>sitting</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-06-10T12:39:00.000+01:00</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p19660926'>
+				<sp:startDate>2009-06-10T12:39:00.000+01:00</sp:startDate>
+				<sp:endDate>2009-06-11T04:59:59.000+01:00</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>198</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>94.7</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-06-10T12:39:00.000+01:00</dcterms:date>
+		<sp:encounter rdf:nodeID='p19660926'/>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>68</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>137</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-06-10T12:39:00.000+01:00</dcterms:date>
+		<sp:encounter rdf:nodeID='p19660926'/>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>168</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>86</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/61396006'/>
+						<dcterms:title>left thigh</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p24615018'>
+				<sp:startDate>2009-12-23T12:54:00.000Z</sp:startDate>
+				<sp:endDate>2009-12-24T04:59:59.000Z</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>50</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>66</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>122</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368208006'/>
+						<dcterms:title>left arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>50</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>121</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>65</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>49</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>60</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>119</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>53</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>121</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>57</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>48</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>71</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>131</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>52</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>123</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>58</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2009-12-23T12:54:00.000Z</dcterms:date>
+		<sp:encounter rdf:nodeID='p24615018'/>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>92.2</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197.5</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2006-12-27T15:53:00.000Z</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p11127093'>
+				<sp:startDate>2006-12-27T15:53:00.000Z</sp:startDate>
+				<sp:endDate>2006-12-28T04:59:59.000Z</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>198</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>86</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>54</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2008-01-16T13:03:00.000Z</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p15218121'>
+				<sp:startDate>2008-01-16T13:03:00.000Z</sp:startDate>
+				<sp:endDate>2008-01-17T04:59:59.000Z</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197.5</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>89.4</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>47</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>120</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>58</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368209003'/>
+						<dcterms:title>right arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/40199007'/>
+						<dcterms:title>supine</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2008-06-25T15:45:00.000+01:00</dcterms:date>
+		<sp:encounter>
+			<sp:Encounter rdf:nodeID='p19555499'>
+				<sp:startDate>2008-06-25T15:45:00.000+01:00</sp:startDate>
+				<sp:endDate>2008-06-26T04:59:59.000+01:00</sp:endDate>
+				<sp:encounterType>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/EncounterType#ambulatory'/>
+						<dcterms:title>ambulatory encounter</dcterms:title>
+					</sp:CodedValue>
+				</sp:encounterType>
+			</sp:Encounter>
+		</sp:encounter>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>47</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2008-06-25T15:45:00.000+01:00</dcterms:date>
+		<sp:encounter rdf:nodeID='p19555499'/>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>121</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>73</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368208006'/>
+						<dcterms:title>left arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/33586001'/>
+						<dcterms:title>sitting</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2008-06-25T15:45:00.000+01:00</dcterms:date>
+		<sp:encounter rdf:nodeID='p19555499'/>
+		<sp:weight>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/3141-9'/>
+						<dcterms:title>body weight</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>90.2</sp:value>
+				<sp:unit>kg</sp:unit>
+			</sp:VitalSign>
+		</sp:weight>
+		<sp:height>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8302-2'/>
+						<dcterms:title>body height</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>197.5</sp:value>
+				<sp:unit>cm</sp:unit>
+			</sp:VitalSign>
+		</sp:height>
+	</sp:VitalSignSet>
+	<sp:VitalSignSet>
+		<dcterms:date>2008-06-25T15:45:00.000+01:00</dcterms:date>
+		<sp:encounter rdf:nodeID='p19555499'/>
+		<sp:heartRate>
+			<sp:VitalSign>
+				<sp:vitalName>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8867-4'/>
+						<dcterms:title>heart rate</dcterms:title>
+					</sp:CodedValue>
+				</sp:vitalName>
+				<sp:value>50</sp:value>
+				<sp:unit>{beats}/min</sp:unit>
+			</sp:VitalSign>
+		</sp:heartRate>
+		<sp:bloodPressure>
+			<sp:BloodPressure>
+				<sp:systolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8480-6'/>
+								<dcterms:title>intravascular systolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>119</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:systolic>
+				<sp:diastolic>
+					<sp:VitalSign>
+						<sp:vitalName>
+							<sp:CodedValue>
+								<sp:code rdf:resource='http://purl.bioontology.org/ontology/LNC/8462-4'/>
+								<dcterms:title>intravascular diastolic</dcterms:title>
+							</sp:CodedValue>
+						</sp:vitalName>
+						<sp:value>70</sp:value>
+						<sp:unit>mm[Hg]</sp:unit>
+					</sp:VitalSign>
+				</sp:diastolic>
+				<sp:bodyPosition>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/33586001'/>
+						<dcterms:title>sitting</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodyPosition>
+				<sp:method>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://smartplatforms.org/terms/codes/BloodPressureMethod#machine'/>
+						<dcterms:title>machine</dcterms:title>
+					</sp:CodedValue>
+				</sp:method>
+				<sp:bodySite>
+					<sp:CodedValue>
+						<sp:code rdf:resource='http://purl.bioontology.org/ontology/SNOMEDCT/368208006'/>
+						<dcterms:title>left arm</dcterms:title>
+					</sp:CodedValue>
+				</sp:bodySite>
+			</sp:BloodPressure>
+		</sp:bloodPressure>
+	</sp:VitalSignSet>
+  
+  <spcode:BloodPressureBodyPosition rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/33586001">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>sitting</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+    <dcterms:identifier>33586001</dcterms:identifier> 
+  </spcode:BloodPressureBodyPosition>
+  
+  <spcode:BloodPressureBodyPosition rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/40199007">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>supine</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+    <dcterms:identifier>40199007</dcterms:identifier> 
+  </spcode:BloodPressureBodyPosition>
+
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8462-4">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>intravascular diastolic</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+    <dcterms:identifier>8462-4</dcterms:identifier> 
+  </spcode:VitalSign>
+
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8480-6">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>intravascular systolic</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+    <dcterms:identifier>8480-6</dcterms:identifier> 
+  </spcode:VitalSign>
+
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8302-2">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>body height</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+    <dcterms:identifier>8302-2</dcterms:identifier> 
+  </spcode:VitalSign>
+  
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/8867-4">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>heart rate</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+    <dcterms:identifier>8867-4</dcterms:identifier> 
+  </spcode:VitalSign>
+  
+  <spcode:VitalSign rdf:about="http://purl.bioontology.org/ontology/LNC/3141-9">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>body weight</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/LNC/</sp:system>
+    <dcterms:identifier>3141-9</dcterms:identifier> 
+  </spcode:VitalSign>
+  
+  <spcode:BloodPressureMethod rdf:about="http://smartplatforms.org/terms/codes/BloodPressureMethod#machine">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>machine</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/BloodPressureMethod#</sp:system>
+    <dcterms:identifier>machine</dcterms:identifier> 
+  </spcode:BloodPressureMethod>
+
+  <spcode:BloodPressureBodySite rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/368209003">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>right arm</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+    <dcterms:identifier>368209003</dcterms:identifier> 
+  </spcode:BloodPressureBodySite>
+  
+  <spcode:BloodPressureBodySite rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/61396006">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>left thigh</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+    <dcterms:identifier>61396006</dcterms:identifier> 
+  </spcode:BloodPressureBodySite>
+  
+  <spcode:BloodPressureBodySite rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/368208006">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>left arm</dcterms:title>
+    <sp:system>http://purl.bioontology.org/ontology/SNOMEDCT/</sp:system>
+    <dcterms:identifier>368208006</dcterms:identifier> 
+  </spcode:BloodPressureBodySite>
+  
+  <spcode:EncounterType rdf:about="http://smartplatforms.org/terms/codes/EncounterType#ambulatory">
+    <rdf:type rdf:resource="http://smartplatforms.org/terms#Code" /> 
+    <dcterms:title>ambulatory encounter</dcterms:title>
+    <sp:system>http://smartplatforms.org/terms/codes/EncounterType#</sp:system>
+    <dcterms:identifier>ambulatory</dcterms:identifier> 
+  </spcode:EncounterType>
+
+</rdf:RDF>
