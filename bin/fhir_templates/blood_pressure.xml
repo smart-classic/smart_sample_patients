@@ -1,31 +1,33 @@
   {% extends "entry.xml" %}
   {% block content %}
-  <List xmlns="http://hl7.org/fhir">
+  <Observation xmlns="http://hl7.org/fhir">
     <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">{{bp.date}}: {{bp.systolic}}/{{bp.diastolic}} mmHg</div>
     </text>
-    <mode value="working"/>
-    <entry>
-      <item>
-        <reference value="cid:{{systolicid}}"/>
-      </item>
-    </entry>
-    <entry>
-      <item>
-        <reference value="cid:{{diastolicid}}"/>
-      </item>
-    </entry>
-    <code>
+    <name>
       <coding>
         <system value="http://loinc.org"/>
         <code value="55284-4"/>
         <display value="Blood pressure systolic and diastolic"/>
       </coding>
-    </code>
-    <date value="{{bp.date}}"/>
+    </name>
+    <appliesDateTime value="{{bp.date}}"/>
+    <status value="final"/>
     <subject>
       <reference value="cid:patient-{{pid}}"/>
     </subject>
-  </List>
+    <related>
+      <type value="has-component"/>
+      <target>
+        <reference value="cid:{{systolicid}}"/>
+      </target>
+    </related>
+    <related>
+      <type value="has-component"/>
+      <target>
+        <reference value="cid:{{diastolicid}}"/>
+      </target>
+    </related>
+  </Observation>
   {% endblock %}
