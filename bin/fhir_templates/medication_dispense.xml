@@ -23,11 +23,11 @@
   </contained>
 
   <patient>
-    <reference value="cid:patient-{{pid}}"/>
+    <reference value="{{pid}}"/>
   </patient>
 
   <authorizingPrescription>
-    <reference value="cid:{{medid}}"/>
+    <reference value="{{medid}}"/>
   </authorizingPrescription>
 
   <dispense>

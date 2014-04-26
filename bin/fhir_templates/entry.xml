@@ -1,6 +1,6 @@
 <entry xmlns="http://www.w3.org/2005/Atom">
   <title>SMART Patient-level resource</title>
-  <id>cid:{{id}}</id>
+  <id>{{id}}</id>
   <updated>{{now}}</updated>
   <published>{{now}}</published>
   <author>

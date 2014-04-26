@@ -15,18 +15,18 @@
     <appliesDateTime value="{{bp.date}}"/>
     <status value="final"/>
     <subject>
-      <reference value="cid:patient-{{pid}}"/>
+    <reference value="{{pid}}"/>
     </subject>
     <related>
       <type value="has-component"/>
       <target>
-        <reference value="cid:{{systolicid}}"/>
+        <reference value="{{systolicid}}"/>
       </target>
     </related>
     <related>
       <type value="has-component"/>
       <target>
-        <reference value="cid:{{diastolicid}}"/>
+        <reference value="{{diastolicid}}"/>
       </target>
     </related>
   </Observation>

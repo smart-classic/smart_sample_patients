@@ -23,7 +23,7 @@
 
   <status value="active" />
   <patient>
-    <reference value="cid:patient-{{pid}}"/>
+    <reference value="{{pid}}"/>
   </patient>
 
   <medication>

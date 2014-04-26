@@ -13,10 +13,13 @@ from jinja2 import Environment, FileSystemLoader
 template_env = Environment(loader=FileSystemLoader('fhir_templates'), autoescape=True)
 
 base=0
-def uid():
+def uid(resource_type=None):
     global base
     base += 1
-    return str(base)
+    if (resource_type == None):
+      return str(base)
+    else:
+      return "%s/%s"%(resource_type, str(base))
 
 def getVital(v, vt):
   return {
@@ -34,37 +37,16 @@ class FHIRSamplePatient(object):
     self.pid = pid
     
     return
-    """if self.pid in Med.meds:
-      for m in Med.meds[self.pid]:
-        # build the med, setting some defaults
-        med_data = {
-            'medid': uid(),
-            'drugname': m.name,
-            'drugcode': m.rxn,
-            'medto': m.end if hasattr(m, "end") else None,
-            'medfrom': m.start,
-            'instructions': m.sig,
-            'freq': m.freq,
-            'frequ': m.frequnit,
-            'quant': m.qtt,
-            'quantu': m.qttunit
-            }
-
-            add these in later
-            'frequencyValue': m.freq,
-            'frequencyUnits': m.frequnit,
-            'quantityValue': m.qtt,
-            'quantityUnits': m.qttunit,
-            """
 
   def writePatientData(self):
 
     pfile = open(os.path.join(self.path, "patient-%s.fhir-bundle.xml"%self.pid), "w")
-    pid = self.pid
-    p = Patient.mpi[pid]
+    p = Patient.mpi[self.pid]
 
     now = datetime.datetime.now().isoformat()
-    id = "patient-%s"%pid
+    id = "Patient/%s"%self.pid
+    pid = id
+
     print >>pfile, """<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SMART patient bundle for transactional posting</title>
@@ -79,7 +61,7 @@ class FHIRSamplePatient(object):
     othervitals = []
 
     if self.pid in VitalSigns.vitals:
-      for v in  VitalSigns.vitals[pid]:
+      for v in  VitalSigns.vitals[self.pid]:
           for vt in VitalSigns.vitalTypes:
               try: 
                   othervitals.append(getVital(v, vt))
@@ -94,10 +76,9 @@ class FHIRSamplePatient(object):
           except: pass
 
     for bp in bps:
-        systolicid = "bp-%s-systolic"%uid()
-        diastolicid = "bp-%s-diastolic"%uid()
-        id = "bp-%s-list"%uid()
-        bplistid = id
+        systolicid = uid("Observation")
+        diastolicid = uid("Observation")
+        id = uid("Observation")
         template = template_env.get_template('blood_pressure.xml')
         print >>pfile, template.render(dict(globals(), **locals()))
 
@@ -127,29 +108,29 @@ class FHIRSamplePatient(object):
 
     template = template_env.get_template('observation.xml')
     for o in othervitals:
-        id = "vital-%s"%uid()
+        id = uid("Observation")
         print >>pfile, template.render(dict(globals(), **locals()))
 
     if self.pid in Lab.results:  
-      for o in Lab.results[pid]:
-        id = "lab-%s"%uid()
+      for o in Lab.results[self.pid]:
+        id = uid("Observation")
         print >>pfile, template.render(dict(globals(), **locals()))
 
     medtemplate = template_env.get_template('medication.xml')
     dispensetemplate = template_env.get_template('medication_dispense.xml')
     if self.pid in Med.meds:  
-      for m in Med.meds[pid]:
-        medid = id = "med-%s"%uid()
+      for m in Med.meds[self.pid]:
+        medid = id = uid("MedicationPrescription")
         print >>pfile, medtemplate.render(dict(globals(), **locals()))
 
         for f in Refill.refill_list(m.pid, m.rxn):
-          id = "dispense-%s"%uid()
+          id = uid("MedicationDispense")
           print >>pfile, dispensetemplate.render(dict(globals(), **locals()))
 
     template = template_env.get_template('condition.xml')
     if self.pid in Problem.problems:  
-      for c in Problem.problems[pid]:
-        id = "problem-%s"%uid()
+      for c in Problem.problems[self.pid]:
+        id = uid("Condition")
         print >>pfile, template.render(dict(globals(), **locals()))
 
     print >>pfile, "\n</feed>"

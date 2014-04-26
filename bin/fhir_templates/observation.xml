@@ -25,7 +25,7 @@
     <appliesDateTime value="{{o.date}}"/>
     <status value="final"/>
     <subject>
-      <reference value="cid:patient-{{pid}}"/>
+      <reference value="{{pid}}"/>
     </subject>
     {%- if o.low is defined and o.high is defined %}
 
