@@ -14,8 +14,8 @@ also maintains complete refills lists by patient id"""
       """Loads med refills"""
       
       # Loop through refills and build med refill list:
-      refills = csv.reader(file(REFILLS_FILE,'U'),dialect='excel-tab')
-      header = refills.next() 
+      refills = csv.reader(open(REFILLS_FILE,'U'),dialect='excel-tab')
+      header = next(refills) 
       for refill in refills:
           cls(dict(zip(header,refill))) # Create a refill instance 
 
@@ -63,8 +63,3 @@ if __name__== '__main__':
     if not args.pid in Refill.refills:
       parser.error("No results found for pid = %s"%args.pid)
     refills = Refill.refills[args.pid]
-    for refill in refills: 
-      print refill.asTabString()
-    
-
-     

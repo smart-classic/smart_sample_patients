@@ -1,5 +1,5 @@
 from random import randint, choice
-from string import ascii_uppercase, lower
+from string import ascii_uppercase
 import datetime
 
 # Constants for building test data from data 
@@ -89,7 +89,7 @@ def rndName(gender):
    return (fnames[randint(0,len(fnames)-1)],choice(ascii_uppercase),SURNAMES[randint(0,len(SURNAMES)-1)])
    
 def toEmail (name):
-  return "%s.%s@example.com"%(lower(name[0]),lower(name[2]))
+  return "%s.%s@example.com"%(name[0].lower(),name[2].lower())
   
 def rndAddress():
   """

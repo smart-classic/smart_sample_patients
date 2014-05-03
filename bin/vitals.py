@@ -60,8 +60,8 @@ also maintains complete VitalSigns lists by patient id"""
       """Loads patient VitalSigns observations"""
       
       # Loop through VitalSigns and build patient VitalSigns lists:
-      VitalSigns = csv.reader(file(VITALS_FILE,'U'),dialect='excel-tab')
-      header = VitalSigns.next() 
+      VitalSigns = csv.reader(open(VITALS_FILE,'U'),dialect='excel-tab')
+      header = next(VitalSigns) 
       for VitalSign in VitalSigns:
           cls(dict(zip(header,VitalSign))) # Create a VitalSign instance (saved in VitalSigns.vitals)
 
@@ -93,5 +93,3 @@ if __name__== '__main__':
     if not args.pid in VitalSigns.vitals:
       parser.error("No results found for pid = %s"%args.pid)
     VitalSigns = VitalSigns.vitals[args.pid]
-    for VitalSign in VitalSigns: 
-      print VitalSign.asTabString()

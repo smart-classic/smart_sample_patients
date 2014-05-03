@@ -14,8 +14,8 @@ also maintains complete problem lists by patient id"""
       """Loads patient Problem observations"""
       
       # Loop through problems and build patient problem lists:
-      probs = csv.reader(file(PROBLEMS_FILE,'U'),dialect='excel-tab')
-      header = probs.next() 
+      probs = csv.reader(open(PROBLEMS_FILE,'U'),dialect='excel-tab')
+      header = next(probs) 
       for prob in probs:
           cls(dict(zip(header,prob))) # Create a problem instance 
 
@@ -53,8 +53,6 @@ if __name__== '__main__':
     if not args.pid in Problem.problems:
       parser.error("No results found for pid = %s"%args.pid)
     probs = Problem.problems[args.pid]
-    for prob in probs: 
-      print prob.asTabString()
     
 
      

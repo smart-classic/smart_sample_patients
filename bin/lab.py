@@ -16,8 +16,8 @@ and a dictionary of loinc code frequencies"""
       """Loads patient lab observations"""
       
       # First build the codes and frequency dictionary:
-      labs = csv.reader(file(LABS_FILE,'U'),dialect='excel-tab')
-      header = labs.next() 
+      labs = csv.reader(open(LABS_FILE,'U'),dialect='excel-tab')
+      header = next(labs) 
       cindex = header.index('LOINC')  # Locate the LOINC index field
       for lab in labs:
         code = lab[cindex] # Get the loinc code from the result record
@@ -29,8 +29,8 @@ and a dictionary of loinc code frequencies"""
       Loinc.load(cls.codes.keys())
 
       # Now loop back through labs and build patient results lists:
-      labs = csv.reader(file(LABS_FILE,'U'),dialect='excel-tab')
-      header = labs.next() 
+      labs = csv.reader(open(LABS_FILE,'U'),dialect='excel-tab')
+      header = next(labs) 
       for lab in labs:
           cls(dict(zip(header,lab))) # Create a result instance (saved in Lab.results)
 
@@ -43,16 +43,6 @@ and a dictionary of loinc code frequencies"""
        total_results = 0
        for code in code_list: 
          total_results += cls.codes[code]
-         print "%s\t%d\t%s,\t%s\t%s"%(
-           code,                        #loinc code
-           cls.codes[code],             #frequency
-           Loinc.info[code].scale,      #scale of test
-           Loinc.info[code].ucum,       #UCUM code (if any)
-           Loinc.info[code].name        #Name of test
-           )
-       print "%d lab results"%total_results
-       print "%d patients with lab results"%len(cls.results)
-       print "%d unique tests (LOINC codes)"%len(cls.codes)
 
     def __init__(self,o):
         self.pid = o['PID']
@@ -70,10 +60,6 @@ and a dictionary of loinc code frequencies"""
         if self.scale=='Ord':
           # The Ord choices are stored in the low value field, separated by ';'
           self.low = o['LOW'].split('; ')
-          if len (self.low[0]) > 0 and not self.value in self.low:
-            # Print out error msg if Ord values not formatted properly:
-            print "%s -> Error for code %s: value=%s not in %s"%(
-              self.pid,self.code,self.value,self.low)
 
         # Handle units, update to UCUM if possible:
         if self.code in Loinc.info.keys() and Loinc.info[self.code].ucum: #if there is a ucum unit available
@@ -121,12 +107,5 @@ if __name__== '__main__':
     if not args.pid in Lab.results:
       parser.error("No results found for pid = %s"%args.pid)
     labs = Lab.results[args.pid]
-    for lab in labs: 
-      print lab.asTabString()
-    parser.exit()
-  if args.results:
-    for pid in Lab.results:
-      for lab in Lab.results[pid]:
-        print lab.asTabString()
     parser.exit()
   parser.error("No arguments given")

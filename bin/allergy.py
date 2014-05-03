@@ -14,8 +14,8 @@ also maintains complete allergy lists by patient id"""
       """Loads patient Allergy observations"""
       
       # Loop through allergies and build patient allergy lists:
-      probs = csv.reader(file(ALLERGIES_FILE,'U'),dialect='excel-tab')
-      header = probs.next() 
+      probs = csv.reader(open(ALLERGIES_FILE,'U'),dialect='excel-tab')
+      header = next(probs) 
       for prob in probs:
           cls(dict(zip(header,prob))) # Create a allergy instance 
 
@@ -71,8 +71,6 @@ if __name__== '__main__':
     if not args.pid in Allergy.allergies:
       parser.error("No results found for pid = %s"%args.pid)
     probs = Allergy.allergies[args.pid]
-    for prob in probs: 
-      print prob.asTabString()
     
 
      

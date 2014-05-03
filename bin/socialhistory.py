@@ -14,8 +14,8 @@ also maintains socialHistory by patient id"""
       """Loads patient SocialHistory"""
       
       # Loop through socialHistories and build patient socialHistory lists:
-      histories = csv.reader(file(SOCIALHISTORY_FILE,'U'),dialect='excel-tab')
-      header = histories.next() 
+      histories = csv.reader(open(SOCIALHISTORY_FILE,'U'),dialect='excel-tab')
+      header = next(histories) 
       for history in histories:
           cls(dict(zip(header,history))) # Create a socialHistory instance 
 
@@ -50,4 +50,3 @@ if __name__== '__main__':
     if not args.pid in SocialHistory.socialHistories:
       parser.error("No results found for pid = %s"%args.pid)
     histories = SocialHistory.socialHistories[args.pid]
-    print history.asTabString()

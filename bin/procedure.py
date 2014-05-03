@@ -13,8 +13,8 @@ class Procedure:
       """Loads patient Procedure observations"""
       
       # Loop through procedures and build patient procedure lists:
-      procs = csv.reader(file(PROCEDURES_FILE,'U'),dialect='excel-tab')
-      header = procs.next() 
+      procs = csv.reader(open(PROCEDURES_FILE,'U'),dialect='excel-tab')
+      header = next(procs) 
       for proc in procs:
           cls(dict(zip(header,proc))) # Create a procedure instance 
 
@@ -52,8 +52,3 @@ if __name__== '__main__':
     if not args.pid in Procedure.procedures:
       parser.error("No results found for pid = %s"%args.pid)
     procs = Procedure.procedures[args.pid]
-    for proc in procs: 
-      print proc.asTabString()
-    
-
-     

@@ -34,62 +34,45 @@ def initData():
 def displayPatientSummary(pid):
    """writes a patient summary to stdout"""
    if not pid in Patient.mpi: return
-   print Patient.mpi[pid].asTabString()
-   print "PROBLEMS: ",
-   if not pid in Problem.problems: print "None",
-   else: 
-     for prob in Problem.problems[pid]: print prob.name+"; ",
-   print "\nMEDICATIONS: ",
-   if not pid in Med.meds: print "None",
-   else:
-     for med in Med.meds[pid]: 
-       print med.name+"{%d}; "%len(Refill.refill_list(pid,med.rxn)),
-   print "\nLABS: ",
-   if not pid in Lab.results: print "None",
-   else:
-     print "%d results"%len(Lab.results[pid])
-   print "\n"
 
 if __name__=='__main__':
-
-  parser = argparse.ArgumentParser(description='Test Data Generator')
-  group = parser.add_mutually_exclusive_group()
-  group.add_argument('--summary', metavar='pid',nargs='?', const="all", 
+    parser = argparse.ArgumentParser(description='Test Data Generator')
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument('--summary', metavar='pid',nargs='?', const="all", 
      help="displays patient summary (default is 'all')")
-  group.add_argument('--write-fhir',dest='writeFHIR', metavar='dir', nargs='?', const='.',
+    group.add_argument('--write-fhir',dest='writeFHIR', metavar='dir', nargs='?', const='.',
      help="writes patient XML files to an FHIR sample data directory dir (default='.')")
-  group.add_argument('--patients', action='store_true',
+    group.add_argument('--patients', action='store_true',
          help='Generates new patient data file (overwrites existing one)')
 
-  args = parser.parse_args()
+    args = parser.parse_args()
 
-  # Print a patient summary: 
-  if args.summary:
-    initData()
-    if args.summary=='all': # Print a summary of all patients
-      for pid in Patient.mpi: displayPatientSummary(pid)
+    # Print a patient summary: 
+    if args.summary:
+      initData()
+      if args.summary=='all': # Print a summary of all patients
+        for pid in Patient.mpi: displayPatientSummary(pid)
+        parser.exit()
+      else: # Just print a single patient's summary
+        if not args.summary in Patient.mpi:
+          parser.error("Patient ID = %s not found"%args.summary)
+        else: displayPatientSummary(args.summary)
       parser.exit()
-    else: # Just print a single patient's summary
-      if not args.summary in Patient.mpi:
-        parser.error("Patient ID = %s not found"%args.summary)
-      else: displayPatientSummary(args.summary)
-    parser.exit()
 
-  if args.writeFHIR:
-    import fhir
-    print "Writing files to %s:"%args.writeFHIR
-    initData()
-    path = args.writeFHIR
-    if not os.path.exists(path):
-      parser.error("Invalid path: '%s'.Path must already exist."%path)
-    for pid in Patient.mpi:
-      fhir.FHIRSamplePatient(pid, path).writePatientData()
-      # Show progress with '.' characters
-      sys.stdout.flush()
-    parser.exit(0,"\nDone writing %d patient FHIR files!"%len(Patient.mpi))
+    if args.writeFHIR:
+      import fhir
+      initData()
+      path = args.writeFHIR
+      if not os.path.exists(path):
+        parser.error("Invalid path: '%s'.Path must already exist."%path)
+      for pid in Patient.mpi:
+        fhir.FHIRSamplePatient(pid, path).writePatientData()
+        # Show progress with '.' characters
+        sys.stdout.flush()
+      parser.exit(0,"\nDone writing %d patient FHIR files!"%len(Patient.mpi))
 
-  # Generate a new patients data file, re-randomizing old names, dob, etc:
-  Patient.generate()  
-  parser.exit(0,"Patient data written to: %s\n"%PATIENTS_FILE)
+    # Generate a new patients data file, re-randomizing old names, dob, etc:
+    Patient.generate()  
+    parser.exit(0,"Patient data written to: %s\n"%PATIENTS_FILE)
 
-  parser.error("No arguments given")
+    parser.error("No arguments given")

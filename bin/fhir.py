@@ -47,15 +47,15 @@ class FHIRSamplePatient(object):
     id = "Patient/%s"%self.pid
     pid = id
 
-    print >>pfile, """<?xml version="1.0" encoding="UTF-8"?>
+    print("""<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SMART patient bundle for transactional posting</title>
   <id>urn:uuid:%s</id>
   <updated>%s</updated>
-"""%(uid(), now)
+"""%(uid(), now), end="", file=pfile);
 
     template = template_env.get_template('patient.xml')
-    print >>pfile, template.render(dict(globals(), **locals()))
+    print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
     bps = []
     othervitals = []
@@ -80,7 +80,7 @@ class FHIRSamplePatient(object):
         diastolicid = uid("Observation")
         id = uid("Observation")
         template = template_env.get_template('blood_pressure.xml')
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
         id = systolicid
         o = {
@@ -92,7 +92,7 @@ class FHIRSamplePatient(object):
                 "units": "mm[Hg]"
         }
         template = template_env.get_template('observation.xml')
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
         id = diastolicid
         o = {
@@ -104,34 +104,34 @@ class FHIRSamplePatient(object):
                 "units": "mm[Hg]"
         }
         template = template_env.get_template('observation.xml')
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
     template = template_env.get_template('observation.xml')
     for o in othervitals:
         id = uid("Observation")
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
     if self.pid in Lab.results:  
       for o in Lab.results[self.pid]:
         id = uid("Observation")
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
     medtemplate = template_env.get_template('medication.xml')
     dispensetemplate = template_env.get_template('medication_dispense.xml')
     if self.pid in Med.meds:  
       for m in Med.meds[self.pid]:
         medid = id = uid("MedicationPrescription")
-        print >>pfile, medtemplate.render(dict(globals(), **locals()))
+        print(medtemplate.render(dict(globals(), **locals())), end="", file=pfile)
 
         for f in Refill.refill_list(m.pid, m.rxn):
           id = uid("MedicationDispense")
-          print >>pfile, dispensetemplate.render(dict(globals(), **locals()))
+          print(dispensetemplate.render(dict(globals(), **locals())), end="", file=pfile)
 
     template = template_env.get_template('condition.xml')
     if self.pid in Problem.problems:  
       for c in Problem.problems[self.pid]:
         id = uid("Condition")
-        print >>pfile, template.render(dict(globals(), **locals()))
+        print(template.render(dict(globals(), **locals())), end="", file=pfile)
 
-    print >>pfile, "\n</feed>"
+    print ("\n</feed>", end="", file=pfile)
     pfile.close()
